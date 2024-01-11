@@ -1,0 +1,33 @@
+[
+    {
+      "name": "Main Islands",
+      "author": "FTB Team",
+      "desc": "The team behind all the packs?",
+      "islands": [
+        {
+          "name": "Zephyr Heights",
+          "desc": "Elemental Air",
+          "structure": "air_dorm.nbt",
+          "image": "ftbai:textures/ftbteamislands/air.png"
+        },
+        {
+            "name": "Aqua Haven",
+            "desc": "Elemental Water",
+            "structure": "water_dorm.nbt",
+            "image": "ftbai:textures/ftbteamislands/water.png"
+        },
+        {
+            "name": "Ignis Peak",
+            "desc": "Elemental Fire",
+            "structure": "fire_dorm.nbt",
+            "image": "ftbai:textures/ftbteamislands/fire.png"
+        },
+        {
+          "name": "Terra Crest",
+          "desc": "Elemental Earth",
+          "structure": "earth_dorm.nbt",
+          "image": "ftbai:textures/ftbteamislands/earth.png"
+        }
+      ]
+    }
+  ]

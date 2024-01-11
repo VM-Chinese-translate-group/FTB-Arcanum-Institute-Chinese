@@ -1,0 +1,15 @@
+{
+  "name": "book.occultism.dictionary_of_spirits.rituals.name",
+  "icon": "occultism:textures/gui/book/robe.png",
+  "sort_number": 4,
+  "background": "modonomicon:textures/gui/dark_slate_seamless.png",
+  "background_width": 512,
+  "background_height": 512,
+  "background_parallax_layers": [],
+  "entry_textures": "modonomicon:textures/gui/entry_textures.png",
+  "condition": {
+    "type": "modonomicon:entry_read",
+    "entry_id": "occultism:getting_started/intro"
+  },
+  "show_category_button": true
+}
