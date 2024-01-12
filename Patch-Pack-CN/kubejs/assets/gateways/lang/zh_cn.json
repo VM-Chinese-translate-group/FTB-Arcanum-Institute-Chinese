@@ -41,7 +41,9 @@
 	"info.gateways.gate_pearl": "你可以在方块上使用传送门珍珠来开启对应的传送门。\n\n开启传送门需要周围有足够的空间，且开启后无法打开另一个传送门。\n",
 	"info.gateways.gate_pearl.2": "如果传送门内的生物无法正常生成、超出最大范围，或超出波次的时间限制，那么它将在一道闪电后自行毁灭。\n\n奖励将在每一波结束时产生。",
 
-	"tooltip.gateways.entities": "生物：",
+	"tooltip.gateways.scroll": " [scroll to change]",
+	"tooltip.gateways.wave": "Wave %s/%s%s",
+	"tooltip.gateways.entities": "实体：",
 	"tooltip.gateways.list1": "• %sx %s ",
 	"tooltip.gateways.modifiers": "增益：",
 	"tooltip.gateways.list2": "• %s",
@@ -50,6 +52,10 @@
 	"tooltip.gateways.completion": "最终奖励",
 	"tooltip.gateways.experience": "• %s 经验",
 	"tooltip.gateways.ctrl": "按住Ctrl以查看最终奖励",
+	"tooltip.gateways.failure": "Failure Penalties",
+	"tooltip.gateways.alt": "Hold Alt to View Penalties",
+	"tooltip.gateways.player_damage_only": "Spawned entities can only be hurt by a real player",
+	"tooltip.gateways.allows_discarding": "Spawned entities can be removed in unconventional ways",
 
 	"boss.gateways.wave": "波次：%d/%d | 时间：%s | 生物：%d",
 	"boss.gateways.done": "挑战成功！",
@@ -59,12 +65,17 @@
 	"reward.gateways.entity": "%sx %s随机战利品",
 	"reward.gateways.loot_table": "%sx %s随机",
 	"reward.gateways.chance": "%s 几率 %s",
-	"reward.gateways.command": "控制：/%s",
+
+	"failure.gateways.explosion": "Explosion of Radius %s",
+	"failure.gateways.mob_effect": "%s",
+	"failure.gateways.summon": "Summons %sx %s",
+	"failure.gateways.chance": "%s Chance of %s",
 
 	"error.gateways.no_space": "没有足够的空间来开启传送门！",
 	"error.gateways.wave_failed": "传送门崩塌了，因为没有足够的空间来生成下一波生物！",
 	"error.gateways.too_far": "传送门崩塌了，因为当前波次中某一个生物超出了最大范围！",
 	"error.gateways.wave_elapsed": "已超出当前波次的时间限制！",
+	"error.gateways.entity_discarded": "The Gateway imploded because an entity was removed without being killed",
 
 	"stat.gateways.gates_defeated": "传送门已被击败"
 }
