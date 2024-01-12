@@ -1,12 +1,12 @@
-# 某整合包汉化补丁
-CurseForge|游戏版本|状态
-:-|:-|:-
-[链接]()|版本|维护中|
+# FTB Arcanum Institute汉化补丁
+游戏版本|状态
+:-|:-
+1.18.2图片汉化，readme信息|维护中|
 # 译者
 查看贡献者列表以获得完整译者名单
 
 # 仓库统计数据
-  ![Alt]()
+  ![Alt](https://repobeats.axiom.co/api/embed/fbfe2ba996427e7791d7a9919acacfc329c42d86.svg "Repobeats analytics image")
 
 # 关于我们
   [![Website](https://shields.io/website?up_message=vmct-cn.top&url=http://vmct-cn.top&label=Website)](http://vmct-cn.top)
