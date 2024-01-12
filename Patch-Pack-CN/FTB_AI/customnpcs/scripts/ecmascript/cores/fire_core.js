@@ -158,7 +158,7 @@ var attacks = {
                         if ((i == 2 || i == -2) && (j == 1 || j == 5)) continue;
                         var P = npc.world.createEntity('customnpcs:customnpcprojectile')
                         var Item = npc.world.createItem('rootsclassic:mutating_powder', 1)
-                        Item.setCustomName("Fire")
+                        Item.setCustomName("火")
                         P.setItem(Item)
                         P.setPosition(npc.x + d[0] + i * f[0], npc.y + j * 0.5, npc.z + d[2] + i * f[2])
                         npc.world.spawnEntity(P)

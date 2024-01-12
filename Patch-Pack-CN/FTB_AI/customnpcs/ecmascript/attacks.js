@@ -236,7 +236,7 @@ var attack = {
                         return};
             var entities = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, 64, 3)
             for(var i = 0; i < entities.length; i++){
-                if(entities[i].getName() == "Drowned") return
+                if(entities[i].getName() == "溺尸") return
             }
             npc.world.spawnParticle("witch", npc.x, npc.y + 1, npc.z, 0.3, 0.5, 0.3, 0, 50)
             npc.world.playSoundAt(targ.getPos(), "minecraft:entity.endermen.teleport", 1, 1)
@@ -252,7 +252,7 @@ var attack = {
             }
             var entities = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, 64, 3)
             for(var i = 0; i < entities.length; i++){
-                if(entities[i].getName() == "Drowned") entities[i].setAttackTarget(targ)
+                if(entities[i].getName() == "溺尸") entities[i].setAttackTarget(targ)
             }
             var storedData = npc.getStoreddata()
             storedData.put("attacking", "false")
@@ -427,7 +427,7 @@ var attack = {
                             if ((i == 2 || i == -2) && (j == 1 || j == 5)) continue;
                             var P = npc.world.createEntity('customnpcs:customnpcprojectile')
                             var Item = npc.world.createItem('minecraft:green_dye', 1)
-                            Item.setCustomName("Leaf")
+                            Item.setCustomName("树叶")
                             P.setItem(Item)
                             P.setPosition(npc.x + d[0] + i * f[0], npc.y + j * 0.5, npc.z + d[2] + i * f[2])
                             npc.world.spawnEntity(P)

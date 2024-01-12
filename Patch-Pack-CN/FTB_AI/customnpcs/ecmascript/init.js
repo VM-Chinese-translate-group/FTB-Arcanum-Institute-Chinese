@@ -170,16 +170,16 @@ function getElement(npc){
 function setPhase(npc, phase) {
     switch(phase){
         case 1: {
-            npc.say("You're no match for me!")
+            npc.say("你不是我的对手！")
             break
         }
         case 2: {
-            npc.say("You have really angered me!")
+            npc.say("你惹怒我了！")
             break
             //Spawn Gateway here!
         }
         case 3: {
-            npc.say("You have really angered me! Phase 3")
+            npc.say("你真的惹怒我了！阶段3")
             break
 
         }

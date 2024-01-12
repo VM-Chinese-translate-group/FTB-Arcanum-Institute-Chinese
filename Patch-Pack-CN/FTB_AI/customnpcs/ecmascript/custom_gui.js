@@ -120,7 +120,7 @@ for(var i in sliders){
 
 var activeBodyPart = 0
 
-var bodyParts = ["Head", "Left Arm", "Right Arm", "Body", "Left Leg", "Right Leg"]
+var bodyParts = ["头部", "左臂", "右臂", "身体", "左腿", "右腿"]
 var COLORS = {
     white: 16777215
 }
@@ -143,10 +143,10 @@ function loadMainMenu(event, gui){
     GBody.x = Gui.settings.width/2 - Gui.settings.width/8
     GBody.y = Gui.settings.height/2 - Gui.settings.height/8
     var bodyScrollBar = gui.addScroll(GBody.id, GBody.x, GBody.y, GBody.width, GBody.height, bodyParts)
-    var bodyResetAll = gui.addButton(GBody.id+100, "Reset All to Default", GBody.x, GBody.y-50, GBody.width, 20)
-    var bodyReset = gui.addButton(GBody.id+200, "Reset to Default", GBody.x, GBody.y-25, GBody.width, 20)
+    var bodyResetAll = gui.addButton(GBody.id+100, "重置所有至默认", GBody.x, GBody.y-50, GBody.width, 20)
+    var bodyReset = gui.addButton(GBody.id+200, "重置至默认", GBody.x, GBody.y-25, GBody.width, 20)
     // Sliders
-    gui.addLabel(sliderX.id+100, "X:", sliderX.x-10, sliderX.y+(sliderX.height/3), 10, 10, COLORS.white)  
+    gui.addLabel(sliderX.id+100, "X：", sliderX.x-10, sliderX.y+(sliderX.height/3), 10, 10, COLORS.white)  
     addSlider(gui, sliderX, function (gui, event){
         event.setFormat(event.getValue())
         sliderX.value = event.getValue()
@@ -154,7 +154,7 @@ function loadMainMenu(event, gui){
         npc.updateClient()
         gui.update()
     })
-    gui.addLabel(sliderY.id+100, "Y:", sliderY.x-10, sliderY.y+(sliderY.height/3), 10, 10, COLORS.white)  
+    gui.addLabel(sliderY.id+100, "Y：", sliderY.x-10, sliderY.y+(sliderY.height/3), 10, 10, COLORS.white)  
     addSlider(gui, sliderY, function (gui, event){
         event.setFormat(event.getValue())
         sliderY.value = event.getValue()
@@ -162,7 +162,7 @@ function loadMainMenu(event, gui){
         npc.updateClient()
         gui.update()
     })
-    gui.addLabel(sliderZ.id+100, "Z:", sliderZ.x-10, sliderZ.y+(sliderX.height/3), 10, 10, COLORS.white)  
+    gui.addLabel(sliderZ.id+100, "Z：", sliderZ.x-10, sliderZ.y+(sliderX.height/3), 10, 10, COLORS.white)  
     addSlider(gui, sliderZ, function (gui, event){
         event.setFormat(event.getValue())
         sliderZ.value = event.getValue()
@@ -177,9 +177,9 @@ function loadMainMenu(event, gui){
     Poses.y = Gui.settings.height/2 + Gui.settings.height/100
     gui.addTextField(Poses.id+99, Poses.x, Poses.y-25, Poses.width, 20).setText(Object.keys(saved_poses_array)[0])
     var poseScroll = gui.addScroll(Poses.id, Poses.x, Poses.y, Poses.width, Poses.height, Object.keys(saved_poses_array))
-    var poseSave = gui.addButton(Poses.id+100, "Save", Poses.x, Poses.y+Poses.height+5, Poses.width/2, 20)
-    var poseLoad = gui.addButton(Poses.id+200, "Load", Poses.x + Poses.width/2, Poses.y+Poses.height+5, Poses.width/2, 20)
-    var poseAnimate = gui.addButton(Poses.id+300, "Animate", Poses.x, Poses.y+Poses.height+30, Poses.width, 20)
+    var poseSave = gui.addButton(Poses.id+100, "保存", Poses.x, Poses.y+Poses.height+5, Poses.width/2, 20)
+    var poseLoad = gui.addButton(Poses.id+200, "加载", Poses.x + Poses.width/2, Poses.y+Poses.height+5, Poses.width/2, 20)
+    var poseAnimate = gui.addButton(Poses.id+300, "动画", Poses.x, Poses.y+Poses.height+30, Poses.width, 20)
     var poseEasing = gui.addScroll(Poses.id+400, Poses.x-Poses.width-25, GBody.y-25, Poses.width+20, Poses.height*3+25, Object.keys(Ease))
     // var poseDelayText = gui.addLabel(Poses.id+411, "Delay", Poses.x-Poses.width-10, Poses.y+Poses.height+5)
     var poseDelaySlider = gui.addSlider(Poses.id+410, Poses.x-Poses.width-5, Poses.y+Poses.height+5, Poses.width, 20, animationDelay)
@@ -206,8 +206,8 @@ function loadMainMenu(event, gui){
     Files.x = Gui.settings.width - Gui.settings.width/2.5
     Files.y = Gui.settings.height/2 - Gui.settings.height/8
     var fileExplorer = gui.addAssetsSelector(Files.id, Files.x, Files.y, Files.width, Files.height)
-    var fileSave = gui.addButton(Files.id+1000, "Save", Files.x + Files.width/2, Files.y+Files.height+5, Files.width/2, 20)
-    var fileLoad = gui.addButton(Files.id+2000, "Load", Files.x + Files.width/2, Files.y+Files.height+25, Files.width/2, 20)
+    var fileSave = gui.addButton(Files.id+1000, "保存", Files.x + Files.width/2, Files.y+Files.height+5, Files.width/2, 20)
+    var fileLoad = gui.addButton(Files.id+2000, "加载", Files.x + Files.width/2, Files.y+Files.height+25, Files.width/2, 20)
 
 }
 
@@ -306,12 +306,12 @@ function modifyMainMenu(event, gui){
         var activeBodyPart = getBodypart(gui)
         log(poseName)
         switch(activeBodyPart){
-            case "Head": saved_poses_array[poseName].head.ease = easing; log(easing);break
-            case "Left Arm": saved_poses_array[poseName].arm.left.ease = easing;break
-            case "Right Arm": saved_poses_array[poseName].arm.right.ease = easing;break
+            case "头部": saved_poses_array[poseName].head.ease = easing; log(easing);break
+            case "左臂": saved_poses_array[poseName].arm.left.ease = easing;break
+            case "右臂": saved_poses_array[poseName].arm.right.ease = easing;break
             case "Body": saved_poses_array[poseName].body.ease = easing;break
-            case "Left Leg": saved_poses_array[poseName].leg.left.ease = easing;break
-            case "Right Leg": saved_poses_array[poseName].leg.right.ease = easing;break
+            case "左腿": saved_poses_array[poseName].leg.left.ease = easing;break
+            case "右腿": saved_poses_array[poseName].leg.right.ease = easing;break
             default: throw new Error("Invalid Active Body Part (POSINGEASING)"
             )
         }
@@ -549,13 +549,13 @@ function getPose(gui){
 
 function getPartData(dict, part) {
     switch (part) {
-        case "Head": return dict.head;
-        case "Left Arm": return dict.arm.left;
-        case "Right Arm": return dict.arm.right;
-        case "Body": return dict.body.ease;
-        case "Left Leg": return dict.leg.left;
-        case "Right Leg": return dict.leg.right;
-        default: throw new Error('Invalid part');
+        case "头部": return dict.head;
+        case "左臂": return dict.arm.left;
+        case "右臂": return dict.arm.right;
+        case "身体": return dict.body.ease;
+        case "左腿": return dict.leg.left;
+        case "右腿": return dict.leg.right;
+        default: throw new Error('无效部分');
     }
 }
 
