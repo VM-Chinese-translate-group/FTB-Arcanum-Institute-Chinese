@@ -45,7 +45,7 @@
 			description: [
 				"如果想在邪恶工艺方面更进一步，&b血能注入核心&r是我们接下来需要的制作材料。"
 				""
-				"获取一些&6干血碎片&r和一个&6暗黑充能宝石&r，将它们合成，你应该即刻将核心握于掌中。"
+				"获取一些&6干血碎片&r和一个&6暗黑充能宝石&r，将它们合成为血能注入核心，你需要即刻将核心握于掌中。"
 			]
 			dependencies: ["454EC060C16B7CE0"]
 			id: "05EA5E227FF0DE3D"
@@ -96,7 +96,7 @@
 		{
 			x: 8.25d
 			y: -3.5d
-			description: ["While anywhere in your inventory (not just Curio slots!), the &bEffortless Ring&r will &6increase your walk speed, jump height, and allow you to walk up single blocks&r."]
+			description: ["当处于你物品栏中的任意位置（不仅仅包括饰品槽）时，&b迅捷指环&r将会&6增加你的移速和跳跃高度，并允许你直接走上1格高的方块&r。"]
 			dependencies: ["2B1FCEC117E6FF5E"]
 			size: 0.5d
 			id: "6F91F7EC725AF048"
@@ -113,19 +113,19 @@
 			}]
 		}
 		{
-			title: "Empty Promises"
+			title: "空洞之诺言"
 			icon: "evilcraft:promise_tier_1"
 			x: 7.75d
 			y: -3.5d
 			subtitle: "Make a Promise"
 			description: [
-				"&bPromises&r are essentially &6upgrades&r for machines. There are three types."
+				"&b诺言&r实质上是对机器的&6升级&r，共有三种类型。"
 				""
-				"The three &bPromises of Tenacity&r &6increase the tier of a machine&r by the Promise's tier, unlocking new recipes."
+				"三种&b坚韧的诺言&r根据诺言的等阶&6提升机器的等阶&r，并解锁新的配方。"
 				""
-				"The &bPromise of Productivity&r makes machines use less blood, and the &bPromise of Velocity&r increases machine speed."
+				"&b效率的诺言&r使机器使用的血液更少，&b速度的诺言&r增加机器的工作速度。"
 				""
-				"Both of the final two can &6stack up to 4 times&r."
+				"后两种诺言都可以&6堆叠至4份达到4倍效果&r。"
 			]
 			dependencies: ["00EE58E9E4455A79"]
 			size: 0.5d
@@ -179,7 +179,7 @@
 			description: [
 				"&b暗黑充能宝石&r为制造&6更强大的物品&r提供了途径。"
 				""
-				"要制造它们，你需要将&6暗黑宝石扔&r进一个&6至少含有5桶血液&r的血池。"
+				"要制造它们，你需要将&6暗黑宝石&r扔进一个&6至少含有5桶血液&r的血池。"
 				""
 				"请注意，倒出的血液随时间推移将会&6凝固&r，所以操作时请抓紧时间！开采周边的方块会使其恢复流体形式。"
 				""
@@ -361,7 +361,7 @@
 			}]
 		}
 		{
-			title: "&lBlood Chest&r"
+			title: "&l超大杯&r"
 			icon: {
 				id: "evilcraft:colossal_blood_chest"
 				Count: 1b
@@ -375,13 +375,13 @@
 			}
 			x: 7.0d
 			y: -5.75d
-			subtitle: "Make a Colossal Blood Chest"
+			subtitle: "制作一个大型血能箱"
 			description: [
-				"The &bColossal Blood Chest&r functions mostly the same as the smaller version, but &6holds more items&r and can be upgraded with &6Promises&r!"
+				"&b大型血能箱&r结构基本与小型版本相同，但是可以&6容纳更多物品&r并且使用&6诺言升级&r！"
 				""
-				"As a consequence though, it is &cmuch less efficient&r. However, the more items being repaired simultaneously, the &6more efficient&r it becomes!"
+				"但是，大型血能箱的&c效率低得多&r。不过同时修理的物品越多，它的&6效率就越高&r！"
 				""
-				"To construct the Colossal Blood Chest, make a &6hollow 3x3x3&r of &bUndead Wood&r, replacing any of them with the main block."
+				"要构建大型血能箱，你需要用&b强化亡灵木木板&r建造一个&6中空的3x3x3的正方体&r，并用大型血能箱主方块替代它们中的任意一个位置。"
 			]
 			dependencies: [
 				"00F05043F7B370D6"
@@ -477,7 +477,7 @@
 				""
 				"扫帚由三种扫帚部件合成而来：&b刷&r，&b杆&r还有&b端&r。它们的材料会影响扫帚的属性。"
 				""
-				"扫帚可以通过&6制作某些物品&r进一步升级。查看教程书中的扫帚强化章节以获取完整的列表。"
+				"扫帚可以通过&6与某种部件合成&r进一步升级。查看教程书中的扫帚强化章节以获取完整的列表。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
@@ -633,7 +633,7 @@
 		{
 			x: 8.25d
 			y: -5.25d
-			description: ["The &bVein Sword&r boosts the Blood you get from killing and has Looting II by default."]
+			description: ["&b静脉剑&r增加你通过杀戮收集到的血液，默认带有抢夺II的附魔效果。"]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
 			size: 0.5d
@@ -675,11 +675,11 @@
 			x: 4.0d
 			y: -0.5d
 			description: [
-				"The &bSpirit Furnace&r is a multiblock that can &6generate mob drops&r, based on the mob in its &6Box of Eternal Closure&r."
+				"&b灵魂炉&r是一个可以&6生成怪物掉落物&r的多方块结构，基于灵魂炉中的&6永恒灵魂箱&r所收容的怪物灵魂。"
 				""
-				"The multiblock must be made of &bDark Blood Brick&r, and it must be a hollow cuboid. The Spirit Furnace block can replace any of the Brick blocks."
+				"灵魂炉的多方块结构必须是由&b沾满血的暗黑砖&r构成的空心长方体，灵魂炉方块能够替换任意的砖块。"
 				""
-				"The interior of the multiblock &6must be big enough for the mob to stand in&r. So, a Zombie would need a 1x2x1 interior, so the whole thing must be 3x4x3, etc."
+				"多方块结构的内部&6必须足够大到令怪物能够站立&r。所以僵尸需要一个1x2x1的内部空间，即整个结构需要3x4x3的大小，以此类推。"
 			]
 			dependencies: ["231DCFF5B24A3476"]
 			min_width: 250
@@ -724,11 +724,11 @@
 			x: 4.0d
 			y: -2.0d
 			description: [
-				"The &bBox of Eternal Closure&r can &6contain a Vengeance Spirit&r. These can be found full in Chests or crafted empty."
+				"&b永恒灵魂箱&r能够&6收容一个复仇之魂&r。可以在奖励箱中找到已满的或者空的。"
 				""
-				"Placing a full one down and right-clicking it will open it, &6releasing the Spirit&r."
+				"放置一个已满的永恒灵魂箱后，右键它可以打开并&6释放其中的灵魂&r。"
 				""
-				"A &bVengeance Focus&r can be used to &6seal a Vengeance Spirit&r in the Box. While one is near an open Box, &6hold right-click to fire a beam&r that will suck the Spirit into the Box. From there, the Box can be safely mined or opened."
+				"&b复仇之焦&r能够用于&6将复仇之魂封印&r在永恒灵魂箱中。当复仇之魂在打开的永恒灵魂箱周围时，对准复仇之魂&6按住右键发射光线&r将复仇之魂吸入箱中。之后，灵魂箱可以被安全地挖走或者打开。"
 			]
 			dependencies: ["2A012FAF8782046D"]
 			min_width: 250
@@ -770,9 +770,9 @@
 			x: 4.0d
 			y: -3.5d
 			description: [
-				"The &bSpirit Reanimator&r uses Blood to &6create Spawn Eggs&r, using and emptying the &6Box of Eternal Closure&r given."
+				"&b灵魂再生炉&r用血液&6制造刷怪蛋&r（译者注：需要提供鸡蛋），消耗并清空&6永恒灵魂箱&r提供的灵魂。"
 				""
-				"Don't tell anyone, but &eApotheosis&r allows you to &6set Spawners&r by using a Spawn Egg on them..."
+				"嘘，不要告诉其他人，&e神化&r允许你对刷怪笼使用刷怪蛋来&6设置刷怪笼&r......"
 			]
 			dependencies: ["231DCFF5B24A3476"]
 			id: "1C15DA57FDB0C88B"
@@ -850,7 +850,7 @@
 			description: [
 				"当&b复仇指环&r开启时使&6复仇之魂&r可见。然而，此时你自身&c对它们来说也更加清晰可见&r。"
 				""
-				"另外，当指环开启时，你将被赋予&6几种强力效果！&r然而，指环也会&c生成并吸引&r复仇之魂冲着你来，所有这是一种需要s你自己权衡利弊的手段。"
+				"另外，当指环开启时，你将被赋予&6几种强力效果！&r然而，指环也会&c生成并吸引&r复仇之魂冲着你来，所以这是一种需要你自己权衡利弊的手段。"
 			]
 			dependencies: ["44C1876CB5D7E185"]
 			id: "2A012FAF8782046D"
@@ -890,15 +890,15 @@
 			x: 1.0d
 			y: -0.5d
 			description: [
-				"Around the world, you can find &6Dark Temple&r structures. But you should be given one in a previous Class Task."
+				"在世界各地，你会发现&6黑暗神庙&r这类自然生成结构。不过你应该在先前的课题中被给予了一个环境存储器。"
 				""
-				"If you place the &bEnvironmental Accumulator&r, it will start to emit a beam. The Beacon beam above can have certain items &6thrown inside&r to craft them into new items."
+				"如果你放置&b环境存储器&r，它会开始发射光束。上方的光束能够将某些&6丢入&r的物品制作成新物品。"
 				""
-				"Doing so will require a cooldown before it can be used again."
+				"在此操作再次可用前需要一定时间冷却。"
 				""
-				"Be warned: Using an Environmental Accumulator &cdegrades its biome&r, making it hostile to life."
+				"警告：使用环境存储器会&c使生物群系退化&r，使环境对活物十分不利。"
 				""
-				"Also: If you break down the &bEnvironmental Accumulator&r, it will drop its core, which will be used to craft a &6Sanguinary Environmental Accumulator&r."
+				"附：如果你破坏&b环境存储器&r，它将掉落环境存储器核心，核心可以用来制作&6血腥环境存储器&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["458348F2C81B8D6B"]
@@ -918,9 +918,9 @@
 			x: 1.75d
 			y: -1.25d
 			description: [
-				"The &bSanguinary Environmental Accumulator&r works much the same as the normal one, but &6requires Blood&r and &6doesn't degrade its biome&r."
+				"&b血腥环境存储器&r的工作原理与环境存储器大致相同，但是它&6需要血液&r并且&6不会使生物群系退化&r."
 				""
-				"You will need to place &68 Tanks of Blood&r nearby, signaled by smoke particles."
+				"你需要在它周围放置&68罐血液&r，正确的位置由烟雾粒子标记。"
 			]
 			dependencies: [
 				"1C646399E62FB593"
@@ -945,9 +945,9 @@
 			x: 0.25d
 			y: -0.5d
 			description: [
-				"&bWeather Containers&r are crafted by throwing an empty Weather Container into the beam of an Environmental Accumulator."
+				"&b天气容器&r是通过将空的天气容器扔进环境存储器的光束来制作的。"
 				""
-				"Doing so will &6store the current weather&r in trhe Container. Throwing the resulting item will &6force-change the weather to the Container's type&r, destroying the item."
+				"这样做将会用空的天气容器&6储存当前的天气&r。扔出这些产物将会&6强制将天气改变为容器所对应的天气类型&r，并摧毁它们。"
 			]
 			dependencies: ["514A4BCD5EBCF794"]
 			size: 0.5d
@@ -1053,9 +1053,9 @@
 			y: -5.0d
 			subtitle: "制作一个血液提取器"
 			description: [
-				"因为这些内容是黑暗向的技艺，自然地，它们是&6以消耗血液为动力&r的。因为血液通常从活物身上觅得，所以得到血液的最好方式是用&b血液提取器&r！"
+				"因为这部分内容是偏黑暗向的技艺，自然地，它们是&6以消耗血液为动力&r的。因为血液通常从活物身上觅得，所以得到血液的最好方式是用&b血液提取器&r！"
 				""
-				"当血液提取器在你身上的某一位置时，它将会在你&6杀死生物&r时&6为血液提取器填充血液&r。"
+				"当血液提取器在你身上的任意位置时，它将会在你&6杀死生物&r时&6为血液提取器填充血液&r。"
 				""
 				"如果血液提取器足够满的话，使用它将会&6在地上倒出一桶血液&r。"
 				""
