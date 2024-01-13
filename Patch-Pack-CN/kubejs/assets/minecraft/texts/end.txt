@@ -1,30 +1,30 @@
-After the witch was successfully resealed inside the Arena, peace once again blanketed the hallowed halls of the Arcanum Institute. 
+女巫被顺利地重新封印在斗兽场中，和平又再次降临到了奥术学院神圣的大厅。
 
-The air was filled with a serene aura as the students and faculty celebrated their hard-fought victory, and the threat that had loomed over their magical world was vanquished.
+学院处处弥漫着宁静，学生和教职工正庆祝来之不易的胜利，在他们魔法世界上的阴霾终于被驱散了。
 
-As the days turned into weeks, the institute blossomed with renewed life. Students delved deeper into their studies, uncovering the secrets of ancient tomes and perfecting their magical abilities.
+时光流转，学院重焕生机。学生们钻研奥秘，揭开古籍的秘密，精进自己的魔法技艺。
 
-The gardens flourished with vibrant, mystical plants, and the enchanting melodies of magical creatures filled the air.
+花园中，神秘植物生意盎然，空气中萦绕着魔法生物奏出的动听韵律。
 
-One sunny afternoon, a grand assembly was held in the courtyard, where the Headmaster addressed the entire student body.
+一个阳光灿烂的午后，一场宏大的集会正在庭院中进行。校长站在台上，向全校师生发出了激情洋溢的演说。
 
-He spoke of the strength, unity, and resilience displayed by the students during the darkest hours and commended their bravery in standing against the witch's malevolence.
+他感慨地谈着，学生们在黑暗中所表现的精神——毅力、团结、韧性。激情地赞扬着，他们以无畏的精神反抗女巫的邪恶。
 
-The heroes of this tale, those who had risked their lives to defeat the malicious witch, were awarded with medals of honor and stood proudly before their peers. It was a moment of triumph and recognition, and their faces beamed with pride.
+故事中的这些英雄们，不惧生死，击败了邪恶的女巫，获得了荣誉勋章，骄傲地站在同龄人面前。在这光荣和喜悦的时刻，他们脸上洋溢着自豪的笑容。
 
-The students of Arcanum Institute continued their studies, honing their magical talents, and exploring the limitless possibilities of their enchanting world.
+奥术学院的学生们勤奋不懈，继续学习各种魔法，磨练他们的天赋，探索着他们魔法世界的无限可能。
 
-New friendships were forged, knowledge was shared, and the legacy of the witch's defeat became an enduring source of inspiration for all.
+深厚的友谊在互相传授知识中渐渐结下，女巫失败后留下的知识化作了他们不竭的灵感泉源。
 
-And so, the Arcanum Institute flourished, a beacon of magical learning and harmony, where students continued to write their own chapters in the never-ending saga of wonder, discovery, and enchantment.
+于是，奥术学院蓬勃发展，成为魔法与和睦的灯塔。学生们继续在无尽的奇幻、探索和陶醉中，绘写出自己的传奇故事。
 
-The memory of the witch's malevolence would forever serve as a reminder of the strength, that lies within the bonds of friendship and the power of magic to overcome any darkness.
+女巫邪恶的阴影也将永远提醒着我们——反抗的力量，藏于友谊的纽带与敢于挑战黑暗的力量之中。
 
 §l§7======================
-§l§6FTB Arcanum Institute
+§l§6FTB奥术学院
 §l§7======================
 
-Special Thanks to Our Alpha and Beta Testers:
+特别感谢我们的内测和公测人员：
 - Ellelapsus
 - D_Collector
 - knedlik_cz
@@ -33,11 +33,19 @@ Special Thanks to Our Alpha and Beta Testers:
 - saturday
 - HanaRyoko
 - Ryus Lightworks
-- and many more!
+- 还有更多！
 
-And a heartfelt thank you to every player who has embarked on the enchanting journey through FTB Arcanum Institute. Your exploration and dedication make it all worthwhile.
+汉化贡献：
+- 
+- 
+- 
+- 
+- 
+- 以及VM汉化组的各位
 
-Keep on gaming and magic-ing!
+衷心感谢每一位通过《FTB奥术学院》踏上旅程的玩家。你的探索和奉献让一切都值得。
 
-Sincerely,
+继续享受游戏，享受魔法！
+
+诚谢，
 Feed The Beast
