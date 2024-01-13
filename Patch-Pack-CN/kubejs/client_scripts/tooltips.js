@@ -26,7 +26,7 @@ onEvent('item.tooltip', (event) => {
     ], [
         Text.of('不可被放置！').red(),
         Text.of('换用魔符：熔炼').gray(),
-        Text.of('或Botanic Smelter').gray()
+        Text.of('或植物学熔炉').gray()
     ])
 
     event.add(
@@ -52,7 +52,7 @@ function eccentricTome(item, text) {
     if (item.nbt['eccentrictome:mods'].toString() == '{}') {
         text.add(Component.string('用模组的书合成！').gray())
     } else {
-        text.add(Component.string('Punch to reset from book').gray())
+        text.add(Component.string('左击以重置书').gray())
         text.add(Component.string('潜行移除书时会掉落。').gray())
     }
 }
