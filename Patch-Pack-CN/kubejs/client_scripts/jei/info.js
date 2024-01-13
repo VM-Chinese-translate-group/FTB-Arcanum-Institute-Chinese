@@ -103,7 +103,7 @@ onEvent('jei.information', (event) => {
             'hexcasting:amethyst_dust',
             'hexcasting:charged_amethyst',
         ],
-        '紫水晶簇掉落，紫水晶簇可在紫水晶母岩上生长'
+        '掉落于在紫水晶母岩上生长的紫水晶簇'
     )
 
     event.add(
