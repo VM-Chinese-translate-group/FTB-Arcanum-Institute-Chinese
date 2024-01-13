@@ -124,7 +124,7 @@ onEvent('item.tooltip', (tooltip) => {
     )
     tooltip.add(
         'ftbai:wooden_bucket',
-        '埃德木水桶的合成组件'
+        '埃德木水桶的合成部件'
     )
 })
 
