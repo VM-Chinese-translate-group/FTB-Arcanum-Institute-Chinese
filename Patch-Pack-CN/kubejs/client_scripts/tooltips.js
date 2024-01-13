@@ -4,17 +4,17 @@ onEvent('item.tooltip', (event) => {
     })
 
     event.add('minecraft:crafting_table', [
-        Text.of('Cannot be placed!').red(),
-        Text.of('Use the Glyph of Craft instead').gray(),
+        Text.of('不可被放置！').red(),
+        Text.of('换用魔符：合成').gray(),
     ])
 
     event.add('ars_nouveau:glyph_crush', [
-        Text.of('Used on blocks, not items').gray(),
+        Text.of('用于方块，而不是物品').gray(),
     ])
 
     event.add('minecraft:gravel', [
-        Text.of('Converted from Crackled Cobblestone').gray(),
-        Text.of('Made in spiritfire').gray(),
+        Text.of('由裂纹圆石转换').gray(),
+        Text.of('灵火制造').gray(),
     ])
 
     event.add('forbidden_arcanus:eternal_stella', [Text.of('Do NOT apply to bloodmagic consumables.').red()])
@@ -24,35 +24,35 @@ onEvent('item.tooltip', (event) => {
         'minecraft:blast_furnace',
         'minecraft:smoker',
     ], [
-        Text.of('Cannot be placed!').red(),
-        Text.of('Use the Glyph of Smelting').gray(),
-        Text.of('or Botanic Smelter instead').gray()
+        Text.of('不可被放置！').red(),
+        Text.of('换用魔符：熔炼').gray(),
+        Text.of('或Botanic Smelter').gray()
     ])
 
     event.add(
         ['botania:black_lotus', 'botania:blacker_lotus'],
-        Text.of('Throw into a non-empty Mana Pool!').gray()
+        Text.of('扔在有魔力的魔力池上！').gray()
     )
 
     event.add(/minecraft:.*_hoe/, [
-        Text.of('Recipe disabled!').red(),
-        Text.of('Use a Wand of the Forest instead!').gray(),
+        Text.of('配方已禁用！').red(),
+        Text.of('换用精灵森林法杖（Wand of the Forest）！').gray(),
     ])
     event.add('minecraft:snow_block', [
-        Text.of('Obtainable by transforming Water').gray(),
-        Text.of('with a Pure Daisy').gray(),
+        Text.of('用白雏菊转化').gray(),
+        Text.of('水以获得').gray(),
     ])
     event.add(['ftbai:silver_coin', 'ftbai:gold_coin'], [
-        Text.of('Obtainable by selling mobdrops at').gray(),
-        Text.of('Goblin Traders').green(),
+        Text.of('卖给哥布林商店生物').gray(),
+        Text.of('掉落物以获得').green(),
     ])
 })
 
 function eccentricTome(item, text) {
     if (item.nbt['eccentrictome:mods'].toString() == '{}') {
-        text.add(Component.string('Craft with mod books!').gray())
+        text.add(Component.string('用模组的书合成！').gray())
     } else {
         text.add(Component.string('Punch to reset from book').gray())
-        text.add(Component.string('Drop while sneaking to remove book.').gray())
+        text.add(Component.string('潜行移除书时会掉落。').gray())
     }
 }
