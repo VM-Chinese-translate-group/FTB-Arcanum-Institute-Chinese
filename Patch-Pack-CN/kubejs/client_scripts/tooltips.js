@@ -44,7 +44,8 @@ onEvent('item.tooltip', (event) => {
     ])
     event.add(['ftbai:silver_coin', 'ftbai:gold_coin'], [
         Text.of('卖给哥布林商店生物').gray(),
-        Text.of('掉落物以获得').green(),
+        Text.of('在哥布林商店出售').gray(),
+        Text.of('生物掉落物以获得').green(),
     ])
 })
 
