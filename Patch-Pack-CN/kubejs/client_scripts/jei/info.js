@@ -94,7 +94,7 @@ onEvent('jei.information', (event) => {
 
     event.add(
         'rootsclassic:dragons_eye',
-        '紫颂花有10%概率掉落'
+        '紫颂花有10%概率掉落此物品'
     )
 
     event.add(
