@@ -62,7 +62,7 @@ onEvent('block.right_click', (event) => {
     let aabb = AABB.of(x, y, z, x + 1, y + 2, z + 1)
     let entities = event.level.getEntitiesWithin(aabb)
     entities.forEach((entity) => {
-        if (entity.toString().contains("Demon's Dream Fruit")) {
+        if (entity.toString().contains("Demon's Dream Fruit")) { // TODO 
             event.cancel()
             let pos = block.getUp()
             if (pos === 'minecraft:air') {
@@ -265,7 +265,7 @@ onEvent('block.right_click', (event) => {
     if (hand != 'MAIN_HAND') return
     if (block.id != 'botania:mana_pool') return
 
-    actionbar(player.name.text, `Mana: ${block.entityData.mana}`)
+    actionbar(player.name.text, `魔力：${block.entityData.mana}`)
 })
 
 // Cancel Blockbreaking at all cost in the Overworld
@@ -295,7 +295,7 @@ onEvent('block.place', (event) => {
     if (level.dimension === 'minecraft:overworld') return
 
     if (blocksThatCantBePlaced.includes(block.id)) {
-        player.tell(Text.of("This block can't be placed!").red())
+        player.tell(Text.of("该方块不能被放置！").red())
         event.cancel()
     }
 })

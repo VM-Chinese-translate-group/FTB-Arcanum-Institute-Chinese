@@ -70,7 +70,7 @@ onEvent('command.registry', event => {
                     let quest = getQuestObject(ctx.source.entity.level.asKJS(), questId)
                     const completedQuest = isQuestComplete(ctx.source.entity.asKJS(), quest)
                     if(!completedQuest){ 
-                        ctx.source.entity.asKJS().tell("You have not completed the quest to unlock this dungeon!")
+                        ctx.source.entity.asKJS().tell("你还没有完成能解锁这个地牢的任务！")
                         return 0
                     }
 

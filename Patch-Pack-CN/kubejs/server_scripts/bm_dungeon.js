@@ -77,9 +77,9 @@ function horizontalDistanceSqr(x1, z1, x2, z2) {
   function toggleMobNerf(player){
     if(player.stages.has('nerf_bloodmagic_dungeon_mobs')){
       player.stages.remove('nerf_bloodmagic_dungeon_mobs')
-      player.tell('<Prof. Saereth> I\'ll make those mobs harder for you')
+      player.tell('<萨拉斯教授> 我为你定制了怪物的难度，它会变得更难')
     }else{
       player.stages.add('nerf_bloodmagic_dungeon_mobs')
-      player.tell('<Prof. Saereth> I\'ll make those mobs easier for you')
+      player.tell('<萨拉斯教授> 我为你定制了怪物的难度，它会变得更简单')
     }
   }

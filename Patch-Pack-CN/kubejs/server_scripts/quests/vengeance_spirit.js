@@ -29,7 +29,7 @@ onEvent('entity.hurt', (event) => {
 
     if ([0, 1, 3, 7, 9].includes(pData.vengeanceHits)) {
         player.tell(
-            "You've been hit by a Vengeance Spirit! See the EvilCraft questline!"
+            "你被复仇之魂打中了！查看邪恶工艺的任务线！"
         )
     }
 })

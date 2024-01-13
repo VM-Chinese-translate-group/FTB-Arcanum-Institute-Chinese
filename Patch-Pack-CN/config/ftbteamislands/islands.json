@@ -1,30 +1,30 @@
 [
     {
-      "name": "Main Islands",
+      "name": "主要岛屿",
       "author": "FTB团队",
-      "desc": "The team behind all the packs?",
+      "desc": "所有整合包背后的团队？",
       "islands": [
         {
-          "name": "Zephyr Heights",
-          "desc": "Elemental Air",
+          "name": "西风高地",
+          "desc": "气之元素",
           "structure": "air_dorm.nbt",
           "image": "ftbai:textures/ftbteamislands/air.png"
         },
         {
-            "name": "Aqua Haven",
-            "desc": "Elemental Water",
+            "name": "银湖天堂",
+            "desc": "水之元素",
             "structure": "water_dorm.nbt",
             "image": "ftbai:textures/ftbteamislands/water.png"
         },
         {
-            "name": "Ignis Peak",
-            "desc": "Elemental Fire",
+            "name": "炎火峦尖",
+            "desc": "火之元素",
             "structure": "fire_dorm.nbt",
             "image": "ftbai:textures/ftbteamislands/fire.png"
         },
         {
-          "name": "Terra Crest",
-          "desc": "Elemental Earth",
+          "name": "大地之巅",
+          "desc": "地之元素",
           "structure": "earth_dorm.nbt",
           "image": "ftbai:textures/ftbteamislands/earth.png"
         }

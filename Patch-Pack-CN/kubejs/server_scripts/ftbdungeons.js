@@ -1,31 +1,31 @@
 const bossMobs = {
     'minecraft:wither': {
-        title: 'Stone Dungeon Cleared',
-        subtitle: 'Sending you back in 20 Seconds!',
+        title: '石头地牢已清扫',
+        subtitle: '20秒后将把你传送回去！',
         reward: null,
         taskId: '40F95905AFE48226',
     },
     'mowziesmobs:ferrous_wroughtnaut': {
-        title: 'Stone Dungeon Cleared',
-        subtitle: 'Sending you back in 20 Seconds!',
+        title: '石头地牢已清扫',
+        subtitle: '20秒后将把你传送回去！',
         reward: null,
         taskId: null,
     },
     'ars_nouveau:wilden_guardian': {
-        title: 'Wilden Guardian Killed!',
-        subtitle: 'Sending you back in 20 Seconds!',
+        title: '已杀死荒野守护者！',
+        subtitle: '20秒后将把你传送回去！',
         reward: null,
         taskId: '0A00010517814C16',
     },
     "iceandfire:dread_lich": {
-        title: 'Dread Lich Killed!',
-        subtitle: 'Sending you back in 20 Seconds!',
+        title: '已杀死悚怖尸巫！',
+        subtitle: '20秒后将把你传送回去！',
         reward: null,
         taskId: "5F85306B432554E9",
     },
     'botania:doppleganger': {
-        title: 'Gaia Killed!',
-        subtitle: 'Sending you back in 20 Seconds!',
+        title: '已杀死盖亚！',
+        subtitle: '20秒后将把你传送回去！',
         reward: null,
         taskId: null,
     },
@@ -246,7 +246,7 @@ onEvent('entity.death', (event) => {
 
     server.scheduleInTicks(400, (event) => {
         players.forEach((player) => {
-            title(player.name.text, 'Sending you back now!')
+            title(player.name.text, '现在传送！')
             player.persistentData.dungeonCleared = false
         })
         server.runCommand(
