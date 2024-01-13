@@ -1,15 +1,15 @@
 let itemsToAdd = [
     Item.of(
         'hexcasting:scroll_small',
-        '{RepairCost:0,display:{Lore:[\'[{"text":"","italic":false,"color":"gray"}]\',\'[{"text":"弹出一个位置向量，","italic":false,"color":"gray"}]\',\'[{"text":"如果该位置有树苗，","italic":false,"color":"gray"}]\',\'[{"text":"则使其长为启迪树","italic":false,"color":"gray"}]\'],Name:\'{"text":"转化启迪树苗法术"}\'},pattern:{angles:[B;0B,5B,4B,5B,0B,2B],start_dir:0b}}'
+        '{RepairCost:0,display:{Lore:[\'[{"text":"","italic":false,"color":"gray"}]\',\'[{"text":"弹出一个位置向量，","italic":false,"color":"gray"}]\',\'[{"text":"如果该位置有树苗，","italic":false,"color":"gray"}]\',\'[{"text":"则使其长为启迪树","italic":false,"color":"gray"}]\'],Name:\'{"text":"施放启迪树苗法术"}\'},pattern:{angles:[B;0B,5B,4B,5B,0B,2B],start_dir:0b}}'
     ),
     Item.of(
         'hexcasting:scroll_small',
-        '{RepairCost:0,display:{Lore:[\'[{"text":"","italic":false,"color":"gray"}]\',\'[{"text":"弹出一个位置向量，","italic":false,"color":"gray"}]\',\'[{"text":"在该位置放置水源或","italic":false,"color":"gray"}]\',\'[{"text":"向流体容器装入1000mb的水","italic":false,"color":"gray"}]\'],Name:\'{"text":转化水法术"}\'},pattern:{angles:[B;4B,5B,4B,0B,5B,4B,2B,4B,5B],start_dir:2b}}'
+        '{RepairCost:0,display:{Lore:[\'[{"text":"","italic":false,"color":"gray"}]\',\'[{"text":"弹出一个位置向量，","italic":false,"color":"gray"}]\',\'[{"text":"在该位置放置水源或","italic":false,"color":"gray"}]\',\'[{"text":"向流体容器装入1000mb的水","italic":false,"color":"gray"}]\'],Name:\'{"text":施放水法术"}\'},pattern:{angles:[B;4B,5B,4B,0B,5B,4B,2B,4B,5B],start_dir:2b}}'
     ),
     Item.of(
         'hexcasting:scroll_small',
-        '{RepairCost:0,display:{Lore:[\'[{"text":"","italic":false,"color":"gray"}]\',\'[{"text":"弹出一个物品实体，","italic":false,"color":"gray"}]\',\'[{"text":"或指向一个方块的向量，","italic":false,"color":"gray"}]\',\'[{"text":"并熔炼它","italic":false,"color":"gray"}]\'],Name:\'{"text":"转化熔炼法术"}\'},pattern:{angles:[B;0B,5B,5B,5B,0B,5B,5B,4B,2B,4B,2B],start_dir:1b}}'
+        '{RepairCost:0,display:{Lore:[\'[{"text":"","italic":false,"color":"gray"}]\',\'[{"text":"弹出一个物品实体，","italic":false,"color":"gray"}]\',\'[{"text":"或指向一个方块的向量，","italic":false,"color":"gray"}]\',\'[{"text":"并熔炼它","italic":false,"color":"gray"}]\'],Name:\'{"text":"施放熔炼法术"}\'},pattern:{angles:[B;0B,5B,5B,5B,0B,5B,5B,4B,2B,4B,2B],start_dir:1b}}'
     ),
     Item.of(
         'hexcasting:scroll_small',

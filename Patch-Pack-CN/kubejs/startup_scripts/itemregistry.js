@@ -18,9 +18,9 @@ onEvent('item.registry', event => {
     event.create('ftbai:codex_occultism', "music_disc").displayName(`神秘学之典`).song('ftbai:everlipse').analogOutput(7)
     event.create('ftbai:codex_goblin', "music_disc").displayName(`哥布林之典`).song('ftbai:goblins').analogOutput(8)
     event.create('ftbai:codex_final', "music_disc").displayName(`最终之典`).song('ftbai:backstory').analogOutput(9)
-    event.create('ftbai:lexxies_charm', "music_disc").displayName(`莱克西的符文`).song('ftbai:lady_lexxie').analogOutput(10)
+    event.create('ftbai:lexxies_charm', "music_disc").displayName(`莱克西的护符`).song('ftbai:lady_lexxie').analogOutput(10)
     event.create('ftbai:wooden_bucket').displayName(`木桶`)
-    event.create('ftbai:source_coal').displayName(`根源煤炭`).burnTime(4800)
+    event.create('ftbai:source_coal').displayName(`魔源煤炭`).burnTime(4800)
 
 })
 

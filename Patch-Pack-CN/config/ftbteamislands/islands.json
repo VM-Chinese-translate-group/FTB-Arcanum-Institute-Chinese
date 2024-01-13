@@ -6,25 +6,25 @@
       "islands": [
         {
           "name": "西风高地",
-          "desc": "气之元素",
+          "desc": "气元素流派",
           "structure": "air_dorm.nbt",
           "image": "ftbai:textures/ftbteamislands/air.png"
         },
         {
             "name": "银湖天堂",
-            "desc": "水之元素",
+            "desc": "水元素流派",
             "structure": "water_dorm.nbt",
             "image": "ftbai:textures/ftbteamislands/water.png"
         },
         {
             "name": "炎火峦尖",
-            "desc": "火之元素",
+            "desc": "火元素流派",
             "structure": "fire_dorm.nbt",
             "image": "ftbai:textures/ftbteamislands/fire.png"
         },
         {
           "name": "大地之巅",
-          "desc": "地之元素",
+          "desc": "地元素流派",
           "structure": "earth_dorm.nbt",
           "image": "ftbai:textures/ftbteamislands/earth.png"
         }
