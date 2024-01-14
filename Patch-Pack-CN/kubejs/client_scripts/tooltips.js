@@ -36,7 +36,7 @@ onEvent('item.tooltip', (event) => {
 
     event.add(/minecraft:.*_hoe/, [
         Text.of('配方已禁用！').red(),
-        Text.of('换用精灵森林法杖！').gray(),
+        Text.of('换用精灵森林法杖（Wand of the Forest）！').gray(),
     ])
     event.add('minecraft:snow_block', [
         Text.of('用白雏菊转化').gray(),
