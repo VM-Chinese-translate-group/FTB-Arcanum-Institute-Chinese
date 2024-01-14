@@ -6,6 +6,15 @@
     
 
     "block.ftbai.botania_smelter": "植物学熔炉",
+    "block.ftbai.waterstone": "水之石",
+    "block.ftbai.airstone": "气之石",
+    "block.ftbai.firestone": "火之石",
+    "block.ftbai.earthstone": "土之石",
+    "block.ftbai.team_island_portal": "团队岛屿传送门",
+    "block.ftbai.team_island_portal_2": "团队岛屿传送门",
+    "block.ftbai.block_of_flesh": "肉块",
+    "block.ftbai.blast_furnace": "高炉",
+    "block.ftbai.fauxhopper": "假漏斗",
 
     "sdrp.dorms.in": "在元素校舍",
     "sdrp.dorms": "元素校舍",
@@ -28,6 +37,7 @@
     "tip.ftbai.goblins": "4个哥布林小店坐落于于学院各处",
     "tip.ftbai.dialogue": "部分任务在完成前没有任何可见的文本提示！请确保在完成后检查任务！",
     "tip.ftbai.university": "许多章节任务来源于1.19的FTB大学！之后试试吧！",
+    "item.ftbai.codex_hexcasting": "咒法学典籍",
     "item.ftbai.codex_arsnouveau.desc": "一个图书管理员的故事",
     "item.ftbai.codex_bloodmagic.desc": "一个可敬的天才",
     "item.ftbai.codex_botania.desc": "一个爱情故事，更好的爱情故事，比……",
