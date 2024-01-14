@@ -203,7 +203,7 @@
 	"tooltip.hexerei.herb_jar": "按住 §eSHIFT§r 以获取更多的信息",
 	"tooltip.hexerei.herb_jar_shift": "内容：",
 	"tooltip.hexerei.herb_drying_rack": "按住 §eSHIFT§r 以获取更多的信息",
-	"tooltip.hexerei.herb_drying_rack_shift": "它可以用来干燥物品和方块, 也可以用于装饰! 只需右击即可将物品放入其中，然后潜行右击即可将其移除",
+	"tooltip.hexerei.herb_drying_rack_shift": "它可以使物品或方块干燥, 也可以用于装饰! 只需右击即可将物品放入其中，再潜行右击即可将其移除",
 	"tooltip.hexerei.herb_drying_rack_full": "按住 §eSHIFT§r 以获取更多的信息",
 	"tooltip.hexerei.herb_drying_rack_full_shift": "此物品只用于装饰",
 	"tooltip.hexerei.crystal_ball": "按住 §eSHIFT§r 以获取更多的信息",
