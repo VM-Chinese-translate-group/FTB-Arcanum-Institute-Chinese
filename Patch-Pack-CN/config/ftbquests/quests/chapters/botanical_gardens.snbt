@@ -3,9 +3,9 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 1
 	filename: "botanical_gardens"
-	title: "Botanical Gardens"
+	title: "植物学花园"
 	icon: "botania:natura_pylon"
-	subtitle: ["Botania"]
+	subtitle: ["植物魔法"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 300
@@ -13,13 +13,13 @@
 		{
 			x: 3.0d
 			y: -5.5d
-			subtitle: "Make a Petal Apothecary"
+			subtitle: "制作花药台"
 			description: [
-				"Using the Petal Apothecary, your first task is to craft a &bPure Daisy&r."
+				"你的第一个任务是用花药台制造&b白雏菊&r。"
 				""
-				"The previous lesson gifted you all the ingredients for making one. All you have to do now is &6throw the petals into the water&r, and finish it off with some &6seeds&r!"
+				"上一课为你提供了制作花瓣的所有材料。现在你需要&6把花瓣扔到水里&r，最后再撒上一些&6种子&r！"
 				""
-				"The Pure Daisy freely transmutes adjacent Stone into &6Livingrock&r and Logs into &6Livingwood&r. Make use of this magical flower in your dorms!"
+				"白雏菊可以无消耗地将附近的石头转化为&6活石&r，将原木转化为&6活木&r。在你的校舍里用这种神奇的花吧！"
 			]
 			dependencies: ["005DDE56C5926F5D"]
 			id: "3E19F49E1CA299A6"
@@ -55,23 +55,23 @@
 			]
 		}
 		{
-			title: "Birdbath"
+			title: "鸟盆"
 			x: 1.5d
 			y: -5.5d
-			subtitle: "The Petal Apothecary"
+			subtitle: "花药台"
 			description: [
-				"Okay, class, time for your first lesson!"
+				"好，同学们，该上第一节课了！"
 				""
-				"To begin, &blocate the Petal Apothecary&r nearby. If there is no water inside, simply &6lay your hands on it&r to fill it! Keep in mind that this water trick only works in this classroom! "
+				"首先，&b找到&r附近的&b花药台&r。如果里面没有水，&6把手放在上面&r就能填满它！记住，这招只在教室里管用！"
 				""
-				"For those of you who want to study on your own, feel free to make your very own Petal Apothecary &6in your dorm&r!"
+				"想自学的同学，可以在&6校舍&r里制作自己的花药台！"
 			]
 			dependencies: ["4339E4F7236D2091"]
 			id: "005DDE56C5926F5D"
 			tasks: [{
 				id: "12D7754608950E46"
 				type: "observation"
-				title: "Observe the Petal Apothecary"
+				title: "观察花药台"
 				icon: "botania:apothecary_default"
 				timer: 0L
 				observe_type: 0
@@ -87,13 +87,13 @@
 		{
 			x: 3.0d
 			y: -4.0d
-			subtitle: "Make a Mana Pool"
+			subtitle: "制作魔力池"
 			description: [
-				"Typically, to craft &6Livingrock&r, you would require regular Stone. But since &cStone is harder to come by&r, &6we can use Cobblestone in a pinch&r."
+				"通常，你需要普通的石头以制作&6活石&r。但是因为&c这里很难获取石头&r，所以&6我们不得不用圆石&r."
 				""
-				"Use this Livingrock to craft a &bMana Pool&r which &6holds Mana&r. Sometimes you can make completely new things by &6throwing a base item into the Mana Pool&r. We'll be learning how to do this later. "
+				"可以使用活石来制作能&6容纳魔力&r的&b魔力池&r。有时只需&6将基础物品扔进魔力池&r就能获得新物品。晚一点我们会学习这个。"
 				""
-				"Now that you have somewhere to store Mana, we can start producing it!"
+				"现在你有了存储魔力的地方，我们就可以开始生产魔力了！"
 			]
 			dependencies: [
 				"3E19F49E1CA299A6"
@@ -114,23 +114,23 @@
 			}]
 		}
 		{
-			title: "Making Runes"
+			title: "制作符文"
 			x: 6.0d
 			y: -4.0d
-			subtitle: "Make a Runic Altar"
+			subtitle: "制作符文祭坛"
 			description: [
-				"The venerable &bRunic Altar&r, a cornerstone of crafting and enchantment in the world of &dBotania&r!"
+				"古老的&b符文祭坛&r，&d植物魔法&r世界中合成和魔咒的基石！"
 				""
-				"To harness its arcane power, follow these steps:"
+				"想利用它的神秘力量，就按这么做："
 				""
-				" - Carefully &6lay out the ingredients&r for the Rune you desire upon the Runic Altar."
+				" - 在符文祭坛上仔细&6摆放好&r你想要的符文的所需材料。"
 				""
-				" - &6Feed it Mana&r via a Mana Spreader, allowing the Altar to awaken and begin its magical work."
+				" - 使用魔力发射器&6给它提供魔力&r，这能让祭坛复苏，开始它神奇的工作。"
 				""
-				" - When it's finished, &6throw some Livingrock upon it and gently touch it with a Wand of the Forest&r, sealing the enchantment and completing the crafting process."
+				" - 当这些都完成之后，&6在上面扔些活石，用森林法杖轻轻触碰它&r，封印魔法并并完成制作。"
 				""
 				""
-				"With the Runic Altar, you wield the power to craft the Runes of enchantment, unlocking the secrets of &dBotania&r, one magical symbol at a time!"
+				"有了符文祭坛，你就拥有了制作魔咒符文的力量，每次都能用一个魔法符号揭开&d植物魔法&r的秘密！"
 			]
 			dependencies: ["405BE5DC5EE184AA"]
 			id: "467B9515336B7593"
@@ -179,15 +179,15 @@
 		{
 			x: 4.5d
 			y: -4.0d
-			subtitle: "Make a Mana Spreader"
+			subtitle: "制作魔力发射器"
 			description: [
-				"The &bMana Spreader&r is the the conduit of Mana's flow in the realm of &dBotania&r!"
+				"&d植物魔法&r领域中，&b魔力发射器&r是魔力流通的通道！"
 				""
-				"It serves as the &6gateway for Mana transmission&r. Mana-generating flowers have an inherent affinity for these Spreaders and will &6automatically connect to the nearest one&r when first planted."
+				"它是&6传递魔力的通道&r。生产魔力的花朵对这些发射器有着天生的亲和力，首次种植时会&6自动连接到最近的发射器&r。"
 				""
-				"However, a Mana Spreader won't just send its Mana into the aether all higgledy piggledy — it &6requires a valid destination&r. Think of it as a mail courier waiting for a specific address before delivering its cargo."
+				"然而，魔力发射器不会杂乱无章地将魔力发射到以太——它&6需要个有效目的地&r。把它想象成一名快递员接单前在等待目的地。"
 				""
-				"When a Mana Spreader cozies up to a Mana Pool, it takes advantage of the Pool's storage, using it as a reservoir. It can then &6shoot the Pool's Mana&r to its destination, facilitating the flow of energy."
+				"当魔力发射器靠近魔力池时，它会利用魔力池的存储优势，将它当作一个蓄水池。然后，它能将&6池中的魔力射向&r目的地，促进能量流动。"
 			]
 			dependencies: ["4169963D23A8F9FF"]
 			id: "405BE5DC5EE184AA"
@@ -224,9 +224,9 @@
 			x: 7.0d
 			y: -5.0d
 			description: [
-				"In order to construct the elemental runes, you have to get in touch with each element. "
+				"想要构造元素符文，你必须与每种元素建立联系。"
 				""
-				"To make the Water Rune, think of ingredients that really embody the spirit of Water."
+				"要制作水之符文，需要考虑使用能真正体现水之精神的材料。"
 			]
 			dependencies: ["467B9515336B7593"]
 			id: "13A2ECBC9257AA37"
@@ -260,9 +260,9 @@
 			x: 6.0d
 			y: -2.5d
 			description: [
-				"In order to construct the elemental runes, you have to get in touch with each element. "
+				"想要构造元素符文，你必须与每种元素建立联系。"
 				""
-				"To make the Fire Rune, think of ingredients that really embody the spirit of Fire"
+				"要制作火之符文，需要考虑使用能真正体现火之精神的材料。"
 			]
 			dependencies: ["467B9515336B7593"]
 			id: "1479FDCF6A82DB19"
@@ -296,9 +296,9 @@
 			x: 6.0d
 			y: -5.5d
 			description: [
-				"In order to construct the elemental runes, you have to get in touch with each element. "
+				"想要构造元素符文，你必须与每种元素建立联系。"
 				""
-				"To make the Earth Rune, think of ingredients that really embody the spirit of Earth."
+				"要制作地之符文，需要考虑使用能真正体现地之精神的材料。"
 			]
 			dependencies: ["467B9515336B7593"]
 			id: "41388E45DE5370B9"
@@ -332,9 +332,9 @@
 			x: 7.5d
 			y: -4.0d
 			description: [
-				"In order to construct the elemental runes, you have to get in touch with each element. "
+				"想要构造元素符文，你必须与每种元素建立联系。"
 				""
-				"To make the Air Rune, think of ingredients that really embody the spirit of Air."
+				"要制作风之符文，需要考虑使用能真正体现风之精神的材料。"
 			]
 			dependencies: ["467B9515336B7593"]
 			id: "40019CD47DB70511"
@@ -368,9 +368,9 @@
 			x: 7.0d
 			y: -3.0d
 			description: [
-				"In order to construct the elemental runes, you have to get in touch with each element. "
+				"想要构造元素符文，你必须与每种元素建立联系。"
 				""
-				"In most of your education you will be dealing with the four primary elements; &2Earth&r, &eAir&r, &4Fire&r and &9Water&r. But there is a fifth element. It is usually called Spirit or &bMana&r. In this class we refer to it as Mana. You've already worked with Mana it its raw form, so to make the &bMana Rune&r, consider using some of the things you've made already."
+				"在你接受的大部分教育中，你都会接触到四大元素：&2土&r、&e风&r、&4火&r、&9水&r。但还有第五种元素，它通常被称为精神或魔力。在本课中，我们称其为 魔力。你已经使用过原始形态的魔力，所以在制作&b魔力符文&r时，可以考虑使用一些你已经制作过的东西。"
 			]
 			dependencies: ["467B9515336B7593"]
 			id: "12BD2923CBB7E58C"
@@ -389,11 +389,11 @@
 			x: 3.5d
 			y: 0.0d
 			description: [
-				"The &bportal to Alfheim&r,  is not so much a conventional portal as a mystical crafting mechanism. Our friends on the other side are happy to help us by passing items back and forth, but no magic yet exists that can transport a living person."
+				"比起传统的传送门，&b精灵传送门&r更像是一种神秘的制造机器。通过来回传递物品，我们在另一边的朋友很乐意来帮助我们，但目前还不存在可以传送活人的魔法。"
 				""
-				"[\"\",\"To harness its magical abilities, follow these steps as outlined in \",{\"text\":\"[ Lexica Botania ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book botania:lexicon botania:alfhomancy/intro 4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open Lexica Botania\"]}}]"
+				"[\"\",\"要使用它的神奇能力，请参照操作步骤于\",{\"text\":\"[植物魔法辞典]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book botania:lexicon botania:alfhomancy/intro 4\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开植物魔法辞典\"]}}]"
 				""
-				"The portal to Alfheim is not about physical travel but rather a gateway to craft and transform items with the help of botanical magic. We do not know why no person who has attempted to cross over has returned, but maybe one of you will one day unlock the secrets, and be the first to travel to Alfheim and live to tell the tale!"
+				"精灵传送门并不是物理旅行，而是利用植物学魔法创造的传送门，用来制作和改变物品。我们不知道为什么没人尝试过穿越传送门，但也许有一天你们中会有人解开其中的秘密，成为第一个前往精灵维度并活着讲述这个故事的人！"
 			]
 			dependencies: ["5B4E965DF13B3FA9"]
 			id: "72DE30FD5ACACD14"
@@ -406,7 +406,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			description: ["Mana Pearls are valuable ingredients in magic, and our friends in Alfheim think so too. We trade them for batches of Pixie Dust! Be careful with the dust though. It can have unintended side effects if consumed. Definitely do not put it in coffee."]
+			description: ["魔力珍珠是珍贵的魔法材料，我们的精灵朋友也这么认为。我们可以用魔力珍珠换取成批的精灵尘！不过要小心点精灵尘，吃了会有意想不到的副作用。绝对不要把它放在咖啡里。"]
 			dependencies: ["72DE30FD5ACACD14"]
 			id: "45150E572576A136"
 			tasks: [{
@@ -437,7 +437,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["The beings on the other side love our Mana Diamonds as much as we love their Dragonstone."]
+			description: ["另一边的朋友喜欢我们的魔力钻石，就像我们喜欢他们的龙石一样。"]
 			dependencies: ["72DE30FD5ACACD14"]
 			id: "081F0BB2BA499206"
 			tasks: [{
@@ -449,7 +449,7 @@
 		{
 			x: 5.0d
 			y: -1.0d
-			description: ["Our friends on the other side of the Elven Gateway are happy to give us these in exchange for our Manasteel. We do not know what they do with Manasteel, but we do know Elementium is a powerful substance vital to the higher magics."]
+			description: ["精灵门另一边的朋友很乐意用这些东西来交换我们的魔力钢。我们不知道他们用魔力钢做什么，但我们知道源质钢对高级魔法至关重要。"]
 			dependencies: ["72DE30FD5ACACD14"]
 			id: "2BC91F7AB1738A43"
 			tasks: [{
@@ -462,13 +462,13 @@
 			x: 2.0d
 			y: 0.0d
 			description: [
-				"The &bTerrasteel Ingot&r, is brought to life by the &6Terrestrial Agglomeration Plate&r, and is a pivotal milestone in the enchanting journey of &bBotania&r!"
+				"&6泰拉凝聚板&r让&b泰拉钢锭&r重获新生，它是你&b植物魔法&r旅程中的重要里程碑！"
 				""
-				"This ingot serves as the gateway to the next tier of botanical magic. "
+				"这种铸锭是通往下一级植物魔法的大门。"
 				""
-				"With the Terrasteel Ingot in hand, you gain access to enchanting creations like the &6Mana Mirror&r, a mystical device for swift transportation, and the &6Elven Gateway Core&r, a key to unlocking the secrets of the elven realm."
+				"有了泰拉钢锭，您就能获得神奇的物品，如&6魔力手镜&r——能快速运输的神秘装置，以及&6精灵门核心&r——打开精灵世界秘密的钥匙。"
 				""
-				"Embrace the power of Terrasteel, my aspiring botanists, for it is the bridge to even greater enchantments and discoveries in the enchanting world of &bBotania&r!"
+				"身怀抱负的植物学家们，拥抱泰拉钢的力量吧，它是通向&b植物魔法&r迷人世界中伟大魔法的桥梁！"
 			]
 			dependencies: ["57CD9448DC7AC231"]
 			id: "5B4E965DF13B3FA9"
@@ -482,14 +482,14 @@
 			x: 9.5d
 			y: 0.0d
 			description: [
-				"You have triumphed over the corrupted spirit, but the real battle is ahead of you. Another spirit threatens us, and I am counting on you to defeat it. The &bharder Guardian of Gaia&r, a true test of mettle, and will take all of your skills to defeat."
 				""
 				""
-				"To unlock this more challenging battle and earn even greater rewards, you must first prove your worthiness. Present the &6Gaia Ingot&r, forged from the precious &6Gaia Spirits&r you've obtained, as a testament to your mastery of botanical magic."
 				""
-				"Once you've shown your worth, you'll be granted access to the harder Battleground of Gaia. Here, you'll face a significantly tougher battle, but the rewards will be even more bountiful. Among these treasures is the coveted &6Dice of Fate&r, a magical item that can spawn one of six unique and incredibly useful items."
+				"想解锁这场更具挑战性的战斗并获得更丰厚的奖励，你必须首先证明自己的实力。出示由珍贵的&6盖亚之魂&r锻造而成的&6盖亚魂锭&r，以证明你精通植物魔法。"
 				""
-				"So, prepare, my dear student, for the ultimate challenge and face the harder Guardian of Gaia to unlock the mysteries and treasures that await you in the world of &bBotania&r! Your school is counting on you!"
+				"一旦你证明了自己的价值，你就可以进入更难的盖亚战场。在这里，你将面临更加困难的战斗，但奖励也会更加丰厚。在这些宝藏中，有令人垂涎的&6命运骰子&r，它是一种神奇的道具，可以从六种独特且有用的道具生成一种。"
+				""
+				"所以，亲爱的学生，准备好迎接终极挑战吧！面对更难对付的盖亚守护者，揭开&b植物魔法&r世界中等待你的谜团和宝藏！你们的学校就靠你们了！"
 			]
 			dependencies: ["032BB1B4B023D26F"]
 			id: "0D5FF5BBE6EC9681"
@@ -500,20 +500,20 @@
 			}]
 		}
 		{
-			title: "You Must Construct Additional Flowers"
+			title: "您必须构筑更多的花朵"
 			x: 0.0d
 			y: -2.5d
 			shape: "gear"
-			subtitle: "Flower acquisition"
+			subtitle: "鲜花采集"
 			description: [
-				"If you require additional flowers, you have &6four options&r:"
+				"如果你需要额外的鲜花，你有四种选择："
 				""
-				"• You can &6purchase them from the Iron Goblin Shop&r."
-				"• You can &6plant Mystical Petals&r and grow them with Bone Meal."
-				"• You can use the &6Jaded Amaranthus&r given as reward for the Mana Pool, with a small mana cost."
-				"• You can &6trade some Livingwood or Livingrock&r using the repeatable quests above."
+				"• 你可以从&6铁哥布林商店购买&r。"
+				"• 你可以&6种植神秘花瓣s&r并用骨粉使它们生长。"
+				"• 您可以使用魔力池池奖励的&6翡翠苋&r，但需要消耗少量魔力。"
+				"• 您可以使用上述可重复任务交易一些&6活木或活石&r。"
 				""
-				"Good luck with your flower collection!"
+				"采花之旅好运！"
 			]
 			hide_dependency_lines: true
 			min_required_dependencies: 1
@@ -530,13 +530,13 @@
 			x: 12.0d
 			y: -6.0d
 			description: [
-				"Ah, the delightful &bClayconia&r, a true marvel of nature's balance!"
+				"啊，令人心旷神怡的&b黏土花&r，大自然平衡的真正奇迹！"
 				""
-				"This remarkable flower possesses the innate ability to perform a magical transformation, turning the ubiquitous Sand into the invaluable Clay."
+				"这种非凡的花朵与生俱来拥有神奇的能力，能将无处不在的沙子变成无价的粘土。"
 				""
-				"You see, my dear students,\\nClay is the embodiment of balance,\\nas it is the key to crafting many wondrous things in our world."
+				"我亲爱的学生们，你们看，\\n粘土是平衡的化身，\\n因为在我们的世界里，它是创造许多奇妙事物的关键。"
 				""
-				"With the &bClayconia&r by your side,\\nyou'll find the perfect equilibrium, just as everything should be."
+				"有&b黏土花&r在你身边，\\n你会找到完美的平衡，就像一切本该如此。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["467B9515336B7593"]
@@ -549,23 +549,23 @@
 			}]
 		}
 		{
-			title: "Wand of the Forest"
+			title: "森林法杖"
 			x: 3.0d
 			y: -7.0d
-			subtitle: "Make a Wand of the Forest"
+			subtitle: "制作森林法杖"
 			description: [
-				"The versatile &bWand of the Forest&r, a magical multitool in the world of &dBotania&r!"
+				"&b森林法杖&r有许多种用途，是&d植物魔法&r世界中神奇的多功能工具！"
 				""
-				"This enchanting wand boasts two distinct modes:"
+				"这支神奇的法杖有两种模式："
 				""
-				"- In &6Bind&r mode, you can sneak and right-click one block,\\n  then right-click another to create a mystical connection,\\n  binding the first block to the second.\\n  It's like weaving a web of enchantment."
+				"- &6绑定&r模式下，潜行右击一个方块，\\n然后右击另一个方块可以创建魔法连接，\\n将第一个方块绑定至第二个。\\n就像织了张魔法之网。"
 				""
-				"- In &6Function&r mode, the wand takes on various functions\\n  depending on the block you use it on.\\n  The intricacies of these functions can be found in\\n  the Lexica Botania."
+				"- &6工作&r模式下，魔杖会根据使用的对象不同\\n而具有的功能不同。\\n这些复杂的功能可在植物魔法辞典中找到。"
 				""
 				""
-				"There are even applications outside of &dBotania&r I encourage you to explore in your dorms!"
+				"我估计你们在校舍中探索&d植物魔法&r其他的用途！"
 				""
-				"The &bWand of the Forest&r can also &6mimic the function of a hoe&r, making gardening a breeze. And for those who aspire to be true horticulturalists, the &bWand of Elven Forest&r can even till a substantial &63x3 area&r!"
+				"&b森林法杖&r还可以&6模仿锄头的功能&r，使菜园工作变得轻松。对于那些渴望成为真正的园艺学家的人来说，&b精灵森林法杖（Wand of Elven Forest）&r甚至能耕种&63x3的区域&r！"
 			]
 			dependencies: ["3E19F49E1CA299A6"]
 			id: "5445BA03DB8C903C"
@@ -625,13 +625,13 @@
 			x: 5.5d
 			y: 3.5d
 			description: [
-				"Oh, my dear pupils, prepare to be enchanted once more by the mystical &bCorporea Retainer&r! "
+				"哦，我亲爱的学生们，准备好再次被神秘的&b多媒体固定器&r迷住吧！"
 				""
-				"Now, for a captivating demonstration, imagine placing the &6Retainer&r right beside the Interceptor from our previous enchanting tale.\\n\\nNearby, introduce a Corporea Crystal Cube, attentively monitoring a Button's presence.\\nWith a Comparator gracefully extending from the Crystal Cube to the Retainer, the intricate dance begins."
+				"现在，让我们来个引人入胜的演示，想象把&6固定器&r放在我们这个迷人故事中&6拦截器&r的旁边。\\n\\n在附近，引入一个多媒体水晶魔方，正专心监视着按钮的存在。\\n随着比较器从水晶立方优雅地延伸到固定器，复杂的舞蹈开始了"
 				""
-				"So, my bright scholars, when a longing for a Button arises, but none can be found, the Interceptor shall sing its signal, setting forth the chain of events.\\nThrough an elegant sequence, the Button will be crafted, find its place within the network, and send word to the Crystal Cube, which, in turn, shall whisper its wisdom to the &6Retainer&r."
+				"因此，我聪明的学者们，当人们渴望得到一个按钮，却找不到时，拦截器就会唱出它的信号，发出一连串的事件。\\n通过优雅的顺序，按钮会被制作出来，在网络中找到它的位置，并将消息发送给水晶魔方，水晶魔方又会将它的智慧悄悄传给&6固定器&r。"
 				""
-				"In this magnificent orchestration, the &6Retainer&r shall reunite the freshly crafted Button with the entity that yearned for it, completing the circle of enchantment once more. "
+				"在这华丽的交响乐中，&6固定器&r会让新制作的按钮与渴望它的实体重聚，再次完成魔法的循环。"
 			]
 			dependencies: ["5A08EC44C68F9788"]
 			min_width: 300
@@ -646,15 +646,15 @@
 			x: 6.5d
 			y: 3.5d
 			description: [
-				"Oh, my dear scholars, let me weave a tale of pure &bBotanical&r brilliance for you!"
+				"哦，亲爱的学者们，让我为你们编织一个纯粹的&b植物学&r故事吧！"
 				""
-				"Behold the &bCorporea Interceptor&r, a marvel of redstone and mana! When the Item Frame atop it yearns for an item it cannot find, it emits a dazzling redstone pulse, like a beacon of magical yearning."
+				"请看红石和魔力的奇迹——&b多媒体拦截器&r！当它上面的物品框架渴望找到它无法找到的物品时，它就会发出耀眼的红石脉冲，就像魔法渴望的信标。"
 				""
-				"Now, picture this enchanting scene: a 1x1 &6Crafty Crate&r, a &6Hopper&r guiding its way, a &6Corporea Funnel&r adorned with a Spark and an Item Frame graced with Stone, and an ever-watchful &6Corporea Interceptor&r, also adorned with a Spark and an Item Frame bearing a Button."
+				"现在，请想象一下这个迷人的场景：一个1x1的&6机巧箱&r，一个&6漏斗&r为它引路，一个装饰着火花的&6多媒体漏斗&r，一个镶嵌着石头的物品展示框，以及一个时刻警惕的&6多媒体拦截器&r，同样装饰着火花和带有按钮的物品展示框。"
 				""
-				"When the call for a Button resounds but none can be found, the Interceptor dances with energy, sending forth its crimson pulse. This awakens the Funnel, which lovingly guides the Stone to the Crafty Crate, like an artisan crafting a masterpiece."
+				"当需要按钮的声音响起，但却找不到按钮时，拦截者就会舞动能量，发出深红色的脉冲。它唤醒了漏斗，漏斗会像工匠制作杰作一样，亲切地将石头引向机巧箱。"
 				""
-				"May your Botanical adventures be ever filled with wonder, my blossoming magicians!"
+				"我的植物学魔术师们，愿你们在植物探险之旅中永远保持惊奇！"
 			]
 			dependencies: ["592EE99E209184B7"]
 			min_width: 300
