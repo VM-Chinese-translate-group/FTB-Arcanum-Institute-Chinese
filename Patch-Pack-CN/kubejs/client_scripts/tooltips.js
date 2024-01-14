@@ -36,14 +36,13 @@ onEvent('item.tooltip', (event) => {
 
     event.add(/minecraft:.*_hoe/, [
         Text.of('配方已禁用！').red(),
-        Text.of('换用精灵森林法杖（Wand of the Forest）！').gray(),
+        Text.of('换用精灵森林法杖！').gray(),
     ])
     event.add('minecraft:snow_block', [
         Text.of('用白雏菊转化').gray(),
         Text.of('水以获得').gray(),
     ])
     event.add(['ftbai:silver_coin', 'ftbai:gold_coin'], [
-        Text.of('卖给哥布林商店生物').gray(),
         Text.of('在哥布林商店出售').gray(),
         Text.of('生物掉落物以获得').green(),
     ])
