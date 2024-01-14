@@ -3,7 +3,7 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 5
 	filename: "natures_blessing"
-	title: "Nature's Blessing"
+	title: "自然祝福"
 	icon: {
 		id: "patchouli:guide_book"
 		Count: 1b
@@ -11,19 +11,19 @@
 			"patchouli:book": "naturesaura:book"
 		}
 	}
-	subtitle: ["Nature's Aura and Roots"]
+	subtitle: ["自然灵气和根源魔法"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	quests: [
 		{
-			title: "Obtaining a Golden Leaf"
+			title: "获得一个金叶"
 			x: 1.0d
 			y: -5.0d
 			description: [
-				"In our magical studies with the &eNature's Aura&r, we have a fascinating task ahead. "
+				"在&e自然灵气&r的魔法研究中，我们面临着一项有趣的任务。"
 				""
-				"You must use the &bBrilliant Fiber&r. With this material, you can perform a special conversion on leaves. The result will be a coveted &6Gold Leaf&r."
+				"你首先需要对叶子使用&b闪耀纤维&r。使用这个物品你可以看到叶子发生特殊的转变。最终转变为&6金叶&r."
 				""
 				"Once you've successfully crafted the &6Gold Leaf&r, bring it back for further inspection."
 				""
