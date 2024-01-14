@@ -57,7 +57,7 @@ onEvent('jei.information', (event) => {
     ])
 
     event.add(shopInfo, [
-        '在其中一个哥布林商店可获得此物品',
+        '在其中一个哥布林商店可获得此物品！',
         ' ',
         '一定要全部找到！',
     ])
@@ -73,7 +73,7 @@ onEvent('jei.information', (event) => {
     event.add(
         ['minecraft:shulker_shell'],
         [
-            '神奇捣蛋鬼百货商店（位于courtyard内）出售潜影贝传送门珍珠！',
+            '魔法捣蛋鬼百货商店（位于庭院内）出售潜影贝传送门珍珠！',
             ' ',
             '使用后，会生成许多波潜影贝，会掉落潜影壳！',
         ]
