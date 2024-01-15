@@ -669,11 +669,11 @@
 			x: 7.5d
 			y: 3.5d
 			description: [
-				"Ah, the ingenious &bCorporea Funnel&r!\\n\\nWhen graced with a &6redstone signal&r, it springs to life, summoning items from its Corporea network. These items find their new home either &1one or two blocks below&r or gracefully settle onto the ground."
+				"啊，巧妙的&b多媒体漏斗&r！\\n当接收到&6红石信号&r后，它会迎来新春，从它的多媒体网络中生成物品。这些物品会在它&1下方一到二格&r找到新家，或者优雅的落在地上。"
 				""
-				"Now, to specify the requested item, simply place a &6filled Item Frame&r upon it. A single rotation sets the pace: one spin for &82&r, another for &84&r, and so forth, all the way up to &864&r."
+				"现在，要指定所需的物品，只需在它周围放置个&6填充的物品展示框&r。每次旋转框内物品都能设置输出物品节奏：转一次表示&82&r，转两次表示&84&r，以此类推，最多至&864&r个物品。"
 				""
-				"And if you're feeling particularly creative, you can add multiple Item Frames. The Corporea Funnel will select a random one to make the request, adding a touch of whimsy to your magical creations! "
+				"如果您觉得自己很有想法，还可以添加多个物品展示框。多媒体漏斗会随机选择一个发出请求，为您的魔法创作增添一丝奇思妙想！"
 			]
 			dependencies: ["43BD4BB1CEFB356D"]
 			id: "592EE99E209184B7"
