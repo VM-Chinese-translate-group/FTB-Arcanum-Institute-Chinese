@@ -3,7 +3,7 @@
 	group: "125708BF22E6ABEE"
 	order_index: 6
 	filename: "sunekaer"
-	title: "Sunekaer - INVISIBLE"
+	title: "苏卡尔——不可见"
 	icon: "ftbai:codex_hexcasting"
 	always_invisible: true
 	default_quest_shape: ""
@@ -36,7 +36,7 @@
 			tasks: [{
 				id: "43DF36AC4D6B1675"
 				type: "item"
-				title: "Lost Wand"
+				title: "遗失的法杖"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -111,7 +111,7 @@
 			tasks: [{
 				id: "708C7A80FFB312CD"
 				type: "item"
-				title: "Get an Impetus"
+				title: "获得一个促动石"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
