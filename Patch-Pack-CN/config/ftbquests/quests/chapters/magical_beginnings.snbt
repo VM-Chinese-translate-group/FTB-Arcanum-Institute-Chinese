@@ -3,32 +3,32 @@
 	group: ""
 	order_index: 0
 	filename: "magical_beginnings"
-	title: "Orientation"
+	title: "开学典礼"
 	icon: "ftbquests:book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	quests: [
 		{
-			title: "Welcome to Arcanum Insitute"
+			title: "欢迎来到奥术学院"
 			x: 0.0d
 			y: -7.9910714285714235d
 			shape: "pentagon"
-			subtitle: "Where the realms of magic and knowledge intertwine!"
+			subtitle: "魔法与知识交织的领域！"
 			description: [
-				"Dear New Students,"
+				"亲爱的新生们，"
 				""
-				"It is with great honor that we extend an invitation for you to join this exclusive cadre of students, chosen for their exceptional potential and unyielding passion for the arcane. You stand among a select few who have been entrusted with the opportunity to embark on an extraordinary journey into the realms of magic."
+				"我们十分荣幸邀请你来加入这支专属的学生干部队伍, 他们因对奥术的杰出的潜力和执着的热情而被选拔。你在精选出来的少数中脱颖而出，因已被委托去从事一个进入魔法领域的非凡旅行的机会"
 				""
-				"Beyond our ancient walls lies a sanctuary where the secrets of ancient arts and the very essence of magic await your presence. Here, reality and imagination intertwine, offering you a canvas upon which to weave the tapestry of your magical aspirations and explore the depths of mystical knowledge."
+				"在我们的古老的城墙另一边坐落着一座圣殿，古代艺术的秘密和魔法的真正本质等待着你的造访。 在这里，想象力与现实交织，提供你一幅能在上面编织你的魔法抱负挂毯的画卷和探索神秘知识的深度。"
 				""
-				"Your enrollment at Arcanum Institute marks the beginning of an extraordinary adventure. Assemble with your peers—an elite cohort of individuals who, like you, possess a unique spark destined to illuminate the path to greatness."
+				"在奥术学院，你的入学登记标志着开启一场非凡的冒险。与你的同学一起搭伙——一群像你一样的精英，都具有一点独一无二的闪光，注定会照亮通往伟大成就的道路。"
 				""
-				"Prepare to step into a world where wonder and enchantment await."
+				"准备踏入一个奇迹与魔法并存的世界吧。"
 				""
-				"With anticipation for the magical odyssey ahead;"
+				"期待着前方迷人的奇幻历险吧；"
 				""
-				"Headmaster Tazz"
+				"塔兹校长"
 			]
 			size: 1.5d
 			min_width: 300
@@ -36,7 +36,7 @@
 			tasks: [{
 				id: "01B362AF193C9F7B"
 				type: "location"
-				title: "Arrive at Arcanum Institute"
+				title: "抵达奥术学院"
 				icon: {
 					id: "eccentrictome:tome"
 					Count: 1b
@@ -71,7 +71,7 @@
 			}]
 		}
 		{
-			title: "The Headmaster Would Like a Word"
+			title: "校长有话要说"
 			icon: {
 				id: "hexerei:witch_helmet"
 				Count: 1b
@@ -81,24 +81,24 @@
 			}
 			x: 2.0d
 			y: -8.0d
-			subtitle: "Find him at the Dining Hall"
+			subtitle: "在大厅找到他"
 			description: [
-				"Greetings, esteemed students of the &dArcanum Institute&r!"
+				"向你问候， 尊敬的&d奥数学院&r的学生！"
 				""
-				"I am &6Grandmaster Tazz&r, the headmaster of this prestigious establishment. As we commence this academic term, it is my honor to acquaint you with the esteemed houses of Arcanum Institute. These correspond with the four elements of magic; Earth, Air Fire, and Water. "
+				"我是&6塔兹大师&r，这个久负盛名的机构的校长。在我们开始这学期的时候，带你了解奥术学院的令人敬仰的学院是我的荣幸。这些与之对应的魔法的四个元素：土，气，火，和水。 "
 				""
-				"Before you embark on the path of knowledge, you must &bselect an Element&r that resonates with your very essence."
+				"在你踏上知识之路之前， 你必须&b选择一个与你的本质产生共鸣的元素&r。"
 				""
-				"The &2House of Earth&r stands as a bastion of unwavering strength and loyalty, a sanctuary for those whose spirits echo the resolute foundations of the earth itself."
+				"&2土之学院h&r作为一个坚定的力量和忠诚的堡垒存在，一个为与大地本身坚定基础共鸣的那些灵魂的圣殿。"
 				""
-				"In contrast, the &eHouse of Air&r beckons to those who soar amidst the boundless skies of intellect and creativity, fostering freedom and curious minds."
+				"相对而言，&e气之学院&r呼唤那些在智慧与创造力的无边无际的天空中翱翔的人们,培养自由和好奇的思想。"
 				""
-				"Turn your attention to the &4House of Fire&r—a forge for fervent spirits, kindling ambition, and the relentless pursuit of greatness."
+				"把你的注意力转移到the &4火之学院&r——一个具有热情的灵魂的锻造厂，点燃野心， 然后不懈追求伟大成就。"
 				""
-				"Lastly, the &9House of Water&r embodies adaptability and harmony, flowing with grace and intuition, navigating the ebbs and flows of the arcane."
+				"最后，&9水之学院&r象征适应性和协调，顺应优雅和直觉，操纵着奥数的起伏。"
 				""
 				""
-				"This will &6decide your dorm, and the uniform you wear&r. Let your instincts guide you!"
+				"这个意愿&6决定你的校舍和你穿着的校服&r。让你的直觉指引你！"
 			]
 			dependencies: ["68F3DB988DCED32C"]
 			hide_text_until_complete: true
@@ -107,7 +107,7 @@
 			tasks: [{
 				id: "7327163D1C50A050"
 				type: "location"
-				title: "Dining Hall"
+				title: "大厅"
 				icon: "hexerei:candelabra"
 				dimension: "minecraft:overworld"
 				ignore_dimension: false
@@ -135,19 +135,19 @@
 			}]
 		}
 		{
-			title: "Finding Your Element"
+			title: "探寻你的元素"
 			icon: "ars_nouveau:ritual_open_portal"
 			x: 3.5d
 			y: -8.0d
-			subtitle: "Reach the student dormitories"
+			subtitle: "到达学生校舍"
 			description: [
-				"Your next task is to &bpick your dorm&r, a place of rest and study. Head &6north from the dining hall&r, and you'll find your own personal living space."
+				"你的下一个任务是&b挑选你的校舍&r，一个可以学习和休息的地方。朝着&6大厅的北方&r前进，然后你就会找到你的专属私人生活空间。"
 				""
-				"There are &bfour options to choose from&r, corresponding to the four elements. Pass through any portal, and then you can make your choice."
+				"有&b四个选项&r，与之相对应的是四个元素。穿过任何的传送门，然后就能做出你的选择。"
 				""
-				"Once you've done so, take a moment to &6acquaint yourself&r with your dorm. Unlike the main school grounds, you are free to &6modify this area to your liking&r."
+				"一旦你做好决定，花费一些时间来&6让自己熟悉&r你的校舍。与主要的学校场地不同，&6根据你的喜好调整这片区域&r是你的自由。"
 				""
-				"Use this space to acquire resources for classes, build structures, etc. Your dorm is yours to use in whatever way you see fit."
+				"使用这片区域来获取课堂所需的材料， 搭建建构等。你的宿舍就是你的，无论用什么方式去使用，你觉得适合就好。"
 			]
 			dependencies: ["5A666790188D5ACA"]
 			hide: true
@@ -156,7 +156,7 @@
 			tasks: [{
 				id: "3BFB61F63605D632"
 				type: "observation"
-				title: "Look at a Dorm Portal"
+				title: "看向校舍传送门"
 				icon: "ftbai:team_island_portal"
 				timer: 0L
 				observe_type: 1
@@ -164,15 +164,15 @@
 			}]
 		}
 		{
-			title: "&cIgnis"
+			title: "&c火"
 			icon: "ars_nouveau:fire_essence"
 			tags: ["fire"]
 			x: 5.5d
 			y: -7.5d
-			subtitle: "Choose the Element of &cFire"
+			subtitle: "选择&c火元素"
 			description: [
 				"{image:ftbai:textures/ftbteamislands/fire.png width:523 height:395 align:1 fit:true}"
-				"The House of Fire blazes with passion and unyielding ambition. Students here are driven by fervor and courage, akin to the dancing flames that fuel their desire for greatness. "
+				"火之学院以热情和坚定的雄心如烈焰般燃烧。这里的学生们受热情和勇气驱动，对于伟大成就的渴望如同躁动的火焰刺激着他们"
 			]
 			dependencies: ["1745088EC921245F"]
 			optional: true
@@ -180,7 +180,7 @@
 			tasks: [{
 				id: "4A376F1F9A1133B1"
 				type: "gamestage"
-				title: "Choose your Element"
+				title: "选择你的元素"
 				icon: "ars_nouveau:fire_essence"
 				stage: "stage_fire"
 			}]
@@ -188,7 +188,7 @@
 				{
 					id: "0EDDA1E50BB13A8C"
 					type: "custom"
-					title: "Don the Pyromancer's garb"
+					title: "穿上火术师的装备吧"
 					icon: {
 						id: "arsarsenal:fire_robes"
 						Count: 1b
@@ -220,16 +220,16 @@
 			]
 		}
 		{
-			title: "&bAqua"
+			title: "&b水"
 			icon: "ars_nouveau:water_essence"
 			tags: ["water"]
 			x: 5.5d
 			y: -9.5d
-			subtitle: "Choose the Element of &bWater"
+			subtitle: "选择&b水元素"
 			description: [
 				"{image:ftbai:textures/ftbteamislands/water.png width:523 height:395 align:1 fit:true}"
 				""
-				"In the House of Water, adaptability and harmony are the guiding principles. Students flow gracefully like serene rivers, embodying the fluidity and intuitive nature of their house. "
+				"在水之学院，适应性和协调是指导准则。学生们像宁静的河流优雅地流淌，体现了他们校舍的流动性和直觉的本质。 "
 			]
 			dependencies: ["1745088EC921245F"]
 			optional: true
@@ -237,7 +237,7 @@
 			tasks: [{
 				id: "01E31688C7A36343"
 				type: "gamestage"
-				title: "Choose your Element"
+				title: "选择你的元素"
 				icon: "ars_nouveau:water_essence"
 				stage: "stage_water"
 			}]
@@ -245,7 +245,7 @@
 				{
 					id: "7A569087B047AA14"
 					type: "custom"
-					title: "Don the Aquamancer's garb"
+					title: "穿上水术师的装备吧"
 					icon: {
 						id: "arsarsenal:aqua_robes"
 						Count: 1b
@@ -265,14 +265,14 @@
 			]
 		}
 		{
-			title: "&eAer"
+			title: "&e气"
 			tags: ["air"]
 			x: 5.5d
 			y: -6.5d
-			subtitle: "Choose the Element of &eAir"
+			subtitle: "选择&e气元素"
 			description: [
 				"{image:ftbai:textures/ftbteamislands/air.png width:523 height:395 align:1 fit:true}"
-				"Amidst the House of Air, curiosity and intellect are nurtured like gentle winds that carry the minds of its students to new heights. "
+				"在气之学院之中，求知欲和思维能力是自然而然的，就像微风携带着学生们的思想到达新的高度。"
 			]
 			dependencies: ["1745088EC921245F"]
 			optional: true
@@ -280,7 +280,7 @@
 			tasks: [{
 				id: "4819652EFF5916BE"
 				type: "gamestage"
-				title: "Choose your Element"
+				title: "选择你的元素"
 				icon: "ars_nouveau:air_essence"
 				stage: "stage_air"
 			}]
@@ -288,7 +288,7 @@
 				{
 					id: "1661298547E7C4DF"
 					type: "custom"
-					title: "Don the Aethermancer's garb"
+					title: "穿上以太术师的装备吧"
 					icon: {
 						id: "arsarsenal:air_robes"
 						Count: 1b
@@ -308,14 +308,14 @@
 			]
 		}
 		{
-			title: "&aTerra"
+			title: "&a地"
 			tags: ["earth"]
 			x: 5.5d
 			y: -8.5d
-			subtitle: "Choose the Element of &aEarth"
+			subtitle: "选择&a土元素"
 			description: [
 				"{image:ftbai:textures/ftbteamislands/earth.png width:523 height:395 align:1 fit:true}"
-				"In the House of Earth, resilience and steadfastness are virtues upheld above all else. Students find solace in the unyielding strength of the earth, mirroring their grounded nature. "
+				"在土之学院, 坚韧和坚定视作高于一切的品德。学生们在大地不屈的力量之中寻找慰藉，映照出他们的理智的天性。"
 			]
 			dependencies: ["1745088EC921245F"]
 			optional: true
@@ -323,7 +323,7 @@
 			tasks: [{
 				id: "51296831E488CDE4"
 				type: "gamestage"
-				title: "Choose your Element"
+				title: "选择你的元素"
 				icon: "ars_nouveau:earth_essence"
 				stage: "stage_earth"
 			}]
@@ -331,7 +331,7 @@
 				{
 					id: "37A6A28572DA2153"
 					type: "custom"
-					title: "Don the Geomancer's garb"
+					title: "穿上地术师的装备吧"
 					icon: {
 						id: "arsarsenal:earth_robes"
 						Count: 1b
@@ -351,25 +351,25 @@
 			]
 		}
 		{
-			title: "Return to Campus"
+			title: "回到校园"
 			icon: "decorative_blocks:chandelier"
 			x: 7.5d
 			y: -8.0d
-			subtitle: "Ready yourself for lessons"
+			subtitle: "做好准备要上课"
 			description: [
-				"Once you've settled in to your dorms, return to campus by &bpassing through the portal&r once again."
+				"一旦你已经适应了你的校舍，再一次&b穿过传送门&r回到校园。"
 				""
-				"&cClasses must be done in a certain order.&r You can't just jump headfirst into the most difficult classes! Walk before you run!"
+				"&c课程必须要以一个特定的顺序的完成。&r你不能只一头扎进最难的的课程！做事要循序渐进！"
 				""
-				"[\"\",\"You can check the \",{\"text\":\"[ Progression ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30B1C2E28BD6FFAD\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Progression quest chapter\"]}},\" chapter in your Quest Book to see \",{\"text\":\"what needs to be done in what order.\",\"color\":\"gold\"}]"
+				"[\"\",\"你可以在你的任务书中查看\",{\"text\":\"[ 进度 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30B1C2E28BD6FFAD\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"进度任务章节\"]}},\"章节来查看\",{\"text\":\"需要按照什么顺序去做什么事情。\",\"color\":\"gold\"}]"
 				""
-				"[\"\",\"If you can't find a class, take a look on the \",{\"text\":\"[ Interactive Map ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me the Map\"]}},\"! It'll lead you directly towards each class! Once you've been there once, you can also spend some experience to teleport to it directly!\"]"
+				"[\"\",\"如果你不能找到这节课，查看一下\",{\"text\":\"[ 交互地图 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"让我康康地图\"]}},\"! 它将会直接指引到每节课！一旦你曾来过这里，你也可以花费一些经验来直接传送到那里！\"]"
 				""
-				"Your teachers are not just instructors but mentors, so actively engage in your classes and seek guidance."
+				"你的老师们不仅仅是讲师还是导师，所以积极地参与课程并且寻求指导。"
 				""
-				"Embrace the challenges and push your boundaries in the pursuit of magical knowledge. Trust in yourself and your abilities. "
+				"迎接挑战并且在对魔法知识的追求上突破你的限制。相信你自己和你自己的能力。"
 				""
-				"If you ever need to return to your dorm you can always use the &e/ftbteamisland home&r command to teleport from anywhere."
+				"如果你需要回到你的校舍，你可以一直使用&e/ftbteamisland home&r指令在任何地方进行传送。"
 				""
 			]
 			dependencies: [
@@ -386,7 +386,7 @@
 			tasks: [{
 				id: "16F1544655E10F8C"
 				type: "checkmark"
-				title: "Understood!"
+				title: "明白了！"
 			}]
 			rewards: [{
 				id: "7FE978E7327A5AC4"
@@ -395,11 +395,11 @@
 			}]
 		}
 		{
-			title: "Whats this!?"
+			title: "嘛玩意？！"
 			x: 0.5344387755102034d
 			y: -8.5d
 			description: [
-				"Thank you Aaron"
+				"谢谢你，亚伦"
 				""
 				"{image:ftbai:textures/quests/aaron.png width:200 height:200 align:1}"
 			]
@@ -411,7 +411,7 @@
 			}]
 		}
 		{
-			title: "Up to No Good"
+			title: "不怀好意"
 			icon: {
 				id: "minecraft:filled_map"
 				Count: 1b
@@ -421,11 +421,11 @@
 			}
 			x: 1.0d
 			y: -9.5d
-			subtitle: "The Enchanted Map"
+			subtitle: "魔法地图"
 			description: [
-				"Dear Students of the Arcanum Institute,"
+				"亲爱的奥术学院的学生，"
 				""
-				"After several complaints from our students and staff over the number of new students who are lost and never heard from again, we have created an Interractive Map for your convenience. It can be found within your &6Quest Book&r."
+				"在收到我们的学生和教职员工的抱怨起迷路并且从此销声匿迹的新生数量之后，为你方便起见，我们已经制作了一张可交互的地图。可以在你的&6任务书&r里找到它。"
 				""
 				"[\"\",\"Click this \",{\"text\":\"[ Interactive Map ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me the Map\"]}},\" to take you to it directly.\"]"
 			]
@@ -437,7 +437,7 @@
 			}]
 		}
 		{
-			title: "Nature is Beautiful"
+			title: "美丽大自然"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -449,22 +449,22 @@
 			x: 8.0d
 			y: -10.5d
 			shape: "pentagon"
-			subtitle: "Meet Prof. Loneztar"
+			subtitle: "与隆泽塔教授见面"
 			description: [
-				"&bProfessor Loneztar&r teaches the magics of &dNature's Aura&r and &dRoots&r."
+				"&b隆泽塔教授&r传授&d自然灵气&r和&d根源魔法&r的魔法。"
 				""
-				"These arts have to do with &6harnessing the magics of nature&r in various ways. "
+				"这些艺术必须要以各种方式&6控制并利用自然的魔法&r。"
 				""
-				"This class is located to &6the island's far north&r. A path can be found just before the Botanic Greenhouses."
+				"这节课位于&6岛屿遥远的北方&r。在植物学温室的前方可以找到一条小路。"
 				""
-				"You will proceed to the &eNature's Blessing&r chapter from here to begin your coursework."
+				"你将前往&e自然的祝福&r章节从此来开启你的课程。"
 			]
 			dependencies: ["63368A007664E4B5"]
 			id: "16DC22DAA2E8D566"
 			tasks: [{
 				id: "7F6678AA7E711958"
 				type: "location"
-				title: "Meet Prof. Loneztar at the fields to the North"
+				title: "在北部田野与隆泽塔教授见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -496,27 +496,27 @@
 			rewards: [{
 				id: "509C5DE156740284"
 				type: "command"
-				title: "/tell"
+				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[Modpack] Unlocked the \",{\"text\":\"[ Nature's Blessing ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2D203BFFF0EB7337\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open chapter\"]}},\" quest chapter!\"]"
+				command: "/tellraw @p [\"\",\"[整合包] 解锁了 \",{\"text\":\"[ 自然的祝福 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2D203BFFF0EB7337\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open chapter\"]}},\"任务章节！\"]"
 			}]
 		}
 		{
-			title: "Fabrication Magique"
+			title: "法术构造学"
 			icon: "arsomega:arcane_book"
 			disable_toast: true
 			x: 9.5d
 			y: -9.5d
 			shape: "pentagon"
-			subtitle: "Meet Prof. Regen"
+			subtitle: "与瑞根教授见面"
 			description: [
-				"&bProfessor Regen&r teaches the magics of &dArs Nouveau&r."
+				"&b瑞根教授&r传授&d新生魔艺&r的魔法。"
 				""
-				"These magics are &6unusually malleable&r, allowing the intrepid magician to &6create their own spells&r!"
+				"这些魔法有着&6不同寻常的可塑性&r，允许勇敢的魔法师去&6创造他们自己专属的魔法&r！"
 				""
-				"This class is located &6through the library and down the staircase&r."
+				"这节课位于&6图书馆然后走下楼梯&r。"
 				""
-				"Proceed to the &eFabrication Magique&r chapter to begin your coursework."
+				"前往&e法术构造学&r章节开启你的课程。"
 			]
 			dependencies: ["63368A007664E4B5"]
 			min_width: 250
@@ -524,7 +524,7 @@
 			tasks: [{
 				id: "09A3EEED88E2627F"
 				type: "location"
-				title: "Meet Prof. R3GEN under the library"
+				title: "在图书馆底层与瑞根教授见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -556,13 +556,13 @@
 			rewards: [{
 				id: "1FC1E320112F08EE"
 				type: "command"
-				title: "tell"
+				title: "宣布"
 				auto: "invisible"
 				command: "/tellraw @p [\"\",\"[Modpack] Unlocked the \",{\"text\":\"[ Fabrication Magique ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 5DD2F65DABF3914C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" quest chapter!\"]"
 			}]
 		}
 		{
-			title: "The Dark Arts"
+			title: "黑暗艺术"
 			icon: {
 				id: "hexerei:book_of_shadows"
 				Count: 1b
@@ -572,15 +572,15 @@
 			x: 10.0d
 			y: -8.0d
 			shape: "pentagon"
-			subtitle: "Meet Prof. Howser"
+			subtitle: "与豪瑟教授见面"
 			description: [
-				"&bProfessor Howser&r teaches the magics of &dEvilCraft&r and &dHexerei&r."
+				"&b豪瑟教授&r传授&d邪恶工艺&r和&d魔法巫师&r的魔法"
 				""
-				"These dark arts have to with &6harnessing the power of blood&r, as well as the classic &6hedge witch arts&r."
+				"这些黑暗艺术必须要和&6控制并利用血液的力量&r，和传统的&6树篱女巫巫术&r一样。"
 				""
-				"This class is located in the &6south wall of the courtyard&r."
+				"这节课位于&6庭院的南面城墙&r。"
 				""
-				"Make your way to &eThe Dark Arts&r chapter to start coursework."
+				"前往&e黑暗艺术&r章节开启课程。"
 			]
 			dependencies: ["63368A007664E4B5"]
 			min_width: 250
@@ -588,7 +588,7 @@
 			tasks: [{
 				id: "55D838A6911A3351"
 				type: "location"
-				title: "Find Prof. Howser south of the courtyard"
+				title: "在南部庭院找到豪瑟教授"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -619,21 +619,21 @@
 			}]
 		}
 		{
-			title: "Magical Flowers"
+			title: "魔力的花朵"
 			icon: "botania:lexicon"
 			disable_toast: true
 			x: 9.5d
 			y: -6.5d
 			shape: "pentagon"
-			subtitle: "Meet Lady Maehem"
+			subtitle: "与梅希姆女士见面"
 			description: [
-				"&bLady Maehem&r teaches the art of &dBotania&r."
+				"&b梅希姆女士&r传授&d植物魔法&r"
 				""
-				"These magics use the &6power of magic flowers&r to great effect."
+				"这些魔法使用&6魔力花的力量&r来产生巨大效果"
 				""
-				"This class is located at the &6top of the left greenhouse&r upon approach."
+				"这节课位于靠着&6左边温室的顶层&r。"
 				""
-				"Head to the &eBotanical Gardens&r chapter to begin coursework."
+				"前往&e植物学花园&r章节来开启课程。"
 			]
 			dependencies: ["63368A007664E4B5"]
 			min_width: 250
@@ -641,7 +641,7 @@
 			tasks: [{
 				id: "5D81152883A3063E"
 				type: "location"
-				title: "Meet Prof. LadyMayhaem in the southern greenhouse"
+				title: "在南部温室与梅希姆教授见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -672,7 +672,7 @@
 			}]
 		}
 		{
-			title: "Blood and Sacrifice"
+			title: "鲜血与献祭"
 			icon: {
 				id: "bloodmagic:experiencebook"
 				Count: 1b
@@ -684,15 +684,15 @@
 			x: 8.0d
 			y: -5.5d
 			shape: "pentagon"
-			subtitle: "Meet Prof. Saereth"
+			subtitle: "与萨拉斯教授见面"
 			description: [
-				"&bProfessor Saereth&r teaches the art of &dBlood Magic&r."
+				"&b萨拉斯教授&r传授&d血魔法&r的艺术。"
 				""
-				"These magics take advantage of the &6innate power of sacrifice&r."
+				"这些魔法利用&6献祭的天生力量&r。"
 				""
-				"This class is located in the &6north wall of the courtyard, on the second floor&r."
+				"这节课位于&6庭院的北面城墙，在二楼&r。"
 				""
-				"Proceed to the &eBlood and Sacrifice&r chapter to begin coursework."
+				"前往&e鲜血与献祭&r章节开启课程。"
 			]
 			dependencies: ["63368A007664E4B5"]
 			min_width: 250
@@ -700,7 +700,7 @@
 			tasks: [{
 				id: "74FD8CE7E8C2109D"
 				type: "location"
-				title: "Meet Prof. Saereth on the northern courtyard wall's second floor"
+				title: "在北部庭院城墙的二楼与萨拉斯教授见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -731,7 +731,7 @@
 			}]
 		}
 		{
-			title: "Occultism"
+			title: "神秘学"
 			icon: {
 				id: "occultism:dictionary_of_spirits"
 				Count: 1b
@@ -743,15 +743,15 @@
 			x: 11.0d
 			y: -10.0d
 			shape: "pentagon"
-			subtitle: "Meet Prof. Everlipse"
+			subtitle: "与埃弗利普斯教授见面"
 			description: [
-				"&bProfessor Everlipse&r teaches the arts of &dMalum&r and &dOccultism&r."
+				"&b埃弗利普斯教授&r传授&d灵灾&r和&d神秘学&r的艺术。"
 				""
-				"These magics have to do with the &6summoning and enthrallment of spirits&r."
+				"这些魔法必须要与&6召唤和奴役灵体&r打交道"
 				""
-				"This class is located in the &6north wall of the courtyard, on the first floor&r."
+				"这节课位于&6庭院的北面城墙，在一楼&r。"
 				""
-				"Proceed to the &eSpiritology&r chapter to begin coursework."
+				"前往&e灵体学&r章节开启课程。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63368A007664E4B5"]
@@ -762,7 +762,7 @@
 			tasks: [{
 				id: "197D8BD779D253AE"
 				type: "location"
-				title: "Meet Prof. Everlipse on the northern courtyard wall's first floor"
+				title: "在北部庭院城墙的一楼与埃弗利普斯教授见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -793,7 +793,7 @@
 			}]
 		}
 		{
-			title: "Ancient Runes"
+			title: "古代符文"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -805,15 +805,15 @@
 			x: 12.0d
 			y: -8.0d
 			shape: "pentagon"
-			subtitle: "Meet Prof. Sunekaer"
+			subtitle: "与苏卡尔教授见面"
 			description: [
-				"&bProfessor Sunekaer&r teaches the art of &dHex Casting&r."
+				"&b苏卡尔教授&r传授&d咒法学&r的艺术。"
 				""
-				"These magics make use of &6hexagonal runes to reprogram reality&r."
+				"这些魔法使用&6六边形符文来重新编译现实&r。"
 				""
-				"This class is located in the &6courtyard's east wall, on the second floor&r."
+				"这节课位于&6庭院的东面城墙，在二楼&r。"
 				""
-				"Head over to the &eSpellcaster's Dream&r chapter to start coursework."
+				"前往&e施法者之梦&r章节开启课程。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63368A007664E4B5"]
@@ -823,7 +823,7 @@
 			tasks: [{
 				id: "3C4FA9E22FACE612"
 				type: "location"
-				title: "Meet Professor Sunekaer"
+				title: "与苏卡尔教授见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -855,25 +855,25 @@
 			rewards: [{
 				id: "19B32295EF1F47F4"
 				type: "command"
-				title: "tell"
+				title: "宣布"
 				auto: "invisible"
 				command: "/tellraw @p [\"\",\"[Modpack] Unlocked the \",{\"text\":\"[ Ancient Runes ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2E0B8A32B6D87ADA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" quest chapter!\"]"
 			}]
 		}
 		{
-			title: "Beast Masters"
+			title: "野兽大师"
 			icon: "iceandfire:amphithere_skull"
 			disable_toast: true
 			x: 11.0d
 			y: -6.0d
 			shape: "pentagon"
-			subtitle: "Meet Bo and Prof. Jake"
+			subtitle: "与杰克教授和波见面"
 			description: [
-				"&bProfessor Jake&r, and his companion &bBo&r, teach the art of &dmagical beasts&r."
+				"&b杰克教授&r，和他的伙伴&b波&r,传授&d魔法野兽&r的艺术。"
 				""
-				"This class is located in the building &6up the double staircase&r, near the center of campus."
+				"这节课位于在有着&6双侧楼梯&r建筑的上方，靠近校园的中心。"
 				""
-				"Mosey on over to the &eBeast Masters&r chapter to start coursework."
+				"移步到&e野兽大师&r章节开启课程。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63368A007664E4B5"]
@@ -883,7 +883,7 @@
 			tasks: [{
 				id: "1FCB3B7664F242D6"
 				type: "location"
-				title: "Find Prof. Jake and Bo up the double staircase"
+				title: "在双侧楼梯上方找到杰克教授和波"
 				icon: "iceandfire:amphithere_skull"
 				dimension: "minecraft:overworld"
 				ignore_dimension: false
