@@ -3,7 +3,7 @@
 	group: "125708BF22E6ABEE"
 	order_index: 5
 	filename: "r3gen"
-	title: "Professor Regen"
+	title: "瑞根教授"
 	icon: "ftbai:codex_arsnouveau"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -14,13 +14,13 @@
 			y: -1.0d
 			shape: "hexagon"
 			description: [
-				"Dear Student,"
+				"亲爱的学生："
 				""
-				"I've noticed your dedication and willingness to assist not only me but also your fellow students. Your positive attitude and eagerness to help have made a significant impact, and I truly appreciate it."
+				"你的奉献精神令我瞩目，你不仅愿意帮助我，还乐于帮助你的同学。你的积极和热心产生了很大的影响，我真的非常感激。"
 				""
-				"As a token of my appreciation, I would like to give you something special – my personal codex."
+				"为了表达我的谢意，我想送给你一些特别的东西——我的个人典籍。"
 				""
-				"Also, this set of enchanted wool armor could aid you in your future endevours"
+				"此外，这套附魔羊毛盔甲还能帮助你完成未来的任务。"
 			]
 			dependencies: [
 				"72C83121896BBDB0"
@@ -124,11 +124,11 @@
 			x: 0.0d
 			y: -4.5d
 			description: [
-				"I was just thinking about how much I enjoy snacking on &6Source Berry Rolls&r. They happen to be my absolute favorite, and I couldn't help but wonder if you might be able to help a hungry teacher out."
+				"我正在想，我是多么喜欢把&6魔源浆果卷&r当作零食来吃。魔源浆果卷是我的最爱，我想知道你是否愿意帮助一位饥饿的老师饱餐一顿。"
 				""
-				"If it's not too much trouble, could you perhaps grab a pack for me? I'm thinking around 32 rolls should do the trick."
+				"不麻烦的话，你能帮我拿来一整包吗？我想大约32卷就够了。"
 				""
-				"Oh, yeah, this is your first trial BTW. "
+				"哦对了，顺带一提，这就是你的第一个测验。"
 			]
 			dependencies: ["59EF764CCD1CAADD"]
 			id: "5D443AAAB3C5278A"
@@ -144,13 +144,13 @@
 			x: 2.5d
 			y: -3.0d
 			description: [
-				"I'd like you to demonstrate your understanding of the process by gathering one of each Essence."
+				"我希望你能每种精华各收集一份，以证明你对精华制作过程的理解。"
 				""
-				"We're talking about Fire Essence, Water Essence, Earth Essence, and so on. "
+				"是的，我们说的就是火之精华、水之精华、土之精华等等。"
 				""
-				"It's a crucial step in my current project, and I'm confident that your expertise will make this a breeze."
+				"这正是我目前项目中的关键一步，我相信你的专业知识会让这一步变得轻而易举。"
 				""
-				"Bring them back to me and we can proceed through our Class."
+				"把它们带回来给我，我们就可以继续上课了。"
 			]
 			dependencies: [
 				"5D443AAAB3C5278A"
@@ -217,13 +217,13 @@
 			x: 2.5d
 			y: 1.0d
 			description: [
-				"I wanted to share a fascinating discovery with you regarding a magical bow known as the \"Enchanter's Bow.\""
+				"我想向你分享一个惊人的发现，那是一种被称为“巫师之弓”的附有魔法的弓。"
 				""
-				"This extraordinary bow has proven to be quite powerful and versatile in various magical endeavors."
+				"事实证明，这种非凡的弓在各种魔法活动中都具有相当强大的威力和多功能性。"
 				""
-				"Now, here's the exciting part – I'd love to have one for myself, but unfortunately, time is not on my side at the moment."
+				"现在，令人兴奋的部分来了——我很想为自己也弄一个，但遗憾的是，我现在没有时间。"
 				""
-				"That's where your incredible skills come into play. I was wondering if you could take on the challenge of crafting an Enchanter's Bow for me."
+				"现在需要发挥你精湛的技艺了。我想知道你能否接受挑战，为我制作一把巫师之弓？"
 			]
 			dependencies: [
 				"198A2236ED944370"
@@ -257,9 +257,9 @@
 			x: 0.0d
 			y: 2.5d
 			description: [
-				"I've got an interesting crafting project that involves creating an Infused Diamond – an intermediate crafting item. It requires a mix of different materials and a bit of skill."
+				"我有一个有趣的合成项目，是有关“灌注钻石”的，这是一种中级的合成物品。它需要混合多种不同的材料以及精湛的合成技艺。"
 				""
-				"I was wondering if you could take on the challenge of crafting one for me. It's a great opportunity for you to enhance your crafting skills, and I could really use your expertise on this."
+				"我想知道你能否接受挑战，为我制作一个。这对你来说是一个提高合成技能的好机会，我真的需要你的专业知识。"
 			]
 			dependencies: [
 				"3CE777D241E13155"
@@ -289,11 +289,11 @@
 			x: -2.5d
 			y: 1.0d
 			description: [
-				"After your recent victory against the Wroughtnaut, I couldn't help but notice the magical properties emanating from its axe. It's a fascinating piece of weaponry, and I believe there's much to be learned from studying it."
+				"在你战胜钢铁守护者时，我不禁注意到它的斧头上散发出的魔法属性。这是一件令人着迷的武器，我相信研究它能学到很多东西。"
 				""
-				"I'm eager to explore the magical properties of the axe and uncover the secrets it holds. Your contributions to this study could make a significant impact on our understanding of magical artifacts."
+				"我渴望探索斧头的魔法特性，揭开它的秘密。你对这项研究的贡献将对我们了解魔法遗物产生重大影响。"
 				""
-				"Please hand it over whenever you are ready."
+				"准备好之后将它交给我。"
 			]
 			dependencies: [
 				"58B0813AD5CCC65E"
@@ -319,11 +319,11 @@
 			x: -2.5d
 			y: -3.0d
 			description: [
-				"For your last trial, I want you to create a special enchantment known as the &6Glyph of Homing Projectile&r. "
+				"在最后一次测验中，我希望你能创造出一种特殊的魔法，即&6魔符：追踪弹&r。"
 				""
-				"The &6Glyph of Homing Projectile&r is a Glyph that holds the remarkable ability to home in on the nearest entity or behave normally in the absence of entities nearby. Its versatile nature makes it an invaluable asset."
+				"&6魔符：追踪弹&r是一种拥有非凡能力的魔符，它可以锁定最近的实体，或者在附近没有实体的情况下正常行动。它的多功能性使其成为无价之宝。"
 				""
-				"This is your final trial in this class, so I expect nothing less than your best. "
+				"这是你在这门课程中的最后一项测验，希望你全力以赴。"
 			]
 			dependencies: [
 				"5A5DD93FB86B22DE"

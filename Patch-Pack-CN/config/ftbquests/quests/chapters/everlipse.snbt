@@ -3,7 +3,7 @@
 	group: "125708BF22E6ABEE"
 	order_index: 4
 	filename: "everlipse"
-	title: "Professor Everlipse"
+	title: "埃弗利普斯教授"
 	icon: "ftbai:codex_occultism"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -14,13 +14,13 @@
 			y: -1.0d
 			shape: "hexagon"
 			description: [
-				"Dear Student,"
+				"亲爱的学生："
 				""
-				"One final test stands between you and completion of this class. I would like you to obtain a &bBlock of Iesnium&r. "
+				"在你完成这门课之前，还有最后一项测验。我希望你获得一块&b艾瑟金属块&r。"
 				""
-				"Once you have done this, I will give you the highest honor I can bestow upon a student; a copy of my personal Codex. I think the spells within it will be very important in your upcoming endeavors, so I recommend getting this done as soon as you can. "
+				"一旦你完成了这项测验，我将授予你我能给予学生的最高荣誉：一份我的个人典籍。我认为其中的咒术对你今后的工作非常重要，所以我建议你尽快完成这项测验。"
 				""
-				"Thank you, and good luck."
+				"谢谢，然后祝你好运。"
 			]
 			dependencies: [
 				"2CBECFD7042E416F"
@@ -58,9 +58,9 @@
 			x: 0.0d
 			y: -4.5d
 			description: [
-				"I find myself in a bit of a situation where I require a particular resource for a task that, unfortunately, I can't delve into details about at the moment."
+				"我正处于这样一种情况：我需要一种特殊的资源来完成一项任务，但苦恼的是，我现在无法跟你深入探讨其中的细节。"
 				""
-				"If you're up for it, I could use your assistance in obtaining 25 Otherstone. I understand this might seem a bit mysterious, but I assure you, it's for a purpose that aligns with the greater good. Your help in this matter would be greatly appreciated, and I trust in your discretion."
+				"如果你愿意的话，我需要你协助我获得25块异界石。我知道这看起来有点神秘，但我向你保证，这是为了一个更伟大的目的。非常感谢你的帮助，我相信你的判断力。"
 			]
 			dependencies: ["2CBECFD7042E416F"]
 			id: "56FE4836424F2B2F"
@@ -76,9 +76,9 @@
 			x: 2.5d
 			y: -3.0d
 			description: [
-				"I have a fascinating task for you that involves harnessing the mystical energies of Spiritfire."
+				"我有一项令人着迷的任务要交给你，其中涉及到利用灵火的神秘能量。"
 				""
-				"I'd like you to create 10 Spirited Attuned Gems by carefully tossing diamonds into the Spiritfire. These gems, infused with the essence of Spiritfire, will prove crucial in our explorations into Occultism."
+				"请你把钻石小心地扔进灵火里，制造出10颗魔灵同调宝石。这些注入了灵火精华的宝石，将在我们探索神秘学的过程中起到至关重要的作用。"
 			]
 			dependencies: [
 				"56FE4836424F2B2F"
@@ -97,11 +97,11 @@
 			x: 2.5d
 			y: 1.0d
 			description: [
-				"Hello, Student"
+				"你好，我的学生："
 				""
-				"We're going to need some chalk, and you're just the one to get it. "
+				"我们需要一些粉笔，而你就是那个去拿粉笔的人。"
 				""
-				"Let me know once you have it."
+				"拿到后告诉我一声。"
 			]
 			dependencies: [
 				"3A711CDE0DABD3DC"
@@ -156,9 +156,9 @@
 			x: -2.5d
 			y: 1.0d
 			description: [
-				"I would like you to deliver me a &bDimensional Crystal Matrix&r. "
+				"我希望你能带给我提供一个&b维度水晶矩阵&r。"
 				""
-				"We know, we have given you one before, but that one was given to me by another Student. Your's will be given to the next Students who starts this class"
+				"我知道，我以前给过你一个维度水晶矩阵，但那是另一个学生给我的。而你给我的这个水晶矩阵将会交给下一位来上课的学生。"
 			]
 			dependencies: [
 				"2CBECFD7042E416F"
@@ -184,11 +184,11 @@
 			x: -2.5d
 			y: -3.0d
 			description: [
-				"Dear student,"
+				"亲爱的学生："
 				""
-				"I'd like you, four your next trial to obtain a &bSurprisingly Substantial Satchel&r. "
+				"我希望你能在这一次测验中获得一个&b意外结实的背包&r。"
 				""
-				"It is my hope that you do not find it surprisingly difficult. "
+				"我希望这对你而言不会特别困难。"
 			]
 			dependencies: [
 				"2CBECFD7042E416F"
@@ -213,7 +213,7 @@
 		{
 			x: 0.0d
 			y: 2.0d
-			description: ["For your sixth trial, you're going to need a &bDimensional Storage Stablizer&r. This is a good test of your skills and will be very usefull to you as well."]
+			description: ["在第六次测验中，你需要一个&b维度存储稳定器&r。它不仅很好地考验了你的技能，同时也能在将来发挥作用。"]
 			dependencies: [
 				"2CBECFD7042E416F"
 				"274C8BFC5759FC9D"
