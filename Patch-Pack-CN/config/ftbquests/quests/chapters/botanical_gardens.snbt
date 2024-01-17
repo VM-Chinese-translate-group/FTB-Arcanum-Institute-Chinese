@@ -689,11 +689,11 @@
 			x: 8.5d
 			y: 3.5d
 			description: [
-				"Ah, the magical &bCorporea Sparks&r, the core of our wondrous &6Corporea networks&r!\\n\\nThey empower you to &6request items from connected inventories&r, but remember, it's all about &6active requests&r – no passive magic here!"
+				"啊，神奇的&b多媒体火花&r，我们奇妙的&6多媒体网络&r的核心！\\n\\n它们使你能&6从连接的库存请求物品&r，但请记住，这一切都和&6主动请求&r有关，——这没有被动魔法！"
 				""
-				"These sparks also have a social side, &6connecting with others of the same color&r, easily customized with dyes. And don't forget the esteemed &bMaster Corporea Spark&r at the network's center."
+				"这些火花还有社交功能，能&6与相同颜色火花建立联系&r，使用染料就可以轻松定制。别忘了，网络中心还有受人敬重的&b主媒体火花&r。"
 				""
-				"One nifty trick: Corporea Sparks can grab items from the inventory below, except for the enigmatic &cMaster Corporea Spark&r, which guards its secrets without access. Magic, I suppose! "
+				"一个小窍门：除了神秘的&c主媒体火花&r外，多媒体火花能从下方的库存获取物品，而&c多媒体火花&r守护着它无法进入的秘密。我想，这就是魔法吧！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["72DE30FD5ACACD14"]
