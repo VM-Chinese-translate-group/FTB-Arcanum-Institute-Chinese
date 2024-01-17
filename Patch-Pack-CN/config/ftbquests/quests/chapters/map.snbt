@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 1
 	filename: "map"
-	title: "Enchanted Map"
+	title: "魔力地图"
 	icon: "minecraft:map"
 	disable_toast: true
 	default_quest_shape: "pentagon"
@@ -22,7 +22,7 @@
 	}]
 	quests: [
 		{
-			title: "Blood Magic Class"
+			title: "血魔法课"
 			icon: "bloodmagic:altar"
 			tags: [
 				"closegui"
@@ -31,7 +31,7 @@
 			disable_toast: true
 			x: -1.9309523809523768d
 			y: -3.6095238095238074d
-			subtitle: "Prof. Saereth"
+			subtitle: "萨拉斯教授"
 			hide: true
 			can_repeat: true
 			id: "26B8691C09312942"
@@ -44,14 +44,14 @@
 			rewards: [{
 				id: "234DD2F2ED0DE4D0"
 				type: "custom"
-				title: "Teleport to Blood Magic Class"
+				title: "传送到血魔法课"
 				icon: "bloodmagic:altar"
 				tags: ["bloodmagic"]
 				auto: "enabled"
 			}]
 		}
 		{
-			title: "Botania Class"
+			title: "植物魔法课"
 			icon: "botania:mana_pool"
 			tags: [
 				"closegui"
@@ -60,7 +60,7 @@
 			disable_toast: true
 			x: -7.166666666666657d
 			y: 0.3154761904761969d
-			subtitle: "Miss LadyMaehem"
+			subtitle: "梅希姆夫人"
 			hide: true
 			can_repeat: true
 			id: "2ED82050D1E9FDAD"
@@ -73,13 +73,13 @@
 			rewards: [{
 				id: "063439730A73836D"
 				type: "custom"
-				title: "Teleport to Botania Class"
+				title: "传送到植物魔法课"
 				icon: "botania:mana_pool"
 				auto: "enabled"
 			}]
 		}
 		{
-			title: "Ars Nouveau Class"
+			title: "新生魔艺课"
 			icon: "ars_nouveau:apprentice_spell_book"
 			tags: [
 				"closegui"
@@ -88,7 +88,7 @@
 			disable_toast: true
 			x: 0.9642857142857224d
 			y: -2.801020408163275d
-			subtitle: "Prof. Regen"
+			subtitle: "瑞根教授"
 			hide: true
 			can_repeat: true
 			id: "0A33C6071CBD15F9"
@@ -101,13 +101,13 @@
 			rewards: [{
 				id: "4E79652C4B6DECE3"
 				type: "custom"
-				title: "Teleport to Ars Nouveau Class"
+				title: "传送到新生魔艺课"
 				icon: "ars_nouveau:archmage_spell_book"
 				auto: "enabled"
 			}]
 		}
 		{
-			title: "Occultism Class"
+			title: "神秘学课"
 			icon: "occultism:spirit_fire"
 			tags: [
 				"closegui"
@@ -116,7 +116,7 @@
 			disable_toast: true
 			x: -2.988095238095241d
 			y: -3.6d
-			subtitle: "Prof. Everlipse"
+			subtitle: "埃弗利普斯教授"
 			hide: true
 			can_repeat: true
 			invisible_until_tasks: 1
@@ -130,13 +130,13 @@
 			rewards: [{
 				id: "1DFC6702E5ACB0A0"
 				type: "custom"
-				title: "Teleport to Occultism Class"
+				title: "传送到神秘学课"
 				icon: "occultism:spirit_fire"
 				auto: "enabled"
 			}]
 		}
 		{
-			title: "Hexerei Class"
+			title: "魔法巫师课"
 			icon: "hexerei:mixing_cauldron"
 			tags: [
 				"closegui"
@@ -145,7 +145,7 @@
 			disable_toast: true
 			x: -3.1309523809523796d
 			y: -0.37738095238094616d
-			subtitle: "Prof. Aaron"
+			subtitle: "亚伦教授"
 			hide: true
 			can_repeat: true
 			id: "2D0AA72C3C9ECDA8"
@@ -158,13 +158,13 @@
 			rewards: [{
 				id: "3C5F0C243A175FEE"
 				type: "custom"
-				title: "Teleport to Hexerei Class"
+				title: "传送到魔法巫师课"
 				icon: "hexerei:mixing_cauldron"
 				auto: "invisible"
 			}]
 		}
 		{
-			title: "Dorms Portal"
+			title: "校舍传送门"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -191,7 +191,7 @@
 			rewards: [{
 				id: "29E8BBE33D242C68"
 				type: "custom"
-				title: "Teleport to Dorms Portal"
+				title: "传送到校舍传送门"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -203,7 +203,7 @@
 			}]
 		}
 		{
-			title: "Haaznek's Emporium"
+			title: "哈兹涅克的百货商店"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -220,7 +220,7 @@
 			y: 2.0535714285714164d
 			shape: "pentagon"
 			subtitle: "#1"
-			description: ["Haaznek's Emporium, visit to unlock fast travel."]
+			description: ["哈兹涅克的百货商店，访问来解锁快速旅行。"]
 			dependencies: ["3334104FB3F58B8F"]
 			hide: false
 			can_repeat: true
@@ -234,7 +234,7 @@
 			rewards: [{
 				id: "7499F1593CB70193"
 				type: "custom"
-				title: "Teleport to Goblin Shop"
+				title: "传送到哥布林商店"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -246,7 +246,7 @@
 			}]
 		}
 		{
-			title: "Ibseang's Itamz"
+			title: "艾普信的杂物店"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -274,7 +274,7 @@
 			rewards: [{
 				id: "2DC35C46D8018FF8"
 				type: "custom"
-				title: "Teleport to Goblin Shop"
+				title: "传送到哥布林商店"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -286,7 +286,7 @@
 			}]
 		}
 		{
-			title: "Brobzagz Booties"
+			title: "布罗布扎格兹战利品店"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -315,7 +315,7 @@
 			rewards: [{
 				id: "68E7797EEB107FF8"
 				type: "custom"
-				title: "Teleport to Goblin Shop"
+				title: "传送到哥布林商店"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -327,7 +327,7 @@
 			}]
 		}
 		{
-			title: "Zruzz's Pickles and stuff"
+			title: "泽鲁兹的杂货铺"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -353,7 +353,7 @@
 			rewards: [{
 				id: "47B1FFE45699706E"
 				type: "custom"
-				title: "Teleport to Goblin Shop"
+				title: "传送到哥布林商店"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -374,7 +374,7 @@
 			tasks: [{
 				id: "4E787A7122CA6CDA"
 				type: "checkmark"
-				title: "Spawn"
+				title: "出生点"
 			}]
 			rewards: [
 				{
@@ -387,14 +387,14 @@
 				{
 					id: "7E959FB1BB78BFDA"
 					type: "custom"
-					title: "Go to Spawn"
+					title: "前往出生点"
 					icon: "minecraft:grass_block"
 					auto: "enabled"
 				}
 			]
 		}
 		{
-			title: "Ancient Runes Class"
+			title: "古代符文课"
 			icon: "hexcasting:artifact"
 			tags: [
 				"closegui"
@@ -403,7 +403,7 @@
 			disable_toast: true
 			x: -0.8809523809523796d
 			y: -2.7345238095238074d
-			subtitle: "Prof. Sunekaer"
+			subtitle: "苏卡尔教授"
 			hide: true
 			can_repeat: true
 			id: "2065EC4A9929C700"
@@ -416,7 +416,7 @@
 			rewards: [{
 				id: "0B7D361AD5D0608A"
 				type: "custom"
-				title: "Teleport to Ancient Runes Class"
+				title: "传送到古代符文课"
 				icon: {
 					id: "hexcasting:artifact"
 					Count: 1b
@@ -428,7 +428,7 @@
 			}]
 		}
 		{
-			title: "Roots \\& Nature's Aura Class"
+			title: "根源魔法和自然灵气课"
 			icon: "rootsclassic:runic_tablet"
 			tags: [
 				"closegui"
@@ -437,7 +437,7 @@
 			disable_toast: true
 			x: -3.107142857142847d
 			y: -6.841614906832305d
-			subtitle: "Prof. Loneztar"
+			subtitle: "隆泽塔教授"
 			hide: true
 			can_repeat: true
 			id: "75262D4FA3B40F1B"
@@ -450,7 +450,7 @@
 			rewards: [{
 				id: "167199215C1DD543"
 				type: "custom"
-				title: "Teleport to Roots \\& Nature's Aura Class"
+				title: "传送到根源魔法和自然灵气课"
 				icon: "rootsclassic:runic_tablet"
 				auto: "enabled"
 			}]
@@ -459,13 +459,13 @@
 			x: -17.5d
 			y: -10.0d
 			description: [
-				"Welcome to the interactive map of the Arcanum Institute, the renowned center of magical learning and discovery!"
+				"欢迎使用奥术学院的交互地图，著名的魔法学习和发现中心。"
 				""
-				"As you explore this wondrous institution, you will uncover its major key points and unlock hidden areas of knowledge."
+				"随着你探索这个令人惊奇的学府，你将会揭露其主要的关键地点和解锁知识的隐藏区域。"
 				""
-				"Please keep in mind that some locations may be currently unavailable or concealed until you fulfill certain conditions or progress further in your journey."
+				"请注意某些地点也许现在无法使用或者隐藏了，直到你在后续的旅途中完成特定的条件或者进度。"
 				""
-				"Let's embark on this adventure together!"
+				"让我们一起开始这场冒险吧！"
 			]
 			size: 5.0d
 			min_width: 275
@@ -473,7 +473,7 @@
 			tasks: [{
 				id: "7F9C4E990D72B913"
 				type: "checkmark"
-				title: "Map Information"
+				title: "地图信息"
 			}]
 			rewards: [{
 				id: "0DC5787A5F710831"
@@ -482,7 +482,7 @@
 			}]
 		}
 		{
-			title: "Beast Masters"
+			title: "野兽大师"
 			icon: "iceandfire:amphithere_skull"
 			tags: [
 				"closegui"
@@ -491,7 +491,7 @@
 			disable_toast: true
 			x: 2.2857142857142776d
 			y: 1.375d
-			subtitle: "Prof. Jake"
+			subtitle: "杰克教授"
 			hide: true
 			can_repeat: true
 			id: "41F836BB02211828"
@@ -504,7 +504,7 @@
 			rewards: [{
 				id: "0A4B41FFFB3AAC60"
 				type: "custom"
-				title: "Teleport to Beast Masters"
+				title: "传送到野兽大师课"
 				icon: "iceandfire:amphithere_skull"
 				tags: [
 					"beastmaster"
@@ -514,7 +514,7 @@
 			}]
 		}
 		{
-			title: "Dining Hall"
+			title: "大厅"
 			icon: "decorative_blocks:chandelier"
 			tags: [
 				"closegui"
@@ -535,13 +535,13 @@
 			rewards: [{
 				id: "68B6988C73DB4C5D"
 				type: "custom"
-				title: "Teleport to Grand Hall"
+				title: "传送到大厅"
 				icon: "decorative_blocks:chandelier"
 				auto: "enabled"
 			}]
 		}
 		{
-			title: "Magic Mischief Emporium"
+			title: "魔法捣蛋鬼百货商店"
 			icon: {
 				id: "minecraft:firework_rocket"
 				Count: 1b
@@ -557,7 +557,7 @@
 			x: -2.5d
 			y: -2.0d
 			shape: "pentagon"
-			description: ["The Magic Mischief Emporium, visit to unlock fast travel."]
+			description: ["魔法捣蛋鬼百货商店，访问来解锁快速旅行。"]
 			dependencies: ["08B62DE51ADF070A"]
 			hide: false
 			can_repeat: true
@@ -571,7 +571,7 @@
 			rewards: [{
 				id: "168030B3750794A9"
 				type: "custom"
-				title: "Teleport to Magic Mischief Emporium"
+				title: "传送到魔法捣蛋鬼百货商店"
 				icon: {
 					id: "minecraft:firework_rocket"
 					Count: 1b
