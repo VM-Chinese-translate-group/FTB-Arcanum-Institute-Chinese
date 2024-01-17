@@ -20,7 +20,7 @@
 				""
 				"我们十分荣幸邀请你来加入这支专属的学生干部队伍, 他们因对奥术的杰出的潜力和执着的热情而被选拔。你在精选出来的少数中脱颖而出，因已被委托去从事一个进入魔法领域的非凡旅行的机会"
 				""
-				"在我们的古老的城墙另一边坐落着一座圣殿，古代艺术的秘密和魔法的真正本质等待着你的造访。 在这里，想象力与现实交织，提供你一幅能在上面编织你的魔法抱负挂毯的画卷和探索神秘知识的深度。"
+				"在我们的古老的城墙另一边坐落着一座圣殿，古代艺术的秘密和魔法的真正本质等待着你的造访。在这里，想象力与现实交织，你能在画卷上面编织你的魔法抱负，探索神秘知识的深度。"
 				""
 				"在奥术学院，你的入学登记标志着开启一场非凡的冒险。与你的同学一起搭伙——一群像你一样的精英，都具有一点独一无二的闪光，注定会照亮通往伟大成就的道路。"
 				""
@@ -83,7 +83,7 @@
 			y: -8.0d
 			subtitle: "在大厅找到他"
 			description: [
-				"向你问候， 尊敬的&d奥术学院&r的学生！"
+				"大家好，各位&d奥术学院&r的学生！"
 				""
 				"我是&6塔兹大师&r，这个久负盛名的机构的校长。在我们开始这学期的时候，带你了解奥术学院的令人敬仰的学院是我的荣幸。这些与之对应的魔法的四个元素：土，气，火，和水。 "
 				""
@@ -95,7 +95,7 @@
 				""
 				"把你的注意力转移到the &4火之学院&r——一个具有热情的灵魂的锻造厂，点燃野心， 然后不懈追求伟大成就。"
 				""
-				"最后，&9水之学院&r象征适应性和协调，顺应优雅和直觉，操纵着奥数的起伏。"
+				"最后，&9水之学院&r象征适应性和协调，顺应优雅和直觉，操纵着奥术的起伏。"
 				""
 				""
 				"这个意愿&6决定你的校舍和你穿着的校服&r。让你的直觉指引你！"
@@ -147,7 +147,7 @@
 				""
 				"一旦你做好决定，花费一些时间来&6让自己熟悉&r你的校舍。与主要的学校场地不同，&6根据你的喜好调整这片区域&r是你的自由。"
 				""
-				"使用这片区域来获取课堂所需的材料， 搭建建构等。你的宿舍就是你的，无论用什么方式去使用，你觉得适合就好。"
+				"使用这片区域来获取课堂所需的材料，搭建结构等。你的宿舍就是你的，无论用什么方式去使用，你觉得适合就好。"
 			]
 			dependencies: ["5A666790188D5ACA"]
 			hide: true
@@ -359,11 +359,11 @@
 			description: [
 				"一旦你已经适应了你的校舍，再一次&b穿过传送门&r回到校园。"
 				""
-				"&c课程必须要以一个特定的顺序的完成。&r你不能只一头扎进最难的的课程！做事要循序渐进！"
+				"&c课程必须要以特定的顺序完成。&r你不能只一头扎进最难的的课程！做事要循序渐进！"
 				""
 				"[\"\",\"你可以在你的任务书中查看\",{\"text\":\"[ 进度 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30B1C2E28BD6FFAD\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"进度任务章节\"]}},\"章节来查看\",{\"text\":\"需要按照什么顺序去做什么事情。\",\"color\":\"gold\"}]"
 				""
-				"[\"\",\"如果你不能找到这节课，查看一下\",{\"text\":\"[ 交互地图 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"让我康康地图\"]}},\"! 它将会直接指引到每节课！一旦你曾来过这里，你也可以花费一些经验来直接传送到那里！\"]"
+				"[\"\",\"如果你不能找到这节课，查看一下\",{\"text\":\"[ 交互地图 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"显示地图\"]}},\"!它将会直接指引到每节课！一旦你曾来过这里，你也可以花费一些经验来直接传送到那里！\"]"
 				""
 				"你的老师们不仅仅是讲师还是导师，所以积极地参与课程并且寻求指导。"
 				""
@@ -498,7 +498,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[整合包] 解锁了 \",{\"text\":\"[ 自然的祝福 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2D203BFFF0EB7337\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open chapter\"]}},\"任务章节！\"]"
+				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[ 自然的祝福 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2D203BFFF0EB7337\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open chapter\"]}},\"任务章节！\"]"
 			}]
 		}
 		{
@@ -558,7 +558,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[整合包]解锁了\",{\"text\":\"[ 法术构造学 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 5DD2F65DABF3914C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" 任务章节！\"]"
+				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[ 法术构造学 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 5DD2F65DABF3914C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" 任务章节！\"]"
 			}]
 		}
 		{
@@ -857,7 +857,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[整合包]解锁了\",{\"text\":\"[ 古代符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2E0B8A32B6D87ADA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" 任务章节！\"]"
+				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[ 古代符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2E0B8A32B6D87ADA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" 任务章节！\"]"
 			}]
 		}
 		{
@@ -869,7 +869,7 @@
 			shape: "pentagon"
 			subtitle: "与杰克教授和波见面"
 			description: [
-				"&b杰克教授&r，和他的伙伴&b波&r,传授&d魔法野兽&r的艺术。"
+				"&b杰克教授&r，和他的伙伴&b波&r，传授&d魔法野兽&r的艺术。"
 				""
 				"这节课位于在有着&6双侧楼梯&r建筑的上方，靠近校园的中心。"
 				""
