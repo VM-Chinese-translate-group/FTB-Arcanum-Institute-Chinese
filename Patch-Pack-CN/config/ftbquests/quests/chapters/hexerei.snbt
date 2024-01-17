@@ -633,7 +633,7 @@
 		{
 			x: 8.25d
 			y: -5.25d
-			description: ["&b静脉剑&r增加你通过杀戮收集到的血液，默认带有抢夺II的附魔效果。"]
+			description: ["&b静脉剑&r使你杀戮时能收集到更多血液，默认带有抢夺II。"]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
 			size: 0.5d
