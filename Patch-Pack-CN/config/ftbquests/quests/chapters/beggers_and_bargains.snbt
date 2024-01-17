@@ -3,7 +3,7 @@
 	group: "2BF58BA9C4117D6D"
 	order_index: 1
 	filename: "beggers_and_bargains"
-	title: "Haaznek's Emporium"
+	title: "哈兹涅克的商店"
 	icon: "minecraft:iron_ingot"
 	disable_toast: true
 	default_quest_shape: ""
@@ -165,7 +165,7 @@
 			}]
 		}
 		{
-			title: "Botanical Flowers"
+			title: "植物魔法花朵包"
 			icon: "botania:red_mystical_flower"
 			x: 6.0d
 			y: 2.0d
@@ -182,21 +182,21 @@
 			rewards: [{
 				id: "739A9827078F009F"
 				type: "choice"
-				title: "Botanical Flowers"
+				title: "植物魔法花朵包"
 				icon: "botania:red_mystical_flower"
 				exclude_from_claim_all: true
 				table_id: 3165714084436691901L
 			}]
 		}
 		{
-			title: "Blood Magic Notes"
+			title: "血魔法笔记"
 			icon: {
 				id: "bloodmagic:upgradetome"
 				Count: 1b
 				tag: {
 					RepairCost: 0
 					display: {
-						Name: "{\"text\":\"Blood Magic Notes\"}"
+						Name: "{\"text\":\"血魔法笔记\"}"
 					}
 					livingStats: {
 						maxPoints: 0
@@ -209,11 +209,11 @@
 			}
 			x: 6.0d
 			y: 0.0d
-			subtitle: "Blood Magic Cheatsheet"
+			subtitle: "血魔法小抄"
 			description: [
-				"So, you wanted to cheat your way through Blood Magic?"
+				"所以，你想通过作弊完成血魔法课程？"
 				""
-				"Prof Saereth won't be pleased, but i won't tell anyone if you don't tell anyone either"
+				"萨拉斯教授对此是决不姑息的，但请放心你不告诉任何人，我也如此又怎么会被发现呢？"
 			]
 			dependencies: [
 				"4903CEB8C47D208D"
@@ -238,7 +238,7 @@
 					tag: {
 						RepairCost: 0
 						display: {
-							Name: "{\"text\":\"Blood Magic Notes\"}"
+							Name: "{\"text\":\"血魔法笔记\"}"
 						}
 						livingStats: {
 							maxPoints: 0
@@ -252,7 +252,7 @@
 			}]
 		}
 		{
-			title: "Novice Spell Book"
+			title: "初学者魔法书"
 			icon: "ars_nouveau:novice_spell_book"
 			x: 6.0d
 			y: 4.0d
@@ -276,7 +276,7 @@
 			}]
 		}
 		{
-			title: "Raw Iron"
+			title: "粗铁"
 			icon: "minecraft:raw_iron_block"
 			x: 8.0d
 			y: 2.0d
@@ -298,7 +298,7 @@
 			}]
 		}
 		{
-			title: "Arcane Ash"
+			title: "奥术灰烬"
 			icon: {
 				id: "bloodmagic:arcaneashes"
 				Count: 1b
@@ -349,7 +349,7 @@
 			}]
 		}
 		{
-			title: "Saddle"
+			title: "鞍"
 			icon: {
 				id: "minecraft:saddle"
 				Count: 1b
