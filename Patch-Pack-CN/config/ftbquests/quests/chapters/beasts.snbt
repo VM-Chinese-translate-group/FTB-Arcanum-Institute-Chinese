@@ -581,7 +581,7 @@
 			}
 			x: 4.5d
 			y: 3.5d
-			description: ["你做好了准备，是时候进军更高难度了。更难的传送门意味着更多的掉落。"]
+			description: ["你做好了准备，是时候进军更高难度了。更难的传送门意味着更多的掉落物。"]
 			hide_dependency_lines: true
 			dependencies: ["60CB78F73F0B9016"]
 			can_repeat: true
