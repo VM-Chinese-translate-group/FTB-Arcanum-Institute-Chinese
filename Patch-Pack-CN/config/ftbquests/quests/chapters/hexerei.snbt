@@ -1002,7 +1002,7 @@
 			x: 1.0d
 			y: -5.0d
 			shape: "pentagon"
-			subtitle: "与Prof. Aaronhowser见面"
+			subtitle: "与亚伦•豪瑟教授见面"
 			description: [""]
 			dependencies: ["63368A007664E4B5"]
 			id: "458348F2C81B8D6B"
