@@ -558,7 +558,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[Modpack] Unlocked the \",{\"text\":\"[ Fabrication Magique ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 5DD2F65DABF3914C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" quest chapter!\"]"
+				command: "/tellraw @p [\"\",\"[整合包]解锁了\",{\"text\":\"[ 法术构造学 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 5DD2F65DABF3914C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" 任务章节！\"]"
 			}]
 		}
 		{
@@ -857,7 +857,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[Modpack] Unlocked the \",{\"text\":\"[ Ancient Runes ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2E0B8A32B6D87ADA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" quest chapter!\"]"
+				command: "/tellraw @p [\"\",\"[整合包]解锁了\",{\"text\":\"[ 古代符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2E0B8A32B6D87ADA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open quest\"]}},\" 任务章节！\"]"
 			}]
 		}
 		{
