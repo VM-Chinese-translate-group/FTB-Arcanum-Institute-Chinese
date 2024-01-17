@@ -1009,7 +1009,7 @@
 			tasks: [{
 				id: "35C6647AF215CE37"
 				type: "location"
-				title: "找到Prof. Aaronhowser"
+				title: "找到亚伦•豪瑟教授"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
