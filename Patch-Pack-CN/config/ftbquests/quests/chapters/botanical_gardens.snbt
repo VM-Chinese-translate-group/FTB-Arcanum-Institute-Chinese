@@ -718,10 +718,10 @@
 			x: 8.0d
 			y: 2.5d
 			description: [
-				"Near the marvelous &bCorporea Index&r, a simple message is all you need to &6request items&r from connected inventories via the Corporea Spark above it.\\nWhether you ask for \"&632 Stone&r\" or \"&6half a stack of stone&r,\" the magic works!"
+				"奇妙的&b多媒体索引&r附近，你只需要一条简单的消息就可以，它上方的多媒体火花就可以从连接的库存&6请求物品&r。\\n无论你要的是“&632个石头&r”还是“&6半组石头&r”，魔法都会生效！"
 				""
 				""
-				"And here's the intriguing twist:\\ndespite the Index's lack of a physical inventory, you can safely place the Master Corporea Spark upon it without any loss of function.\\n\\nMagic, my dear students, knows no bounds! "
+				"有个有趣的事：\\n尽管索引没有实质上的库存，你仍可以放心将它放于主媒体火花之上，这不会失去任何功能。\\n\\n我亲爱的学生们，魔法，是永无止境的！"
 			]
 			dependencies: ["43BD4BB1CEFB356D"]
 			id: "63FD14AE7EDA04CA"
@@ -732,15 +732,15 @@
 			}]
 		}
 		{
-			title: "Corperea Crystal Cube"
+			title: "多媒体水晶魔方"
 			x: 8.0d
 			y: 4.5d
 			description: [
-				"Ah, my delightful apprentices, the &bCorporea Crystal Cube&r is a true marvel of our Botanical world!"
+				"啊，我的爱徒们，&b多媒体水晶魔方&r是我们植物学世界的真正奇迹！"
 				""
-				"With a simple right-click, it reveals the mystical secrets of the network, graciously &6displaying the quantity of a chosen item&r."
+				"只需右击，它就会揭开网络的秘密，礼貌地&6显示所选物品的数量&r。"
 				""
-				"And what's more, my dear scholars, the magic doesn't end there! The humble &6Comparator&r becomes a conduit of knowledge,\\nemitting a signal that waxes and wanes in harmony with the abundance of that chosen item within our enchanted network."
+				"亲爱的学者们，更重要的是，魔法远不止于此！谦虚的&6比较器&r成为了知识的通道，\\n发出的信号随我们网络中所选物品的丰富程度而起伏。"
 			]
 			dependencies: ["43BD4BB1CEFB356D"]
 			id: "7FB8C3A920B36A6A"
