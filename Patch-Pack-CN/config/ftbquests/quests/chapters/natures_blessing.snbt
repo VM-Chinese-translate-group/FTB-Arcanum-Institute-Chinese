@@ -394,7 +394,7 @@
 			icon: "naturesaura:infused_iron"
 			x: 6.25d
 			y: -5.0d
-			description: ["&bInfused Iron&r and &bTainted Gold&r are used in several recipes."]
+			description: ["&b灌注铁锭&r和&b污染黄金&r可以被用来多种配方。"]
 			dependencies: ["282B976F2593CEC6"]
 			id: "095D23F1BCE5FE6F"
 			tasks: [
@@ -427,9 +427,9 @@
 			y: -6.0d
 			subtitle: "制作一个射击标靶"
 			description: [
-				"The &bShooting Mark&r generates Aura when &6hit by a projectile&r. Certain projectiles produce more Aura than others."
+				"&b射击标靶&r在被&6投射物击中&r时会产生灵气。有些投射物产生的灵气比别的投射物产生的多。"
 				""
-				"You &ccan't just keep hitting the same side&r, however. Each side will have to be hit once before the first can be hit again."
+				"然而，你&c不能只射一个方向&r。每个方向被击中一次后，可以再一次射击不同方向。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -450,7 +450,7 @@
 		{
 			x: 6.0d
 			y: -6.5d
-			description: ["The &bSwamp Homi&r makes Aura by &6removing Moss from nearby blocks&r."]
+			description: ["&b沼泽之霍米&r通过&6移除附近方块上的苔藓&r来产生灵气。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -494,7 +494,7 @@
 					Count: 1b
 					tag: {
 						EntityTag: {
-							CustomName: "[{\"text\":\"Big Boy\"}]"
+							CustomName: "[{\"text\":\"大男孩\"}]"
 							Size: 40
 							Attributes: [
 								{
@@ -510,7 +510,7 @@
 							CustomNameVisible: 1b
 						}
 						display: {
-							Name: "[{\"text\":\"Big Boy Spawn Egg\",\"italic\":false}]"
+							Name: "[{\"text\":\"大男孩刷怪蛋\",\"italic\":false}]"
 						}
 					}
 				}
