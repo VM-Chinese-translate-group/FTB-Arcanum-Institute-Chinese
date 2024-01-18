@@ -27,7 +27,7 @@
 				""
 				"一旦你成功制造出了&6金叶&r，就要把它拿来进一步的研究。"
 				""
-				"迎接这迷人的挑战，并让&e自然灵气&r的魔力满足你的求知欲吧！"
+				"迎接这有趣的挑战，并让&e自然灵气&r的魔力满足你的求知欲吧！"
 			]
 			dependencies: ["00894E8821E62449"]
 			min_width: 300
@@ -69,7 +69,7 @@
 			x: 3.0d
 			y: -6.5d
 			description: [
-				"在探索迷人的&e自然灵气&r世界中，我们面临着一项有趣的任务。"
+				"在探索有趣的&e自然灵气&r世界中，我们面临着一项有趣的任务。"
 				""
 				"我建议你阅读有关&6森林仪式&r的书籍，在阅读过程中你会受到很多帮助。你也可以认真阅读&6自然灵气之书&r，就是我之前发给你的那本。"
 				""
@@ -102,17 +102,17 @@
 			y: -5.0d
 			subtitle: "制作自然祭坛"
 			description: [
-				"Our next enchanting task is the creation of a magnificent &bNatural Altar&r — an essential cornerstone of our magical practice."
+				"我们下一项有趣的任务是制造一个宏伟的&b自然祭坛&r————我们魔法实践所必须的一个基础。"
 				""
-				"To embark on this endeavor, I urge you to consult your &6Book of Natural Aura&r once more."
+				"让我们一起开始努力吧，首先我推荐你反复查阅&6自然灵气之书&r。"
 				""
-				"Additionally, our journey to the &bNatural Altar&r involves the crafting of &bInfused Rock&r."
+				"除此之外，我们制造&b自然祭坛&r就是为了制造&b灌注之石&r。"
 				""
-				"Once you have prepared both the &bNatural Altar&r and the &bInfused Rock,&r come back to me for the next Class."
+				"只要你准备好了&b自然祭坛&r和&b灌注之石,&r就在下节课开始前带给我。"
 				""
-				"I am eager to witness your progress in this magical pursuit. Remember, the key to success lies in patience, practice, and reverence for the natural world."
+				"我希望看到你在这项魔法探索中的进步。记住，耐心、实践和敬畏自然是成功的关键。"
 				""
-				"I would like to remind you, the Catalysts we use in &eNature's Aura&r belong on the lower &bGolden Stone Bricks&r, not under the Altar. This is not &eBotania&r you know."
+				"我还想提醒你的是，你要知道这不是&e植物魔法&r，所以我们使用&e自然灵气&r的催化器时是把它放在&b黄金石砖&r上方，而不是把它放在祭坛下方。"
 			]
 			dependencies: [
 				"3B29B9822D5248BD"
@@ -164,13 +164,13 @@
 			x: 2.75d
 			y: -5.75d
 			description: [
-				"The &bRitual of the Forest&r uses placed &bWooden Stands&r, &6Gold Powder&r, and a &6Sapling&r to craft certain items."
+				"使用&b森林仪式&r来制作物品需要放置&b木桩&r、&6金粉&r和一个&6树苗&r。"
 				""
-				"Place the above blocks as the &6Book of Natural Aura&r tells you to. You don't need all 8 Wooden Stands, but the ones you do have must be placed correctly."
+				"&6自然灵气之书&r会告诉你哪些方块放在哪里。虽然你不需要使用八个木桩，但是你必须摆放八个。"
 				""
-				"Insert ingredients onto the Stands. Once the Sapling in the center grows, both it and the Powder will disappear, and the item will be crafted."
+				"把材料放在木桩上。只要中间的树苗长大，周围的金粉就会消失，你就能制作出你想要合成的物品。"
 				""
-				"Rituals &cneed a specific Sapling&r to work. If it calls for an Oak Sapling, you can't use Birch, etc."
+				"不同仪式需要&c不同的树苗&r去驱动。如果叫你用橡树树苗，你就不能用白桦树苗之类的。"
 			]
 			dependencies: ["51F6ACC0A8B4CFA9"]
 			min_width: 250
@@ -190,7 +190,7 @@
 		{
 			x: 2.5d
 			y: -6.5d
-			description: ["While the &bEnvironmental Eye&r is in your inventory, you will be able to &6see the Aura in your surroundings&r in a gauge at the top left of your screen."]
+			description: ["只要你的&b环境之眼&r在你的快捷栏或者饰品栏，你就能够在你屏幕左上角看到一个&6周围环境的灵气&r的测量条。"]
 			hide_dependency_lines: true
 			dependencies: ["439711A12F1593A7"]
 			size: 0.5d
@@ -210,15 +210,15 @@
 			x: 2.75d
 			y: -4.0d
 			description: [
-				"&6Aura&r is a resource present in the atmosphere, depending on where you are. Some places have more Aura; some places have less."
+				"&6灵气&r是存在于环境中的资源。一些地方可能会有更多的灵气；而一些地方则更少，取决于你位于何处。"
 				""
-				"Some things will &6generate Aura&r, adding it to the local environment. Some things will &cuse it&r, draining it from the surroundings."
+				"有些东西能够在所在的环境中增加并&6产生灵气&r。有些东西则会在环境中&c消耗灵气&r。"
 				""
-				"Aura will naturally spread itself out. Places with high Aura will slowly bleed into places with low Aura, evening out between them."
+				"灵气也会在环境中自然的扩散。高灵气含量的地方就会缓慢的扩散到低灵气含量的地方，直至平均。"
 				""
-				"There are &cconsequences&r to having too much or too little Aura in an area. See the &6Aura Imbalance&r chapter of the book to see what can happen."
+				"如果一个区域有过多或者过少灵气将会有一些&c问题&r。可以看书中的&6灵气失衡&r章节，它会告诉你会发生什么。"
 				""
-				"Aura can be bottled using a &bBottle and Cork&r, for use in recipes."
+				"可以使用&b瓶和塞&r来瓶装灵气，用来暂存。"
 			]
 			dependencies: ["51F6ACC0A8B4CFA9"]
 			min_width: 250
@@ -277,9 +277,9 @@
 			y: -3.25d
 			subtitle: "制作一些效应粉"
 			description: [
-				"&bEffect Powder&r is required to enable certain Aura Imbalance effects and is capable of disabling others."
+				"&b效应粉&r能够抑制或实现灵气失衡时产生的效果。"
 				""
-				"Right-clicking will place the entire stack down. Its radius of effect is half the size of the placed stack."
+				"右击可以堆放在地上，它的作用半径是所堆放大小的一半。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["593F27D3FF233B37"]
@@ -351,7 +351,7 @@
 			x: 2.5d
 			y: -3.25d
 			subtitle: "制作任意灵气生成器"
-			description: ["All of the blocks here &6generate Aura&r. Most have their own quest as well, but you can use this to see them all together."]
+			description: ["这里所有的方块都能&6产生灵气&r。大多数生成器也都有自己的任务，但你也可以使用这个来同时查看它们。"]
 			hide_dependency_lines: true
 			dependencies: ["593F27D3FF233B37"]
 			size: 0.5d
@@ -372,9 +372,9 @@
 			x: 4.5d
 			y: -6.0d
 			description: [
-				"The &bAura Detector&r, used with a Comparator, allows you to &6detect the level of Aura around it&r."
+				"&b灵气探测器&r配合比较器来使用，可以让你&6探测环境中灵气的等级&r。"
 				""
-				"This signal could be used to trigger something that generates Aura."
+				"这些信号可以被用来激活一些东西来产生灵气。"
 			]
 			size: 0.5d
 			id: "3D5C5360C905D441"
