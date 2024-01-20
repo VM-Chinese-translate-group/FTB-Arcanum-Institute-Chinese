@@ -1026,9 +1026,9 @@
 			x: 1.0d
 			y: 3.25d
 			description: [
-				"Oh, the delightful &bDetector Luminizer&r, a touch of magic with a twist!"
+				"哦，使人开心的&b探测微光&r，一触即发的神奇魔力！"
 				""
-				"Much like its enchanting siblings, a &bDetector Luminizer&r carries the power to transport you to far-off places.\\n\\nBut here's the twist – it's a clever one!\\nWhen you activate it, it's not just about the journey;\\nit also &6lights up with a vibrant redstone signal&r, like a beacon of discovery!"
+				"就像它迷人的姊妹一样，&b探测微光&r也拥有将你带到遥远地方的能力。\\n\\n但是这有个不同——精巧的不同！\\n当你激活它时，它不仅是个普通的旅程；\\n它还会&6发出充满活力的红石信号&r，像是发现的灯塔！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["38FD3CD0CE2A3E1E"]
