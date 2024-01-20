@@ -780,19 +780,19 @@
 			x: 9.5d
 			y: -1.0d
 			description: [
-				"The splendid &bFlügel Tiara&r, a crown of magical flight and grace in the world of &bBotania&r!"
+				"华丽的&b天翼族之冠&r，使你在&b植物魔法&r世界中实现魔法飞行并保持优雅！"
 				""
-				"With this enchanting accessory adorning your head, you gain the power of &630 seconds of creative flight&r, granting you the freedom to soar through the skies.\\nAnd fear not, for even when your wings tire, a brief cooldown ensures you're ready to take flight once more."
-				""
-				""
-				"But that's not all! The Flügel Tiara offers even more maneuvers:"
-				""
-				"- When you find yourself in need of speed, simply sprint,\\n  and you'll execute a quick &6dash&r forward,\\n  making your flight even more exhilarating."
-				""
-				"- When it's time to descend gracefully from the heavens,\\n  just sneak while falling, and you'll begin to &6glide&r down,\\n  defying gravity and making a grand entrance or exit."
+				"在头上戴上这迷人的饰品，你会获得&630秒创造飞行&r的能力，自由翱翔天际。\\n别担心，即使你的翅膀累了，短暂的冷却时间也能使它再次展翅高飞。"
 				""
 				""
-				"So, my dear aviators, let the Flügel Tiara be your ticket to the skies, where creativity and grace converge in the enchanting world of &bBotania&r!"
+				"不仅如此！天翼族之冠还能提供更多的操作："
+				""
+				"- 当你发现自己需要速度时，只需疾跑，\\n然后你就能快速向前&6冲刺&r，\\n让你的飞行更加刺激。"
+				""
+				"- 当你要优雅从天而降时，\\n只需在下落过程中潜行，然后就能向下&6滑翔&r，\\n无视重力，隆重登场优雅退场。"
+				""
+				""
+				"所以，我亲爱的飞行员们，让天翼族之冠成为你翱翔天空的入场券。在&b植物魔法&r的世界，创意与优雅于此交汇！"
 			]
 			dependencies: ["0D5FF5BBE6EC9681"]
 			size: 0.5d
@@ -800,7 +800,7 @@
 			tasks: [{
 				id: "2C9B062393EBE358"
 				type: "item"
-				title: "Flügel Tiara"
+				title: "天翼族之冠"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -910,13 +910,13 @@
 			x: 12.0d
 			y: -4.0d
 			description: [
-				"Ah, the mysterious &bLoonium&r, a flower not for the faint of heart!"
+				"啊，神奇的&b聚宝花&r，这不适合胆小的人！"
 				""
-				"This enchanting blossom, while consuming a substantial amount of mana,\\npossesses the astonishing ability to &6summon formidable monsters&r from the depths of the unknown."
+				"虽然这朵迷人的花朵消耗大量魔力，\\n但却拥有惊人的能力，能从未知的深处&6召唤出可怕的怪物&r。"
 				""
-				"But here's the thrilling twist:\\n\\nthese summoned creatures are no ordinary foes;\\nthey are known to &6drop valuable dungeon loot&r, treasures of great significance!"
+				"但令人激动的是：\\n\\n这些被召唤的生物不是普通的敌人；\\n它们会&6掉落很有价值的战利品&r，这些是非常重要的宝藏！"
 				""
-				"So, my brave students, if you dare to harness the power of the &bLoonium&r, be prepared for a challenge that promises rich rewards.\\nMay your wits and magic guide you through this adventurous endeavor!"
+				"所以，我勇敢的学生们，如果你们敢于利用&b聚宝花&r的力量，准备好迎接丰厚的奖励所对应的挑战。\\n愿智慧和魔法指引你完成冒险！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["467B9515336B7593"]
@@ -933,12 +933,12 @@
 			x: 12.0d
 			y: -5.0d
 			description: [
-				"Ah, dear students,"
+				"哦，我亲爱的学生们，"
 				""
-				"Let me share the wonders of the &bAgricarnation&r with you!"
-				"This enchanting flower will joyfully harness Mana to accelerate the growth of nearby plants."
+				"让我来带你领略&b田园康乃馨&r的奇妙之处吧！"
+				"这种迷人的花朵会快乐地利用魔力，使附近植物生长得更快。"
 				""
-				"Isn't nature's magic simply marvelous?"
+				"难道大自然的神奇不令人惊叹吗？"
 			]
 			hide_dependency_lines: true
 			dependencies: ["467B9515336B7593"]
@@ -962,17 +962,17 @@
 			}]
 		}
 		{
-			title: "Everhealing Flower"
+			title: "永愈花"
 			x: 12.0d
 			y: -3.0d
 			description: [
-				"Oh, the &bFallen Kanade&r, a true testament to the harmonious magic of Botania!"
+				"啊，&b天降之奏&r，植物魔法和谐魅力的真实写照！"
 				""
-				"This magnificent flower, my dear students, possesses the remarkable ability to harness the mana's essence,\\nusing it to bestow the gift of regeneration upon those fortunate enough to stand nearby. "
+				"亲爱的学生们，这朵美丽的花拥有驾驭魔力精华的非凡能力，\\n将生命恢复赐予那些有幸站在附近的人。"
 				""
-				"It's as if the gentle embrace of nature itself is caressing and healing the very souls of players in its presence."
+				"就像大自然在温柔地抚摸并治愈玩家的灵魂。"
 				""
-				"With the &bFallen Kanade&r, we not only witness the beauty of our magical arts but also experience the benevolence they can bring to our world. "
+				"有了&b天降之奏&r，我们不仅见证了魔法艺术的美，还体验到它们给我们世界带来的仁慈。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["467B9515336B7593"]
@@ -989,9 +989,9 @@
 			x: 12.0d
 			y: -2.0d
 			description: [
-				"Ah, the enchanting &bRannuncarpus&r! "
+				"啊，神奇的&b手掌花&r！"
 				""
-				"This wondrous flower is quite the diligent helper.\\nYou see, it possesses the marvelous ability to &6place nearby dropped blocks&r with grace and precision.\\nIt's like having a diligent gardener at your side!"
+				"这种奇妙的花是你的好帮手。\\n你看，它有种神奇的能力，可以优雅又准确地&6放置周围掉落的方块&r。\\n这就像你身边多了个辛勤的园丁！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["467B9515336B7593"]
@@ -1008,9 +1008,9 @@
 			x: 0.25d
 			y: 3.5d
 			description: [
-				"Ah, the enchanting &bLuminizers&r, my magical marvels!"
+				"啊，迷人的微光，我的魔法奇迹！"
 				""
-				"With a gentle interaction with a &bLuminizer&r,\\nyou'll be whisked away to a special place, a &6bound Luminizer&r, carefully linked to your heart's desires.\\nImagine the possibilities!\\nYou can connect them in a series, creating a magical path that weaves through the very essence of the world, helping you traverse great distances and even take whimsical turns."
+				"只要与&b微光&r轻轻交互，\\n你就会被带到一个特殊的地方，一个根据你心意紧密&6绑定的微光&r。\\n想象这一切的可能性吧！\\n你可以将它们串联起来，创造出一条穿梭世界的神奇道路，帮助你穿越遥远的距离，甚至进行奇思妙想的转弯。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["081F0BB2BA499206"]
