@@ -44,7 +44,7 @@
 			rewards: [{
 				id: "234DD2F2ED0DE4D0"
 				type: "custom"
-				title: "传送到血魔法课"
+				title: "传送到血魔法教室"
 				icon: "bloodmagic:altar"
 				tags: ["bloodmagic"]
 				auto: "enabled"
@@ -73,7 +73,7 @@
 			rewards: [{
 				id: "063439730A73836D"
 				type: "custom"
-				title: "传送到植物魔法课"
+				title: "传送到植物魔法教室"
 				icon: "botania:mana_pool"
 				auto: "enabled"
 			}]
@@ -101,7 +101,7 @@
 			rewards: [{
 				id: "4E79652C4B6DECE3"
 				type: "custom"
-				title: "传送到新生魔艺课"
+				title: "传送到新生魔艺教室"
 				icon: "ars_nouveau:archmage_spell_book"
 				auto: "enabled"
 			}]
@@ -130,7 +130,7 @@
 			rewards: [{
 				id: "1DFC6702E5ACB0A0"
 				type: "custom"
-				title: "传送到神秘学课"
+				title: "传送到神秘学教室"
 				icon: "occultism:spirit_fire"
 				auto: "enabled"
 			}]
@@ -158,7 +158,7 @@
 			rewards: [{
 				id: "3C5F0C243A175FEE"
 				type: "custom"
-				title: "传送到魔法巫师课"
+				title: "传送到魔法巫师教室"
 				icon: "hexerei:mixing_cauldron"
 				auto: "invisible"
 			}]
@@ -416,7 +416,7 @@
 			rewards: [{
 				id: "0B7D361AD5D0608A"
 				type: "custom"
-				title: "传送到古代符文课"
+				title: "传送到古代符文教室"
 				icon: {
 					id: "hexcasting:artifact"
 					Count: 1b
@@ -450,7 +450,7 @@
 			rewards: [{
 				id: "167199215C1DD543"
 				type: "custom"
-				title: "传送到根源魔法和自然灵气课"
+				title: "传送到根源魔法和自然灵气教室"
 				icon: "rootsclassic:runic_tablet"
 				auto: "enabled"
 			}]
@@ -459,7 +459,7 @@
 			x: -17.5d
 			y: -10.0d
 			description: [
-				"欢迎使用奥术学院的交互地图，著名的魔法学习和发现中心。"
+				"欢欢迎使用著名的魔法学习与发现中心，奥术学院的可交互地图。"
 				""
 				"随着你探索这个令人惊奇的学府，你将会揭露其主要的关键地点和解锁知识的隐藏区域。"
 				""
@@ -504,7 +504,7 @@
 			rewards: [{
 				id: "0A4B41FFFB3AAC60"
 				type: "custom"
-				title: "传送到野兽大师课"
+				title: "传送到野兽大师教室"
 				icon: "iceandfire:amphithere_skull"
 				tags: [
 					"beastmaster"
