@@ -1028,7 +1028,7 @@
 			description: [
 				"哦，使人开心的&b探测微光&r，一触即发的神奇魔力！"
 				""
-				"就像它迷人的姊妹一样，&b探测微光&r也拥有将你带到遥远地方的能力。\\n\\n但是这有个不同——精巧的不同！\\n当你激活它时，它不仅是个普通的旅程；\\n它还会&6发出充满活力的红石信号&r，像是发现的灯塔！"
+				"就像它迷人的姊妹一样，&b探测微光&r也拥有将你带到遥远地方的能力。\\n\\n但是这有个不同——精巧的不同！\\n当你激活它时，它不仅是个普通的旅程；\\n它还会&6发出充满活力的红石信号&r，像是你发现的灯塔！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["38FD3CD0CE2A3E1E"]
@@ -1044,11 +1044,11 @@
 			x: 1.0d
 			y: 3.75d
 			description: [
-				"Ah, the whimsical &bFork Luminizer&r, where choices bloom like petals on a flower!"
+				"啊，看那奇思妙想的&b岔路微光&r，让选择像花瓣一样展开！"
 				""
-				"This unique Luminizer doesn't follow the conventional path.\\nInstead, it offers two distinct directions, determined by an &6Animated Torch&r hovering up to 2 blocks above or below it.\\nIt's like having a magical crossroad in the sky!"
+				"这种独特的微光不走寻常路。\\n相反，它提供了两个明显不同的方向，取决于它上下最多2格的&6活化红石火把&r。\\n这就像空中有个十字路口！"
 				""
-				"The Fork Luminizer doesn't bind itself to any specific destination. Instead, it watches the direction in which the Animated Torch points, and when you take the leap, it'll carry you to the Luminizer that shares that direction. It's like a journey guided by the dance of animated light!"
+				"岔路微光不会将自己绑定到任何特定的目的地。相反，它会观察活化红石火把所指的方向。当你飞跃时，它会将你带到所指方向的微光那里。这就像活化之光引导的旅行！"
 				""
 				"{image:ftbai:textures/quests/botania/fork_luminizer.png width:150 height:75 align:1}"
 			]
@@ -1072,11 +1072,11 @@
 			x: 1.5d
 			y: 3.75d
 			description: [
-				"Oh, the fantastic &bLuminizer Launcher&r, a true marvel of magical transportation!"
+				"哦，有趣的&b微光发射器&r，魔法交通的真正奇迹！"
 				""
-				"Imagine this, dear students: with a simple touch of a redstone signal, the Luminizer Launcher springs to life.\\nIt becomes a beacon of transportation, inviting nearby entities – be they players, curious mobs, or even precious items – to embark on an enchanting journey!"
+				"亲爱的同学们，想象一下：只要轻触一下红石信号，微光发射器就会变得忙碌起来。\\n它将成为个交通信号灯，来邀请附近的实体——无论是玩家，好奇的生物甚至珍贵的掉落物——来踏上这段迷人的旅途吧！"
 				""
-				"Once the signal is given, these lucky travelers will find themselves riding an adjacent Luminizer, carried away to mysterious and exciting destinations.\\nIt's like a grand invitation to explore the hidden wonders of the world of &bBotania&r!"
+				"一旦信号发出，幸运的旅行者会发现他们乘上了附近的微光，被带往神奇的目的地。\\n这就像张隆重的邀请信，邀请你探索&b植物魔法&r世界隐藏的奇迹！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["38FD3CD0CE2A3E1E"]
@@ -1092,12 +1092,12 @@
 			x: 1.5d
 			y: 3.25d
 			description: [
-				"Ah, the enchanting &bToggle Luminizer&r, a twist of magic that adds a dash of surprise!"
+				"啊，迷人的&b激活微光&r，妙趣横生，惊喜连连！"
 				""
-				"Just like its Luminizer cousins, the &bToggle Luminizer&r will transport you to wondrous places with a interaction.\\n\\nBut here's where it gets intriguing – when it senses a &6redstone signal&r, it becomes mischievous and playfully drops any riders it may have, just like a magician revealing a hidden trick!"
+				"正如它的姊妹微光，与&b激活微光&r交互可将你带至绝妙的地方。\\n\\n但它还有另外一些有趣的地方——当它感受到&6红石信号&r，它就会变得调皮，调皮地将它的乘客丢掉，就像是魔术师揭露自己的小把戏一样！"
 				""
 				""
-				"So, be prepared for a journey full of surprises, my dear students.\\n\\nAs you ride the Toggle Luminizer, keep an eye out for redstone signals that might lead to unexpected adventures. It's like a dance of enchantment and intrigue in the world of &bBotania&r!"
+				"所以，我亲爱的学生们，为那充满惊喜的旅程做好准备吧。\\n\\n在你乘坐激活微光时，留心红石信号，这也许会给你带来一段意想不到的冒险。在&b植物魔法&r的世界里，这就像一场迷人的舞蹈！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["38FD3CD0CE2A3E1E"]
@@ -1110,18 +1110,18 @@
 			}]
 		}
 		{
-			title: "Burning Love"
+			title: "炽烈的爱"
 			x: 5.0d
 			y: -5.5d
-			subtitle: "Get 8 Endoflames"
+			subtitle: "得到8株火红莲"
 			description: [
-				"Ah, the &bEndoflame&r; a fun and flamey curiosity!"
+				"啊，火红莲；火趣盎然的好奇心！"
 				""
-				"This fascinating botanical marvel &6harnesses the power of combustion to create Mana&r. It eagerly consumes &6any burnable item&r. The hotter the fuel burns, the more satisfied the Endoflame is, and the more Mana it releases."
+				"这迷人的植物学奇迹&6利用燃烧的力量以创造魔力&r。它渴望吞噬&6任何可燃烧的物品&r。燃料燃烧得越旺盛，火红莲就越满足，释放出的魔力也就越多。"
 				""
-				"It's like a hungry flame that dances with increasing intensity as it feasts on the offerings of the world."
+				"它就像一团饥饿的火焰，在享用世间的供品时，尽情地舞动。"
 				""
-				"Fun Fact: I always keep one in my bag. You never know when you'll need to roast marshmallows on the fly."
+				"趣闻：我总是在包中留一株。你永远都不知道飞行的时候什么时候需要烤棉花糖。"
 				""
 				"{image:ftbai:textures/quests/botania/endo_auto.png width:100 height:117 align:1}"
 			]
