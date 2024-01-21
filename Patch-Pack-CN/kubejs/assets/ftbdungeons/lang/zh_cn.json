@@ -30,7 +30,7 @@
     "ftbdungeons.messages.player_left": "玩家'%s'离开了地牢且无法再回头！",
     "ftbdungeons.messages.failed": "'%s'挑战失败！",
     "ftbdungeons.details.type": "地牢类型：%s",
-    "ftbdungeons.details.team_name": "队伍名称%s",
+    "ftbdungeons.details.team_name": "队伍名称：%s",
     "ftbdungeons.details.entry_pos": "玩家出生点坐标：%s",
     "ftbdungeons.details.status": "地牢状态：%s",
     "ftbdungeons.details.started": "开始时间：%s",
