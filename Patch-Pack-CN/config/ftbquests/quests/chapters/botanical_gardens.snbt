@@ -684,7 +684,7 @@
 			}]
 		}
 		{
-			title: "Corperea Spark Networks"
+			title: "多媒体火花网络"
 			icon: "botania:corporea_spark_master"
 			x: 8.5d
 			y: 3.5d
@@ -714,7 +714,7 @@
 			]
 		}
 		{
-			title: "Corperea Index"
+			title: "多媒体索引"
 			x: 8.0d
 			y: 2.5d
 			description: [
@@ -766,7 +766,7 @@
 			tasks: [{
 				id: "7365C1D52E5A45BC"
 				type: "item"
-				title: "Sparks"
+				title: "火花"
 				item: {
 					id: "itemfilters:id_regex"
 					Count: 1b
@@ -929,7 +929,7 @@
 			}]
 		}
 		{
-			title: "Speeding up Cropgrowth"
+			title: "加速作物生长"
 			x: 12.0d
 			y: -5.0d
 			description: [
@@ -985,7 +985,7 @@
 			}]
 		}
 		{
-			title: "Sticky Hands"
+			title: "粘手"
 			x: 12.0d
 			y: -2.0d
 			description: [
@@ -1926,7 +1926,7 @@
 			}]
 		}
 		{
-			title: "活石的交易"
+			title: "活石交易"
 			x: 1.0d
 			y: -3.5d
 			description: ["在我的实验中也会使用一点&b活石&r。如果你给我制作点活石，我会给你点回报，并提高一点你的成绩。"]
@@ -1955,13 +1955,13 @@
 			}]
 		}
 		{
-			title: "Trade in Livingwood"
+			title: "活木交易"
 			x: -1.0d
 			y: -3.5d
 			description: [
-				"If you are looking for extra credit, I am happy too oblige. I need a steady supply of &bLivingwood&r for my various experiments. "
+				"如果你想获得一些额外的奖励，我很乐意帮助你。我的各种实验需要源源不断的&b活木&r。"
 				""
-				"I could make it myself, of course, but allowing students to bring it to me gives you extra practice, and me a little extra time to work on other things."
+				"当然，这种事我自己就可以做，但是让学生替我完成可以使他们获得额外的练习机会，我也有额外的时间做其他事。"
 			]
 			dependencies: ["0459E7180318826B"]
 			optional: true
@@ -1998,9 +1998,9 @@
 			x: 2.5d
 			y: -2.25d
 			description: [
-				"Did you know? By default, the &bBotanic Smelter&r accepts items on both sides. If you open the Controller, you can set specific Pedestals to either IN or OUT"
+				"你知道吗？默认情况下&b植物学熔炉&r可以双向接受物品。如果你打开控制器，你可以将特定基座设置为输入（IN）或输出（OUT）"
 				""
-				"&cNOTE&r: Due to a bug in the mod, If you're playing on a server, this function will need you to load up a Singleplayer world once (to load the files correctly). Afterwards this works on Multiplayer aswell."
+				"&c注意&r：由于该mod的bug，如果你在服务器游玩，你需要先在单人游戏世界中加载一次此功能（以正确加载文件）。之后此功能也能在多人游戏中正常使用。"
 				""
 				"{image:ftbai:textures/quests/botania/botanic_smelter.png width:125 height:170 align:1}"
 			]
@@ -2010,7 +2010,7 @@
 			tasks: [{
 				id: "2FD11848AEFD81BC"
 				type: "checkmark"
-				title: "Configuring the Botanic Smelter"
+				title: "配置植物学熔炉"
 			}]
 			rewards: [{
 				id: "2CB3484CE3113C8C"
@@ -2029,16 +2029,16 @@
 			x: 5.0d
 			y: -2.25d
 			description: [
-				"Did you know? The Botanic Smelter accepts a few additional blocks in the multiblock."
+				"你知道吗？植物学熔炉多方块结构可以接受一些额外的方块。"
 				""
 				""
-				"&lFor example&r:"
+				"&l例如&r："
 				""
-				"Hoppers underneath the Pedestals"
+				"基座下的漏斗"
 				""
-				"All Manapools are acceptable"
+				"所有魔力池都可接受"
 				""
-				"Catalysts underneath Manapool"
+				"魔力池下的催化器"
 			]
 			dependencies: ["30F12709B6842237"]
 			size: 0.5d
@@ -2046,7 +2046,7 @@
 			tasks: [{
 				id: "3FB1BECF79728D66"
 				type: "checkmark"
-				title: "Additional Blocks"
+				title: "额外方块"
 			}]
 			rewards: [{
 				id: "495B0EE8BB162CD6"
