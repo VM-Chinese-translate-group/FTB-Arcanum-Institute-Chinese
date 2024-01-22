@@ -1,7 +1,7 @@
 {
 	id: "2BEEE02FE74CCBBD"
 	order_index: 2
-	title: "Botania Flowers"
+	title: "植物魔法神秘花"
 	loot_size: 1
 	rewards: [
 		{ item: "botania:orange_mystical_flower", count: 4 }

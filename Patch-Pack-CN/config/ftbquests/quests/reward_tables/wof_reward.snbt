@@ -1,7 +1,7 @@
 {
 	id: "4203CC33F54D9C45"
 	order_index: 12
-	title: "WoF_reward"
+	title: "森林法杖任务奖励"
 	loot_size: 1
 	rewards: [
 		{

@@ -1,7 +1,7 @@
 {
 	id: "369282C4B8FBA7F4"
 	order_index: 13
-	title: "Hostile Spawn Eggs"
+	title: "敌对生物刷怪蛋"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:blaze_spawn_egg" }

@@ -1,7 +1,7 @@
 {
 	id: "4A0D72DD9B268010"
 	order_index: 20
-	title: "Runes"
+	title: "符文"
 	icon: {
 		id: "bloodmagic:speedrune"
 		Count: 1b

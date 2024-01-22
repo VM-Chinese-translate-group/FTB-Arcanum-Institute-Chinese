@@ -1,7 +1,7 @@
 {
 	id: "68E1D70FD6FBCAA3"
 	order_index: 21
-	title: "Sword Books"
+	title: "剑附魔书"
 	icon: {
 		id: "minecraft:enchanted_book"
 		Count: 1b
