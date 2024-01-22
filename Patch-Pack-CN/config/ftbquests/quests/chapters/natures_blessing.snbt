@@ -471,11 +471,11 @@
 			x: 6.0d
 			y: -7.0d
 			description: [
-				"The &bOffshoot Observer&r generates Aura &6when Slimes or Magma Cubes split&r nearby."
+				"&b分裂观测仪&r从&6史莱姆或岩浆怪分裂过程中&r产生灵气。"
 				""
-				"Larger ones produce more Aura, and Magma Cubes produce more than Slimes."
+				"大型岩浆怪/史莱姆分裂产生的灵气高于中型岩浆怪/史莱姆分裂产生的灵气，同等体型下岩浆怪分裂产生的灵气高于史莱姆分裂产生的灵气。"
 				""
-				"The Offshoot Observer &cmust discharge&r before it will produce more Aura. Any more splits during this time will be wasted."
+				"分裂观测仪在它产生更多的灵气之前&c必须消耗之前的&r。如果不这样做将会浪费很多分裂产生的灵气。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -520,11 +520,11 @@
 			x: 6.5d
 			y: -7.0d
 			description: [
-				"The &bDisentangler of Mortals&r will &6generate Aura when an animal dies nearby&r."
+				"&b凡俗解脱之物&r在&6附近的动物死亡时产生灵气&r。"
 				""
-				"A mob killed in this way &cwill not drop blocks&r. Additionally, the Disentangler &6takes some time to discharge&r, and killing more animals during this time will waste both the Aura and the drops."
+				"用这种方式杀死动物&c将无法获得其掉落物&r。值得注意的是，凡俗解脱之物需要&6花费一些时间去转换灵气&r，如果在这期间杀死动物将不能产生灵气和获得其掉落物。"
 				""
-				"Animals that were &6alive longer&r generate more Aura, maxing out at around an hour and a half."
+				"动物&6活的时间越长&r被转换的灵气也就越多，最佳生长时长为一个半小时。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -539,7 +539,7 @@
 		{
 			x: 6.5d
 			y: -6.5d
-			description: ["The &bCanopy Diminisher&r &6prevents Oak Saplings from growing into the larger trees&r, and &6generates Aura&r as a byproduct."]
+			description: ["&b树冠减光器&r可以&6阻止橡树树苗长成超大树&r，并且在树苗长大时&6产出灵气&r。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -554,9 +554,9 @@
 			x: 6.5d
 			y: -6.0d
 			description: [
-				"The &bHerbivorous Absorber&r &6generates Aura&r by consuming nearby Overworld flowers."
+				"&b草食性吸收器&r通过消耗附近的花朵&6产出灵气&r。"
 				""
-				"The more of a single flower it consumes, the &cless Aura is created&r. To fully cycle, it has to consume 6 different flower types."
+				"给同样的花朵将会造成&c提供的灵气越来越少&r，如果要达到满效率需要至少6朵不同种类的花。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -571,7 +571,7 @@
 		{
 			x: 6.0d
 			y: -4.0d
-			description: ["Using a &bMystical Magnifier&r on a machine will &6show its work-area&r. Use it again to hide it."]
+			description: ["对着机器使用&b奥秘放大镜&r将会&6显示机器的工作范围&r。再使用一次隐藏范围。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -586,13 +586,13 @@
 			x: 6.5d
 			y: -4.0d
 			description: [
-				"The &bImperceptible Builder&r can &6place blocks up to 5 blocks away from itself&r. It will place blocks from the inventory above itself."
+				"&b无感知建造器&r可以&6以它为中心5格以内的区域（11X11X11）放置方块&r。无感知建造器会放置其顶部容器中的方块。"
 				""
-				"To choose where they're placed, &6attach an Item Frame&r with the block you want them to be placed on."
+				"要想指定容器内方块摆放在什么方块上，需要在瞬息建造器上摆放一个&6物品展示架&r并将你想指定的方块挂在物品展示架上。"
 				""
-				"That is, to place blocks on nearby Cobblestone, place Cobblestone in an Item Frame on the Builder."
+				"例如，要在附近放置圆石就把圆石放在物品展示架上就行。"
 				""
-				"A &6Farming Stencil&r in an Item Frame will place it on nearby Farmland. The Builder can be disabled with a Redstone signal."
+				"把&6耕作模板&r放在物品展示架上无感知建造器就可以在附近放置耕地。提供红石信号可使其停止工作。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -614,9 +614,9 @@
 			x: 6.5d
 			y: -3.5d
 			description: [
-				"When near an &bItem Grounder&r, players cannot pick up items unless they are sneaking."
+				"当附近有&b物品束缚器&r时，玩家只能靠潜行捡起物品。"
 				""
-				"Its effective range is dependent on the strength of the Redstone signal it is given."
+				"它的有效范围取决于它的红石信号强度。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -633,11 +633,11 @@
 			x: 6.0d
 			y: -3.5d
 			description: [
-				"The &bAdept Hopper&r is a bit faster than the normal one, and can be &6filtered&r by attaching Item Frames with the items you want in them."
+				"&b专家型漏斗&r比普通漏斗的传输速度更快一点，而且在专家型漏斗任意面放上物品展示架然后在展示架中放入想要&6过滤&r的物品，则专家型漏斗只会让被标记的物品通过。"
 				""
-				"Sneak right-clicking it will turn its filtering into a &6blacklist&r rather than a whitelist, refusing the items in its Frames."
+				"潜行右击专家型漏斗将会把过滤模式转换为&6黑名单&r，拒绝让展示架中的物品通过。"
 				""
-				"The &bHopper Enhancement&r, if placed atop a Hopper (either a normal one or an Adept one), will allow it to pick up items from 7 blocks away. This costs a bit of Aura."
+				"如果把&b漏斗增强器&r放在漏斗顶部（普通漏斗或者专家型漏斗），就可以使漏斗收集以漏斗增强装置为中心 15×15×15 范围内的掉落物。 这个过程会消耗一点点灵气。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -667,13 +667,13 @@
 			x: 6.0d
 			y: -3.0d
 			description: [
-				"&bTools&r and &bArmor&r made of &bInfused Iron&r have several special functions."
+				"由&b灌注铁锭&r制成的&b工具&r和&b盔甲&r有很多特殊功能。"
 				""
-				"For instance, the Pickaxe can make blocks Mossy, and the Axe can quickly break Leaves."
+				"例如：镐子可以让某些方块变成苔藓方块，斧头可以快速破坏树叶。"
 				""
-				"When wearing the full set of armor, anything that attacks you will receive Withering."
+				"如果穿了一整套盔甲会让攻击者受到凋零效果。"
 				""
-				"While standing still and sneaking, these items will &6repair themselves&r from Aura in any Aura Cache in your inventory."
+				"在站立和潜行时，这些物品会使用快捷栏中的灵气缓存中的灵气&6自我修复&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -1312,9 +1312,9 @@
 			y: -4.0d
 			subtitle: "别像任（人名）一样！"
 			description: [
-				"So it seems you used up all your &bBrilliant Fiber&r? Here grab some more!"
+				"看起来你已经用完了所有的&b闪耀纤维&r？在这里，你还能再搞一些！"
 				""
-				"Be sure to not use it all up tho!"
+				"这次一定不要全部用完！"
 			]
 			dependencies: ["00894E8821E62449"]
 			hide: true
@@ -1344,9 +1344,9 @@
 			y: -3.0d
 			subtitle: "别像任（人名）一样！"
 			description: [
-				"This is getting quite ridiculous. This will be the final &bBrilliant Fiber&r i'll be giving out!"
+				"这可能听起来无法让人相信，因为这将是我最后一次给你发放&b闪耀纤维&r！"
 				""
-				"If you still manage to lose all of them, i have heard that &6Ibsaeng&r has been selling these lately."
+				"如果你还是想千方百计的消耗它们，我听说最近&6艾普信&r那边有卖一点这个。"
 			]
 			dependencies: ["58C439D69B9417AB"]
 			hide: true
