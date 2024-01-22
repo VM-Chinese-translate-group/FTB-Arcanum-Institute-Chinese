@@ -3,13 +3,13 @@
 	group: "2BF58BA9C4117D6D"
 	order_index: 0
 	filename: "info"
-	title: "    >> INFO <<"
+	title: "    >>通知<<"
 	default_quest_shape: "gear"
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	quests: [
 		{
-			title: "Goblin Shops at School"
+			title: "学院中的哥布林商店"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -20,26 +20,26 @@
 			x: -2.0d
 			y: -3.5d
 			description: [
-				"Attention, students! "
+				"各位同学，请注意！"
 				""
-				"I have some exciting news for all of you. There are four Goblin Shops located around our campus, and they offer a unique opportunity for you to trade your monster drops for magical items."
+				"我有些好消息要告诉你们。我们学院周围共开设了四个哥布林商店，通过收集怪物掉落物，你将有机会与它们交易得到魔法物品。"
 				""
-				"These Goblin Shops are renowned for their extensive selection of enchanted artifacts, potions, and other mystical goods."
+				"这些哥布林商店有许多魔法相关的工艺品、药水和材料可供选择。"
 				""
-				"Now, students, remember to consult your Journal once you're near any of these Goblin Shops. "
+				"现在记好了同学们，如果你有幸发现了这些商店，别忘了查询一下你的笔记。"
 				""
-				"Your Journal will guide you on the specific monster drops each shop is interested in, as well as the magical items they offer in exchange."
+				"你的笔记上会显示各个哥布林商店会收购哪些怪物掉落物，又会售卖哪些商品。"
 				""
-				" Keep an eye out for new opportunities to upgrade your equipment and expand your magical repertoire."
+				"最好时刻留意并抓住能够升级装备和增长魔法见识的机会。"
 				""
-				"Happy adventuring and may your trades with the goblins be prosperous!"
+				"最后祝大家冒险愉快，祝各位能够通过哥布林商店的交易变得更强！"
 			]
 			min_width: 350
 			id: "34CEE1916FB0B6B5"
 			tasks: [{
 				id: "0F8BB36756CA12BA"
 				type: "checkmark"
-				title: "This is Temporary"
+				title: "临时通知"
 			}]
 		}
 		{
@@ -53,27 +53,27 @@
 			x: -2.0d
 			y: -2.0d
 			description: [
-				"&lGreetings, my dear students&r,"
+				"&l我亲爱的学生们，你们好啊&r，"
 				""
-				"Exciting news awaits you!"
+				"等不及要告诉你这个好消息了！"
 				""
-				"Our spectral friend, the local ghost, &bGhostipedia&r, residing in the Dining Hall, has taken on a culinary venture."
+				"&b小幽灵&r，居住在大厅的幽冥伙伴，最近和它的朋友们踏上了一场追寻烹饪奥秘的冒险。"
 				""
-				"They now offer a delightful array of magical foods, lovingly crafted to satisfy all your cravings."
-				"Whether you seek scrumptious snacks, savory delights, or sweet treats, their shop, aptly named &l&4Foods 'N Munchies&r, has it all!"
+				"现在，它们开始售卖一系列让人垂涎欲滴的魔法菜肴，能够满足你的一切饮食需求。"
+				"无论你是想带些便携的零食，还是想点个主食大快朵颐，又或者是来点美味的甜点，&l&4幽灵厨房&r总能满足你的需求！"
 				""
-				"To discover the magical wonders of Foods 'N Munchies, simply approach the friendly ghost and strike up a conversation."
+				"想要探索幽灵厨房的秘密，只需靠近这只小幽灵并和它发起对话。"
 				""
-				"They will be delighted to share their magical menu and assist you in choosing the perfect treats to suit your tastes."
+				"它们非常乐于向你介绍它们研发的魔法菜单，并帮助你从中挑选出你的最爱。"
 				""
 				""
-				"Bon appétit and happy munching, my curious and adventurous students! May Foods 'N Munchies become your go-to destination for delightful culinary discoveries. Enjoy!"
+				"我亲爱的学生们啊，希望这些菜肴能够让你们胃口大开! 也希望幽灵厨房能够成为迎接你们冒险归来的幸福港湾！"
 			]
 			id: "1AA0BD0C407DD260"
 			tasks: [{
 				id: "1356D4F63005DBC9"
 				type: "checkmark"
-				title: "Food 'N Munchies!"
+				title: "新店开业！"
 			}]
 		}
 	]
