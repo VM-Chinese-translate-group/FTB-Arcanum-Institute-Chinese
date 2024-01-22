@@ -22,7 +22,7 @@
     "ftbdungeons.clicky.details": "地牢情报",
     "ftbdungeons.messages.dungeon_locked": "%s的合作入口已被锁定！\n其余玩家不得进入！",
     "ftbdungeons.messages.dungeon_unlocked": "%s的合作入口已重新开启！\n未挑战的玩家可以再次尝试进入！",
-    "ftbdungeons.messages.eject_in_seconds": "即将离开地牢：%d\\s",
+    "ftbdungeons.messages.eject_in_seconds": "即将离开地牢：%ds",
     "ftbdungeons.messages.dungeons": "=== 共有%d个地牢 ===",
     "ftbdungeons.messages.pruning": "计划将在下次服务器重启时删除%s个已失效的地牢",
     "ftbdungeons.messages.preparing": "正在创建地牢：%s",
