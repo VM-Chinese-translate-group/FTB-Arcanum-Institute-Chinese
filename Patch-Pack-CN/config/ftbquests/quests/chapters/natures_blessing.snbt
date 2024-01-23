@@ -787,7 +787,7 @@
 			x: 6.5d
 			y: -3.0d
 			subtitle: "制作一个灵气缓存"
-			description: ["The &bAura Cache&r &6stores Aura&r so items can use it. It is charged in the Natural Altar."]
+			description: ["&b灵气缓存&r可以&6存储灵气&r并且可以供给灵气工具使用。把灵气缓存放在自然祭坛上就能充能。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -819,11 +819,11 @@
 			x: 8.25d
 			y: -3.0d
 			description: [
-				"When provided a redstone signal, the &bLamp of Sanctuary&r &6prevents monsters from spawning&r."
+				"当提供红石信号时，&b圣域之灯&r就可以&6阻止敌对生物生成&r。"
 				""
-				"The range depends on the strength of the signal, maxing out at &648 blocks away&r."
+				"圣域之灯的作用范围取决于红石信号强度，且最大范围不超过&648格&r。"
 				""
-				"Each time it prevents a spawn, it &6uses a bit of Aura&r."
+				"每次阻止敌对生物生成就会&6消耗一点点灵气&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -839,9 +839,9 @@
 			x: 8.5d
 			y: -3.5d
 			description: [
-				"The &bStaff of Shadows&r will allow you to &6see dark spots&r where monsters can spawn, even &6through walls&r."
+				"&b阴影之杖&r可以让你&6看到黑暗区域&r是否会生成敌对生物，即使是&6隔着墙&r。"
 				""
-				"It has a range of about 30 blocks, lasts 30 seconds, and requires Aura from a Cache."
+				"它的可视范围是30格，且能持续30秒，但是必须使用灵气缓存供能。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -856,7 +856,7 @@
 		{
 			x: 8.0d
 			y: -3.5d
-			description: ["The &bStaff of Riches&r will use a bit of Aura from your Cache to &6highlight the location of nearby Chests&r."]
+			description: ["&b财富之杖&r会使用灵气缓存中的灵气并且&6高亮显示附近的箱子&r。"]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
 			size: 0.5d
@@ -873,11 +873,11 @@
 			x: 8.0d
 			y: -4.0d
 			description: [
-				"The &bShifting Sundial&r allows you to &6change the time of day&r at a rather significant cost of Aura, depending on the amount skipped."
+				"&b移时日晷&r可以让你&6改变时间&r，但这需要消耗大量灵气，灵气消耗量取决于快进的时间。"
 				""
-				"To choose the time of day, place a &bHand of Time&r into an Item Frame on the Sundial and rotate it. The default position is midnight."
+				"把&b时间之手&r放在移时日晷的物品展示架上并且旋转它就可以选择时间。它默认位置是午夜。"
 				""
-				"To trigger it to start, drop a Clock nearby."
+				"要想触发它必须在旁边丢一个时钟。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -905,11 +905,11 @@
 			x: 8.5d
 			y: -4.0d
 			description: [
-				"The &bCloudshifter&r uses Aura to &6change the weather&r, depending on an item dropped nearby."
+				"&b移云器&r使用灵气来&6改变天气&r，灵气的消耗量取决于附近丢置的物品数量。"
 				""
-				"&6Sunflowers&r make it sunny, &6Dark Prismarine&r makes it rainy, and &6Fire Charges&r make it storm."
+				"&6向日葵&r可以改为晴天，&6暗海晶石&r可以改为雨天，&6火焰弹&r可以改为雷雨天。"
 				""
-				"The more dropped, the longer the weather will last, but also increases the Aura cost."
+				"丢置的越多，天气持续的时间越长，但花费的灵气也越多。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -960,13 +960,13 @@
 			x: 8.25d
 			y: -5.0d
 			description: [
-				"The &bOffering Table&r is the focus of another multiblock, which is used to craft new items."
+				"&b祭祀台&r是另一个重要的多方快结构，它可以用来创造新的物品。"
 				""
-				"See the Book on how it is constructed."
+				"在书中查看其如何搭建。"
 				""
-				"To use the Offering Table, &6insert any amount of the main ingredient&r and then throw a &bSpirit of Calling&r on or near it."
+				"&6放入任意数量的主要材料&r并且在附近丢一个&b呼唤之魂&r就可以使用祭祀台。"
 				""
-				"It costs the same to craft 64 of an item as it does 1, so it is recommended to craft in bulk."
+				"祭祀台创造一个物品和创造64个物品的花费都是相同的，所以我建议你批量放入材料。"
 			]
 			dependencies: ["095D23F1BCE5FE6F"]
 			id: "54191E5A6BFAD3A1"
@@ -980,11 +980,11 @@
 			x: 8.5d
 			y: -6.0d
 			description: [
-				"The &bReaper of Ender Heights&r generates Aura by &6harvesting Chorus Flowers&r nearby."
+				"&b末影高花收割机&r通过&6收获附近的紫颂花&r来产生灵气。"
 				""
-				"Place the Chorus Flower about 2 blocks away and let it grow. Once it's grown, trigger the Reaper with Redstone."
+				"在2格远的地方放置紫颂花并让其成长，接收红石信号后就可以收割它。"
 				""
-				"The bigger the tree, the more Aura is generated."
+				"紫颂花长的越大产生的灵气越多。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -1005,7 +1005,7 @@
 		{
 			x: 8.0d
 			y: -6.0d
-			description: ["Most Aura generators cannot produce Aura past a certain point. With a &bCreational Catalyst&r placed below, this limit is removed."]
+			description: ["大多数灵气生成器产生的灵气都有限制。把&b制造催化剂&r放在灵气生成器下方可以解除这个限制。"]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
 			size: 0.5d
@@ -1020,11 +1020,11 @@
 			x: 9.75d
 			y: -6.0d
 			description: [
-				"The &bAltar of Birthing&r can be used to &6spawn certain mobs&r. It requires a multiblock structure and requires a variable amount of Aura."
+				"&b降生祭坛&r可以用来&6召唤指定生物&r。这需要一个多方快结构并且需要不同数量的灵气。"
 				""
-				"To do so, &6throw all the ingredients on the ground nearby&r."
+				"准备好了之后，&6把所有的材料丢在附近&r。"
 				""
-				"We've &6added recipes&r to summon several additional mobs. See the Altar's uses in JEI for more info."
+				"我们&6增加了配方&r可以召唤更多种类的生物。祭坛的配方请查看JEI。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
@@ -1045,7 +1045,7 @@
 		{
 			x: 9.75d
 			y: -5.0d
-			description: ["&bIngots of the Skies&r are used in several of the more advanced recipes."]
+			description: ["&b苍穹锭&r用于多种高级配方。"]
 			dependencies: ["54191E5A6BFAD3A1"]
 			id: "63A00BAF318851F9"
 			tasks: [{
@@ -1076,7 +1076,7 @@
 		{
 			x: 9.5d
 			y: -4.25d
-			description: ["The &bRing of Last Chance&r is effectively a &6Totem of Undying&r that works while &6anywhere in your inventory&r."]
+			description: ["&b最后机会之指环&r实际上就是可以在&6背包里面任何位置&r触发的&6不死图腾&r。"]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
 			size: 0.5d
@@ -1098,7 +1098,7 @@
 			}
 			x: 10.0d
 			y: -3.75d
-			description: ["Like the Botanist's items, &bSkyseeker&r items have special abilities and repair themselves with Aura from your inventory."]
+			description: ["&b探天者&r物品想植物魔法的物品一样，有特殊的功能并且可以通过背包中的灵气缓存自我修复。"]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
 			size: 0.5d
@@ -1199,11 +1199,11 @@
 			x: 10.0d
 			y: -4.25d
 			description: [
-				"After passing over a powered &6Activator Rail&r, the &bAura Attraction Cart&r will &6pull Aura towards itself&r."
+				"当&b灵气吸引矿车&r通过被激活的&6激活铁轨&r就会&6吸收区域的灵气&r。"
 				""
-				"After passing over an &ounpowered&r Activator Rail, this Aura will be released."
+				"当灵气吸引矿车通过&o未被激活的&r激活铁轨就会释放灵气。"
 				""
-				"Effectively, this allows you to move Aura from one location to another. Some is lost in the process, however."
+				"实际上，这可以让你把一个区域的灵气运输至另一个区域。但是运输过程中会浪费一点点。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
