@@ -3,7 +3,7 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 0
 	filename: "beasts"
-	title: "Beast Masters"
+	title: "野兽大师"
 	icon: {
 		id: "ftbquests:custom_icon"
 		Count: 1b
@@ -11,19 +11,19 @@
 			Icon: "iceandfire:textures/item/amphithere_skull.png"
 		}
 	}
-	subtitle: ["Beasts and familiars"]
+	subtitle: ["野兽与使魔"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Common Passive Animals"
+			title: "普通的被动生物"
 			icon: "minecraft:pig_spawn_egg"
 			x: 1.0d
 			y: 9.0d
 			description: [
-				"I bet you didn't realize farming was part of the arcane arts. "
+				"我敢打赌你没想到农业也是奥术的一部分。"
 				""
-				"A lot of student's don't. I once knew a Mage who absolutely hated farming, and would just buy ingredients. That's an option, but here we teach you to raise and care for even the most mundane creatures, because they all have a purpose. "
+				"很多学生都没想到。我曾经认识一个非常讨厌农作的魔法师，只会通过购买获得材料。这当然不失为一种选择，但在这里，即使是最平凡的生物，我们都会教你抚养和照顾它们，因为它们至少都有一个我们所需的特质。"
 			]
 			dependencies: ["60CB78F73F0B9016"]
 			can_repeat: true
@@ -42,11 +42,11 @@
 			}]
 		}
 		{
-			title: "Uncommon Spawn Eggs"
+			title: "不常见生物的刷怪蛋"
 			icon: "minecraft:parrot_spawn_egg"
 			x: 2.5d
 			y: 9.0d
-			description: ["We're moving up now to the less common creatures. They cost a little more, but by now you should have a steady supply of gold. It pays to be a wizard right?"]
+			description: ["我们现在要开始学习不太常见的生物，它们的成本稍高。但到现在为止，你应该已经有了稳定的黄金供应。为了成为巫师，这都是值得的，对吧？"]
 			dependencies: ["60CB78F73F0B9016"]
 			can_repeat: true
 			id: "0CA242FADD653495"
@@ -65,11 +65,11 @@
 			}]
 		}
 		{
-			title: "Rare Spawn Eggs"
+			title: "稀有生物的刷怪蛋"
 			icon: "minecraft:axolotl_spawn_egg"
 			x: 4.0d
 			y: 9.0d
-			description: ["Now that you have the hang of the more mundane creatures, I think you're ready for some of the more exotic animals available. "]
+			description: ["你已经掌握了照料相对常见生物的窍门，我想你已经准备好迎接一些更奇特的动物了。"]
 			dependencies: ["60CB78F73F0B9016"]
 			can_repeat: true
 			id: "1572560FCCCFFBED"
@@ -92,11 +92,11 @@
 			x: 8.0d
 			y: 6.5d
 			description: [
-				"Giving a &6Starbuncle&r a &bGolden Nugget&r will turn them into a Shard."
+				"将一个&b金粒&r交予&6星宝石兽&r会使它们变成一个碎片。"
 				""
-				"This will make it able to make the actual Charm, which will allow you to have some sort of control over them."
+				"这将使它能被用于制作真正的护符，以允许你对它们进行一定程度的控制。"
 				""
-				"Remember, these are still living creatures, so handle them with care!"
+				"但是请记住，它们仍然是活生生的生物，所以请悉心照料它们！"
 			]
 			id: "18471DB81EB29232"
 			tasks: [
@@ -123,9 +123,9 @@
 			x: 8.0d
 			y: 8.0d
 			description: [
-				"&6Drygmys&r occasionally appear within your dorm. To befriend them, drop a &bWilden's Horn&r in their vicinity and wait for them to pick it up."
+				"&6德格米&r偶尔会出现在你的宿舍里。与它们交朋友需要丢给他们一个&b荒野之角&r，并等待它们捡起它。"
 				""
-				"Drygmys possess the remarkable ability to produce items from nearby monsters and animals without causing them harm."
+				"德格米拥有非凡的能力，它可以从附近的怪物和动物身上生产物品而不会对它们造成伤害。"
 			]
 			id: "79EAC89A14777746"
 			tasks: [
@@ -152,9 +152,9 @@
 			x: 8.0d
 			y: 9.5d
 			description: [
-				"The &6Whirlsprigs&r express their gratitude by dropping a &bWhirlsprig Shard&r as a token of appreciation when you grow Trees nearby. Their affinity for nature mirrors my appreciation for all these fauna creatures."
+				"在&6风转草&r附近种植树木时，它们会掉落&b风转草碎片&r以表达他们的感激之情。风转草的这种行为揭示了它们对自然环境的喜爱。"
 				""
-				"Recognize this behavior of the Whirlsprigs, as it sheds light on their fondness for natural surroundings."
+				"他们对大自然的喜爱正如我对所有这些动物种群的欣赏。"
 			]
 			id: "7595EF13DCE33641"
 			tasks: [{
@@ -168,9 +168,9 @@
 			x: 9.5d
 			y: 9.5d
 			description: [
-				"Utilizing the &6Enchanting Apparatus&r enables the creation of a &bWhirlsprig Charm&r. This charm serves the purpose of summoning a Whirlsprig when used on any &bFlower&r."
+				"使用&6附魔装置&r可以制作&b风转草护符&r。在任意一种&b花&r上使用护符可以召唤风转草。"
 				""
-				"The Whirlsprig designates an area of 10 blocks surrounding its Flower as its home. Within this area, it produces natural materials such as wood, crops, seeds, and flowers. It's important to note that Whirlsprigs require some &5Source&r in exchange for their services."
+				"风转草会将其出生点周围10格视为它的家。在这个区域内，它们会生产木材、农作物、种子和花卉等天然材料。需要注意的是，你需要一些&5魔源&r来换取它们的服务。"
 			]
 			dependencies: [
 				"7595EF13DCE33641"
@@ -186,7 +186,7 @@
 				{
 					id: "0296B6C769630E40"
 					type: "item"
-					title: "Any small Flower"
+					title: "任意小型花"
 					icon: "minecraft:poppy"
 					item: {
 						id: "itemfilters:tag"
@@ -203,9 +203,9 @@
 			x: 9.5d
 			y: 8.0d
 			description: [
-				"Utilizing the &6Enchanting Apparatus&r enables the crafting of a &bDrygmy Charm&r. This charm facilitates the summoning of a Drygmy by applying it on a &bMossy Cobblestone&r, causing it to swiftly transform into a Henge."
+				"使用&6附魔装置&r可以制作&b德格米护符&r。这个护符可以用于召唤德格米，在&b苔石&r上使用护符以使其变为德格米石阵。"
 				""
-				"Upon transformation, the Henge designates an area of 10 blocks around it as the Drygmy's home. These mystical creatures undertake the responsibility of tending to the animals and monsters within their designated territory. However, be mindful that Drygmys require some &5Source&r in exchange for their services."
+				"使用后，德格米石阵周围10格内将被视为德格米的家。这些神奇生物承担着照料其领土内的动物和怪物的责任。需要注意的是，你需要一些&5魔源&r来换取它们的服务。"
 			]
 			dependencies: [
 				"79EAC89A14777746"
@@ -229,9 +229,9 @@
 			x: 9.5d
 			y: 6.5d
 			description: [
-				"Utilizing the &6Enchanting Apparatus&r enables the creation of a &bStarbuncle Charm&r. This miniature charm bestows upon you the ability to summon a Starbuncle, which you can command using a &6Dominion Wand&r."
+				"使用&6附魔装置&r可以制作&b星宝石兽护符&r。这个护符赋予你召唤星宝石兽的能力，你可以使用&6支配之杖&r来指挥它。"
 				""
-				"To retrieve items from a Container, initiate interaction with the Container first, followed by interaction with the Starbuncle. Conversely, to store items, perform the opposite sequence."
+				"要从容器中取出物品，需要先与容器交互，然后再与星宝石兽交互。存储物品则反之。"
 			]
 			dependencies: [
 				"18471DB81EB29232"
@@ -251,7 +251,7 @@
 		{
 			x: 8.0d
 			y: 11.0d
-			description: ["To acquire a &bWixie Shard&r, cast Dispel on a Witch when it is at half health or less."]
+			description: ["在女巫生命值为一半或更低时对它施放解除魔法可以获得&b薇克精碎片&r。"]
 			id: "1B92A2F7CE0677D1"
 			tasks: [{
 				id: "01E04E7AFCA4AAF3"
@@ -264,13 +264,13 @@
 			x: 9.5d
 			y: 11.0d
 			description: [
-				"Crafting a &bWixie Charm&r with your &6Enchanting Apparatus&r shouldn't be an issue anymore. "
+				"用你的&6附魔装置&r制作&b薇克精护符&r应该不成问题。"
 				""
-				"Once you possess a &bWixie Charm&r, employ it on a Cauldron to summon your &6Wixie&r."
+				"拥有&b薇克精护符&r后，可以在炼药锅上使用来召唤你的&6薇克精&r。"
 				""
-				"The &6Wixie&r possesses an innate ability to select crafting recipes based on the inventories nearby, eliminating the necessity to specify exact materials. For instance, when crafting Sticks, the &6Wixie&r will creatively gather planks from nearby chests to fulfill the recipe."
+				"&6薇克精&r拥有与生俱来的能力，使它可以根据附近存储的物品选择制作配方，无需指定确切的材料。例如，在制作木棍时，&6薇克精&r会创造性地从附近的箱子中收集木板来完成配方。"
 				""
-				"Each crafting session necessitates a small amount of source, automatically drawn from nearby Source Jars. It's important to note that providing a redstone signal on the cauldron will halt the crafting process."
+				"每次制作都会自动从附近的魔源罐中抽取所需的少量魔源。需要注意的是，给薇克精炼药锅提供红石信号会停止制作。"
 			]
 			dependencies: [
 				"1B92A2F7CE0677D1"
@@ -295,9 +295,9 @@
 			x: 9.5d
 			y: 5.0d
 			description: [
-				"The &6Bookwyrms&r are incredibly useful creatures proficient in casting spells by utilizing source from source jars. These creatures, when provided with a spell inscribed on Spell Parchment, will cast spells in the area surrounding their Lectern."
+				"&6书龙&r是非常有用的生物，擅长利用魔源罐中的魔源来施放法术。将刻有法术的法术羊皮纸赋予它，它就会在书龙讲台周围的区域施展这个法术。"
 				""
-				"To summon a &6Bookwyrm&r, employ a &bBookwyrm Charm&r on a Lectern. Additionally, these Bookwyrms can be dyed using white, black, blue, green, red, or purple dye."
+				"召唤&6书龙&r需要在讲台上使用&b书龙护符&r。此外，这些书龙还可以使用白色、黑色、蓝色、绿色、红色或紫色染料进行染色。"
 			]
 			dependencies: ["31A754EB419CD398"]
 			id: "0D58C224055A34B6"
@@ -318,9 +318,9 @@
 			x: 11.0d
 			y: 5.0d
 			description: [
-				"A &bBookwyrm&r will reduce the cost of all spells cast, and increases any spell damage by one."
+				"&b书龙&r使魔可以减少任何法术的消耗，并无条件增加1点法术伤害。"
 				""
-				"Obtained by performing the &6Ritual of Binding&r near a &bBookwyrm&r."
+				"在一只&b书龙&r旁进行&6绑定仪式&r可获得该使魔。"
 			]
 			dependencies: [
 				"4517857C42B0F135"
@@ -337,9 +337,9 @@
 			x: 11.0d
 			y: 6.5d
 			description: [
-				"A &bStarbuncle&r familiar that will grant you Speed II."
+				"&b星宝石兽&r使魔能持续给予你速度II状态。"
 				""
-				"Obtained by performing the &6Ritual of Binding&r near a &bStarbuncle&r."
+				"在一只&b星宝石兽&r旁进行&6绑定仪式&r可获得该使魔。"
 			]
 			dependencies: [
 				"4517857C42B0F135"
@@ -356,9 +356,9 @@
 			x: 11.0d
 			y: 8.0d
 			description: [
-				"A &bDrygmy&r familiar will increase the damage of Earth spells by 2, and has a chance to increase the amount of looting when slaying enemies. "
+				"&b德格米&r使魔能增加2点土元素学派法术的伤害，还能增加杀敌后的掉落物数量。"
 				""
-				"Obtained by performing the &6Ritual of Binding&r near a &bDrygmy&r."
+				"在一只&b德格米&r旁进行&6绑定仪式&r可获得该使魔。"
 			]
 			dependencies: [
 				"4517857C42B0F135"
@@ -375,9 +375,9 @@
 			x: 11.0d
 			y: 9.5d
 			description: [
-				"&bWhirlisprigs&r will reduce the cost of Elemental Earth glyphs by half, and grants bonus saturation when consuming food."
+				&b风转草&r使魔能使土元素学派法术的魔力消耗减半，还能在主人进食时恢复额外的饱和度。"
 				""
-				"Obtained by performing the &6Ritual of Binding&r near &bWhirlisprig&r."
+				"在一只&b风转草&r旁进行&6绑定仪式&r可获得该使魔。"
 			]
 			dependencies: [
 				"4517857C42B0F135"
@@ -394,9 +394,9 @@
 			x: 11.0d
 			y: 11.0d
 			description: [
-				"&bWixies&r will increases the duration of potions that you consume. Additionally, the &bWixie&r will apply harmful potions to enemies during combat."
+				"&b薇克精&r使魔能增加药水的持续时间。战斗时薇克精还会对敌人使用有害的药水。"
 				""
-				"Obtained by performing the &6Ritual of Binding&r near a &bWixie&r."
+				"在一只&b薇克精&r旁进行&6绑定仪式&r可获得该使魔。"
 			]
 			dependencies: [
 				"4517857C42B0F135"
@@ -412,7 +412,7 @@
 		{
 			x: 11.0d
 			y: 3.5d
-			description: ["Commencing the summoning of familiars requires obtaining a &6Bound Script&r corresponding to the entity you seek to befriend. These scripts can be acquired by performing the &bRitual of Binding&r near a relevant entity. "]
+			description: ["召唤使魔需要获得你试图结交的生物对应的&6绑定手稿&r。这些绑定手稿可以通过在实体附近进行&b绑定仪式&r来获得。"]
 			dependencies: ["23F6282DF69B8625"]
 			id: "4517857C42B0F135"
 			tasks: [{
@@ -422,14 +422,14 @@
 			}]
 		}
 		{
-			title: "Hostile Spawn Eggs"
+			title: "敌对生物刷怪蛋"
 			icon: "minecraft:creeper_spawn_egg"
 			x: 2.5d
 			y: 5.0d
 			description: [
-				"One of the easiest way to get your hands on creatur eggs is to buy them outright. "
+				"获得生物刷怪蛋最简单的方法之一就是直接购买它们。"
 				""
-				"To do that, you'll need some gold. Bring some and I'll give you an egg of your choice. "
+				"为此，你需要一些金币。带一些来，我会给你你选择的刷怪蛋。"
 			]
 			dependencies: ["60CB78F73F0B9016"]
 			can_repeat: true
@@ -468,13 +468,13 @@
 			y: 7.0d
 			shape: "pentagon"
 			description: [
-				"Hey, Class. "
+				"嗨，同学们。"
 				""
-				"I'm Jake, and this is my friend Bo. We're here to help you learn to obtain and care for the magical creatures of the world. "
+				"我是杰克，这是我的朋友波。在此，我们将帮助你学习如何获取并照料自然界中的神奇生物。"
 				""
-				"This won't be like a regular class. There is no homework, and really no formal lessons. "
+				"这个课程与你们平时的课程不同，这里没有作业，也没有正式的上课部分。"
 				""
-				"But there are a few creatures I think it would benefit you to find, and raise in your dorm. I'll be here if you need help."
+				"但这里有你需要寻找并在校舍中照料的，可以帮到你的生物，如果在这过程中你需要帮助，我会在这里等你。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63368A007664E4B5"]
@@ -483,7 +483,7 @@
 			tasks: [{
 				id: "4F5F5CAC4FA288BF"
 				type: "location"
-				title: "Find Jake and Bo"
+				title: "找到杰克和波"
 				dimension: "minecraft:overworld"
 				ignore_dimension: false
 				position: [I;
@@ -499,7 +499,7 @@
 			}]
 		}
 		{
-			title: "Small Mob Pearl"
+			title: "小型传送门珍珠"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
@@ -510,16 +510,16 @@
 			x: 0.5d
 			y: 3.5d
 			description: [
-				"Welcome, weary traveler!"
+				"欢迎，疲惫的旅者！"
 				""
-				"Behold the mystical Small Gate Pearls, a rare artifact that grants the ability to summon various Mobs."
+				"看看神秘的小型传送门珍珠，这是一种稀有的遗物，可以用于召唤各种生物。"
 				""
-				"The loot of those Mobs I'm willing to trade you for some more coins."
+				"那些生物的掉落物可以拿到我这来换更多的硬币。"
 				""
 				""
-				"Its power that can be yours for a mere gold coin, a worthy investment for your adventure."
+				"只要一点点金币，它的力量就将为你所用，这对你的冒险可是一笔超值的投资。"
 				""
-				"What say you, brave soul?"
+				"勇敢的灵魂啊，你要如何抉择？"
 			]
 			hide_dependency_lines: true
 			dependencies: ["60CB78F73F0B9016"]
@@ -540,7 +540,7 @@
 			}]
 		}
 		{
-			title: "Normal Mob Pearl"
+			title: "普通传送门珍珠"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
@@ -550,7 +550,7 @@
 			}
 			x: 2.5d
 			y: 2.5d
-			description: ["You've done well, and I think you're ready to something a bit harder. "]
+			description: ["你做得很好，我认为你已经准备好加点难度了。"]
 			hide_dependency_lines: true
 			dependencies: ["60CB78F73F0B9016"]
 			can_repeat: true
@@ -571,7 +571,7 @@
 			}]
 		}
 		{
-			title: "Large Mob Pearl"
+			title: "大型传送门珍珠"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
@@ -581,7 +581,7 @@
 			}
 			x: 4.5d
 			y: 3.5d
-			description: ["You're ready. It's time for the next level. Harder gates mean more drops. "]
+			description: ["你做好了准备，是时候进军更高难度了。更难的传送门意味着更多的掉落物。"]
 			hide_dependency_lines: true
 			dependencies: ["60CB78F73F0B9016"]
 			can_repeat: true
@@ -602,7 +602,7 @@
 			}]
 		}
 		{
-			title: "Ars Nouveau Mob Pearl"
+			title: "新生魔艺传送门珍珠"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
@@ -613,9 +613,9 @@
 			x: 2.5d
 			y: 1.0d
 			description: [
-				"The Ars Nouveau gate will spawn waves of multiple enemies. This is the hardest task I've assigned to you yet, but I have faith in you. "
+				"新生魔艺传送门会生成多波不同的敌人。这是迄今为止我交予你的任务中最难的一个，但我对你有信心。"
 				""
-				"The beings you will face in this gate are not only harder, with better loot you will need for crafting, but it's combat training essential to any aspiring student of the arcane. You will face dangers in your career, and you must be ready with the knowledge and skills to defeat any foes."
+				"在这个传送门中，你要面对的并非只是更难的生物，更好的战利品而已，对于怀有远大抱负的奥术学生来说，这是必不可少的战斗训练。你的职业生涯中很可能会有面临危险之时，所以你必须准备好足以击败任何敌人的知识与技能。"
 			]
 			hide_dependency_lines: true
 			dependencies: [
@@ -645,7 +645,7 @@
 			}]
 		}
 		{
-			title: "Starbuncles"
+			title: "星宝石兽"
 			icon: {
 				id: "ars_nouveau:starbuncle_se"
 				Count: 1b
@@ -656,15 +656,15 @@
 			x: 7.0d
 			y: 6.5d
 			description: [
-				"Welcome!"
+				"欢迎！"
 				""
-				"&bStarbuncles&r are some very useful creatures from &5Ars Nouveau&r. "
+				"&b星宝石兽&r是&5新生魔艺&r中一种非常有用的生物。"
 				""
-				"They can move items from one container to another."
+				"它们可以在两个容器之间移动物品。"
 				""
-				"Also, they are very useful in gathering &6Source Berries&r. You should try them out one day!"
+				"不仅如此，它们在收集&6魔源浆果&r时也非常有用。你真该找一天试试！"
 				""
-				"Care to take some?"
+				"小心地带几只回家？"
 			]
 			hide_dependency_lines: true
 			dependencies: ["60CB78F73F0B9016"]
@@ -692,7 +692,7 @@
 			}]
 		}
 		{
-			title: "Whirlsprigs"
+			title: "风转草"
 			icon: {
 				id: "ars_nouveau:whirlisprig_se"
 				Count: 1b
@@ -703,11 +703,11 @@
 			x: 7.0d
 			y: 9.5d
 			description: [
-				"Welcome!"
+				"欢迎！"
 				""
-				"&bWhirlsprigs&r are some very cute Creatures from &5Ars Nouveau&r. "
+				"&b风转草&r是&5新生魔艺&r中一些非常可爱的生物。"
 				""
-				"It will produce plant-based resources if you provided with &6Source&r."
+				"当你提供&6魔源&r时，它可以产出植物资源。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["60CB78F73F0B9016"]
