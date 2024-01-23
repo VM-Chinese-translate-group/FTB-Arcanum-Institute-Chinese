@@ -304,7 +304,7 @@
 						tag: {
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Play me\"}"
+								Name: "{\"text\":\"播放我\"}"
 							}
 						}
 						ForgeCaps: {
