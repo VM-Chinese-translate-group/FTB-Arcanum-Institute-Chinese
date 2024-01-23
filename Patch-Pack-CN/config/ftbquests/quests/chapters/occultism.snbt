@@ -1299,11 +1299,11 @@
 			x: -4.5d
 			y: -3.0d
 			description: [
-				"To commence your journey into the realm of &5Malum&r, acquiring &bSoulstone&r marks a crucial initial step."
+				"想要进入&5灵灾&r的领域，&b灵魂石&r是必不可缺的第一步。"
 				""
-				"As it manifests as an ore, seeking guidance from &eLadyMayhaem&r, our esteemed Botania Teacher, regarding the utilization of an &bOrechid&r would be most prudent."
+				"由于它是一种矿石，所以向我们的植物魔法老师&e梅希姆夫人&r寻求有关&b凝矿兰&r的指导是再好不过了。"
 				""
-				"The &6Orechid&r, a mystical device, shall prove instrumental in the quest to locate and gather the elusive &bSoulstone ore,&r initiating your magical pursuits within the realm of &5Malum&r."
+				"在寻找并收集&b灵魂石&r这神秘存在的过程中，&6凝矿兰&r这个神秘的装置被证明是很有帮助的，它将开启你在&5灵灾&r领域的探索之旅。"
 			]
 			dependencies: ["5195093F6886F0F3"]
 			id: "0C8A7D05ABEBF23B"
@@ -1363,7 +1363,7 @@
 			]
 		}
 		{
-			title: "Spirit Pouch"
+			title: "精魄布袋"
 			icon: {
 				id: "malum:spirit_pouch"
 				Count: 1b
@@ -1374,13 +1374,13 @@
 			x: -10.5d
 			y: -5.0d
 			description: [
-				"To alleviate the burden of gathering Spirits, let us focus our attention on the &bSpirit Pouch&r. "
+				"为了减缓收集精魄的负担，让我们将目光转向&b精魄布袋&r。"
 				""
-				"Utilizing the capabilities of the &6Spirit Altar&r, we shall craft &bSpirit Fabric&r and intricately weave it into the creation of the Spirit Pouch."
+				"利用&6精魄祭坛&r的功能，我们可以制作&b精魄布匹&r，并将其编织成复杂的精魄布袋。"
 				""
-				"This wondrous creation possesses the remarkable capacity to contain as many &5Spirits&r as a chest could hold, all within the confines of your very own pockets. "
+				"这种奇妙的造物拥有神奇的能量，可以装下的&5精魄&r需要一个箱子才能容纳，而这些全都在你的口袋中。"
 				""
-				"Embrace this invention, as it shall revolutionize the way you manage and transport Spirits, easing the burden of clutter and ensuring your readiness for magical endeavors."
+				"接受这项发明吧，因为它将彻底改变你管理和运送精魄的方式，减轻杂乱的负担，帮助你为魔法事业做好准备。"
 			]
 			dependencies: ["50B9F03C73F0A696"]
 			id: "5DD709EC2D67B018"
@@ -1414,9 +1414,9 @@
 			x: -8.5d
 			y: -1.0d
 			description: [
-				"Leveraging our freshly minted &6Spirit Altar&r, we're poised to infuse &6Gunpowder&r with the essence of an &dArcane Spirit&r, culminating in the creation of &bHex Ash&r. "
+				"使用我们新铸造的&6精魄祭坛&r，我们可以将&6火药&r注入至&d奥术精魄&r的精华中，从而创造出&b咒灰&r。"
 				""
-				"This formidable component stands as an essential element coveted by Malum Wizards, a crucial ingredient for intricate and advanced crafts that lie ahead. Embrace this creation, for it shall serve as a pivotal tool in your magical pursuits within the realm of Malum."
+				"这个强大的组件是灵灾魔法师们梦寐以求的重要元素，也是未来复杂的高级合成的关键材料。接受这种造物吧，因为它将成为你在灵灾领域中追求魔法的关键工具。"
 			]
 			dependencies: ["50B9F03C73F0A696"]
 			id: "796B0F86D2F21A18"
@@ -1456,13 +1456,13 @@
 			x: -12.5d
 			y: 0.5d
 			description: [
-				"Carving &6Spirits&r into the Runewood Logs bestows upon them a pivotal role in &6Totem Magic&r."
+				"将&6精魄&r刻在符文原木上，让它们在&6图腾魔法&r中发挥关键作用。"
 				""
-				"Through the infusion of 5 Arcane Spirits, the Totem undergoes a transformative process, succumbing to corruption and burning to transmute into &bSoulwood&r."
+				"通过注入5个奥术精魄，图腾经历了一次蜕变，逐渐腐化并燃烧，最终化为T&b灵魂木&r。"
 				""
-				"This intricate ritual, known as the &bUnchained Rite&r, emanates a bleeding effect to adjacent blocks around the Totem. "
+				"这个复杂的仪式被称为&b释缚仪式&r，在图腾周围的方块会表现流血效果。"
 				""
-				"For a comprehensive understanding of the diverse procedures for various blocks, it's advised to consult the Journal, which details the intricacies of this transformative alchemy within the mystical realm."
+				"想要了解各种方块的使用方法，可以查阅你的笔记，其中详细介绍了这神秘领域中转换炼金术的复杂性。"
 			]
 			dependencies: ["349C018CCFD38608"]
 			id: "43002F405D573AA2"
@@ -1473,15 +1473,15 @@
 			}]
 		}
 		{
-			title: "Totem Magic"
+			title: "图腾魔法"
 			x: -12.5d
 			y: -1.0d
 			description: [
-				"In the realm of &5Malum&r, a new horizon beckons with the advent of &6Totem Magic&r."
+				"在&5灵灾&r领域中，随着&6图腾魔法&r的出现，我们的视野逐渐开阔。"
 				""
-				"To commence this journey, craft a &bTotem Base&r upon the revered Spirit Altar, marking the inception of your foray into the realm of Totem crafting."
+				"要开始这段旅程，首先需要在受人尊敬的精魄祭坛上制作图腾基座，这标志着你开始进入图腾制作领域。"
 				""
-				"Begin this endeavor by initiating your first Totem, and should you seek additional guidance, consult the &eEncyclopedia Arcana&r, a repository of knowledge to aid you on this mystical path."
+				"启动你第一个图腾可以检验你的努力，如果你想获得更多指导，可查阅&e奥术全典&r，这是知识的宝库，引领你走上这条神秘之路。"
 			]
 			dependencies: ["50B9F03C73F0A696"]
 			id: "349C018CCFD38608"
@@ -1495,11 +1495,11 @@
 			x: -12.5d
 			y: -3.5d
 			description: [
-				"It's time, dear student, to forge your own &bHallowed Gold&r."
+				"亲爱的同学们，是时候锻造你自己的&b神圣金&r了。"
 				""
-				"Gather the required &6Spirits&r and carefully position them upon the Altar. Place the &6Quartz&r atop an Item Pedestal and seat the &6Gold Ingot&r onto the Altar's surface."
+				"将收集到的&6精魄&r小心的放在祭坛上。在物品基座上放上&6适应&r，把&6金锭&r放在祭坛的表面。"
 				""
-				"Observe as the mystical dance unfolds, and witness the enchanting transformation that takes place, birthing the radiant &bHallowed Gold&r. Embrace this moment of magic and wield the newfound power of this extraordinary creation."
+				"观察展开的神秘舞蹈，见证其中发生的迷人转变，孕育出光芒四射的&b神圣金&r。拥抱这神奇的时刻，尽情挥洒这非凡创造的新力量。"
 			]
 			dependencies: ["50B9F03C73F0A696"]
 			id: "69F2C8CA0DC0083F"
@@ -1523,15 +1523,15 @@
 			}]
 		}
 		{
-			title: "Deep Storage Cells?"
+			title: "深层存储单元？"
 			x: -12.5d
 			y: -5.0d
 			description: [
-				"In times when a Magician accumulates an abundance of a specific Spirit, &5Malum&r presents the &bSpirit Jar&r as a solution."
+				"当魔法师积累了大量的特定精魄后，&5灵灾&r中的&b精魄罐&r就是个不错的解决方案。"
 				""
-				"This extraordinary vessel possesses the capacity to contain an almost limitless quantity of a single type of Spirit, addressing the overflow of magical essences."
+				"这个非凡的容器几乎能容纳无限的单种精魄，可用来解决魔法精华溢出的问题。"
 				""
-				"However, it's important to note that each jar can accommodate only one type of Spirit, offering a practical solution for the meticulous organization and storage of excess magical energies."
+				"不过值得注意的是，每个罐子只能容纳一种精魄，这为组织并存储多余的魔法精华提供了一个实用的解决方案。"
 			]
 			dependencies: ["69F2C8CA0DC0083F"]
 			id: "3320A823D21106A1"
@@ -1545,9 +1545,9 @@
 			x: -14.5d
 			y: -3.0d
 			description: [
-				"Certainly, in the realm of &5Malum&r, a plethora of &bNecklaces and Belts&r awaits, each offering unique advantages to aid you in your quest to become a formidable wizard. "
+				"当然，在&5灵灾&r领域，有大量的&b项链和腰带&r在等着你，每种都有独特的优势，可以帮助你成为强大的巫师。"
 				""
-				"Delve deeply into these offerings, for each holds its unique allure, catering to diverse aspects of a wizard's journey. Choose wisely, for these artifacts shall aid you significantly in your adventurous pursuits within the realm of magic and mysticism."
+				"深入了解这些物品，因为每件都有其独特的魅力，能满足巫师旅程中不同方面的需求。请明智选择，因为这些宝贝将为你在魔法和神秘主义领域的冒险追求提供巨大帮助。"
 			]
 			dependencies: [
 				"69F2C8CA0DC0083F"
@@ -1557,7 +1557,7 @@
 			tasks: [{
 				id: "44F3FF8A9CDE5049"
 				type: "item"
-				title: "Artifacs of Malum"
+				title: "灵灾的宝贝"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1604,11 +1604,11 @@
 			x: -6.5d
 			y: -1.0d
 			description: [
-				"Ah, the evolution from the humble &6Crude Scythe&r culminates in the magnificence of the &bSoulstained Steel Scythe&r."
+				"啊，从简陋的&6粗制镰刀&r升级到精美的&b魂染钢镰刀&r。"
 				""
-				"With heightened magical prowess and superior effectiveness, this upgraded Scythe represents a remarkable advancement in your magical arsenal."
+				"随着增强的魔法能力和卓越的效果，这把升级的镰刀代表着你魔法武器库中显著的进步。"
 				""
-				"Embrace its augmented magical power, as it shall prove to be a formidable tool, surpassing its predecessor in both potency and efficiency within the realm of enchantment and mystical endeavors."
+				"接受它强大的魔力吧，因为它将被证明是一个强大的工具，在魔法和神秘领域的能力和效率都超过了它的前辈。"
 			]
 			dependencies: [
 				"470630A08B38DD98"
@@ -1647,7 +1647,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: ["The basic stabilizer uses a foliot bound with Eziveus' Spectral Compulsion. Each tier 1 stabilizer adds 256 slots to the dimensional storage. Each dimensional matrix can support a maximum of 6 stabilizers."]
+			description: ["基础稳定器使用由埃兹维斯灵体强迫绑定的魔精。每个等级1稳定器能为维度存储增加256格。每个维度矩阵最多能支持6个稳定器。"]
 			dependencies: ["0AC9F55FAB0A1C1A"]
 			id: "6A56F10A26573057"
 			tasks: [{
@@ -1678,7 +1678,7 @@
 			}]
 		}
 		{
-			title: "Smelting the Hell out of it"
+			title: "熔炼出地狱"
 			icon: {
 				id: "malum:spirit_crucible"
 				Count: 1b
@@ -1689,11 +1689,11 @@
 			x: -10.5d
 			y: 2.0d
 			description: [
-				"Behold the remarkable &bSpirit Crucible&r, a versatile marvel among machinery. Not merely confined to repairing your gear and tools, this ingenious device transcends conventional boundaries. "
+				"来看这个精妙的&b精魄坩埚&r，它是机械中的多功能奇迹。它不仅限于修理你的装备和工具，还超越了传统的界限。"
 				""
-				"Through the utilization of Spirits in tandem with an Alchemical Impetus, it becomes a conduit for generating an array of diverse items. "
+				"通过利用精魄和炼金促符，它可以生成各种不同的物品。"
 				""
-				"Embrace the multifaceted capabilities of this Crucible, as it stands as a beacon of versatility and functionality, unlocking myriad possibilities for crafting and creation beyond mere repair work."
+				"拥抱坩埚的多功能吧，因为它是多功能的灯塔，它不只是负责维修工作，而是开启了合成和创造的无数可能性。"
 			]
 			dependencies: ["50B9F03C73F0A696"]
 			id: "52331FAD092FE0F7"
@@ -1740,11 +1740,11 @@
 			x: -8.5d
 			y: 1.0d
 			description: [
-				"Through the infusion of &bAquous and Arcane Spirits&r, the humble &6Alchemical Impetus&r within the Crucible attains an unparalleled power, enabling the creation of Prismarine Shards."
+				"通过注入&b碧水与奥术精魄&r，坩埚中普通的&6炼金促符&r获得了无与伦比的力量，从而创造出海晶碎片。"
 				""
-				"This exquisite crafting component holds significance across all classes within the esteemed &dArcanum Institute&r, serving as a pivotal ingredient in a myriad of enchanting and essential creations."
+				"这种精致的合成材料在广受好评的&d奥术学院&r中的所有课程中都具有重要意义，是无数令人着迷的造物的关键成分。"
 				""
-				"Embrace the potential of this refined process, as Prismarine Shards stand as a testament to the convergence of elemental spirits, granting access to a diverse array of mystical endeavors within the Institute's teachings."
+				"接受这一精炼过程的潜力，因为海晶碎片是元素之灵汇聚的见证，在学院的教导下可以进行各种神秘的尝试。"
 			]
 			dependencies: ["52331FAD092FE0F7"]
 			id: "1AF6D31835DC5CC1"
@@ -1777,11 +1777,11 @@
 			x: -8.5d
 			y: 2.0d
 			description: [
-				"When &6Infernal and Arcane Spirits&r converge within the Alchemical Impetus, the mighty &6Crucible&r births forth the coveted &bBlazing Quartz&r. "
+				"当&6狱火与奥术精魄&r与炼金促符交汇于伟大的&6坩埚&r中，令人垂涎的&b烈焰石英&r就会诞生。"
 				""
-				"This mystical material holds the power to craft Netherrack and various arcane instruments within the realm of &5Malum&r."
+				"这种神秘的材料，拥有在&5灵灾&r领域中制作下界岩和各种奥术材料的能力。"
 				""
-				"Embrace the significance of this process, as Blazing Quartz serves as a conduit for crafting a diverse array of magical implements, harnessing the fiery essence of the Infernal Spirits combined with the arcane potency of the Arcane Spirits."
+				"烈焰石英是制造各种魔法器具的通道，它将狱火精魄的炽热精华与奥术精魄的神秘力量相结合。"
 			]
 			dependencies: ["52331FAD092FE0F7"]
 			id: "0F55C6D7C806D3D5"
@@ -1814,11 +1814,11 @@
 			x: -8.5d
 			y: 3.0d
 			description: [
-				"The illustrious &bQuartz&r material emerges through the harmonious convergence of &6Earthen and Arcane Spirits&r, united within the confines of the &6Arcane Impetus&r within the venerable Crucible."
+				"杰出的&b石英&r材料是由&6大地与奥术精魄&r和谐汇聚，并与古老坩埚中的&6炼金促符&r结合而成。"
 				""
-				"Revered across realms, this renowned substance holds universal acclaim, sought after by Wizards, Magicians, and even the everyday Mundane Humans."
+				"这种著名的物质在各个领域都享有盛誉，受到巫师、魔法师甚至麻瓜的追捧。"
 				""
-				"Its versatile nature and wide application render it a staple material coveted by diverse practitioners, serving as a cornerstone for various mystical and practical endeavors."
+				"它的繁多功能与广泛应用使其成为大部分人梦寐以求的主要材料，是各种神秘和实践活动的基石。"
 			]
 			dependencies: ["52331FAD092FE0F7"]
 			id: "3700683C087DFD46"
@@ -1858,18 +1858,18 @@
 			x: -12.5d
 			y: 2.0d
 			description: [
-				"&6Totem Magic&r presents a realm of significant potency, offering diverse effects that influence both the flora and fauna, as well as the surrounding natural elements."
+				"&6图腾魔法&r呈现了极具震撼力的世界，展现了影响动植物和周围自然元素的各种效果。"
 				""
-				"To grasp the breadth of these mystical capabilities, it is highly recommended to peruse the comprehensive knowledge contained within your &eEncyclopedia Arcana&r. "
+				"要深度掌握这些神秘能力，强烈建议阅读&e奥术全典&r中包含的全面知识。"
 				""
-				"Delve into its pages to uncover the myriad effects and influences that Totem Magic can wield upon the environment and its inhabitants, unlocking the profound depths of this powerful magical art."
+				"深入书页，揭开图腾魔法对环境和居民产生的无数影响，探寻这一强大魔法艺术的深邃奥秘。"
 			]
 			dependencies: ["43002F405D573AA2"]
 			id: "4ED44B7168C3C84B"
 			tasks: [{
 				id: "3A41E17E59A1C4FB"
 				type: "checkmark"
-				title: "Rites and Wrong"
+				title: "礼与过"
 			}]
 			rewards: [{
 				id: "38EA2E49B66C57C4"
@@ -1885,15 +1885,15 @@
 			}]
 		}
 		{
-			title: "Where do i get more Black Ink?"
+			title: "我在哪里可以获得更多的黑色墨水？"
 			x: 0.75d
 			y: -2.25d
 			description: [
-				"So, you are wondering how to obtain more black dye. "
+				"所以，你的意思是如何获得更多的黑色染料。"
 				""
-				"One way would be to use &5Botania's&r Black Flowers. The other way would be to go to campus and take a dive. It is known that Squids will live in the hallowed grounds of Arcanum Institute."
+				"一种方法是使用&5植物魔法的&r黑色花。另一种方法是去校园潜水，众所周知，鱿鱼住在奥术学院的圣地里。"
 				""
-				"Go and grab some!"
+				"去搞一些来吧！"
 			]
 			dependencies: ["4F4F86A19FD58A99"]
 			size: 0.5d
