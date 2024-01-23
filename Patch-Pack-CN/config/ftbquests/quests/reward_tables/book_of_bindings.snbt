@@ -1,7 +1,7 @@
 {
 	id: "63433A84515CF5E0"
 	order_index: 4
-	title: "Book of Bindings"
+	title: "绑定之书"
 	loot_size: 1
 	rewards: [
 		{ item: "occultism:book_of_binding_foliot" }

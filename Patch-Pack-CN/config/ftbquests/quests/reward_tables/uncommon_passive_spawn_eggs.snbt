@@ -1,7 +1,7 @@
 {
 	id: "77C5038892F0DFF3"
 	order_index: 6
-	title: "Uncommon Passive Spawn Eggs"
+	title: "少见友好生物刷怪蛋"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:donkey_spawn_egg" }

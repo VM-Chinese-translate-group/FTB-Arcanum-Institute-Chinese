@@ -1,7 +1,7 @@
 {
 	id: "6E17C992DF01B2D4"
 	order_index: 7
-	title: "Rare Passive Spawn Eggs"
+	title: "稀有友好生物刷怪蛋"
 	loot_size: 1
 	rewards: [
 		{ item: "minecraft:axolotl_spawn_egg" }

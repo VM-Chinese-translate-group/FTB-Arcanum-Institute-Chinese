@@ -1,7 +1,7 @@
 {
 	id: "4BBCDBC33AE3D0CE"
 	order_index: 1
-	title: "Sac Runes"
+	title: "献祭符文"
 	loot_size: 1
 	rewards: [
 		{ item: "bloodmagic:sacrificerune2", count: 2 }

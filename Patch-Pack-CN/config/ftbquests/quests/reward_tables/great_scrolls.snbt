@@ -1,7 +1,7 @@
 {
 	id: "053881C42EF34D11"
 	order_index: 22
-	title: "Great Scrolls"
+	title: "远古卷轴"
 	icon: {
 		id: "hexcasting:scroll"
 		Count: 1b
@@ -53,7 +53,7 @@
 	loot_size: 1
 	rewards: [
 		{
-			title: "Craft Phial"
+			title: "制作试剂瓶"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -104,7 +104,7 @@
 			}
 		}
 		{
-			title: "Create Lava"
+			title: "制造熔岩"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -133,7 +133,7 @@
 			}
 		}
 		{
-			title: "White Sun's Zenith"
+			title: "白阳当空"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -164,7 +164,7 @@
 			}
 		}
 		{
-			title: "Red Sun's Zenith"
+			title: "红阳当空"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -195,7 +195,7 @@
 			}
 		}
 		{
-			title: "Dispel Rain"
+			title: "驱雨"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -233,7 +233,7 @@
 			}
 		}
 		{
-			title: "Greater Teleport"
+			title: "卓越传送"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -282,7 +282,7 @@
 			}
 		}
 		{
-			title: "Black Sun's Zenith"
+			title: "黑阳当空"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -313,7 +313,7 @@
 			}
 		}
 		{
-			title: "Bind Wisp"
+			title: "绑定咒灵"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -352,7 +352,7 @@
 			}
 		}
 		{
-			title: "Flight"
+			title: "飞行"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -382,7 +382,7 @@
 			}
 		}
 		{
-			title: "Blue Sun's Zenith"
+			title: "蓝阳当空"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -413,7 +413,7 @@
 			}
 		}
 		{
-			title: "Consume Wisp"
+			title: "拆解咒灵"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -482,7 +482,7 @@
 			}
 		}
 		{
-			title: "Summon Rain"
+			title: "召雨"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -519,7 +519,7 @@
 			}
 		}
 		{
-			title: "Summon Greater Sentinel"
+			title: "召唤卓越哨卫"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -554,7 +554,7 @@
 			}
 		}
 		{
-			title: "Flay Mind"
+			title: "剥离意识"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -601,7 +601,7 @@
 			}
 		}
 		{
-			title: "Green Sun's Zenith"
+			title: "绿阳当空"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
@@ -632,7 +632,7 @@
 			}
 		}
 		{
-			title: "Summon Lightning"
+			title: "召雷"
 			item: {
 				id: "hexcasting:scroll"
 				Count: 1b
