@@ -3,26 +3,26 @@
 	group: ""
 	order_index: 2
 	filename: "progression"
-	title: "Progression"
+	title: "进程"
 	icon: "minecraft:crafting_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 250
 	quests: [
 		{
-			title: "Crafting"
+			title: "合成"
 			x: -2.642857142857146d
 			y: -5.482142857142861d
 			shape: "hexagon"
-			subtitle: "Receive the Glyph of Craft"
+			subtitle: "获得魔符：合成 "
 			description: [
-				"Remember that every journey begins with the power to create."
+				"请铭记每次旅程起始于合成的能力。"
 				""
-				"You may have noticed that you &ccannot place or use Crafting Tables&r. Due to this limitation, your first class should almost certainly be the introductory quests in your &eFabrication Magique&r class."
+				"你也许已经注意到了你&c不能使用或者放置工作台&r。由于这个限制，你的第一堂课应该以及肯定的是在你的&e法术构造学&r课中的入门任务。"
 				""
-				"[\"\",\"Instead, your first step in harnessing this creative potential is through \",{\"text\":\"[ Your First Spellbook ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"54D7F5310E879150\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to quest\"]}},\" which will \",{\"text\":\"grant you access to the crafting grid\",\"color\":\"gold\"},\"!\"]"
+				"[\"\",\"反而，你控制并利用这份创造性潜能的第一步是通过\",{\"text\":\"[ 你的第一本法术书 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"54D7F5310E879150\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\" 将会\",{\"text\":\"让你使用合成栏\",\"color\":\"gold\"},\"！\"]"
 				""
-				"Embrace this magical tool, and let it be the cornerstone of your endeavors in our enchanted realm. With it, you'll weave wonders and unlock the mysteries of our craft. May your crafting adventures be filled with discovery and innovation."
+				"拥抱这个魔法工具，并让它成为在我们魔法领域中给予你支持的基石。使用它，你将编织奇迹并且解锁我们世界中的奥秘。愿你的冒险合成之旅充满探索和创新。"
 			]
 			dependencies: ["4F0DD323FB26A2AD"]
 			size: 1.5d
@@ -41,18 +41,18 @@
 			}]
 		}
 		{
-			title: "Your First Cobblestone"
+			title: "你的第一块圆石"
 			icon: "minecraft:cobblestone"
 			x: -1.0d
 			y: -5.5d
 			shape: "hexagon"
-			subtitle: "Get Cobblestone"
+			subtitle: "获得圆石"
 			description: [
-				"For those of you eager to embark on your crafting journeys, here's a simple way to obtain &bCobblestone&r right in the comfort of your dorm rooms. "
+				"对于你渴望开始你的合成之旅来说，有一个简单的方法就在你的校舍中轻轻松松地获取&b圆石&r。"
 				""
-				"Begin by &6searching through the dirt&r in your living spaces by shift+right clicking on the grass with an open hand; you'll find plenty of small &bPebbles&r hidden beneath the surface."
+				"从你的生活空间&6搜寻土壤&r为开始，空手潜行并右击草皮；你会发现大量的小&b卵石&r藏在地表之下。"
 				""
-				"With patience and diligence, you can collect these Pebbles and turn them into valuable &bCobblestone&r."
+				"伴随着耐心和勤奋，你能收集到这些卵石并把它们转化为有价值的&b圆石&r。"
 			]
 			min_width: 300
 			id: "18B32901E5D2C5BA"
@@ -88,28 +88,28 @@
 			}]
 		}
 		{
-			title: "Your First Logs"
+			title: "你的第一份原木"
 			icon: "minecraft:oak_log"
 			x: -4.0d
 			y: -5.5d
 			shape: "hexagon"
-			subtitle: "Get any Logs"
+			subtitle: "获得任意原木"
 			description: [
-				"&bWood&r is an &6essential crafting component&r, used in all forms by all manners of things. "
+				"&b木材&r是一个&6很重要的合成部分&r，应用于各种各样的物品的所有形态。"
 				""
-				"Upon completion of certain classes, your &6instructor will provide you with Saplings&r. These can be &6grown and harvested in your dorms&r."
+				"完成某些课程之后，你的&6老师会给你一些树苗&r。这些可以&6在你的校舍里种植并收获&r。"
 				""
-				"&lBotania&r"
-				"[\"\",{\"text\":\"[ Birdbath ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"005DDE56C5926F5D\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}},\"\"]"
+				"&l植物魔法&r"
+				"[\"\",{\"text\":\"[ 水盆 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"005DDE56C5926F5D\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 				""
-				"&lArs Nouveau&r"
-				"[\"\",{\"text\":\"[ Beginner Magic Spells ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0CF0DB4C6B3419C2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}},\"\"]"
+				"&l新生魔艺&r"
+				"[\"\",{\"text\":\"[ 法术初学者 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0CF0DB4C6B3419C2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 				""
-				"&lOccultism&r"
-				"[\"\",{\"text\":\"[ Spiritfire Observations ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2CA20C350E71D2C3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}},\"\"]"
+				"&l神秘学&r"
+				"[\"\",{\"text\":\"[ 观察灵火 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2CA20C350E71D2C3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 				""
-				"&lNature's Aura&r"
-				"[\"\",{\"text\":\"[ Obtaining a golden Leaf ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"51F6ACC0A8B4CFA9\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}},\"\"]"
+				"&l自然灵气&r"
+				"[\"\",{\"text\":\"[ 获得一片黄金叶 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"51F6ACC0A8B4CFA9\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 			]
 			dependency_requirement: "one_started"
 			min_width: 300
@@ -117,7 +117,7 @@
 			tasks: [{
 				id: "5FAEBCDF7507BA35"
 				type: "item"
-				title: "Logs"
+				title: "原木"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -134,17 +134,17 @@
 			}]
 		}
 		{
-			title: "Unbreakable"
+			title: "牢不可破"
 			x: 3.0d
 			y: -7.5d
 			shape: "hexagon"
-			subtitle: "Get a Diamond"
+			subtitle: "获得一颗钻石"
 			description: [
-				"Dear inquisitive scholars,"
+				"亲爱的好奇的学者，"
 				""
-				"One fascinating discovery awaits you—the ability to &6remove mana imbuement from Mana Diamonds&r."
+				"一场迷人的探索等待着你——&6把魔力钻石上的魔力灌输剥离下来&r的能力。"
 				""
-				"This is done by &6baptising the Mana Diamond in Spiritfire&r. The fire's necromantic energies will chase out the Diamond's life-energy, leaving only the untouched gem."
+				"这是通过&6把魔力钻石在灵火中洗礼&r完成的。火焰的死灵能量会驱逐钻石的生命能量，只剩下了不可接触的宝石。"
 			]
 			dependencies: ["456860FA6F0C1B0B"]
 			min_width: 300
@@ -171,15 +171,15 @@
 			x: 1.0d
 			y: -7.5d
 			shape: "hexagon"
-			subtitle: "Get a Mana Diamond"
+			subtitle: "获得一颗魔力钻石"
 			description: [
-				"Dear aspiring mana manipulators,"
+				"亲爱的有抱负的魔力操纵者，"
 				""
-				"&bMana Diamonds&r are a wondrous resource, capable of great power. They can be acquired through two ways:"
+				"&b魔力钻石&r是一种奇妙的资源，蕴含巨大的能量。它们能通过两种方式获取："
 				""
-				"They are commonly crafted by &6soaking Diamonds in Mana&r. Diamonds, however, are fairly hard to come by."
+				"它们通过&6把钻石浸没在魔力中&r合成。然而，钻石非常难获取。"
 				""
-				"If you do not have access to Diamonds, &6Source Gems&r can be used in their stead. Due to the conflicting magical channels, this is much &cless efficient&r however."
+				"如果你没法获取钻石，&6魔源宝石&r可以作为他们的替代品。然而由于复杂的魔力渠道，这使得&c效率低很多t&r。"
 			]
 			dependencies: ["4169963D23A8F9FF"]
 			min_width: 300
@@ -210,26 +210,26 @@
 			]
 		}
 		{
-			title: "Now Vanilla!"
+			title: "现在原版了！"
 			x: -1.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Acquire Copper"
+			subtitle: "获得铜"
 			description: [
-				"Dear students,"
+				"亲爱的同学们，"
 				""
-				"When first starting, your main source of Copper will be through the &6Goblin Shop&r (specifically, the one &6behind the Botanic Gardens&r). There, you'll be able to &6buy Raw Copper&r!"
+				"刚开始的时候，你的铜的主要来源会是通过&6哥布林商店&r（具体来说，&6植物学花园&r后面的那只）。那里，你将能够&6购买粗铜&r！"
 				""
-				"Later on, you can use one of the following to generate ores of all types:"
+				"以后，你能使用以下其中一种方式来生产所有种类的矿石："
 				""
-				"&lBotania's Orechid&r:"
-				"[\"  \",\"\",{\"text\":\"[ Making Runes ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l植物魔法的凝矿兰&r："
+				"[\"  \",\"\",{\"text\":\"[ 制作符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
-				"&lOccultism's Dimensional Mineshaft&r:"
-				"[\"  \",\"\",{\"text\":\"[ Mining in other Dimensions ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l神秘学的维度矿井&r："
+				"[\"  \",\"\",{\"text\":\"[ 在其他维度挖矿 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
-				"&lBlood Magic's Meteor Ritual&r:"
-				"[\"\",\"  \",{\"text\":\"[ Giant Meteor ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l血魔法的坠星位标仪式&r："
+				"[\"\",\"  \",{\"text\":\"[ 巨大陨石 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 			]
 			dependencies: ["4CCB6C082F5C0622"]
 			min_width: 300
@@ -246,34 +246,34 @@
 			}]
 		}
 		{
-			title: "Getting Iron"
+			title: "得到铁"
 			x: 1.0d
 			y: -5.5d
 			shape: "hexagon"
-			subtitle: "Acquire Iron"
+			subtitle: "获得铁"
 			description: [
-				"Dear students,"
+				"亲爱的同学们，"
 				""
-				"When it comes to obtaining the valuable resource of &bIron&r within our mystical campus early on, there are &6two distinct paths&r you can follow:"
+				"当谈到早期在我们神秘的校园中获取珍贵的资源——&b铁&r时，有&6两条捷径&r供你选择："
 				""
-				"&l&6Zombie Hunting&r:"
+				"&l&6猎杀僵尸&r:"
 				""
-				"Sometimes, luck favors the brave. Engaging in &6battles with the undead&r can yield the precious metal. Keep a keen eye out for this stroke of fortune when you encounter zombies during your quests. Zombie Gate Pearls guarantee some iron will drop after each wave is completed."
+				"有时候，运气垂青于勇者。在参与与&6亡灵生物的战斗中&r能收获这个珍贵的金属。当你在你的任务过程中遭遇僵尸时，时刻留意着这个幸运一击。僵尸传送门珍珠保证在每波完成后会掉落一些铁。"
 				""
-				"&l&6Goblin Shop&r:"
+				"&l&6哥布林商店&r:"
 				""
-				"Alternatively, you have the option to acquire iron through the enigmatic &6Goblin Shop&r. Here, the goblins offer a variety of &6rare and useful items&r in exchange for your treasures and magical currency. The Goblin Shop &6near the Beast Master class&r sells Raw Iron! You'll need a method to smelt it though, such as Hex casting's smelt spell."
+				"或者，你可以选择通过神秘的&6哥布林商店&r获取铁。在这里，哥布林们提供各种各样的&6稀有和有用的资源&r，作为交换是你的宝藏和魔法货币。&6靠近野兽大师教室&r的哥布林商店售卖粗铁！不过你得需要一种熔炼它的方法,例如咒术施法的熔炼法术。"
 				""
-				"Later on, you can use one of the following to generate ores of all types:"
+				"此后，你能使用以下其中一种方式来生产所有种类的矿石："
 				""
-				"&lBotania's Orechid&r:"
-				"[\"  \",\"\",{\"text\":\"[ Making Runes ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l植物魔法的凝矿兰&r："
+				"[\"  \",\"\",{\"text\":\"[ 制作符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
-				"&lOccultism's Dimensional Mineshaft&r:"
-				"[\"  \",\"\",{\"text\":\"[ Mining in other Dimensions ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l神秘学的维度矿井&r："
+				"[\"  \",\"\",{\"text\":\"[ 在其他维度挖矿 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
-				"&lBlood Magic's Meteor Ritual&r:"
-				"[\"\",\"  \",{\"text\":\"[ Giant Meteor ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l血魔法的坠星位标仪&r："
+				"[\"\",\"  \",{\"text\":\"[ 巨大陨石 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 			]
 			min_width: 375
 			id: "3693F0A7021419E6"
@@ -295,28 +295,28 @@
 			}]
 		}
 		{
-			title: "Of \"and Gold\" Fame"
+			title: "和“金”的名声"
 			x: 0.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Acquire Silver"
+			subtitle: "获得银"
 			description: [
-				"Dear students,"
+				"亲爱的同学们，"
 				""
-				"&bSilver&r is an intensely &6spiritually pure&r metal, and is used in many magics."
+				"&b银&r是一种&6精神上十分纯洁的&r金属，并且在很多魔法上用得到。"
 				""
-				"When first starting, your main source of Silver will be through the &6Goblin Shop&r (specifically, the one &3behind the Botanic Gardens&r. There, you'll be able to &6buy Raw Silver&r!"
+				"刚开始的时候，你的银的主要来源会是通过&6哥布林商店&r（具体来说，&6植物学花园&r后面的那只）。那里，你将能够&6购买粗银&r！"
 				""
-				"Later on, you can use one of the following to generate ores of all types:"
+				"此后，你能使用以下其中一种方式来生产所有种类的矿石："
 				""
-				"&lBotania's Orechid&r:"
-				"[\"  \",\"\",{\"text\":\"[ Making Runes ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l植物魔法的凝矿兰&r："
+				"[\"  \",\"\",{\"text\":\"[ 制作符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
-				"&lOccultism's Dimensional Mineshaft&r:"
-				"[\"  \",\"\",{\"text\":\"[ Mining in other Dimensions ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l神秘学的维度矿井&r："
+				"[\"  \",\"\",{\"text\":\"[ 在其他维度挖矿 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
-				"&lBlood Magic's Mark of the Fallen Tower&r:"
-				"[\"\",\"  \",{\"text\":\"[ Giant Meteor ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
+				"&l血魔法的坠星位标仪&r："
+				"[\"\",\"  \",{\"text\":\"[ 巨大陨石 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 			]
 			dependencies: ["4CCB6C082F5C0622"]
 			min_width: 300
@@ -340,20 +340,20 @@
 			}]
 		}
 		{
-			title: "Disregard Personal Relationships"
+			title: "忽视人际关系"
 			icon: "minecraft:gold_ingot"
 			x: 1.0d
 			y: -1.5d
 			shape: "hexagon"
-			subtitle: "Acquire Gold"
-			description: ["&bGold&r can be acquired through &6transmutating Iron&r. With the use the &dAlchemy Array&r and &dGolden Powder&r you can easily achieve this."]
+			subtitle: "获得金锭"
+			description: ["&b金锭&r可以通过&6嬗变铁锭&r获得。通过使用&d炼金矩阵&r和&d金叶粉&r，你能够轻松得到它。"]
 			dependencies: ["3693F0A7021419E6"]
 			min_width: 300
 			id: "3B29B9822D5248BD"
 			tasks: [{
 				id: "3B0FC454EFC77F7E"
 				type: "item"
-				title: "Gold"
+				title: "金锭"
 				item: {
 					id: "minecraft:gold_ingot"
 					Count: 1b
@@ -372,17 +372,17 @@
 			x: 6.0d
 			y: -1.5d
 			shape: "circle"
-			subtitle: "Get Dragon's Eye"
+			subtitle: "获得龙之眼"
 			description: [
-				"&bDragon's Eye&r is a rare reagent that has but a &6one in ten chance of dropping from Chorus Flowers&r."
+				"&b龙之眼&r是一种稀有试剂，但它有&6十分之一的几率从紫颂花中掉落&r。"
 				""
-				"Consuming it will act similarly to Chorus Fruit, &6teleporting the consumer&r up to 32 meters in a random direction."
+				"食用它会表现为和紫颂果相似，在一个随机方向&6传送食用者&r，最大32米。"
 				""
-				"More importantly, however: Dragon's Eye can be &6smelted to create Ender Pearls&r, an incredibly rare and valuable resource."
+				"但是，更重要的是：龙之眼可以被&6熔炼，来制作末影珍珠&r，一个非常稀有和珍贵的资源。"
 				""
-				"Additionally, they can be used to create an &6Enderman Gate Pearl&r, which will summon forth a horde for you to fight!"
+				"另外，它们可以用于制作一个&6末影人传送门珍珠&r, 会召唤一群末影人供你战斗！"
 				""
-				"The Dragon's Eyes are a testament to your journey into the heart of arcane mysteries. "
+				"龙之眼是你旅途中深入奥术秘密的核心的一个证明。"
 			]
 			dependencies: ["3EFFC3A8B075061A"]
 			min_width: 300
@@ -409,9 +409,9 @@
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"Our skilled horticulturalists understand the importance of nurturing &6Netherwart&r with care, as it often provides an extra hint of &bInfernal Bulb&r as a byproduct."
+				"我们熟练的园艺家深知悉心培育&6下界疣t&r的重要性，因为它经常提供一个关于&b地狱鳞茎&r作为副产物的额外提示。"
 				""
-				"They'll prove quite handy in our magical endeavors, whether for fueling our activities or crafting Small Blaze Gateways."
+				"它们会证明在我们魔法事业下会相当的得心应手，不管是为了增强我们的活动还是制作小型烈焰人传送门。"
 			]
 			dependencies: ["3F0CE4D0B1C005F3"]
 			min_width: 300
@@ -440,17 +440,17 @@
 			x: 7.0d
 			y: -1.5d
 			shape: "circle"
-			subtitle: "Get an Ender Pearl"
+			subtitle: "获得一颗末影珍珠"
 			description: [
-				"Dear curious minds,"
+				"亲爱的拥有好奇心的人，"
 				""
-				"&bEnder pearls&r hold a multitude of magical applications within the realm of crafting. "
+				"&b末影珍珠&r在制作领域掌握多种魔法用途。"
 				""
-				"Two of the most important uses are:"
+				"两种最重要的用途是："
 				""
-				"• The ability to craft &6special Mob Gates&r, like those for Blazes and Endermen."
+				"•制作&6特殊生物传送门&r的能力，例如烈焰人的和末影人的。"
 				""
-				"[\"\",\"• The ability to craft the \",{\"text\":\"[ Ring of Lesser Discount ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"612BC02EEA4C9BBA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to quest\"]}},\", a requirement in your Ars Nouveau lessons to unlock the \",{\"text\":\"second tier of Spell Book\",\"color\":\"gold\"},\".\"]"
+				"[\"\",\"•制作\",{\"text\":\"[ 次等节魔之戒 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"612BC02EEA4C9BBA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"的能力，需要在你的新生魔艺课上解锁\",{\"text\":\"二阶法术书\",\"color\":\"gold\"},\"。\"]"
 			]
 			dependencies: ["322870F322A43E51"]
 			min_width: 300
@@ -471,9 +471,9 @@
 			x: 7.0d
 			y: 0.0d
 			description: [
-				"Defeating a &6Blaze Gateway&r can be a perilous task, but the bountiful &bBlaze Rods&r obtained thereafter will greatly aid us in advancing our enchanting studies."
+				"战胜&6烈焰人传送门&r会是一个危险的任务，但可获取大量的&b烈焰棒&r，此后这极大地帮助了我们推动魔法的研究。"
 				""
-				"These rods hold significant value in our enchanting pursuits. They are essential for brewing, crafting special enchanting tomes, and numerous other enchanting recipes. Their versatility makes them a crucial resource in our magical endeavors."
+				"这些棒子在我们的魔法的追求掌握着重要价值。它们对酿造，制作特殊的附魔书，还有数不清的其他魔法配方来说是必不可少的。它们的多功能性，使得它们在我们的魔法事业上成为一种重要的资源。"
 			]
 			dependencies: ["03C2D00542B4965D"]
 			min_width: 300
@@ -497,20 +497,20 @@
 			}]
 		}
 		{
-			title: "Growing Chorus"
+			title: "种植紫颂"
 			x: 5.0d
 			y: -1.5d
-			subtitle: "Plant a Chorus Flower"
+			subtitle: "种下一朵紫颂花"
 			description: [
-				"Dear dedicated scholars,"
+				"亲爱的具有奉献精神的学者们,"
 				""
-				"The path to obtaining the coveted Chorus Flowers is indeed a lengthy one, but it promises great rewards for your unwavering commitment to the magical arts."
+				"获取梦寐以求的紫颂花的途径确实是一件漫长的事，但可以保证的是，你积极致力于魔法技艺，一定会有丰厚的回报。"
 				""
-				"[\"\",\"\",{\"text\":\"[ Pure Daisy ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E19F49E1CA299A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
-				"Begin by using a &6Pure Daisy&r to perform a mystical transformation. &6Convert your Purpur Blocks into Chorus Weed&r, a crucial intermediate stage in the process."
+				"[\"\",\"\",{\"text\":\"[ 白雏菊 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E19F49E1CA299A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"刚开始的时候，使用一朵&6白雏菊&r来进行一次神秘的转化。&6把你的紫珀块转化为紫颂杂草&r，在进程中一个至关重要的中间阶段。"
 				""
-				"[\"\",\"\",{\"text\":\"[ Spirit Infusion ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"50B9F03C73F0A696\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to Quest\"]}}]"
-				"Next, harness the power of Malum's &6Spirit Infusion&r to infuse the Chorus Weed with the essence it requires."
+				"[\"\",\"\",{\"text\":\"[ 精魂灌注 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"50B9F03C73F0A696\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"下一步，控制并利用灵灾的&6精魂灌注&r之力，使用所需要的精魂灌注进紫颂杂草内。"
 			]
 			dependencies: ["52CE1B114CB8605F"]
 			min_width: 300
@@ -518,7 +518,7 @@
 			tasks: [{
 				id: "2299186AE32F855A"
 				type: "observation"
-				title: "Observe a Chorus Flower"
+				title: "观察一朵紫颂花"
 				icon: "minecraft:chorus_flower"
 				timer: 0L
 				observe_type: 0
@@ -532,14 +532,14 @@
 			}]
 		}
 		{
-			title: "Kitchen Impossible"
+			title: "做饭是不可能的"
 			x: 5.0d
 			y: 0.0d
 			shape: "circle"
 			description: [
-				"Did you know our ghostly friend &6Ghostipedia&r in the dining hall offers various foods for a few coins? Well, guess what? They also have Nether Wart!"
+				"你知道我们的鬼魂朋友&6小幽灵&r在大厅吗，可以花很少的钱提供很多种食物？ 嗯， 你猜怎么着？它们也有下界疣！"
 				""
-				"If you're looking for Nether Wart, try asking our friendly poltergeist in the dining hall. They've got lots of goodies, including the useful &bNether Wart&r, for our magical activities."
+				"如果你在寻找下界疣，试着在大厅里询问我们友好的小幽灵。它们有很多商品，包括为了我们的魔法活动，有用的&b下界疣&r。"
 			]
 			min_width: 300
 			id: "3F0CE4D0B1C005F3"
@@ -570,15 +570,15 @@
 		{
 			x: 4.0d
 			y: -1.5d
-			subtitle: "Get Purpur"
+			subtitle: "获得紫珀块"
 			description: [
-				"Dear aspiring alchemists,"
+				"亲爱的有抱负的炼金师们，"
 				""
-				"Your journey towards the mystical &6Chorus Flowers&r remains several steps away, though you continue ever forward."
+				"你的通往神秘的&6紫珀花&r之旅就还剩下几步了，但是你仍需要继续前进。"
 				""
-				"Utilize the &6Imbuement Chamber&r to create End Stone, then infuse it into &bPurpur&r in the &6Natural Altar&r."
+				"使用&6灌注室&r来制作末地石，然后在&6自然祭坛&r灌注成&b紫珀块&r。"
 				""
-				"Continue your diligent studies and alchemical experiments. With each step, you draw nearer to unlocking the secrets of our enchanted world and the wonders it holds."
+				"继续你的勤奋学习和炼金实验。每一步，你就离解锁我们魔力世界的秘密和它掌握的奇迹更近一步。"
 			]
 			dependencies: [
 				"282B976F2593CEC6"
@@ -593,21 +593,21 @@
 			}]
 		}
 		{
-			title: "Mastered Smelting"
+			title: "掌握熔炼"
 			x: -1.0d
 			y: -3.5d
-			subtitle: "Complete any course that unlocks smelting"
+			subtitle: "完成任意课程来解锁熔炼"
 			description: [
-				"Like the Crafting Table, &cuse of non-magical Furnaces is prohibited&r. However, we host several courses on smelting &oproperly&r, like &owizards&r."
+				"就像工作台，&c使用非魔法的熔炉是禁止的&r。然而，我们主办的许多关于&o正确&r熔炼的课程，就像&o巫师&r一样。"
 				""
-				"&lBotania&r"
-				"{\"text\":\"[ Botanic Smelter ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30F12709B6842237\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to quest\"]}}"
+				"&l植物魔法&r"
+				"{\"text\":\"[ 植物学熔炉 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30F12709B6842237\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 				""
-				"&lArs Nouveau&r"
-				"{\"text\":\"[ Glyph of Smelt ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3C60F002ACBF1B8F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to quest\"]}}"
+				"&l新生魔艺&r"
+				"{\"text\":\"[ 魔符：熔炼 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3C60F002ACBF1B8F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 				""
-				"&lHex Casting&r"
-				"{\"text\":\"[ Learning to Smelt ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"38A3B49A5D413BBF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to quest\"]}}"
+				"&l咒术施法&r"
+				"{\"text\":\"[ 学会熔炼 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"38A3B49A5D413BBF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 			]
 			dependencies: [
 				"18B32901E5D2C5BA"
@@ -686,15 +686,15 @@
 			icon: "ars_nouveau:glyph_transmute"
 			x: 3.0d
 			y: -4.0d
-			subtitle: "Get Ender Pearls, Redstone, or Emeralds"
+			subtitle: "获得末影珍珠，红石，或者绿宝石"
 			description: [
-				"Through the use of the &6Transmute Glyph&r, you now have the ability to &6convert certain materials into certain others&r."
+				"通过使用&6魔符：嬗变&r，现在你拥有把&6特定的材料转化为其他别的材料&r的能力。"
 				""
-				"Unaided, the spell can &conly convert between roughly equivalent resources&r, like Iron and Gold."
+				"没有任何帮助的情况下，这个法术&c只能把大约等价的资源相互转化&r，例如铁锭和金锭。"
 				""
-				"The more profitable transmutations, like &bEnder Pearls&r and &bEmeralds&r require some boosts to power."
+				"更有用的转化，例如&b末影珍珠&r和&b绿宝石&r需要一些加强来驱动。"
 				""
-				"This is done by applying the &6Glyph of Amplify&r the appropriate amount. If that is not enough, you may also be required to wear a &6Focus of Alchemy&r."
+				"这是通过施加适量数量的&6魔符：强化&r来实现的。如果那也不够，你也许也需要佩戴一个&6炼金术之核心&r。"
 			]
 			dependencies: ["612BC02EEA4C9BBA"]
 			min_width: 275
@@ -702,7 +702,7 @@
 			tasks: [{
 				id: "14C9B192C92C0985"
 				type: "item"
-				title: "Transmuted Materials"
+				title: "材料转化"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -738,17 +738,17 @@
 			}]
 		}
 		{
-			title: "Alchemical Reconstitution"
+			title: "炼金重构"
 			disable_toast: true
 			x: 2.5d
 			y: -0.5d
-			subtitle: "Make an Imbuement Chamber"
+			subtitle: "制作一个灌注室"
 			description: [
-				"The &bImbuement Chamber&r is a special device that &6combines items&r into something new."
+				"&b灌注室&r是一个特殊的设备可以把&6物品组合&r成新东西。"
 				""
-				"Place the main item in the Chamber, and then place any additional items in &6Arcane Pedestals&r within 1 meter. Items in Pedestals are not lost upon use."
+				"把主要物品放进舱室内，然后把其他额外的物品放在相距1米之内的&6奥术基座&r里。在基座里的物品使用时不会被消耗。"
 				""
-				"The majority of recipes will require &6Source&r from a &6Source Jar&r placed within 2 meters. We will go over this later."
+				"大多数的配方会需要一个放置在相距两米之内的，&6魔源罐&r中的&6魔源&r。我们将会稍后复习一下。"
 			]
 			dependencies: ["3B29B9822D5248BD"]
 			id: "7AD6F8246B30DF9B"
@@ -759,7 +759,7 @@
 			}]
 		}
 		{
-			title: "Obtaining Water"
+			title: "获得水"
 			x: -2.642857142857146d
 			y: -7.5d
 			dependencies: ["4169963D23A8F9FF"]
@@ -796,17 +796,17 @@
 			y: -5.5d
 			shape: "hexagon"
 			description: [
-				"Dear students,"
+				"亲爱的同学们，"
 				""
-				"It brings me great joy to witness your remarkable progress in obtaining most of the items needed for our enchanting pursuits. Your dedication and efforts are truly commendable!"
+				"看到你在获取我们的魔法追求时所需的大部分物品时，而取得的非凡进步，我真的很高兴。 你的奉献和努力确实值得嘉许！"
 				""
-				"Now that you've mastered acquiring these items, I encourage you to explore the favors requested by the teachers. Assisting them in their tasks will not only further enhance your knowledge but also contribute significantly to our collective efforts in mastering the arcane arts."
+				"协助你已经掌握了获取这些物品，我鼓励你去探索探索老师们的不情之请。协助他们在他们的任务上不仅仅会巩固你的知识，而且还会对我们对掌握奥术技艺的集体努力做出重要贡献。"
 				""
-				"Taking the time to aid our esteemed teachers in their quests will provide invaluable experience and deepen your understanding of the mystical realms."
+				"花些时间在他们的任务上协助我们的令人尊敬的老师们，将会提供无价的经历和深化你对魔法领域的理解。"
 				""
-				"Your commitment to learning and growth is truly inspiring! May your endeavors continue to flourish as you delve deeper into the wonders of enchantment."
+				"你对学习的热情和成长着实令人激动！愿你的努力就像你钻研到更深的魔法奇迹一样持续繁荣下去。"
 				""
-				"-Headmaster Tazz"
+				"——塔兹校长"
 			]
 			dependencies: ["612BC02EEA4C9BBA"]
 			size: 2.0d
@@ -815,7 +815,7 @@
 			tasks: [{
 				id: "69836238BDC4CB56"
 				type: "checkmark"
-				title: "Getting the Codexes"
+				title: "获得典籍"
 			}]
 		}
 		{
@@ -859,7 +859,7 @@
 			}]
 		}
 		{
-			title: "Progression Chapter"
+			title: "进程章节"
 			icon: {
 				id: "botania:cosmetic_questgiver_mark"
 				Count: 1b
@@ -871,17 +871,17 @@
 			y: -5.5d
 			shape: "hexagon"
 			description: [
-				"Hello, aspiring enchanters!"
+				"你好，有抱负的魔法师们！"
 				""
-				"This chapter is your starting point at &dArcanum Institute&r. It'll guide you on how to begin and gather essential materials."
+				"这个章节是你在&d奥术学院&r的起点。它会指导你如何开始和收集必不可少的材料。"
 				""
-				"Try jumping between different classes! This approach will provide you with a well-rounded understanding of diverse enchanting practices and materials. It's beneficial to have a broader perspective on magical studies."
+				"尝试在不同的课程中跨越！这个方法会提供给你一个关于多样化魔法练习和材料的全方位理解。它对你拥有一个关于魔法学习更广阔的眼界来说很有好处。"
 				""
-				"Your hard work in class won't go unnoticed! After completing tasks, you'll receive a &6Mage's Spell Book&r and useful spells. These will assist you on your journey through &dArcanum Institute&r."
+				"你在课堂上的刻苦钻研不会被忽视的！在完成任务之后，你会得到一本&6法师的法术书&r和有用的咒语。这些会协助你在&d奥术学院&r的旅途。"
 				""
-				"It's vital to pay attention here as it sets the groundwork for your magical studies. The materials and knowledge will be crucial for your enchanting journey."
+				"对于你的魔法学习，请注意打好基础是很重要的。材料和知识会对与你的魔法之旅来说是相当重要的。"
 				""
-				"Keep up the good work! The rewards and knowledge gained will help you grow as an enchanter!"
+				"再接再厉！获取奖励和知识会帮助你成长为一名魔法师！"
 			]
 			size: 2.0d
 			min_width: 300
