@@ -62,7 +62,7 @@ onEvent('block.right_click', (event) => {
     let aabb = AABB.of(x, y, z, x + 1, y + 2, z + 1)
     let entities = event.level.getEntitiesWithin(aabb)
     entities.forEach((entity) => {
-        if (entity.toString().contains("Demon's Dream Fruit")) { // TODO 
+        if (entity.toString().contains("魔鬼之梦果")) {
             event.cancel()
             let pos = block.getUp()
             if (pos === 'minecraft:air') {
