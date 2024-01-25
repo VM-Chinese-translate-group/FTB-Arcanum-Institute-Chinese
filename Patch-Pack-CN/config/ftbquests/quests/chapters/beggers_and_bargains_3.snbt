@@ -3,7 +3,7 @@
 	group: "2BF58BA9C4117D6D"
 	order_index: 3
 	filename: "beggers_and_bargains_3"
-	title: "Brobzagz Booties"
+	title: "布罗布扎格兹的战利品"
 	icon: "minecraft:diamond"
 	disable_toast: true
 	default_quest_shape: ""
@@ -184,7 +184,7 @@
 			}]
 		}
 		{
-			title: "Copper and Silver"
+			title: "铜和银"
 			icon: "minecraft:raw_copper_block"
 			x: 6.0d
 			y: 0.0d
@@ -207,7 +207,7 @@
 			}]
 		}
 		{
-			title: "Dark Ore"
+			title: "暗黑宝石矿石"
 			icon: "evilcraft:dark_ore"
 			x: 6.0d
 			y: 4.0d
@@ -228,7 +228,7 @@
 			}]
 		}
 		{
-			title: "Iron Key"
+			title: "铁钥匙"
 			icon: "bloodmagic:simplekey"
 			x: 6.0d
 			y: 2.0d
@@ -249,7 +249,7 @@
 			}]
 		}
 		{
-			title: "Book of Binding: Foliot"
+			title: "绑定之书：魔精"
 			icon: "occultism:book_of_binding_foliot"
 			x: 8.5d
 			y: 2.0d
@@ -274,7 +274,7 @@
 			}]
 		}
 		{
-			title: "Membranes"
+			title: "膜"
 			icon: { id: "minecraft:phantom_membrane", Count: 8b }
 			x: 8.5d
 			y: 0.0d

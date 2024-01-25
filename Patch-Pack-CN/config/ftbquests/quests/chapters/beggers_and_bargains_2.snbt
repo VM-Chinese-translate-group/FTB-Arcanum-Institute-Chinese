@@ -3,14 +3,14 @@
 	group: "2BF58BA9C4117D6D"
 	order_index: 2
 	filename: "beggers_and_bargains_2"
-	title: "Ibseang's Itamz"
+	title: "艾普信的物件"
 	icon: "minecraft:gold_ingot"
 	disable_toast: true
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Fairy in a Bottle"
+			title: "瓶中仙女"
 			icon: "minecraft:totem_of_undying"
 			x: 6.0d
 			y: 2.0d
@@ -205,7 +205,7 @@
 			}]
 		}
 		{
-			title: "Budding Amethyst"
+			title: "紫水晶母岩"
 			icon: "minecraft:budding_amethyst"
 			x: 6.0d
 			y: 6.0d
@@ -226,7 +226,7 @@
 			}]
 		}
 		{
-			title: "Bottle and Cork"
+			title: "瓶与塞"
 			icon: "naturesaura:bottle_two_the_rebottling"
 			x: 6.0d
 			y: 4.0d
@@ -247,7 +247,7 @@
 			}]
 		}
 		{
-			title: "Sacrificial Knife"
+			title: "牺牲匕首"
 			icon: {
 				id: "bloodmagic:sacrificialdagger"
 				Count: 1b
@@ -279,7 +279,7 @@
 			}]
 		}
 		{
-			title: "Dagger of Sacrifice"
+			title: "献祭刀"
 			icon: "bloodmagic:daggerofsacrifice"
 			disable_toast: true
 			x: 8.0d
@@ -305,7 +305,7 @@
 			}]
 		}
 		{
-			title: "Book and Quill"
+			title: "书与笔"
 			icon: "minecraft:writable_book"
 			x: 6.0d
 			y: 0.0d
@@ -326,7 +326,7 @@
 			}]
 		}
 		{
-			title: "Drawers"
+			title: "抽屉"
 			icon: {
 				id: "framedcompactdrawers:framed_full_one"
 				Count: 1b
@@ -380,7 +380,7 @@
 			}]
 		}
 		{
-			title: "Half Drawers"
+			title: "小型抽屉"
 			icon: {
 				id: "framedcompactdrawers:framed_half_one"
 				Count: 1b
@@ -433,7 +433,7 @@
 			}]
 		}
 		{
-			title: "Brilliant Fiber"
+			title: "闪耀纤维"
 			icon: "naturesaura:gold_fiber"
 			x: 4.0d
 			y: 6.0d

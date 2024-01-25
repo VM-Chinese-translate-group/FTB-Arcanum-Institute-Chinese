@@ -3,7 +3,7 @@
 	group: "2BF58BA9C4117D6D"
 	order_index: 4
 	filename: "beggers_and_bargains_4"
-	title: "Zruzz's Pickles and stuff"
+	title: "泽鲁兹的泡菜和其他玩意"
 	icon: "minecraft:emerald"
 	disable_toast: true
 	default_quest_shape: ""
@@ -184,21 +184,21 @@
 			}]
 		}
 		{
-			title: "Goblin Codex"
+			title: "哥布林典籍"
 			icon: "ftbai:codex_goblin"
 			x: 6.0d
 			y: 0.0d
 			description: [
-				"Hey!"
+				"嘿！"
 				""
-				"Didcha know, the Teachers are handing out their Codexes. But we Goblins have a &bCodex&r too."
+				"你知道吗，老师们正在分发他们的典籍。但是我们哥布林也有&b典籍&r。"
 				""
-				"You know we like the gold, so if you're willing to \"donate\" some, I'll share you my Codex."
+				"众所周知我们喜欢金子，所以如果你们“捐”点给我们，我会把我的典籍分享给你。"
 				""
-				"I'm only going to give you one tho!"
+				"不过我只会给你一本！"
 				""
 				""
-				"Psst... If you want, you can use this to skip one of the Teacher's Favor's, just turn this one in instead of the &6Teacher's Codex&r."
+				"嘘……如果你想的话，你可以用它来跳过一次教师的考验，只需要上交我们典籍来代替&6教师的典籍&r。"
 			]
 			dependencies: ["21604C2C01E3AB4B"]
 			id: "32F05EEAB47406EB"
@@ -223,7 +223,7 @@
 			}]
 		}
 		{
-			title: "Zombie Villager"
+			title: "僵尸村民"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -263,7 +263,7 @@
 			]
 		}
 		{
-			title: "Compacting Drawers"
+			title: "压缩抽屉"
 			icon: {
 				id: "framedcompactdrawers:framed_compact_drawer"
 				Count: 1b
@@ -346,7 +346,7 @@
 			}]
 		}
 		{
-			title: "Mysterious Pickle"
+			title: "神秘的泡菜"
 			icon: "minecraft:sea_pickle"
 			x: 6.0d
 			y: 4.0d
@@ -383,7 +383,7 @@
 			}]
 		}
 		{
-			title: "Drawer Slaves"
+			title: "抽屉传动方块"
 			icon: {
 				id: "framedcompactdrawers:framed_slave"
 				Count: 1b
@@ -469,7 +469,7 @@
 			}]
 		}
 		{
-			title: "Drawer Controller"
+			title: "抽屉控制器"
 			icon: {
 				id: "framedcompactdrawers:framed_compact_drawer"
 				Count: 1b
