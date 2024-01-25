@@ -214,7 +214,7 @@
 			tasks: [{
 				id: "32F75D1EE423118F"
 				type: "item"
-				title: "强效烧瓶(Potent Flasks(TODO))"
+				title: "强效烧瓶"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
