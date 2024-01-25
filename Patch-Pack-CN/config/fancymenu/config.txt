@@ -32,7 +32,7 @@ S:customgameintroskiptext = '';
 ##[minecraftwindow]
 
 [A minecraft restart is required after changing this value.]
-S:customwindowtitle = 'FTB奥数学院 - VM汉化组汉化';
+S:customwindowtitle = 'FTB奥术学院 - VM汉化组汉化';
 [A minecraft restart is required after changing this value.]
 B:customwindowicon = 'true';
 
