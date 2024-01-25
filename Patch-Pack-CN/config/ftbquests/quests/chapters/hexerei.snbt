@@ -3,13 +3,13 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 3
 	filename: "hexerei"
-	title: "The Dark Arts"
+	title: "暗黑技艺"
 	icon: {
 		id: "hexerei:mahogany_broom"
 		Count: 1b
 		tag: { }
 	}
-	subtitle: ["Evilcraft and Hexerei"]
+	subtitle: ["邪恶工艺与巫师学"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 300
@@ -18,7 +18,7 @@
 			x: 5.5d
 			y: -5.0d
 			description: [
-				"Create some hardened Blood by using the Blood Extractor and place down some blood to let it coagulate"
+				"通过血液提取器倒出血液并让它们凝固来制造一些凝固的血块"
 				""
 			]
 			dependencies: ["64DB83486BDF41E0"]
@@ -26,7 +26,7 @@
 			tasks: [{
 				id: "1B89C1B827ECB566"
 				type: "observation"
-				title: "Observe some Hardened Blood"
+				title: "观察凝固的血块"
 				icon: "evilcraft:hardened_blood"
 				timer: 0L
 				observe_type: 0
@@ -43,9 +43,9 @@
 			x: 5.5d
 			y: -3.5d
 			description: [
-				"&bBlood Infusion Cores&r are the next crafting component we need if we want to progress through Evilcraft."
+				"如果想在邪恶工艺方面更进一步，&b血能注入核心&r是我们接下来需要的制作材料。"
 				""
-				"Get somee &6Blood Shards&r and a &6Dark Power Gem&r and craft them together and you should be holding the Core in your hand in no-time."
+				"获取一些&6干血碎片&r和一个&6暗黑充能宝石&r，将它们合成为血能注入核心，你需要即刻将核心握于掌中。"
 			]
 			dependencies: ["454EC060C16B7CE0"]
 			id: "05EA5E227FF0DE3D"
@@ -56,16 +56,16 @@
 			}]
 		}
 		{
-			title: "Universal Donor"
+			title: "万能供血者"
 			x: 7.0d
 			y: -3.5d
-			subtitle: "Make a Blood Infuser"
+			subtitle: "制作一个血能注入器"
 			description: [
-				"The &bBlood Infuser&r will &6use Blood to infuse items with power&r."
+				"&b血能注入器&r将会&6用血液为物品注能&r。"
 				""
-				"Liquid Blood can be piped in, or a Tank can be inserted into the slot on the left."
+				"血液可以通过管道输入，或者你可以将液体罐放入GUI左侧的槽位来供应血液。"
 				""
-				"It also adds several cheaper recipes for things you've already crafted, like Dark Power Gems."
+				"血能注入器也为你已经制作过的一些物品提供了更廉价的制作方式，例如暗黑充能宝石。"
 			]
 			dependencies: ["05EA5E227FF0DE3D"]
 			min_width: 300
@@ -96,7 +96,7 @@
 		{
 			x: 8.25d
 			y: -3.5d
-			description: ["While anywhere in your inventory (not just Curio slots!), the &bEffortless Ring&r will &6increase your walk speed, jump height, and allow you to walk up single blocks&r."]
+			description: ["当处于你物品栏中的任意位置（不仅仅包括饰品槽）时，&b迅捷指环&r将会&6增加你的移速和跳跃高度，并允许你直接走上1格高的方块&r。"]
 			dependencies: ["2B1FCEC117E6FF5E"]
 			size: 0.5d
 			id: "6F91F7EC725AF048"
@@ -113,19 +113,19 @@
 			}]
 		}
 		{
-			title: "Empty Promises"
+			title: "空洞之诺言"
 			icon: "evilcraft:promise_tier_1"
 			x: 7.75d
 			y: -3.5d
 			subtitle: "Make a Promise"
 			description: [
-				"&bPromises&r are essentially &6upgrades&r for machines. There are three types."
+				"&b诺言&r实质上是对机器的&6升级&r，共有三种类型。"
 				""
-				"The three &bPromises of Tenacity&r &6increase the tier of a machine&r by the Promise's tier, unlocking new recipes."
+				"三种&b坚韧的诺言&r根据诺言的等阶&6提升机器的等阶&r，并解锁新的配方。"
 				""
-				"The &bPromise of Productivity&r makes machines use less blood, and the &bPromise of Velocity&r increases machine speed."
+				"&b效率的诺言&r使机器使用的血液更少，&b速度的诺言&r增加机器的工作速度。"
 				""
-				"Both of the final two can &6stack up to 4 times&r."
+				"后两种诺言都可以&6堆叠至4份达到4倍效果&r。"
 			]
 			dependencies: ["00EE58E9E4455A79"]
 			size: 0.5d
@@ -172,18 +172,18 @@
 			}]
 		}
 		{
-			title: "Like a Bloody Stone"
+			title: "血腥的石头"
 			x: 5.5d
 			y: -6.5d
-			subtitle: "Get a Dark Power Gem"
+			subtitle: "获得一个暗黑充能宝石"
 			description: [
-				"&bDark Power Gems&r provide access to &6more powerful items&r."
+				"&b暗黑充能宝石&r为制造&6更强大的物品&r提供了途径。"
 				""
-				"To make them, &6throw Dark Gems&r into a pool of &6at least 5 buckets of Blood&r."
+				"要制造它们，你需要将&6暗黑宝石&r扔进一个&6至少含有5桶血液&r的血池。"
 				""
-				"Note that liquid Blood &6congeals&r with time, so be quick about it! Mining them with most items will return it to its fluid form."
+				"请注意，倒出的血液随时间推移将会&6凝固&r，所以操作时请抓紧时间！开采周边的方块会使其恢复流体形式。"
 				""
-				"Mining the Hardened Blood holding a &6Flint and Steel&r however will drop &6Hardened Blood Shards&r!"
+				"开采凝固的血块会掉落&6干血碎片&r！"
 			]
 			dependencies: ["454EC060C16B7CE0"]
 			min_width: 250
@@ -203,7 +203,7 @@
 		{
 			x: 5.5d
 			y: -7.25d
-			description: ["While worn and full of Blood, the &bInvigorating Pendant&r will &6remove all negative potion effects&r!"]
+			description: ["当穿戴并装有血液时，&b振奋吊坠&r会&6移除穿戴者所有的负面效果&r！"]
 			dependencies: ["658E637CC9A6E69F"]
 			size: 0.5d
 			id: "7BB7F46FB805AC30"
@@ -233,7 +233,7 @@
 		{
 			x: 1.0d
 			y: -3.5d
-			description: ["&bGem Torches&r &6prevent Vengeance Spirits from spawning&r in the area they light."]
+			description: ["&b暗黑火把&r会&6阻止复仇之魂生成&r在其照亮的范围内。"]
 			dependencies: ["44C1876CB5D7E185"]
 			id: "4763E18ED3A2DFE5"
 			tasks: [{
@@ -249,14 +249,14 @@
 			}]
 		}
 		{
-			title: "Blood Bank"
+			title: "暗黑液体罐"
 			x: 2.5d
 			y: -6.5d
-			subtitle: "Make a Dark Tank"
+			subtitle: "制作一个暗黑液体罐"
 			description: [
-				"&bDark Tanks&r hold fluid. Though the default size is rather small, they can be &6crafted together to increase capacity&r!"
+				"&b暗黑液体罐&r能容纳流体。虽然它的初始容量有点小，但它们可以&6互相合成&r来&6增加容量&r！"
 				""
-				"Activating &6Auto-supply&r by clicking the placed Tank (or sneak clicking in hand) will &6automatically empty the Tank into the tank below&r, including tanks held by players!"
+				"右击放置的液体罐可以激活它的&6自动补给&r（或手持时潜行右击），&6自动地&r向液体罐底面输出，包括玩家手持的储液容器！"
 			]
 			dependencies: ["44C1876CB5D7E185"]
 			hide: true
@@ -307,14 +307,14 @@
 			}]
 		}
 		{
-			title: "That's Where the Blood's Supposed to Be!"
+			title: "这才是血液该待的地方！"
 			x: 7.0d
 			y: -6.5d
-			subtitle: "Make a Blood Chest"
+			subtitle: "制作一个血能箱"
 			description: [
-				"The &bBlood Chest&r &6repairs items placed inside it&r, using Blood from its own tank."
+				"&b血能箱&r能够利用自身存储的血液&6修复置于其中的物品&r。"
 				""
-				"However, this has a small chance of &ccursing the items&r with the Curse of Breaking. This can be removed with a &6Purifier&r."
+				"然而，这个过程中有较小的概率&c诅咒所修复的物品&r，为其带来破碎诅咒。这个诅咒可以用&6净化器&r去除。"
 			]
 			dependencies: ["658E637CC9A6E69F"]
 			id: "00F05043F7B370D6"
@@ -341,11 +341,11 @@
 			}]
 		}
 		{
-			title: "Bark from the Dead"
+			title: "死亡之树"
 			x: 7.0d
 			y: -5.0d
-			subtitle: "Get an Undead Tree"
-			description: ["&bUndead Trees&r &6bleed&r, leaving Blood Stains under its leaves. These can be collected by a &6Blood Extractor&r."]
+			subtitle: "得到一株亡灵树树苗"
+			description: ["&b亡灵树&r会&6流血&r，持续地在其树叶下留下血迹。这些血迹可以通过&6血液提取器&r收集。"]
 			dependencies: ["00EE58E9E4455A79"]
 			id: "0C3B90072606F36D"
 			tasks: [{
@@ -361,7 +361,7 @@
 			}]
 		}
 		{
-			title: "&lBlood Chest&r"
+			title: "&l超大杯&r"
 			icon: {
 				id: "evilcraft:colossal_blood_chest"
 				Count: 1b
@@ -375,13 +375,13 @@
 			}
 			x: 7.0d
 			y: -5.75d
-			subtitle: "Make a Colossal Blood Chest"
+			subtitle: "制作一个大型血能箱"
 			description: [
-				"The &bColossal Blood Chest&r functions mostly the same as the smaller version, but &6holds more items&r and can be upgraded with &6Promises&r!"
+				"&b大型血能箱&r结构基本与小型版本相同，但是可以&6容纳更多物品&r并且使用&6诺言升级&r！"
 				""
-				"As a consequence though, it is &cmuch less efficient&r. However, the more items being repaired simultaneously, the &6more efficient&r it becomes!"
+				"但是，大型血能箱的&c效率低得多&r。不过同时修理的物品越多，它的&6效率就越高&r！"
 				""
-				"To construct the Colossal Blood Chest, make a &6hollow 3x3x3&r of &bUndead Wood&r, replacing any of them with the main block."
+				"要构建大型血能箱，你需要用&b强化亡灵木木板&r建造一个&6中空的3x3x3的正方体&r，并用大型血能箱主方块替代它们中的任意一个位置。"
 			]
 			dependencies: [
 				"00F05043F7B370D6"
@@ -423,7 +423,7 @@
 		{
 			x: 7.75d
 			y: -5.25d
-			description: ["The &bVengeance Pickaxe&r has &6Fortune V&r by default, but also &csummons Vengeance Spirits&r when used. It also has rather low durability."]
+			description: ["&b复仇之镐&r默认带有&6时运V&r的附魔效果，但会在使用时&c招来复仇之魂&r。它的耐久也相当低。"]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
 			size: 0.5d
@@ -473,11 +473,11 @@
 			x: 7.75d
 			y: -4.75d
 			description: [
-				"&bBrooms&r are &6modular flying vehicles&r that are powered by Blood. While riding or holding the Broom, you can see its fill level in the bottom right of your screen."
+				"&b扫帚&r是用血液驱动的&6模块化的飞行工具&r。骑乘或拿着扫帚时，你可以在屏幕的右下角看到它的充能等级。"
 				""
-				"Brooms are made by combining three broom parts: &bBrushes&r, &bRods&r, and &bCaps&r. The material they are made from affects the Broom's stats."
+				"扫帚由三种扫帚部件合成而来：&b刷&r，&b杆&r还有&b端&r。它们的材料会影响扫帚的属性。"
 				""
-				"Brooms can be further upgraded by &6crafting certain items into them&r. Check the Broom Modifiers chapter in the book to see a full list."
+				"扫帚可以通过&6与某种部件合成&r进一步升级。查看教程书中的扫帚强化章节以获取完整的列表。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
@@ -566,9 +566,9 @@
 			x: 8.25d
 			y: -4.75d
 			description: [
-				"The &bKineticator&r &6attracts items/xp using Blood&r. Right-click to set the radius, and sneak right-click to toggle. Sneak to disable."
+				"&b磁场魔杖&r通过消耗血液&6吸引掉落物/经验球&r。右击设置效果半径，潜行右击切换开关。开启时潜行不生效。"
 				""
-				"The &bReverse Kineticator&r does the opposite, repelling items and xp."
+				"&b反磁场魔杖&r作用相反，排斥掉落物与经验球。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
@@ -577,7 +577,7 @@
 			tasks: [{
 				id: "130BAC6E7C59F169"
 				type: "item"
-				title: "Kineticators"
+				title: "磁场魔杖"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -633,7 +633,7 @@
 		{
 			x: 8.25d
 			y: -5.25d
-			description: ["The &bVein Sword&r boosts the Blood you get from killing and has Looting II by default."]
+			description: ["&b静脉剑&r使你杀戮时能收集到更多血液，默认带有抢夺II。"]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
 			size: 0.5d
@@ -675,11 +675,11 @@
 			x: 4.0d
 			y: -0.5d
 			description: [
-				"The &bSpirit Furnace&r is a multiblock that can &6generate mob drops&r, based on the mob in its &6Box of Eternal Closure&r."
+				"&b灵魂炉&r是一个可以&6生成怪物掉落物&r的多方块结构，基于灵魂炉中的&6永恒灵魂箱&r所收容的怪物灵魂。"
 				""
-				"The multiblock must be made of &bDark Blood Brick&r, and it must be a hollow cuboid. The Spirit Furnace block can replace any of the Brick blocks."
+				"灵魂炉的多方块结构必须是由&b沾满血的暗黑砖&r构成的空心长方体，灵魂炉方块能够替换任意的砖块。"
 				""
-				"The interior of the multiblock &6must be big enough for the mob to stand in&r. So, a Zombie would need a 1x2x1 interior, so the whole thing must be 3x4x3, etc."
+				"多方块结构的内部&6必须足够大到令怪物能够站立&r。所以僵尸需要一个1x2x1的内部空间，即整个结构需要3x4x3的大小，以此类推。"
 			]
 			dependencies: ["231DCFF5B24A3476"]
 			min_width: 250
@@ -724,11 +724,11 @@
 			x: 4.0d
 			y: -2.0d
 			description: [
-				"The &bBox of Eternal Closure&r can &6contain a Vengeance Spirit&r. These can be found full in Chests or crafted empty."
+				"&b永恒灵魂箱&r能够&6收容一个复仇之魂&r。可以在奖励箱中找到已满的或者空的。"
 				""
-				"Placing a full one down and right-clicking it will open it, &6releasing the Spirit&r."
+				"放置一个已满的永恒灵魂箱后，右键它可以打开并&6释放其中的灵魂&r。"
 				""
-				"A &bVengeance Focus&r can be used to &6seal a Vengeance Spirit&r in the Box. While one is near an open Box, &6hold right-click to fire a beam&r that will suck the Spirit into the Box. From there, the Box can be safely mined or opened."
+				"&b复仇之焦&r能够用于&6将复仇之魂封印&r在永恒灵魂箱中。当复仇之魂在打开的永恒灵魂箱周围时，对准复仇之魂&6按住右键发射光线&r将复仇之魂吸入箱中。之后，灵魂箱可以被安全地挖走或者打开。"
 			]
 			dependencies: ["2A012FAF8782046D"]
 			min_width: 250
@@ -770,9 +770,9 @@
 			x: 4.0d
 			y: -3.5d
 			description: [
-				"The &bSpirit Reanimator&r uses Blood to &6create Spawn Eggs&r, using and emptying the &6Box of Eternal Closure&r given."
+				"&b灵魂再生炉&r用血液&6制造刷怪蛋&r（译者注：需要提供鸡蛋），消耗并清空&6永恒灵魂箱&r提供的灵魂。"
 				""
-				"Don't tell anyone, but &eApotheosis&r allows you to &6set Spawners&r by using a Spawn Egg on them..."
+				"嘘，不要告诉其他人，&e神化&r允许你对刷怪笼使用刷怪蛋来&6设置刷怪笼&r……"
 			]
 			dependencies: ["231DCFF5B24A3476"]
 			id: "1C15DA57FDB0C88B"
@@ -796,7 +796,7 @@
 		{
 			x: 2.5d
 			y: -0.5d
-			description: ["While wearing &bSpectral Glasses&r, you'll be able to see Vengeance Spirits, but &6they won't be able to see you&r!"]
+			description: ["当戴着&b幽冥眼镜&r时，你能够看到复仇之魂，但是&6它们不能看到你&r！"]
 			dependencies: ["1C646399E62FB593"]
 			id: "7D47B3D4A8FAAC59"
 			tasks: [{
@@ -843,14 +843,14 @@
 			]
 		}
 		{
-			title: "I See You!"
+			title: "看到你了！"
 			x: 2.5d
 			y: -3.5d
-			subtitle: "Make a Vengeance Ring"
+			subtitle: "制作一枚复仇指环"
 			description: [
-				"The &bVengeance Ring&r, when activated, &6makes Vengeance Spirits visible&r. However, you also become &cmore visible to them&r."
+				"当&b复仇指环&r开启时使&6复仇之魂&r可见。然而，此时你自身&c对它们来说也更加清晰可见&r。"
 				""
-				"Additionally, while activated, you are given &6several powerful buffs!&r However, it also &csummons and attracts Spirits to you&r, so it's a bit of a tradeoff."
+				"另外，当指环开启时，你将被赋予&6几种强力效果！&r然而，指环也会&c生成并吸引&r复仇之魂冲着你来，所以这是一种需要你自己权衡利弊的手段。"
 			]
 			dependencies: ["44C1876CB5D7E185"]
 			id: "2A012FAF8782046D"
@@ -861,16 +861,16 @@
 			}]
 		}
 		{
-			title: "From Beyond the Grave"
+			title: "恍若两世"
 			x: 1.0d
 			y: -2.0d
-			subtitle: "Get hit by a Vengeance Spirit"
+			subtitle: "被复仇之魂攻击一次"
 			description: [
-				"&bVengeance Spirits&r are invisible entities that can spawn &6after a mob dies&r."
+				"&b复仇之魂&r是一类&6在怪物死亡后生成&r的不可见实体"
 				""
-				"They usually aren't pleased with their state of affairs and will &cattack you if they touch you&r."
+				"它们对自己的境遇似乎不太满意，如果他们&c接触到你&r就会向你发起&c攻击&r."
 				""
-				"At this point, there's nothing you can do to prevent them. Take your licks as you get them, save your revenge for later."
+				"对于这点，目前的你还做不了什么来阻止它们的暴行。暂时忍住对它们的厌烦，后面我们将带你解脱它们。"
 			]
 			hide: true
 			id: "126BF300894CF43C"
@@ -890,15 +890,15 @@
 			x: 1.0d
 			y: -0.5d
 			description: [
-				"Around the world, you can find &6Dark Temple&r structures. But you should be given one in a previous Class Task."
+				"在世界各地，你会发现&6黑暗神庙&r这类自然生成结构。不过你应该在先前的课题中被给予了一个环境存储器。"
 				""
-				"If you place the &bEnvironmental Accumulator&r, it will start to emit a beam. The Beacon beam above can have certain items &6thrown inside&r to craft them into new items."
+				"如果你放置&b环境存储器&r，它会开始发射光束。上方的光束能够将某些&6丢入&r的物品制作成新物品。"
 				""
-				"Doing so will require a cooldown before it can be used again."
+				"在此操作再次可用前需要一定时间冷却。"
 				""
-				"Be warned: Using an Environmental Accumulator &cdegrades its biome&r, making it hostile to life."
+				"警告：使用环境存储器会&c使生物群系退化&r，使环境对活物十分不利。"
 				""
-				"Also: If you break down the &bEnvironmental Accumulator&r, it will drop its core, which will be used to craft a &6Sanguinary Environmental Accumulator&r."
+				"附：如果你破坏&b环境存储器&r，它将掉落环境存储器核心，核心可以用来制作&6血腥环境存储器&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["458348F2C81B8D6B"]
@@ -918,9 +918,9 @@
 			x: 1.75d
 			y: -1.25d
 			description: [
-				"The &bSanguinary Environmental Accumulator&r works much the same as the normal one, but &6requires Blood&r and &6doesn't degrade its biome&r."
+				"&b血腥环境存储器&r的工作原理与环境存储器大致相同，但是它&6需要血液&r并且&6不会使生物群系退化&r."
 				""
-				"You will need to place &68 Tanks of Blood&r nearby, signaled by smoke particles."
+				"你需要在它周围放置&68罐血液&r，正确的位置由烟雾粒子标记。"
 			]
 			dependencies: [
 				"1C646399E62FB593"
@@ -945,9 +945,9 @@
 			x: 0.25d
 			y: -0.5d
 			description: [
-				"&bWeather Containers&r are crafted by throwing an empty Weather Container into the beam of an Environmental Accumulator."
+				"&b天气容器&r是通过将空的天气容器扔进环境存储器的光束来制作的。"
 				""
-				"Doing so will &6store the current weather&r in trhe Container. Throwing the resulting item will &6force-change the weather to the Container's type&r, destroying the item."
+				"这样做将会用空的天气容器&6储存当前的天气&r。扔出这些产物将会&6强制将天气改变为容器所对应的天气类型&r，并摧毁它们。"
 			]
 			dependencies: ["514A4BCD5EBCF794"]
 			size: 0.5d
@@ -993,7 +993,7 @@
 			}]
 		}
 		{
-			title: "The Dark Arts"
+			title: "暗黑技艺"
 			icon: {
 				id: "hexerei:book_of_shadows"
 				Count: 1b
@@ -1002,14 +1002,14 @@
 			x: 1.0d
 			y: -5.0d
 			shape: "pentagon"
-			subtitle: "Meet Prof. Aaronhowser"
+			subtitle: "与亚伦•豪瑟教授见面"
 			description: [""]
 			dependencies: ["63368A007664E4B5"]
 			id: "458348F2C81B8D6B"
 			tasks: [{
 				id: "35C6647AF215CE37"
 				type: "location"
-				title: "Find Prof. Aaronhowser"
+				title: "找到亚伦•豪瑟教授"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -1048,18 +1048,18 @@
 			}]
 		}
 		{
-			title: "A Small Prick..."
+			title: "只要一小针……"
 			x: 4.0d
 			y: -5.0d
-			subtitle: "Make a Blood Extractor"
+			subtitle: "制作一个血液提取器"
 			description: [
-				"As these are the dark arts, naturally they are &6fueled by blood&r. As blood is often found inside living things, the best way to get it is with a &bBlood Extractor&r!"
+				"由于这部分内容是偏黑暗向的技艺，自然地，它们是&6以消耗血液为动力&r的。因为血液通常从活物身上觅得，所以得到血液的最好方式是用&b血液提取器&r！"
 				""
-				"While held anywhere on your person, a Blood Extractor will &6fill with Blood when certain mobs are killed&r."
+				"当血液提取器在你身上的任意位置时，它将会在你&6杀死生物&r时&6为血液提取器填充血液&r。"
 				""
-				"If sufficiently full, using a Blood Extractor will &6pour a bucket of Blood on the ground&r."
+				"如果血液提取器足够满的话，使用它将会&6在地上倒出一桶血液&r。"
 				""
-				"Blood Extractors can be combined with themselves as well as Dark Tanks to &6increase their capacity&r."
+				"血液提取器可以像暗黑液体罐一样互相合成来&6增加容量&r。"
 			]
 			dependencies: ["44C1876CB5D7E185"]
 			id: "64DB83486BDF41E0"
@@ -1091,11 +1091,11 @@
 			x: 2.5d
 			y: -5.0d
 			description: [
-				"Good morning Class!"
+				"同学们，早上好！"
 				""
-				"To get started in Evilcraft we need a very important gem. The &bDark Gem&r."
+				"要起步学习邪恶工艺，我们需要一种非常重要的宝石，即&b暗黑宝石&r."
 				""
-				"I would suggest you head over to the &5Botania Class&r and look into getting an &6Orechid&r. This nifty flower will allow you to transmute stones into ores, including &bDark Ore&r."
+				"我建议你先前往&5植物魔法班级&r学习，然后通过研究得到一株&6凝矿兰&r。这种绝妙的功能花让你能够将石头转化为矿石，包括&b暗黑宝石矿石&r。"
 			]
 			dependencies: ["458348F2C81B8D6B"]
 			id: "44C1876CB5D7E185"

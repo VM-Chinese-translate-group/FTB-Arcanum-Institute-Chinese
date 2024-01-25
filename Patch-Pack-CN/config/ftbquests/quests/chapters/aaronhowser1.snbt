@@ -3,29 +3,29 @@
 	group: "125708BF22E6ABEE"
 	order_index: 1
 	filename: "aaronhowser1"
-	title: "Professor Howser"
+	title: "豪瑟教授"
 	icon: "ftbai:codex_evilcraft"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Evilcraft's Codex"
+			title: "邪恶工艺典籍"
 			icon: "ftbai:codex_evilcraft"
 			x: -0.5d
 			y: -1.0d
 			shape: "hexagon"
 			description: [
-				"Dear Student"
+				"亲爱的学生"
 				""
-				"In recognition of your valor and dedication, I offer you a priceless artifact: my &eCodex&r. The &eCodex&r is an invaluable repository of incantations and incisive wisdom. "
+				"为了表彰你的勇气和贡献，我将给予你一份无价之宝：我的&e典籍&r。&e典籍&r是一种蕴藏咒语与聪敏之智的无价的知识宝库。"
 				""
-				"I entrust this artifact to you, believing in your capability to harness its arcane knowledge for the greater good. May it guide you along your path in times to come. "
+				"我将这至宝托付予你，我相信以你的能力能够利用它的奥秘之识取得更大的收获。愿它能在未来的时日里引导你走上你自己的道路。"
 				""
-				"Congratulations again on the completion of my class. Seldom have I had the honor of instructing so bright and promising a pupil. "
+				"再次祝贺结课。我很少能有幸指导如此聪明，有前景的学生。"
 				""
-				"Sincerely,"
-				"Arron Howser"
-				"Professor of &bEvilcraft&r."
+				"谨上，"
+				"亚伦·豪瑟"
+				"&b邪恶工艺&r教授。"
 			]
 			dependencies: [
 				"707B6E2F45255730"
@@ -57,13 +57,13 @@
 			x: -0.5d
 			y: -4.5d
 			description: [
-				"Greetings, Adept of the Dark Arts,"
+				"你好，我是暗黑技艺的导师，"
 				""
-				"I humbly request your assistance obtaining Dark Gems. The purpose for this is twofold. First, I require them for my research. Second this will be the first of several tests to check your progress mastering  &bEvilcraft&r."
+				"请你协助我取得黑暗宝石，目的有两个。其一，我需要将它们用于我的研究；其二，这是考察你对&b邪恶工艺&r掌握程度的几项测试中的第一项。"
 				""
-				"Could you venture forth and procure for me a cache of &625 Dark Gems&r? "
+				"冒昧地问一句，我能请你帮我弄来&616个暗黑宝石&r吗？"
 				""
-				"I eagerly await your triumphant return, laden with these elusive yet invaluable treasures."
+				"我急切地等待你带着这些难以捉摸但无价的珍宝满载而归。"
 			]
 			dependencies: ["2C443D0A7F527025"]
 			min_width: 350
@@ -86,13 +86,13 @@
 			x: 2.0d
 			y: -3.0d
 			description: [
-				"My Dear Students,"
+				"我亲爱的学生，"
 				""
-				"Your task is to obtain a &6Wooden Exalted Crafter&r, an essential tool for crafting on the move within our mystical realm. Craft this invaluable device to enhance your magical prowess and efficiency."
+				"你的任务是获得一个&6木制合成包&r，在我们的神秘领域中的一个必不可少的便携制作工具。制作这个无比重要的装备来提高你在魔法上的实力与工作效率。"
 				""
-				"Once assembled, the Wooden Exalted Crafter will be at your disposal, allowing you to craft wherever your magical journey takes you."
+				"制作后，木制合成包将随时为你提供帮助，让你在魔法之旅的任何地方都能进行合成。"
 				""
-				"Best of luck in this endeavor."
+				"祝你好运。"
 			]
 			dependencies: [
 				"053395783C6C0E3F"
@@ -117,13 +117,13 @@
 			x: 2.0d
 			y: 1.0d
 			description: [
-				"Esteemed apprentice,"
+				"尊敬的学徒，"
 				""
-				"Your exceptional progress in class calls for a challenging task - acquiring the &ePromise of Tenacity I&r artifact, a substantial augmentation for the Blood Infuser."
+				"要想在课程上取得非凡的进步，你需要完成一项有点挑战的任务——获得&e坚韧的诺言I&r这件造物，它能使血能注入器获得实质性强化。"
 				""
-				"If you succeed, you will be rewarded with a special artifact: the &bEffortless Ring&r. This ring possesses unique properties that streamline and enhance one's abilities in the arcane arts."
+				"如果你成功做到了，你将会被奖励一个特别的饰品：&b迅捷指环&r。这枚指环可以令使用者身手矫健，并能增强他们的奥术本领。"
 				""
-				"Best of luck with your task."
+				"祝学业顺利。"
 			]
 			dependencies: [
 				"551C892155052857"
@@ -160,11 +160,11 @@
 			y: 2.5d
 			description: [
 				""
-				"Well done. Your exemplary progress in class signifies your exceptional dedication. Your progress indicates that you are ready for the next test. For this test, you are to obtain the &6Blood Chest&r. This seemingly unassuming chest harbors a unique magical property—it possesses the extraordinary ability to restore items using the essence of blood."
+				"做得好，你在课程上堪称模范的进步象征着非凡的献身精神。你的进步表明你已经准备好迎接下一个测试了。这次测试，你需要获得&6血能箱&r。这个看似不起眼的宝箱蕴含了独特的魔法特性——它有着能够使用血液精华修复物品的非凡能力。"
 				""
-				"This marks the fourth of six tests within our curriculum. Successfully obtaining the Blood Chest will showcase your advancing expertise and edge you closer to earning one of the Codexes required for graduation."
+				"这是我们课程中六项测试中的第四项，成功得到血能箱展示着你不断进步的专业知识，让你离取得毕业所需的典籍更进一步。"
 				""
-				"Wishing you success in this challenging yet rewarding pursuit."
+				"祝你在这项奖励丰厚的挑战中成功。"
 			]
 			dependencies: [
 				"484AB9304C439CF2"
@@ -212,15 +212,15 @@
 			x: -3.0d
 			y: 1.0d
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"You may have read about Vengeance Spirits in your studies of the great war. They were one of the &5Dark Witch&r's most feared soldiers. Reports have reached us that they have been spotted, confirming our worst fears that she or one of her agents is rising in power again. "
+				"你可能在对大战的研究中已经了解过复仇之魂。它们是&5暗黑女巫&r最可怕的部下。有报道称他们的踪迹已经显露，这证实了我们最担心的事情——她或她的助理正在再次崛起。"
 				""
-				"They must not be allowed to reach her. To this end, your fifth trial is this: procure three essential artifacts: a &6Vengeance Focus&r, a &6Vengeance Ring&r, and a &6Box of Eternal Closure&r"
+				"绝不能让它们接近她。为此，你的第五个测试是：弄到三样必要的器物：&6复仇之焦&r，&6复仇指环&r和&6永恒灵魂箱&r"
 				""
-				"By acquiring these artifacts, we shall deepen our understanding of the intricate and potent sorceries harnessed by the &5Dark Witch&r."
+				"得到这三件器具，我们将加深对&5暗黑女巫&r所使用的强大而复杂的巫术的理解。"
 				""
-				"I will not pretend this trial is not dangerous. Do be careful. "
+				"我不会谎称这次测试没有危险，千万小心。"
 			]
 			dependencies: [
 				"1A0B77451C56054A"
@@ -279,13 +279,13 @@
 			x: -3.0d
 			y: -3.0d
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"Now that you have successfully acquired the Box of Eternal CLosure, you will face your final test for this class. The box you now hold contains within it a Vengeance Spirit. Your task is to open the box, and defeat the spirit within. Once it is vanquished, you will bring me the &6Vengeance Essence&r it contains. "
+				"你已经成功得到了永恒灵魂箱，现在你将面对这门课程的最终测试。你现在拿着的灵魂箱里装着一个复仇之魂，你的任务是打开它，并打败箱中的灵魂。一旦它被征服，就把它含有的&6复仇精华&r交给我。"
 				""
-				"We will be able to obtain valuable information about the strength of the Dark Witch's allies if you succeed, and as a reward, you will receive not only the Codex for completion of this class, but a pair of &eSpectral Glasses&r. These enchanted glasses will aid you in navigating the ethereal planes."
+				"如果你成功了，我们将能获得有关暗黑女巫同盟的力量来源的宝贵信息。另外，作为奖励，你不但会收到完成这门课所发放的典籍，还会得到一副&e幽冥眼镜&r。这副增强的眼镜将在虚无缥缈的层面上援助并引导你。"
 				""
-				"Good Luck"
+				"祝你好运"
 			]
 			dependencies: [
 				"1077C773A2C628AE"
