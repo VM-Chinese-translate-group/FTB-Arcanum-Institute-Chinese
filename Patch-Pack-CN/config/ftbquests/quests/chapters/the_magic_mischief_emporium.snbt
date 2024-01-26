@@ -3,13 +3,13 @@
 	group: "2BF58BA9C4117D6D"
 	order_index: 6
 	filename: "the_magic_mischief_emporium"
-	title: "The Magic Mischief Emporium"
+	title: "魔法捣蛋鬼百货商店"
 	icon: "minecraft:firework_rocket"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Mystical Dagger"
+			title: "神秘匕首"
 			icon: {
 				id: "forbidden_arcanus:mystical_dagger"
 				Count: 1b
@@ -42,7 +42,7 @@
 			}]
 		}
 		{
-			title: "Hexerei Plants"
+			title: "魔法巫师植物"
 			icon: "hexerei:mandrake_flower"
 			x: -3.0d
 			y: -0.5d
@@ -59,13 +59,13 @@
 			rewards: [{
 				id: "11E981E39D4F0CFE"
 				type: "choice"
-				title: "Hexerei Plants"
+				title: "魔法巫师植物"
 				exclude_from_claim_all: true
 				table_id: 2254786184245774689L
 			}]
 		}
 		{
-			title: "Soul Extractor"
+			title: "灵魂提取器"
 			icon: {
 				id: "forbidden_arcanus:soul_extractor"
 				Count: 1b
@@ -98,7 +98,7 @@
 			}]
 		}
 		{
-			title: "Test Tubes"
+			title: "试管"
 			icon: "forbidden_arcanus:test_tube"
 			x: -5.0d
 			y: 1.5d
@@ -120,7 +120,7 @@
 			}]
 		}
 		{
-			title: "Get some \"Buds\""
+			title: "获得一些“芽”"
 			icon: "minecraft:budding_amethyst"
 			x: -3.0d
 			y: 1.5d
@@ -141,7 +141,7 @@
 			}]
 		}
 		{
-			title: "Stellarite"
+			title: "陨石"
 			icon: "forbidden_arcanus:stellarite_block"
 			x: -7.0d
 			y: 1.5d
@@ -162,14 +162,14 @@
 			}]
 		}
 		{
-			title: "Wonder Thingy Majig That Flies"
+			title: "会飞的魔法玩意"
 			icon: {
 				id: "hexerei:willow_broom"
 				Count: 1b
 				tag: {
 					RepairCost: 0
 					display: {
-						Name: "{\"text\":\"Wonder Thingy Majig That Flies\"}"
+						Name: "{\"text\":\"会飞的魔法玩意\"}"
 					}
 				}
 			}
@@ -219,7 +219,7 @@
 							}]
 						}
 						display: {
-							Name: "{\"text\":\"Wonder Thingy Majig That Flies\"}"
+							Name: "{\"text\":\"会飞的魔法玩意\"}"
 						}
 					}
 					ForgeCaps: {
@@ -229,7 +229,7 @@
 			}]
 		}
 		{
-			title: "Ender Air"
+			title: "末地空气"
 			icon: "botania:ender_air_bottle"
 			x: -3.0d
 			y: 3.5d
@@ -257,7 +257,7 @@
 			}]
 		}
 		{
-			title: "Shulker Pearl"
+			title: "潜影贝珍珠"
 			icon: {
 				id: "gateways:gate_pearl"
 				Count: 1b
@@ -291,7 +291,7 @@
 			}]
 		}
 		{
-			title: "Petrified Orb"
+			title: "石化经验球"
 			icon: "forbidden_arcanus:xpetrified_orb"
 			x: -7.0d
 			y: 3.5d
@@ -350,7 +350,7 @@
 			}]
 		}
 		{
-			title: "Archmage Spellbook"
+			title: "大法师法术书"
 			icon: "arsomega:arcane_book"
 			x: -1.0d
 			y: -0.5d
