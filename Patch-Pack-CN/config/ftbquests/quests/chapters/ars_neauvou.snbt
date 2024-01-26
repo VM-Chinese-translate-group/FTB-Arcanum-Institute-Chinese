@@ -69,7 +69,7 @@
 			]
 		}
 		{
-			title: "法师的法术书"
+			title: "法师法术书"
 			icon: "ars_nouveau:apprentice_spell_book"
 			x: 11.5d
 			y: -4.0d
