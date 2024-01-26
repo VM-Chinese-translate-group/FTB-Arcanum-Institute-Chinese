@@ -1098,7 +1098,7 @@
 			}
 			x: 10.0d
 			y: -3.75d
-			description: ["&b探天者&r物品想植物魔法的物品一样，有特殊的功能并且可以通过背包中的灵气缓存自我修复。"]
+			description: ["&b探天者&r物品像植物魔法的物品一样，有特殊的功能并可以通过背包中的灵气缓存自我修复。"]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
 			size: 0.5d
