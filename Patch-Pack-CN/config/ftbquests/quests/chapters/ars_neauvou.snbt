@@ -3,32 +3,32 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 4
 	filename: "ars_neauvou"
-	title: "Fabrication Magique"
+	title: "法术构造学"
 	icon: "ars_nouveau:creative_spell_book"
-	subtitle: ["Ars Nouveau"]
+	subtitle: ["新生魔艺"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	quests: [
 		{
-			title: "Your First Spellbook"
+			title: "你的第一本法术书"
 			icon: "ars_nouveau:novice_spell_book"
 			x: -0.5d
 			y: -5.5d
-			subtitle: "Turn in Elemental Logs"
+			subtitle: "提交至高木原木"
 			description: [
-				"Good job with your first task. These logs are perfect."
+				"作为第一次的任务，你做得很好。这些原木很完美。"
 				""
-				"As a token of appreciation, I am pleased to present you with this &6Novice Spellbook&r and some fundamental spells to aid your magical pursuits."
+				"作为感谢，我非常高兴能将这本&6法术书&r和一些基础的魔符赠予你来帮助你进行魔法学习。"
 				""
-				"I recommend that you &6cultivate these Source Berries&r in your Dorm, as they are a good source of Mana."
+				"我建议你在校舍中&6种植这些魔源浆果&r，因为它们是不错的魔力来源。"
 			]
 			dependencies: ["0CF0DB4C6B3419C2"]
 			id: "54D7F5310E879150"
 			tasks: [{
 				id: "489ABE4026E0C8E1"
 				type: "item"
-				title: "Elemental Logs"
+				title: "至高木"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -69,19 +69,19 @@
 			]
 		}
 		{
-			title: "Mage's Spell Book"
+			title: "法师法术书"
 			icon: "ars_nouveau:apprentice_spell_book"
 			x: 11.5d
 			y: -4.0d
-			subtitle: "Craft a Ring of Lesser Discount"
+			subtitle: "制作一个次等节魔之戒"
 			description: [
-				"Good day, my esteemed students!"
+				"崭新的一天，我亲爱的同学们！"
 				""
-				"I wanted to take a moment to &6acknowledge the excellent progress&r each and every one of you has made in our classes. Your dedication, enthusiasm, and hard work have truly paid off, and I'm thrilled to witness the growth in your magical abilities."
+				"我想花点时间感谢你们每个人在这个班里取得的&6出色进步&r。你们的奉献精神、热情和辛勤工作得到了真正的回报，我很高兴看到你们魔法能力的成长。"
 				""
-				"To further assess the remarkable progress you have made, I have a &6special challenge&r for you. I would like each of you to create a &bRing of Lesser Discount&r."
+				"为了进一步对同学们取得的进步进行评价，我准备了一个&6特别挑战&r：我需要你们每个人都制作一个&b次等节魔之戒&r。"
 				""
-				"As a reward for your achievement, I will provide you with a &6Mage's Spell Book&r, one that will expand your knowledge and enhance your spellcasting abilities."
+				"作为完成的奖励，我将赠予你一本&6法师法术书&r，这将扩展你的知识面并增强你施法的能力。"
 			]
 			dependencies: [
 				"3693F0A7021419E6"
@@ -125,20 +125,20 @@
 			]
 		}
 		{
-			title: "Ferrous Wroughtnaut's Dungeon"
+			title: "钢铁守护者地牢"
 			icon: "ars_nouveau:archmage_spell_book"
 			x: 11.5d
 			y: -1.0d
 			description: [
-				"A report of an alarming nature has reached us. Agents of the Evil Witch Lady Lexxie are stirring outside the school. While it doesn't appear to be a serious threat yet, it does create an extraordinary opportunity to expand upon your education! Deep within the Mountains lies a secret Dungeon, guarded by the powerful &bFerrous Wroughtnaut&r."
+				"一份令人担忧的报告已经传到我们手中。邪恶女巫莱克西夫人的特工正在学院外骚动。由于暂时还不构成严重的威胁，所以它创造了一个绝佳的机会来帮助你们更好地理解你们的学习内容！在群山深处有一个秘密的地牢，由强大的&b钢铁守护者&r镇守。"
 				""
-				"Your mission is to venture forth and retrieve the legendary &bAxe of a Thousand Metals&r—a magical artifact of immense power."
+				"你的任务是深入地牢冒险取回传说中的&b千锻巨斧&r这是一件蕴含着巨大力量的魔法遗物。"
 				""
-				"Once you face the &bFerrous Wroughtnaut&r, use your knowledge of the arcane to overcome its defenses."
+				"与&b钢铁守护者&r战斗需要利用你对奥术的理解来解决它的防御。"
 				""
-				"This mighty foe guards the precious Axe, which has unique &6magical properties&r waiting to be explored."
+				"这个强大的敌人守护着珍贵的巨斧，这把巨斧拥有独特的&6奥术特质&r等待探索。"
 				""
-				"Return safely to the &dArcanum Institute&r, and with the guidance of your instuctors, study the secrets of the Axe and your efforts will be rewarded with your next &dSpellbook&r."
+				"只要安全返回&d奥术学院&r，在导师的指导下研究巨斧的秘密，那么作为你努力的奖励，你就能得到下一本&d法术书&r。"
 			]
 			dependencies: ["252E046EBDB11FB1"]
 			min_width: 300
@@ -172,7 +172,7 @@
 				{
 					id: "0C9F6A892D90B97D"
 					type: "gamestage"
-					title: "Ars Elemental Unlock"
+					title: "解锁元素魔艺"
 					auto: "invisible"
 					ignore_reward_blocking: true
 					stage: "ars_elemental_unlock"
@@ -180,26 +180,26 @@
 			]
 		}
 		{
-			title: "Spell Creation"
+			title: "法术构造"
 			icon: "ars_nouveau:glyph_projectile"
 			x: 1.5d
 			y: -5.5d
-			subtitle: "Learn how to custom-craft spells"
+			subtitle: "学习如何自定义法术"
 			description: [
-				"After you've acquired and learned from a &6Spell Glyph&r, you are able to begin &6using it in spells&r!"
+				"在你获得并学习了&6魔符&r后，你就可以&6在法术中使用它&r了！"
 				""
-				"To craft a spell, &6hold your Spell Book and press 'C'&r, and choose one of the slots on the right. Spells have &6three major components&r:"
+				"想要制作法术需要&6拿着你的法术书并按“C”键&r，然后选择右侧的一个槽位开始制作。法术有&6三个主要的组成部分&r："
 				""
-				"&l1. Form:&r "
-				"  - The &6method of delivery&r for the spell. How it decides its target. A spell can only have one form."
+				"&l1. 形态：&r "
+				"  - &6法术的传递方式&r。它决定了法术如何选中其目标。一个法术只能有一种形态。"
 				""
-				"&l2. Effect:&r "
-				"  - &6What the spell does&r to its target. A spell can have multiple effects."
+				"&l2. 效果：&r "
+				"  - &6法术对目标造成的效果&r。一个法术可以有多种效果。"
 				""
-				"&l3. Augment:&r"
-				"  - &6Modifies another glyph&r in some way. These are &6optional&r, you can make a spell without any augments."
+				"&l3. 增强：&r"
+				"  - 以某种方式&6改变另一个魔符的效果&r。增强魔符是&6可选的&r，没有任何增强的情况下也可以制作一个完整的法术。"
 				""
-				"Finally, name the spell and click &6Create&r! Select a spell slot with 'V', and then use the Spell Book to cast!"
+				"最后，命名这个法术并点击&6制作&r！“V”键可以选定法术，选定后右击使用法术书以施放！"
 			]
 			dependencies: ["54D7F5310E879150"]
 			min_width: 300
@@ -222,23 +222,23 @@
 			}]
 		}
 		{
-			title: "Janitorial Efforts"
+			title: "看门人的努力"
 			x: 3.5d
 			y: -5.5d
-			subtitle: "Kill a Zombie"
+			subtitle: "杀死一只僵尸"
 			description: [
-				"&bUndead monsters&r have been sighted lurking &6in the valleys surrounding the school&r, especially near boulders that line the coast to the northeast of the Ars classrooms. They're over by the sandy shore line and you will notice many covered in the heads of slain undead."
+				"&b亡灵生物&r被发现潜伏于&6学校周围的山谷中&r，特别是在魔艺教室东北部海岸的巨石附近。你会在他们越过的那条海岸线上注意到许多被杀死的亡灵生物的头颅。"
 				""
-				"They are more of a nuisance than an actual danger, so we like to leave them to the students. It helps you hone skills you will need. To ensure the safety of the school, as well as to aid experimentation, I kindly request that you &6create a Harm spell&r to &brepel these creatures&r."
+				"与其说它们带来了实际的危机，不如说它们令人厌烦的，因此，我们喜欢把它们留给学生。它们可以帮助你磨练所需的技能。为了保护学校，也为了帮助实验，我希望你可以&6制作一个伤害法术&r来&b抵御这些生物的进攻&r。"
 				""
-				"Once this has been done, I'd be delighted to reward you with a well-earned spell, as well as a special gift."
+				"完成后，作为奖励，我将很乐意赠予你一个你应得的魔符，以及一份特别的礼物。"
 			]
 			dependencies: ["666A026D77AEEAA4"]
 			id: "029EBED0E1801FBC"
 			tasks: [{
 				id: "3B202DD640DDE7BF"
 				type: "kill"
-				title: "Kill a Zombie"
+				title: "杀死一只僵尸"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
@@ -296,15 +296,15 @@
 		{
 			x: 5.5d
 			y: -5.5d
-			subtitle: "Craft the Scribe's Table"
+			subtitle: "制作一个抄写台"
 			description: [
-				"Welcome, students. Today's topic is the &bScribe's Table&r."
+				"同学们好！我们今天的主题是&b抄写台&r。"
 				""
-				"The Scribe's Table is how you &6craft new Glyphs for your spells&r! Each Glyph has a &6tier&r. Your Spell Book &cmust reach that tier&r for the glyph to function."
+				"使用抄写台可以&6为你的法术制作新魔符&r！每个魔符都有其对应的&6等级&r。你的法术书&c必须达到对应等级&r才能发挥魔符的作用。"
 				""
-				"Craft a Glyph by placing some &6Blank Parchment&r on, then &6use a Spell Book on the Table&r. Here, choose the Glyph you wish to craft."
+				"通过在抄写台上放置&6空白羊皮纸&r（译者注：不需要空白羊皮纸），在达到&6经验需求&r的前提下&6对着抄写台使用法术书&r并选择你要制作的魔符来进行制作。"
 				""
-				"&6Throw the Glyph's ingredients&r atop the Table. So long as you have the &6experience required&r, the Table will write down the Glyph for you!"
+				"将&6魔符的材料&r扔到抄写台上，抄写台就能为你画出需要的魔符！"
 			]
 			dependencies: [
 				"029EBED0E1801FBC"
@@ -345,19 +345,19 @@
 		{
 			x: 9.5d
 			y: -5.5d
-			subtitle: "Acquire a Source Gem"
+			subtitle: "获得一个魔源宝石"
 			description: [
-				"Listen up, everyone. In a previous lesson, you've each received a special gift - a &6Budding Amethyst&r."
+				"听好了，同学们。在上一课中，你们每个人都收到了一份特殊的礼物——一个&6紫水晶母岩&r。"
 				""
-				"It holds incredible magical properties, especially for crafting &bSource Gems&r, crucial in &dArs Nouveau&r."
+				"它拥有令人难以置信的奥术特质，特别是在制作&b魔源宝石&r中，这对&d新生魔艺&r至关重要。"
 				""
-				"Grow your &6Amethyst&r quickly; time is precious. Its potential will shape your magical journey."
+				"请尽快种植&6紫水晶&r，时间宝贵。它的潜力将极大影响你的奥术之旅。"
 				""
-				"&bSource Gems&r are unique in that they &6do not require jarred Source&r; they can absorb it from the atmosphere instead."
+				"&b魔源宝石&r的独特之处在于它们&6不需要罐装的魔源&r，它们可以从大气中吸收魔源。"
 				""
-				"Use &bSource Gems&r for potent spells and artifacts."
+				"利用好&b魔源宝石&r，你将获得强大的法术和神器。"
 				""
-				"Now, get to work!"
+				"所以立刻！马上！去工作！"
 			]
 			dependencies: ["16728DA8E476FEE4"]
 			id: "5862BCF8C9D8866E"
@@ -381,16 +381,16 @@
 			}]
 		}
 		{
-			title: "Breathing Life"
+			title: "会呼吸的生命体"
 			x: 9.5d
 			y: -2.5d
-			subtitle: "Get a Tablet of Awakening"
+			subtitle: "获得一个启蒙之板"
 			description: [
-				"The &bRitual of Awakening&r is a special ritual that &6gives life to nearby Archwood Trees and Budding Amethyst&r."
+				"&b启蒙仪式&r是一种特殊的仪式，可以&6赋予附近的至高木和紫水晶母岩生命&r。"
 				""
-				"Archwood Trees produce one of four &6Weald Walkers&r, depending on the tree's element. These can be set to &6guard an area&r against enemies."
+				"至高木会化为4种&6林地行者&r之一，种类取决于树的元素。它们可以作为守卫&6守护一个区域&r，抵御敌人。"
 				""
-				"Budding Amethyst produces an &6Amethyst Golem Charm&r, necessary for spawning Amethyst Golems."
+				"紫水晶母岩则会化为紫晶傀儡，掉落可以再次生成紫晶傀儡的&6紫晶傀儡护符&r。"
 			]
 			dependencies: ["23F6282DF69B8625"]
 			id: "5F9524BE2EE74E15"
@@ -409,11 +409,11 @@
 			icon: "ars_nouveau:enchanting_apparatus"
 			x: 11.5d
 			y: -5.5d
-			subtitle: "Make an Enchanting Apparatus"
+			subtitle: "制作一个附魔装置"
 			description: [
-				"The &bEnchanting Apparatus&r works similarly to the Imbuement Chamber! It &6combines items&r using Source!"
+				"&b附魔装置&r的工作原理与灌注室类似！它使用魔源&6制作物品&r！"
 				""
-				"Place any amount of &6Arcane Pedestals&r within 3 blocks of the Apparatus, and ensure an &bArcane Core&r is placed directly below."
+				"在附魔装置3格范围内放置任意数量的&b奥术基座&r，并确保将&b奥术核心&r放置在附魔装置的正下方。"
 			]
 			dependencies: ["5862BCF8C9D8866E"]
 			id: "31A754EB419CD398"
@@ -461,13 +461,13 @@
 			icon: "ars_nouveau:blank_parchment"
 			x: 5.5d
 			y: -7.0d
-			subtitle: "Get some Blank Parchment"
+			subtitle: "获取一些空白羊皮纸"
 			description: [
-				"Acquiring &bBlank Parchment&r will require advancement in some other forms of magic. Namely, &dBotania&r."
+				"获得&b空白羊皮纸&r需要其他魔法的进度。我说的是，&d植物魔法&r。"
 				""
-				"Parchment needs Paper, Paper needs Sugar Cane, and Sugar Cane has to be created using a &6Mana Pool&r!"
+				"羊皮纸需要纸，纸需要甘蔗，而甘蔗必须使用&6魔力池&r！"
 				""
-				"[\"\",\"Make sure to pay \",{\"text\":\"Lady Maehem\",\"color\":\"gold\"},\"'s classes a visit! Especially her class on the \",{\"text\":\"[ Mana Pool ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4169963D23A8F9FF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to quest\"]}},\".\"]"
+				"[\"\",\"请确保你已经上过\",{\"text\":\"梅希姆夫人\",\"color\":\"gold\"},\"的课！特别是课上有关\",{\"text\":\"[魔力池]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4169963D23A8F9FF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"转到该任务\"]}},\"的内容。\"]"
 			]
 			dependencies: ["2F8A51FEB237D9EA"]
 			id: "57EAE710537B248D"
@@ -535,11 +535,11 @@
 			}]
 		}
 		{
-			title: "T2 Glyphs"
+			title: "2级魔符"
 			icon: "ars_nouveau:blank_parchment"
 			x: 13.5d
 			y: -4.0d
-			description: ["The &6Mage's Spell Book&r allows access to &6Tier 2 Glyphs&r, which were previously unusable."]
+			description: ["&6法师法术书&r允许你使用&62级魔符&r，这些魔符在这之前无法使用。"]
 			dependencies: ["612BC02EEA4C9BBA"]
 			id: "38A919DBFA0FAB21"
 			tasks: [{
@@ -551,13 +551,13 @@
 			icon: "ars_nouveau:amethyst_golem_charm"
 			x: 9.5d
 			y: -1.0d
-			subtitle: "Make a Dominion Wand"
+			subtitle: "制作一个支配之杖"
 			description: [
-				"&bAmethyst Golems&r are magical automata that &6harvest and store grown Amethyst Clusters&r. Summon the Golem by using the &bCharm&r on any block. "
+				"&b紫晶傀儡&r是神奇的自动化生物，可以&6收获和储存生长的紫水晶&r。在任何方块上使用&b紫晶傀儡护符&r来召唤紫晶傀儡。"
 				""
-				"Golems can move anywhere within 10 meters of their home. Set its home by using a &bDominion Wand&r first on the Golem, and then on the location you want."
+				"傀儡可以在家10格内任意移动。你需要先在傀儡上使用&b支配之杖&r，然后在你想要的位置设置它的家。"
 				""
-				"Amethyst Golems will &6automatically harvest grown Amethyst&r. If its home is an inventory, it will also store the Amethyst there."
+				"紫晶傀儡将&6自动收获生长的紫水晶&r。如果它的家是一个容器，它就会在那里储存紫水晶。"
 			]
 			dependencies: ["5F9524BE2EE74E15"]
 			id: "5322AEA19A4C73A1"
@@ -576,7 +576,7 @@
 				{
 					id: "021DB292FD301C0B"
 					type: "observation"
-					title: "Observe Amethyst Golem"
+					title: "观察紫晶傀儡"
 					icon: {
 						id: "ars_nouveau:amethyst_golem_charm"
 						Count: 1b
@@ -591,16 +591,16 @@
 			]
 		}
 		{
-			title: "Till the Earth"
+			title: "掘地三尺"
 			x: 3.5d
 			y: -4.0d
 			subtitle: "Get Magebloom Flower"
 			description: [
-				"Some of you may have noticed a problem when trying to grow &bMagebloom&r. That is, &cno mortal methods to till the dirt can be found&r!"
+				"一些人可能已经注意到了，寻找&b法师之花&r时会遇到一些问题。也就是，&c掘地三尺都找不到&r！这是设计使然。"
 				""
-				"However, this is by design. Professor &6LadyMaehem&r, our resident botanical expert, has successfully bound the capabilities of a hoe to the &6Wand of the Forest&r."
+				"至于耕作问题，我们的常驻植物学专家&6梅希姆教授&r成功地将锄头的能力与&6森林法杖&r绑定在了一起。"
 				""
-				"While this solves the problem of tilling, you are still without means to hydrate your crops. For now, &6use the Water Bucket given&r previously, until you have the means to conjure water yourself."
+				"耕作问题解决，但你仍然没有办法为庄稼补水。现阶段只能&6使用之前给的水桶&r，直到你能够自己变出水。"
 			]
 			dependencies: ["029EBED0E1801FBC"]
 			id: "5ECD0E0C81090B43"
@@ -618,16 +618,16 @@
 			}]
 		}
 		{
-			title: "Alchemical Reconstitution"
+			title: "炼金重组"
 			x: 7.5d
 			y: -5.5d
-			subtitle: "Make an Imbuement Chamber"
+			subtitle: "制作一个灌注室"
 			description: [
-				"The &bImbuement Chamber&r is a special device that &6combines items&r into something new."
+				"&b灌注室&r是一种特殊装置，它可以将物品&6重组&r为新的物品。"
 				""
-				"Place the main item in the Chamber, and then place any additional items in &6Arcane Pedestals&r within 1 meter. Items in Pedestals are not lost upon use."
+				"先将辅助材料放入1格内&6奥术基座&r中，然后将主要材料放入灌注室中，基座中的物品在灌注时不会丢失。"
 				""
-				"The majority of recipes will require &6Source&r from a &6Source Jar&r placed within 2 meters. We will go over this later."
+				"大多数配方需要2格内&6魔源罐&r中的&6魔源&r。我们稍后就将讨论这个问题。"
 			]
 			dependencies: ["2F8A51FEB237D9EA"]
 			id: "16728DA8E476FEE4"
@@ -652,21 +652,21 @@
 			]
 		}
 		{
-			title: "Sources of Source"
+			title: "魔源之来源"
 			icon: "ars_nouveau:agronomic_sourcelink"
 			x: 9.5d
 			y: -7.0d
-			subtitle: "Get the machines necessary to make and store Source"
+			subtitle: "获得产生可储存魔源的必要装置"
 			description: [
-				"&6Source&r is the name for the &6magical energy used by devices&r."
+				"&6魔源&r是装置使用的&6魔法能量&r的名称。"
 				""
-				"Source is generated by &bSourcelinks&r by a variety of ways."
+				"魔源可以用&b魔源通道&r产生。"
 				""
-				"For example, the &bAgronomic Sourcelink&r generates Source from &6nearby natural plant growth&r. That means no fertilizers allowed! Magical plants, like &6Mageblooms&r, produce more Source."
+				"例如，&b农艺魔源通道&r可以从&6附近自然植物的生长&r中产生魔源，在这一过程中不能使用化肥！如果是魔法植物，如&6法师之花&r可以产生更多魔源。"
 				""
-				"When Source is gathered, it is &6automatically sent to any nearby&r &bSource Jars&r, within about 5 meters."
+				"魔源产生后会被&6自动存储到附近&r5格内的&b魔源罐&r中。"
 				""
-				"When Source is required by a device, it will &6automatically be pulled&r from nearby Source Jars as well!"
+				"当装置需要魔源时也可以&6自动从附近的魔源罐中提取&r！"
 			]
 			dependencies: ["5862BCF8C9D8866E"]
 			min_width: 300
@@ -675,7 +675,7 @@
 				{
 					id: "7D00EBD76CA36670"
 					type: "item"
-					title: "Sourcelinks"
+					title: "魔源通道"
 					item: {
 						id: "itemfilters:id_regex"
 						Count: 1b
@@ -709,17 +709,17 @@
 		{
 			x: 1.5d
 			y: -4.0d
-			subtitle: "Acquire Blaze Fiber"
+			subtitle: "获取烈焰纤维"
 			description: [
-				"Alright, my skilled pupils, you've successfully obtained the &6Magebloom Fiber&r. Now, it's time for the next challenge - crafting the &bBlaze Fiber&r."
+				"好了，我熟练的学生们，你们已经成功获得了&6法师之花纤维&r。现在，是时候迎接下一个挑战了——制作&b烈焰纤维&r。"
 				""
-				"To make Blaze Fiber&r, you have two options. First, you can use the &6Transmute Glyph&r to transform certain materials into &6Blaze Powder&r, which is a key ingredient for &bBlaze Fiber&r. "
+				"要制作&b烈焰纤维&r，你有两个选择。你可以使用&6魔符：嬗变&r将某些材料转化为&6烈焰粉&r，以获得&b烈焰纤维&r的这种关键材料。"
 				""
-				"Alternatively, you can obtain &6Blaze Powder&r by bravely facing and defeating &6Blazes&r, but be warned, it won't be an easy task."
+				"又或者，你可以勇敢面对并击败&6烈焰人&r来获取&6烈焰粉&r，但请注意，这并非易事。"
 				""
-				"To reach &6Blazes&r and obtain their precious &6Blaze Powder&r, you'll need a &6Blaze Gateway Pearl&r. "
+				"要接触&6烈焰人&r并获得它们珍贵的&6烈焰粉&r，你需要一个&6烈焰人传送门珍珠&r。"
 				""
-				"This magical pearl will open a gateway to the &6Blazes&r' domain, allowing you to confront them. Only then will you be able to gather the essential materials for the &bBlaze Fiber&r."
+				"这颗神奇的珍珠将打开通往&6烈焰人&r领域的大门，让你与它们正面对决。只有这样，你才能收集到&b烈焰纤维&r的关键材料。"
 			]
 			dependencies: ["5ECD0E0C81090B43"]
 			id: "75C8C7BFC2C7358B"
@@ -743,15 +743,15 @@
 		{
 			x: -0.5d
 			y: -4.0d
-			subtitle: "Acquire End Fiber"
+			subtitle: "获取末影纤维"
 			description: [
-				"&bEnd Fiber&r is a unique material, combining the auras of two opposite dimensions."
+				"&b末影纤维&r是一种独特的材料，结合了两个相反维度的灵性。"
 				""
-				"With the End Fiber in hand, you are one step closer to mastering the arcane arts."
+				"只要末影纤维在手，离掌控奥术就又近了一步。"
 				""
-				"Your dedication and skill will be rewarded as you delve into the mysteries of the End Fiber and all the wonders it holds."
+				"当你深入研究末影纤维的奥秘及其所能展现的所有奇迹时，你的奉献精神和你掌握的技能都将得到回报。"
 				""
-				"Good luck, young mages, as you venture further into the realm of powerful enchantments and extraordinary craftsmanship!"
+				"祝你们好运，年轻的法师们，你们将冒险深入强大魔咒和非凡工艺的领域！"
 			]
 			dependencies: ["75C8C7BFC2C7358B"]
 			id: "1E049792E5C4A1B7"
@@ -775,7 +775,7 @@
 			}]
 		}
 		{
-			title: "Starting Mage Garments"
+			title: "初始法袍"
 			icon: {
 				id: "ars_nouveau:novice_robes"
 				Count: 1b
@@ -785,15 +785,15 @@
 			}
 			x: 3.5d
 			y: -2.5d
-			subtitle: "Make a set of Novice Robes"
+			subtitle: "制作一套学徒法袍"
 			description: [
-				"Dear students, congratulations on harvesting Magebloom!"
+				"亲爱的同学们，恭喜你们收获了法师之花！"
 				""
-				"With this precious material, you have the opportunity to craft your very own &6mage robes&r!"
+				"有了这种珍贵的材料，你将能够制作你的第一套&6法师袍&r！"
 				""
-				"The &bNovice Robe set&r is not just for show, it has a practical purpose. When worn, it will &6enhance your mana-wielding abilities&r, increasing the amount of mana you have access to, and increasing its regeneration rate."
+				"&b学徒法袍&r并非只是好看而已，它同样也非常实用。穿上法袍会&6增强你的施法能力&r，提升你的魔力上限和魔力恢复速度。"
 				""
-				"So, gather your focus and start the crafting process. Remember, the Novice Robes represent the beginning of your path to mastery. As you progress, you'll unlock even greater potential. "
+				"所以，请集中注意并开始制作，记住，学徒法袍代表着开始精通奥术。在这一过程中，你将解锁更伟大的潜能。"
 			]
 			dependencies: ["5ECD0E0C81090B43"]
 			id: "2197492499A65E45"
@@ -851,7 +851,7 @@
 			}]
 		}
 		{
-			title: "Distinguished Draperies"
+			title: "卓越法袍"
 			icon: {
 				id: "ars_nouveau:apprentice_robes"
 				Count: 1b
@@ -861,15 +861,15 @@
 			}
 			x: 1.5d
 			y: -2.5d
-			subtitle: "Get a set of Mage Robes"
+			subtitle: "制作一套法师法袍"
 			description: [
-				"Well done, my aspiring mages!"
+				"干得不错，志向远大的法师们"
 				""
-				"Now that you've mastered the Novice Garment, it's time for &6the next level&r - the &bMage&r variant. This gown is even more potent and will &6significantly boost your Mana capacity&r."
+				"现在，你已经完全掌控了学徒法袍，是时候进军&6更高等级&r——&b法师&r级了。这套法袍将更加强大，并且会&6显著提升你的魔法能力&r。"
 				""
-				"Embrace this opportunity, my pupils, and continue your journey to become formidable mages."
+				"抓住机会，我的学生们，然后继续踏上成为受人尊敬的法师的旅途。"
 				""
-				"Keep pushing your limits, and remember that knowledge and practice are the keys to unlocking your true magical potential. Now, go forth and embark on this magical endeavor!"
+				"不断冲击自己的极限，并且记住，知识的储备和不懈的练习是解锁你真正潜能的钥匙。现在，开始努力吧"
 			]
 			dependencies: ["75C8C7BFC2C7358B"]
 			id: "0E0820EEAA29DEAE"
@@ -921,7 +921,7 @@
 			]
 		}
 		{
-			title: "Zenith"
+			title: "巅峰之作"
 			icon: {
 				id: "ars_nouveau:archmage_robes"
 				Count: 1b
@@ -931,17 +931,17 @@
 			}
 			x: -0.5d
 			y: -2.5d
-			subtitle: "Get a set of Archmage Robes"
+			subtitle: "制作一套大法师法袍"
 			description: [
-				"In a true expression of work being its own reward, I am tasking you with the creation of your very own set of &bArchmage Robes&r, the pinnacle of &dArs Nouveau&r garments. Its power surpasses all others of its type."
+				"为了真正展现工作本身就是回报，我希望你制作一套自己的&b大法师法袍&r，这是&d新生魔艺&r法袍中的巅峰之作。它的力量超越了所有同类。"
 				""
-				"Once you don this extraordinary attire, you'll experience an unparalleled enhancement to your &6Mana Capacity&r."
+				"当你做出这套非凡的衣物，你的&6魔法能力&r将得到空前的增强"
 				""
-				"The &bArchmage Robes&r will unlock new depths of magical potential within you, allowing you to weave spells of immense potency."
+				"&b大法师法袍&r将解锁你更深的魔法潜能，使你能够编写力量巨大的法术。"
 				""
-				"With every fiber of this legendary garment interwoven with enchantment, you'll stand as a paragon of magical prowess."
+				"这套传奇服饰的每根纤维的魔力紧密交织，你将成为魔法技能方面的完人。"
 				""
-				"Embrace its might and let it elevate you to the ranks of true masters of the arcane."
+				"接受它的力量，它会将你带上能够真正掌握奥术的阶位。"
 			]
 			dependencies: ["1E049792E5C4A1B7"]
 			id: "3427DAA629E49EE0"
@@ -1021,13 +1021,13 @@
 		{
 			x: 9.5d
 			y: -4.0d
-			subtitle: "Make a Ritual Brazier"
+			subtitle: "制作一个仪式火盆"
 			description: [
-				"&6Rituals&r are a specific branch of magic that is anchored to the &bRitual Brazier&r, and the area around it."
+				"&6仪式&r是依赖&b仪式火盆r&r和它周边区域的一个特殊魔法分支。"
 				""
-				"To cast a ritual, insert the appropriate &6Ritual Tablet&r into the Brazier. Some rites allow you to &6throw certain items in&r to modify their behavior."
+				"要进行仪式，要将对应的&6仪式之板&r放入仪式火盆。某些特殊的仪式允许你&6投入特定物品&r来修改仪式效果。"
 				""
-				"Once you are ready, lay an empty hand upon the Brazier. This will drain some nearby Source, and the ritual will be cast."
+				"当你准备好后，空手右击仪式火盆来允许仪式吸收所需的魔源，并开启仪式。"
 			]
 			dependencies: ["5862BCF8C9D8866E"]
 			id: "23F6282DF69B8625"
@@ -1053,15 +1053,15 @@
 		{
 			x: 7.5d
 			y: -4.0d
-			subtitle: "Make a Tablet of Wilden Summoning"
+			subtitle: "制作荒野召唤之板"
 			description: [
-				"The &bTablet of Summon Wilden&r is one of the few instances of an appropriately-named magic. It &6summons Wilden&r."
+				"&b荒野召唤之板&r是个名副其实的魔法物品。它能&6召唤荒野怪物&r！"
 				""
-				"Wilden are &6rabid beastmen&r that attack on sight. While rarely encountered on campus (if at all), they are a much larger nuisance in the greater world."
+				"荒野怪物是会立即对你发起攻击的&6狂乱野兽&r。虽然在学院中非常少见（几乎不可能见到），但是它们在更广阔的世界中可是个大麻烦。"
 				""
-				"This ritual is &6the best way to encounter Wilden&r for the duration of your studies."
+				"在你需要学习它们的时候，这个仪式可以说是&6接触荒野怪物的最好方法&r。"
 				""
-				"The ritual can be augmented with a &6Wilden Spike, Horn, and Wing&r to instead summon the mighty &cWilden Chimera&r, a fearsome foe."
+				"仪式可以使用&6荒野尖刺、荒野之角、荒野膜翼&r增强，以召唤强大的&c荒野奇美拉&r，一个令人生畏的敌人。"
 			]
 			dependencies: ["23F6282DF69B8625"]
 			id: "4950C09D65D7AFF5"
@@ -1086,15 +1086,15 @@
 			icon: "minecraft:lava_bucket"
 			x: 11.5d
 			y: -7.0d
-			subtitle: "Collect Lava"
+			subtitle: "收集熔岩"
 			description: [
-				"Listen closely, my adept apprentices."
+				"注意听，擅长奥术的学生们"
 				""
-				"The &6Volcanic Sourcelink&r is an extraordinary method to create &6Source&r using burnable fuel sources. For instance, the magical &6Archwood&r will yield even more Source."
+				"&6火山魔源通道&r是一种使用可燃物产生&6魔源&r的非凡方法。而燃烧带有魔力的&6至高木&r无疑能产生更多魔源。"
 				""
-				"But there's more to it! When using this Sourcelink, nearby Stone will undergo a transformation."
+				"但是还有一些事情需要注意！使用这个魔源通道时，周围的石头会彻底变样。"
 				""
-				"It'll turn into Magma blocks and eventually into &bLava&r. This presents a unique opportunity for you to harness this potent form of &6Source&r."
+				"它们将会先变为岩浆块，并最终变为&b熔岩&r。这为你提供了一个掌控&6魔源&r的这种强大形式的独特机会。"
 			]
 			dependencies: ["2D945108E5A67869"]
 			id: "097138E6117FC9A2"
@@ -1113,13 +1113,13 @@
 		{
 			x: -0.5d
 			y: -7.0d
-			subtitle: "Make a Source Berry Roll"
+			subtitle: "制作一个魔源浆果卷"
 			description: [
-				"I bet you didn't think you'd start off your journey into spellcasting by baking did you?"
+				"我想你不会认为你的施法之旅要以烘焙为起点，你会吗？"
 				""
-				"&bSource Berry Rolls&r are a very tasty snack, but also &6provide a substantial increase to mana regeneration&r!"
+				"&b魔源浆果卷&r是一种非常可口的小吃，并且会&6提供可观的魔力恢复&r！"
 				""
-				"It would be a good idea for any exploring sorcerer to carry some around for this reason."
+				"因此，对任何一个出外探索的法师来说，携带一些魔源浆果卷都是个好主意。"
 			]
 			dependencies: ["54D7F5310E879150"]
 			id: "4ED3DD00B8B5C2A7"
@@ -1135,18 +1135,18 @@
 			}]
 		}
 		{
-			title: "Intro to Spellcrafting"
+			title: "法术构造简介"
 			icon: "arsomega:arcane_book"
 			x: -2.5d
 			y: -5.5d
 			shape: "pentagon"
-			subtitle: "Find Prof. Regen"
+			subtitle: "找到瑞根教授"
 			description: [
-				"Welcome, students, to &6Intro to Spellcrafting with Ars Nouveau&r."
+				"同学们好！欢迎来到&6基于新生魔艺的法术构造课程&r。"
 				""
-				"In this class you will master the arcane arts of enchanting and spell casting. "
+				"在本课中，你将会掌握魔咒、施法等等的奥术技艺。"
 				""
-				"Before we begin, please &bcultivate and nurture a few trees within your dorms&r, as &6their logs are required&r for our practical studies."
+				"在我们开始之前，请&b在你的校舍中种植并培育一些树苗&r，我们接下来的实践课将用到它们的&6原木&r。"
 			]
 			dependencies: ["63368A007664E4B5"]
 			min_width: 300
@@ -1154,7 +1154,7 @@
 			tasks: [{
 				id: "59221FE23ACE6C2C"
 				type: "location"
-				title: "Meet R3GEN"
+				title: "与瑞根见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -1192,7 +1192,7 @@
 				{
 					id: "1197AB1B5F603408"
 					type: "custom"
-					title: "Elemental Sapling"
+					title: "元素树苗"
 					icon: "ars_nouveau:green_archwood_sapling"
 				}
 				{
@@ -1217,7 +1217,7 @@
 			]
 		}
 		{
-			title: "Start Dungeon"
+			title: "进入地牢"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1228,9 +1228,9 @@
 			x: 12.5d
 			y: -2.5d
 			description: [
-				"We do not typically encourage our Students to put themselves in harms way, but with the real threat eliminated, we have created a magical simulation dungeon that you can do as often as you like. "
+				"虽然我们并不鼓励我们的学生使用，但将真正可怕的危险清除后，我们依然建造了一个可供有能力学生随意进入的奥术模拟地牢。"
 				""
-				"This will let you get extra practice, and we've made sure to include plenty of rewards for industrious students. "
+				"你将能够在内得到额外的锻炼，并且我们保证其中包含了大量的奖励，以勉励勤奋的学生。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["612BC02EEA4C9BBA"]
@@ -1250,18 +1250,18 @@
 			}]
 		}
 		{
-			title: "Complete the Elemental Dungeon"
+			title: "通过元素地牢"
 			icon: "arsomega:infinity_crystal"
 			x: 11.5d
 			y: -2.5d
 			description: [
-				"I'm sure you've heard the rumors of monsters attacking our school. I regret to say they are true. However, we have decided to take advantage of the unique opportunity this presents to continue your training, and to obtain a valuable artifact."
+				"我相信你已经听到了怪物正在攻击学院的传闻。很遗憾，这是真的。然而，我们已经决定利用好这个独特的机会来继续你的训练，并获取一个重要的遗物。"
 				""
-				"We would like you to venture into the Elemental Dungeons of Ars to acquire the &6Archmage Spell Book&r "
+				"我们希望你进入魔艺元素地牢冒险，以获取&6大法师法术书&r。"
 				""
-				"Defeating the formidable Wilden Guardian within these dungeons is the key to obtaining this prestigious spellbook. We also believe it will stop the attacks on the school. "
+				"在地牢中击败可怕的荒野守护者是获取这本颇具盛名的法术书的关键。我们同样相信这将结束学院受到的攻击。"
 				""
-				"Prepare yourselves for a daunting yet rewarding endeavor as you face the trials within the Elemental Dungeons to claim this powerful book."
+				"为这个艰巨而有意义的任务武装你自己，面对元素地牢中的考验，以获取这本强大的法术书。"
 			]
 			dependencies: ["612BC02EEA4C9BBA"]
 			id: "252E046EBDB11FB1"
@@ -1274,7 +1274,7 @@
 				{
 					id: "0A00010517814C16"
 					type: "custom"
-					title: "Kill the Wilden Guardian"
+					title: "杀死荒野守护者"
 					icon: {
 						id: "ars_nouveau:wilden_spike"
 						Count: 1b
@@ -1297,7 +1297,7 @@
 			}]
 		}
 		{
-			title: "Start Dungeon"
+			title: "开启地牢"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -1325,13 +1325,13 @@
 			}]
 		}
 		{
-			title: "Luminos!"
+			title: "荧光闪烁！"
 			x: 5.5d
 			y: -4.0d
 			description: [
-				"As an exercise in creating your own glyphs you are instructed to create a basic mage light spell."
+				"作为制作魔符的练习，你需要制作一个基本法术，召唤魔光。"
 				""
-				"You should be able to find some campfires to destroy for some charcoal to make torches. Combine this with the lantern we provided for you to craft your glyph and add it to your spellbook."
+				"你应该能够找到并摧毁一些营火，获得木炭来制作火把。将它与给你的灯笼结合，制作魔符并添加到你的法术书中。"
 			]
 			dependencies: ["2F8A51FEB237D9EA"]
 			id: "394321C01C7A718A"
@@ -1371,13 +1371,13 @@
 		{
 			x: 7.5d
 			y: -7.0d
-			subtitle: "Getting more Bang for your Buck!"
+			subtitle: "物超所值！"
 			description: [
-				"If you want to get more power out of the Fossile Fuels you have been gathering, you can try and imbue it with some &5Source&r."
+				"如果你想从煤炭中获得更多的能量，可以尝试注入一些&5魔源&r。"
 				""
-				"If placed inside the &6Imbuement Chamber&r, your Coal and/or Charcoal will be slowly turned into &bSource Coal&r."
+				"放置在&6灌注室&r中的煤、木炭将慢慢变成&b魔源炭&r。"
 				""
-				"This Fuel has a three times longer burn time compared to their non-magic counterpart."
+				"与非魔法燃料相比，这种燃料的燃烧时间是原来的三倍。"
 			]
 			dependencies: ["16728DA8E476FEE4"]
 			id: "537D2FF232549EE5"
@@ -1421,9 +1421,9 @@
 			x: 9.5d
 			y: -9.0d
 			description: [
-				"The &bSpell Turrets&r serve as instruments to cast predefined spells sourced from a &6Spell Parchment&r. Activation requires both a redstone signal and a nearby container filled with &5Source&r."
+				"&b法术炮塔&r是施放预定义法术的工具，这些法术需要来自于&6法术羊皮纸&r。激活需要红石信号和装有&5魔源&r的容器。"
 				""
-				"[\"\",\"For more detailed guidance, refer to the \",{\"text\":\"[ Notebook ]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:automation/spell_turret 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open Spell Turret Book Entry\"]}},\". It contains comprehensive information elucidating the operational intricacies and capabilities of these turrets.\"]"
+				"[\"\",\"更多细节请看\",{\"text\":\"[破旧的笔记本]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:automation/spell_turret 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开法术炮塔页面\"]}},\"。它说明了炮塔的复杂操作和功能，信息全面。\"]"
 			]
 			dependencies: [
 				"5862BCF8C9D8866E"
@@ -1446,16 +1446,16 @@
 			x: 9.5d
 			y: -11.0d
 			description: [
-				"The &bEnchanted Turrets&r possess the capability to be infused with the power of an elemental focus, granting them a fraction of its abilities. Spells fired by these turrets will activate the combos associated with the corresponding focus."
+				"&b附魔法术炮塔&r可以被注入元素核心力量，这将赋予他们一小部分元素能力。这些炮塔发射的法术将能够激活与相应核心相关的效果。"
 				""
-				"Additionally, if the spell contains a glyph of the matching elemental school, it will be discounted by &665 percent&r."
+				"此外，如果法术包含对应元素学派的魔符，则将减少&665%&r的魔源消耗。"
 			]
 			dependencies: ["1AC427EBA1B16219"]
 			id: "4B542B591111DE7B"
 			tasks: [{
 				id: "23D3EADF3F778678"
 				type: "item"
-				title: "Elemental Turrets"
+				title: "元素炮台"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -1501,9 +1501,9 @@
 			x: 11.5d
 			y: -9.0d
 			description: [
-				"The &bEnchanted Spell Turrets&r bear similarity to regular Spell Turrets, differing in their usage of only half the usual &5Source&r cost. This efficiency renders them notably more effective in their functionality."
+				"&b附魔法术炮塔&r与基础法术炮塔很相似，不同之处在于它们的&5魔源&r消耗仅为基础的一半。这种魔源利用效率使它们在功能上更加有效。"
 				""
-				"Comprehend the significance of these enhancements, as they augment our enchanting instruments significantly."
+				"这些加强十分重要，它们显着增强了我们的法术装置。"
 			]
 			dependencies: ["1AC427EBA1B16219"]
 			id: "405C265371AF9B0D"
@@ -1520,13 +1520,13 @@
 			}]
 		}
 		{
-			title: "Tick, Tock, around the Clock"
+			title: "嘀嗒嘀嗒钟在转"
 			x: 11.5d
 			y: -11.0d
 			description: [
-				"The &bTimer Spell Turrets&r share resemblance to regular Spell Turrets, but with an intriguing difference — they operate without the need for a redstone signal. Interaction increases the delay by one second, while punching decreases it by one second."
+				"&b定时法术炮塔&r与基础法术炮塔类似，但有一个有趣的区别——它们可以在没有红石信号的情况下运行。右击可以使延迟增加一秒，左击会减少一秒。"
 				""
-				"Remember to apply a spell to these turrets, as previously discussed. Comprehend the nuances of their functionality, as they form a distinctive addition to our magical instruments."
+				"别忘了赋予这些炮塔法术，如前所述，你需要理解它们功能的细微差别，它们构成了我们奥术装置的独特部分。"
 			]
 			dependencies: ["1AC427EBA1B16219"]
 			id: "5E23F9EDB34F1A19"
@@ -1546,11 +1546,11 @@
 			x: 5.5d
 			y: -9.0d
 			description: [
-				"The combination of a &6Blank Parchment&r with several &6Source Gems&r yields the creation of &bSpell Parchments&r."
+				"将&6空白羊皮纸&r与几个&6魔源宝石&r相结合就能得到&b法术羊皮纸&r."
 				""
-				"These parchments possess the ability to apply spells onto various entities such as &5Turrets&r or &5Bookwyrms&r, among others."
+				"这种羊皮纸有赋予多种实体法术的能力，可以接受法术的实体包括&5炮塔&r、&5书龙&r等等。"
 				""
-				"Simply place the &bSpell Parchment&r onto the &5Scribe's Table&r and interact with the table while crouching while holding your spellbook in your active hand."
+				"将&b法术羊皮纸&r简单地放置在&5抄写台&r上，手持法术书潜行右击抄写台即可抄录法术。"
 			]
 			dependencies: ["57EAE710537B248D"]
 			id: "4B1C6C5EB09436E7"
@@ -1568,7 +1568,7 @@
 			}]
 		}
 		{
-			title: "Enchanter's Tools"
+			title: "巫师工具"
 			icon: {
 				id: "ars_nouveau:enchanters_sword"
 				Count: 1b
@@ -1582,28 +1582,28 @@
 			x: 13.5d
 			y: -5.5d
 			description: [
-				"The &bEnchanter's Tools&r stand as potent instruments designed to accommodate a single spell. Place the tool onto your &6Scribe's Table&r and apply the active spell from your Spellbook."
+				"&b巫师工具&r作为一种强大的装置，被设计为只能容纳单个法术。将你的工具放置在&6抄写台&r上并从你的法术书上抄录可用法术。"
 				""
-				"Types of Tools:"
+				"工具种类："
 				""
-				"{\"text\":\"[ Casting Wand ]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/wand 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open Casting Wand Entry\"]}}"
-				"Wands accept one spell inscribed at the Scribe's Table, beginning with Projectile -> accelerate, and requiring a unique spell without another method."
+				"{\"text\":\"[施法法杖]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/wand 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开施法法杖页面\"]}}"
+				"这个法杖可以在抄写台上抄录一个法术，并自动在抄入的法术前添加“弹射物->加速”效果，抄录需要一个没有形态的特殊法术。"
 				""
-				"{\"text\":\"[ Enchanter's Bow ]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/spell_bow 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open Enchanter's Bow Entry\"]}}"
-				"transforms arrows to Spell Arrows applying spells on targets; lacking arrows casts a damaging spell arrow, while insufficient mana fires regular arrows, and special Augment Arrows empower the spell."
+				"{\"text\":\"[巫师之弓]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/spell_bow 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开巫师之弓页面\"]}}"
+				"将射出的箭矢变为法术箭矢，并对击中的目标释放该法术；没有箭时仅法术造成伤害，而没有魔力时只会射出常规箭矢，特殊的增强箭也将增强法术效果。"
 				""
-				"{\"text\":\"[ Enchanter's Sword ]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/enchanters_sword 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open Enchanter's Sword Entry\"]}}"
-				"Applies a Touch spell before entity damage, adds an extra amplifier to all spells' last Effect, requiring a non-form spell for inscription at the Scribe's Table (e.g., Ignite Extend Time)."
+				"{\"text\":\"[巫师之剑]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/enchanters_sword 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开巫师之剑页面\"]}}"
+				"在对实体造成伤害前施放接触类法术，并在法术的最后额外添加一个增强（例如，增加燃烧时间），这需要在抄写台抄录一个无形态法术。"
 				""
-				"{\"text\":\"[ Enchanter's Mirror ]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/enchanters_mirror 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Open Enchanter's Mirror Entry\"]}}"
-				"Applies a self spell to the user, granting discounted spells with extended duration for all glyphs cast using the mirror, requiring a non-form spell (e.g., Strength Heal)."
+				"{\"text\":\"[巫师之镜]\",\"underlined\":true,\"color\":\"red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/execute as @p run open-book ars_nouveau:worn_notebook ars_nouveau:equipment/enchanters_mirror 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开巫师之镜页面\"]}}"
+				"对使用者施放自身类法术，降低法术消耗并延长法术生效时间（例如，增强生命恢复），这需要在抄写台抄录一个无形态法术。"
 			]
 			dependencies: ["31A754EB419CD398"]
 			id: "2D57D4469411F8FD"
 			tasks: [{
 				id: "4840DE0BE034CE29"
 				type: "item"
-				title: "Enchanter's Tools"
+				title: "巫师工具"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
