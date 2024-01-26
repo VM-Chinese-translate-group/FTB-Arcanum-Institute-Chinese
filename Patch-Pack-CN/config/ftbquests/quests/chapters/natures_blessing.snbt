@@ -1155,7 +1155,7 @@
 				{
 					id: "013B01E60DBD27A6"
 					type: "item"
-					title: "探天者护甲"
+					title: "探天者盔甲"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
