@@ -265,7 +265,7 @@
 			]
 		}
 		{
-			title: "效应粉"
+			title: "效应粉末"
 			icon: {
 				id: "naturesaura:effect_powder"
 				Count: 1b
