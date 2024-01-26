@@ -731,7 +731,7 @@
 				{
 					id: "266510B80D489475"
 					type: "item"
-					title: "植物学家护甲"
+					title: "植物学家盔甲"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
