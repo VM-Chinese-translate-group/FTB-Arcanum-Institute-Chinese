@@ -539,7 +539,7 @@
 			icon: "ars_nouveau:blank_parchment"
 			x: 13.5d
 			y: -4.0d
-			description: ["&6法师的法术书&r允许你使用&62级魔符&r，这些魔符在这之前无法使用。"]
+			description: ["&6法师法术书&r允许你使用&62级魔符&r，这些魔符在这之前无法使用。"]
 			dependencies: ["612BC02EEA4C9BBA"]
 			id: "38A919DBFA0FAB21"
 			tasks: [{
