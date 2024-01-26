@@ -606,7 +606,7 @@
 				"&l新生魔艺&r"
 				"{\"text\":\"[ 魔符：熔炼 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3C60F002ACBF1B8F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 				""
-				"&l咒术施法&r"
+				"&l咒法学&r"
 				"{\"text\":\"[ 学会熔炼 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"38A3B49A5D413BBF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 			]
 			dependencies: [
