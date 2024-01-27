@@ -16,7 +16,7 @@ function onClickLightRelay(player, block) {
     console.log(isUnbound)
     if (isUnbound) {
         player.tell(
-            "This Luminizer doesn't go anywhere! It's the exit, not an entrance!"
+            "这个微光哪也去不了了！这是出口，不是入口！"
         )
     }
 }

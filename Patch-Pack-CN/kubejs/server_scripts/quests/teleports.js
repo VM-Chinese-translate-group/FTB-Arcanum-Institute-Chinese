@@ -2,7 +2,7 @@ const blacklistChapters = {
     goblins: 'Beggars and Bargains',
     food: 'Ghost Kitchen',
     mme: 'The Magic Mischief Emporium',
-}
+} // TODO 
 
 onEvent('ftbquests.completed', (event) => {
 
@@ -19,29 +19,29 @@ onEvent('ftbquests.completed', (event) => {
             let tp_loc
             switch (tag) {
                 case 'bloodmagic':
-                    classRoom = 'Blood Magic'
+                    classRoom = '血魔法'
                     break
                 case 'botania':
-                    classRoom = 'Botania'
+                    classRoom = '植物魔法'
                     break
                 case 'ars':
-                    classRoom = 'Ars Nouveau'
+                    classRoom = '新生魔艺'
                     break
                 case 'roots':
-                    classRoom = "Nature's Aura & Roots"
+                    classRoom = "自然灵气与根源魔法"
                     break
                 case 'hexerei':
-                    classRoom = 'Hexerei'
+                    classRoom = '魔法巫师'
                     break
                 case 'occultism':
-                    classRoom = 'Occultism'
+                    classRoom = '神秘学'
                     break
                 case 'spellcasting':
-                    classRoom = 'Spellcasting'
+                    classRoom = '施法'
                     break
                 //case 'elemental':       classRoom = 'Elemental';break
                 case 'beastmaster':
-                    classRoom = 'Beastmaster'
+                    classRoom = '野兽大师'
                     break
                 case 'bloodmagic_tp':
                     tp_loc = FTB_AI_CONSTS.tp.BloodMagic
@@ -89,8 +89,8 @@ onEvent('ftbquests.completed', (event) => {
                     tp_loc = FTB_AI_CONSTS.tp.shopTiers.four
                     break
                 case 'goblin_shop':
-                    title(event.player.name.text, 'Welcome')
-                    subtitle(event.player.name.text, 'to the Goblin Shop')
+                    title(event.player.name.text, '欢迎')
+                    subtitle(event.player.name.text, '来到哥布林商店')
                     break
                 case 'mme_tp':
                     tp_loc = FTB_AI_CONSTS.tp.mme
@@ -101,7 +101,7 @@ onEvent('ftbquests.completed', (event) => {
             if (classRoom) {
                 let kuPlayer = new Ku.Player(event.player)
                 kuPlayer.showActionBar(
-                    `Entering ${classRoom} Class`,
+                    `进入${classRoom}班`,
                     Color.YELLOW,
                     false
                 )

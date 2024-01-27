@@ -8,7 +8,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Cookies"
+			title: "曲奇"
 			icon: "minecraft:cookie"
 			x: -7.0d
 			y: -1.0d
@@ -29,7 +29,7 @@
 			}]
 		}
 		{
-			title: "Cocoa Beans"
+			title: "可可豆"
 			icon: "minecraft:cocoa_beans"
 			x: -7.0d
 			y: -2.0d
@@ -57,7 +57,7 @@
 			]
 		}
 		{
-			title: "Nether Wart"
+			title: "下界疣"
 			icon: "minecraft:nether_wart"
 			x: -6.0d
 			y: -2.0d
@@ -84,7 +84,7 @@
 			}]
 		}
 		{
-			title: "Sweet Berries"
+			title: "甜浆果"
 			icon: "minecraft:sweet_berries"
 			x: -5.0d
 			y: -2.0d
@@ -111,7 +111,7 @@
 			}]
 		}
 		{
-			title: "Glow Berries"
+			title: "发光浆果"
 			icon: "minecraft:glow_berries"
 			x: -4.0d
 			y: -2.0d
@@ -138,7 +138,7 @@
 			}]
 		}
 		{
-			title: "Beetroot"
+			title: "甜菜根"
 			icon: "minecraft:beetroot"
 			x: -8.0d
 			y: -2.0d
@@ -165,7 +165,7 @@
 			}]
 		}
 		{
-			title: "Carrots"
+			title: "胡萝卜"
 			icon: "minecraft:carrot"
 			x: -9.0d
 			y: -2.0d
@@ -192,7 +192,7 @@
 			}]
 		}
 		{
-			title: "Potatoes"
+			title: "马铃薯"
 			icon: "minecraft:potato"
 			x: -10.0d
 			y: -2.0d
@@ -219,7 +219,7 @@
 			}]
 		}
 		{
-			title: "Apples"
+			title: "苹果"
 			icon: "minecraft:apple"
 			x: -11.0d
 			y: -2.0d
@@ -246,7 +246,7 @@
 			}]
 		}
 		{
-			title: "Beetroot Soup"
+			title: "甜菜汤"
 			icon: "minecraft:beetroot_soup"
 			x: -8.0d
 			y: -1.0d
@@ -273,7 +273,7 @@
 			}]
 		}
 		{
-			title: "Golden Carrots"
+			title: "金胡萝卜"
 			icon: "minecraft:golden_carrot"
 			x: -9.0d
 			y: -1.0d
@@ -300,7 +300,7 @@
 			}]
 		}
 		{
-			title: "Baked Potato"
+			title: "烤马铃薯"
 			icon: "minecraft:baked_potato"
 			x: -10.0d
 			y: -1.0d
@@ -327,7 +327,7 @@
 			}]
 		}
 		{
-			title: "Apple Slices"
+			title: "苹果片"
 			icon: "cnb:apple_slice"
 			x: -11.0d
 			y: -1.0d
@@ -354,7 +354,7 @@
 			}]
 		}
 		{
-			title: "Rabbit Stew"
+			title: "兔肉煲"
 			icon: "minecraft:rabbit_stew"
 			x: -6.0d
 			y: -1.0d
@@ -381,7 +381,7 @@
 			}]
 		}
 		{
-			title: "Steak"
+			title: "牛排"
 			icon: "minecraft:cooked_beef"
 			x: -5.0d
 			y: -1.0d
@@ -402,7 +402,7 @@
 			}]
 		}
 		{
-			title: "Submarine Sandwich"
+			title: "潜艇三明治"
 			icon: "hexcasting:sub_sandwich"
 			x: -4.0d
 			y: -1.0d
@@ -430,7 +430,7 @@
 			}]
 		}
 		{
-			title: "Apple Crate"
+			title: "箱装苹果"
 			icon: "quark:apple_crate"
 			x: -11.0d
 			y: 0.0d
@@ -458,7 +458,7 @@
 			}]
 		}
 		{
-			title: "Potato Crate"
+			title: "箱装马铃薯"
 			icon: "quark:potato_crate"
 			x: -10.0d
 			y: 0.0d
@@ -486,7 +486,7 @@
 			}]
 		}
 		{
-			title: "Carrot Cake"
+			title: "箱装胡萝卜"
 			icon: "quark:carrot_crate"
 			x: -9.0d
 			y: 0.0d
@@ -514,7 +514,7 @@
 			}]
 		}
 		{
-			title: "Beetroot Crate"
+			title: "箱装甜菜根"
 			icon: "quark:beetroot_crate"
 			x: -8.0d
 			y: 0.0d
@@ -542,7 +542,7 @@
 			}]
 		}
 		{
-			title: "Cocoa Bean Sack"
+			title: "袋装可可豆"
 			icon: "quark:cocoa_beans_sack"
 			x: -7.0d
 			y: 0.0d
@@ -572,7 +572,7 @@
 			]
 		}
 		{
-			title: "Nether Wart Sack"
+			title: "袋装下界疣"
 			icon: "quark:nether_wart_sack"
 			x: -6.0d
 			y: 0.0d
@@ -600,7 +600,7 @@
 			}]
 		}
 		{
-			title: "Sweet Berry Sack"
+			title: "袋装甜浆果"
 			icon: "quark:berry_sack"
 			x: -5.0d
 			y: 0.0d
@@ -628,7 +628,7 @@
 			}]
 		}
 		{
-			title: "Glow Berry Sack"
+			title: "袋装发光浆果"
 			icon: "quark:glowberry_sack"
 			x: -4.0d
 			y: 0.0d
@@ -656,7 +656,7 @@
 			}]
 		}
 		{
-			title: "Pumpkin Pie"
+			title: "南瓜派"
 			icon: "minecraft:pumpkin_pie"
 			x: -2.5d
 			y: -2.0d
@@ -676,7 +676,7 @@
 			}]
 		}
 		{
-			title: "Source Berry Pie"
+			title: "魔源浆果派"
 			icon: "ars_nouveau:source_berry_pie"
 			x: -2.5d
 			y: -1.0d
@@ -704,7 +704,7 @@
 			}]
 		}
 		{
-			title: "Cake! (totally not Pie)"
+			title: "蛋糕！（反正不是派）"
 			icon: "minecraft:cake"
 			x: -2.5d
 			y: 0.0d

@@ -19,7 +19,7 @@ onEvent('item.right_click', event =>{
     switch(item.nbt.gateway){
         case 'gateways:blaze_gate_small':{
             if (biome != 'ftbai:dorms'){
-                errorMsg = 'This Gateway only wants to form in your Dorm'
+                errorMsg = '这个传送门只想在你的校舍中生成'
                 actionbar(player.name.text, errorMsg)
                 event.cancel()
                 return
@@ -28,7 +28,7 @@ onEvent('item.right_click', event =>{
 
         default: {
             if(biome == 'ftbai:school') {
-                errorMsg = 'The Gateway won\'t form in School'
+                errorMsg = '传送门不会在学校中生成'
                 actionbar(player.name.text, errorMsg)
                 event.cancel()
                 return
@@ -51,7 +51,7 @@ onEvent('block.right_click', event =>{
     switch(item.nbt.gateway){
         case 'gateways:blaze_gate_small':{
             if (biome != 'ftbai:dorms'){
-                errorMsg = 'This Gateway only wants to form in your Dorm'
+                errorMsg = '这个传送门只想在你的校舍中生成'
                 actionbar(player.name.text, errorMsg)
                 event.cancel()
                 break
@@ -60,7 +60,7 @@ onEvent('block.right_click', event =>{
 
         default: {
             if(biome == 'ftbai:school') {
-                errorMsg = 'The Gateway won\'t form in School'
+                errorMsg = '传送门不会在学校中生成'
                 actionbar(player.name.text, errorMsg)
                 event.cancel()
                 break

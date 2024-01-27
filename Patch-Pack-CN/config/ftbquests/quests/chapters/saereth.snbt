@@ -3,7 +3,7 @@
 	group: "125708BF22E6ABEE"
 	order_index: 0
 	filename: "saereth"
-	title: "Professor Saereth"
+	title: "萨拉斯教授"
 	icon: "ftbai:codex_bloodmagic"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,14 +12,14 @@
 			x: -1.5d
 			y: -0.5d
 			description: [
-				"Greetings, class."
+				"同学们，大家好。"
 				""
-				"I've got a bit of a favor to ask. Remember those Blank Slates we talked about last time?"
+				"我有点事要请你们帮忙。还记得我们上次讲的那些“空白石板”吗？"
 				""
-				"I need about 25 of those for a project I'm working on."
-				"If you could lend a hand and bring them to the class, that would be most helpful."
+				"我需要大概25个石板，用在我一个正在进行的项目中。"
+				"如果你愿意给予帮助，把石板带到课堂上，那可真是太好了。"
 				""
-				"We'll count this as your first test."
+				"我们会把这作为你的第一次测试。"
 				""
 			]
 			dependencies: ["786E87AD25C9C9D6"]
@@ -38,15 +38,15 @@
 			y: 3.0d
 			shape: "hexagon"
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"I know most teachers consider the sixth trial the final exam for the class, and give the student some trinket. But I'm not most teachers, and you're not most students. "
+				"我知道大多数老师都认为，第六次测试是期末考试，并给学生一些小建议。但我不是大多数老师，你们也不是大多数学生。"
 				""
-				"If you want to obtain my Codex, you're going to have to prove youself. I want you to make an Archmage's Blood Orb. This will let me know you can handle the knowledge within my codex. "
+				"如果你想获得我的宝典，就必须证明你自己。我想让你制作一个贤者气血宝珠。这样我就能了解你是否能够掌握我宝典中的知识。"
 				""
-				"Since I am pretty confident it won't be too challenging to you I'll go ahead and say congratulations now. You've been an exceptional student. "
+				"我对你充满信心，这对你来说应该不算太难。我已经准备好祝贺你了。你真是个优秀的学生。"
 				""
-				"...Okay, we're done here. "
+				"……好的，就到这里吧。"
 			]
 			dependencies: [
 				"463DEA7935E7ABC2"
@@ -79,13 +79,13 @@
 			x: -1.5d
 			y: 6.5d
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"I think you are ready for your forth trial, and I know exactly what to do to challenge you. "
+				"我想你已经准备好迎接第四次考试了，我也清楚该怎么给你提出挑战。"
 				""
-				"Bring me eight specialized Will Crystals. It will be a good test of your skills, and you'll need them for upcoming lessons. "
+				"给我带来八个特殊意志晶体。这是对你能力的一次重要考验，你需要用到它们来应对接下来的课程。"
 				""
-				"Thx-"
+				"谢了——"
 			]
 			dependencies: [
 				"786E87AD25C9C9D6"
@@ -96,7 +96,7 @@
 			tasks: [{
 				id: "63D3EAEE0B2A30A0"
 				type: "item"
-				title: "Will Crystals"
+				title: "意志晶体"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -141,13 +141,13 @@
 			x: -4.0d
 			y: 5.0d
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"We've encountered a magical artifact, the Tainted Blood Pendant, stemming from a fascet of magic unfamiliar to me. Seek guidance from LadyMaehem, an expert in Botania, on crafting the pendant."
+				"我们发现了一件不可思议的魔物，污血吊坠，它来自于一种我所不知的魔法。请向植物魔法大师，梅希姆女士询问如何制造这个吊坠。"
 				""
-				"Once equipped with the necessary knowledge, create the Tainted Blood Pendant and deliver it to me. This request is integral to our ongoing studies, with further details to be revealed later."
+				"只要你掌握了所需的知识，就能制造出污血吊坠交给我。这是我们进行的研究中必不可少的一个环节，更多的细节我会在适当的时候告诉你。"
 				""
-				"Regards"
+				"致敬"
 			]
 			dependencies: [
 				"65DD3960EFE74132"
@@ -171,13 +171,13 @@
 			x: -4.0d
 			y: 1.0d
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"For your sixth trial, I'd like you to obtain a Miner's Key. "
+				"为了你的第六次测试，我希望你能拿到一把矿工钥匙（Miner's Key）"
 				""
-				"The significance behind this request will be clarified in due course."
+				"这个请求的真正目的会在合适的时机向你说明。"
 				""
-				"Regards"
+				"致敬"
 			]
 			dependencies: [
 				"0D582D2AF121586F"
@@ -196,13 +196,13 @@
 			x: 1.0d
 			y: 5.0d
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"As you've been diligently studying the art of alchemy in our class, I would like to entrust you with a special task that requires all of the knowledge you have gained so far in my class. I'm seeking assistance in creating a high-level alchemy flask."
+				"你在我们班上学习炼金术一直很用功，我有一项特殊的任务想要交给你，这项任务要求你运用你在我班上所学到的全部知识。帮助我制作一个高级的炼金烧瓶（Alchemy Flask）"
 				""
-				"Regrettably, I'm unable to disclose the specific details of the task at this time. However, your contribution in crafting this flask is of utmost importance and will significantly aid in an important endeavor."
+				"但是很抱歉，我目前还不能告诉你这项任务的详细情况。尽管如此，你对这项任务仍然非常重要，也会对某件大事有很大的帮助。"
 				""
-				"Thank you for your attention and consideration. And given the complexity it requires, let's go ahead and count this as your second trial. "
+				"感谢你的关注和体谅。鉴于它的复杂程度，我们决定把它当作你的第二次测试。"
 				""
 			]
 			dependencies: [
@@ -214,7 +214,7 @@
 			tasks: [{
 				id: "32F75D1EE423118F"
 				type: "item"
-				title: "Potent Flasks"
+				title: "强效烧瓶"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -711,13 +711,13 @@
 			x: 1.0d
 			y: 1.0d
 			description: [
-				"Dear Student,"
+				"亲爱的学生，"
 				""
-				"I would like you to know that your progress with your studies in Blood Magic has not gone unnoticed. To that end I've been considering what your third trial should be. "
+				"你在血魔法的研究成果并没有被忽视。我一直在思考应该怎样安排你的第三次测试。"
 				""
-				"I can't just do what I do for ordinary students, I need something that will challenge you. To that end; make me a common tartaric gem. It shouldn't be to difficult for you, but will give both of us a good idea of how much you've learned. "
+				"我肯定不拿你当普通学生，我要给你一些有挑战性的任务，制作一块普通地狱魂石。这对你来说应该不是难事，但可以检验你的学习成果。"
 				""
-				"Get to it. "
+				"加油。"
 			]
 			dependencies: [
 				"786E87AD25C9C9D6"

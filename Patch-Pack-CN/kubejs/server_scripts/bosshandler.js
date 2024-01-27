@@ -10,7 +10,7 @@ onEvent('entity.death', event =>{
     const {entity, target, level, server} = event
     if(level.dimension != "minecraft:the_end") return
     if(!entity.type.toString().includes('customnpcs')) return
-
+    // TODO
     switch(entity.name.key){
         // Spawn Witch when Puppet dies
         case "Sealed Witch":{
@@ -55,7 +55,7 @@ onEvent('entity.hurt', event =>{
     if(!entity.type.toString().includes('customnpcs')) return
     if(source.type == 'outOfWorld') return
     switch(entity.name.key){
-        case "Sealed Witch":{
+        case "Sealed Witch":{ // TODO
             event.cancel()
             break
         }
@@ -121,7 +121,7 @@ onEvent("block.right_click", event =>{
         let aabb = AABB.of(castingBlock.x-25, castingBlock.y-2, castingBlock.z-25, castingBlock.x+25, castingBlock.y+25, castingBlock.z+25)
         let entities = level.getEntitiesWithin(aabb)
         entities.forEach(checkedEntity =>{
-            if(checkedEntity.name.key == "Sealed Witch"){
+            if(checkedEntity.name.key == "Sealed Witch"){ // TODO
                 witch = checkedEntity
             }
             if(checkedEntity.type.toString().includes('whisperwoods')){
@@ -346,9 +346,9 @@ function deadWitch(event){
     let range = 128
     level.getEntitiesWithin(AABB.of(x - range, y - range, z - range, x + range, y + range, z + range)).forEach(single_player => {
         if (single_player.isPlayer()) {
-            title(single_player, "The Dark Witch has been defeated!")
-            single_player.tell("She is sealed once again in the Celestial Colosseum")
-            single_player.tell("and Arcanum Institute is safe again! For now...")
+            title(single_player, "暗黑女巫已被击败！")
+            single_player.tell("她再次被封印在星月斗兽场")
+            single_player.tell("奥术学院回归了平静！至少是现在……")
             single_player.playSound('ftbai:witch_scream')
             Utils.server.runCommandSilent(`execute in minecraft:the_end run tp ${single_player.name.text} -34 58 -2 90 -13.5`)
             Utils.server.runCommandSilent(`ftbquests change_progress ${single_player.name.text} complete 7A184C44A0EA44E2`)

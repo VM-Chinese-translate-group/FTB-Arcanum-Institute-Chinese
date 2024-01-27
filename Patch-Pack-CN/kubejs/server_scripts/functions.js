@@ -10,7 +10,7 @@ function checkShop(event, shop, range, stage, questId) {
 		const kuPlayer = new Ku.Player(player);
 		player.stages.remove(stage)
 		server.runCommandSilent(`ftbquests change_progress ${player.name.text} reset ${questId}`)
-		if (stage != 'foodshop' && stage != 'mme') kuPlayer.showActionBar(`Leaving Shop`, Color.YELLOW, false)
+		if (stage != 'foodshop' && stage != 'mme') kuPlayer.showActionBar(`离开商店`, Color.YELLOW, false)
 	}
 }
 
@@ -28,7 +28,7 @@ function checkTeacher(event, teacherPos, range, stage, questId) {
 			y >= teacherY + range
 		) {
 			const kuPlayer = new Ku.Player(player);
-			kuPlayer.showActionBar(`Leaving ${stage} Class`, Color.YELLOW, false)
+			kuPlayer.showActionBar(`离开${stage}班级`, Color.YELLOW, false)
 			player.stages.remove(stage)
 		}
 	}
@@ -58,16 +58,16 @@ function gamemodeSwitcher(event) {
 	switch (level.dimension) {
 		case 'ftbdungeons:dungeon_dim': {
 			server.runCommandSilent(`gamemode survival ${player.name.text}`)
-			player.tell('You have entered a Dungeon.')
-			player.tell('To leave early type:\n')
-			Utils.server.runCommand(`tellraw ${player.name.text} ["",{"text":"[ ","color":"gold"},{"text":"/ftbdungeons bail","color":"green","clickEvent":{"action":"run_command","value":"/ftbdungeons bail"},"hoverEvent":{"action":"show_text","contents":["Click here to leave early"]}},{"text":" ]","color":"gold"}]`)
+			player.tell('你进入了地牢。')
+			player.tell('要提前离开，请输入：\n')
+			Utils.server.runCommand(`tellraw ${player.name.text} ["",{"text":"[ ","color":"gold"},{"text":"/ftbdungeons bail","color":"green","clickEvent":{"action":"run_command","value":"/ftbdungeons bail"},"hoverEvent":{"action":"show_text","contents":["点击以提前离开"]}},{"text":" ]","color":"gold"}]`)
 			break
 		}
 		case 'minecraft:the_end':{
 			if(!player.stages.has('codex_final')){
 				server.runCommandSilent(`execute as ${player.name.text} run spawn`)
-				player.tell("It seems the powers of the Witch are too powerful for you to handle.")
-				player.tell("I should try and learn more first")
+				player.tell("看来女巫的力量太强大了，你无法驾驭。")
+				player.tell("我应该先试着学习更多的知识")
 				return
 			}
 			server.runCommandSilent(`gamemode survival ${player.name.text}`)
@@ -123,7 +123,7 @@ function giveTree(player) {
 		case 'none':
 		default: {
 			player.tell('')
-			player.tell('You have not chosen an Element, go to your Dorm first')
+			player.tell('你还没有选择一个元素，先去你的校舍选择')
 			Utils.server.scheduleInTicks(1, (_) => Utils.server.runCommandSilent(`ftbquests change_progress ${player.name.text} reset ${FTB_AI_CONSTS.rewardId.arsTree}`)
 			)
 		}
@@ -139,7 +139,7 @@ function giveTome(player) {
 		case 'none':
 		default: {
 			player.tell('')
-			player.tell('You have not chosen an Element, go to your Dorm first')
+			player.tell('你还没有选择一个元素，先去你的校舍选择')
 			Utils.server.scheduleInTicks(1, (_) => Utils.server.runCommandSilent(`ftbquests change_progress ${player.name.text} reset ${FTB_AI_CONSTS.rewardId.elementTome}`))
 		}
 	}
@@ -188,10 +188,10 @@ function error_report(player, reason) {
 	player.tell(`===============`)
 	player.tell(reason)
 	player.tell(Component.join(' ', [
-		Component.white('Please Report to'),
+		Component.white('请报告至'),
 		Component.lightPurple("[Github]")
 			.click({ "action": "open_url", "value": FTB_AI_CONSTS.github })
-			.hover(Text.of("Submit bug report").yellow())
+			.hover(Text.of("提交Bug报告").yellow())
 	]))
 	player.tell(`===============`)
 }
@@ -230,7 +230,7 @@ const runCommands = () => {
 }
 function reloadScripts() {
 	Utils.server.runCommandSilent(`kubejs reload server_scripts`)
-	Utils.server.runCommandSilent('tellraw @p "Refreshed KubeJS Server Scripts"')
+	Utils.server.runCommandSilent('tellraw @p "刷新KubeJs服务器脚本"')
 }
 let inspect = (obj) => {
 	if (typeof obj !== 'undefined') {
