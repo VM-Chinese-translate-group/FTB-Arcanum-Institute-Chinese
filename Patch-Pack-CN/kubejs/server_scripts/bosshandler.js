@@ -10,10 +10,9 @@ onEvent('entity.death', event =>{
     const {entity, target, level, server} = event
     if(level.dimension != "minecraft:the_end") return
     if(!entity.type.toString().includes('customnpcs')) return
-    // TODO
     switch(entity.name.key){
         // Spawn Witch when Puppet dies
-        case "Sealed Witch":{
+        case "被囚女巫":{
             let command = `execute in minecraft:the_end run noppes clone spawn "Evil Witch Bossfight" 1 ${Math.floor(entity.x)} ${Math.floor(entity.y)} ${Math.floor(entity.z)}`
             server.runCommand(command)
             let core = getRandomCore()
@@ -33,7 +32,7 @@ onEvent('entity.death', event =>{
             server.scheduleInTicks(range(200, 400), event =>{
                 let aabb = AABB.of(entity.x-100, entity.y-2, entity.z-100, entity.x+100, entity.y+150, entity.z+100)
                 let entities = level.getEntitiesWithin(aabb)
-                if(entities.toString().includes('Witch Lexxie')) {
+                if(entities.toString().includes('女巫莱克西')) {
                     let core = getRandomCore()
                     spawnCores(event, core, [entity.x, entity.y, entity.z])
                 }
@@ -55,7 +54,7 @@ onEvent('entity.hurt', event =>{
     if(!entity.type.toString().includes('customnpcs')) return
     if(source.type == 'outOfWorld') return
     switch(entity.name.key){
-        case "Sealed Witch":{ // TODO
+        case "被囚女巫":{
             event.cancel()
             break
         }
@@ -121,7 +120,7 @@ onEvent("block.right_click", event =>{
         let aabb = AABB.of(castingBlock.x-25, castingBlock.y-2, castingBlock.z-25, castingBlock.x+25, castingBlock.y+25, castingBlock.z+25)
         let entities = level.getEntitiesWithin(aabb)
         entities.forEach(checkedEntity =>{
-            if(checkedEntity.name.key == "Sealed Witch"){ // TODO
+            if(checkedEntity.name.key == "被囚女巫"){
                 witch = checkedEntity
             }
             if(checkedEntity.type.toString().includes('whisperwoods')){

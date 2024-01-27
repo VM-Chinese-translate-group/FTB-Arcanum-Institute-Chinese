@@ -1,6 +1,869 @@
+var Thread = Java.type("java.lang.Thread")
+var elements = ["earth", "fire", "water", "air"]
+var AbilityAttemptTime = 2
+var spawn = {x:-39, y: 59, z:-2}
+var phaseThreshold = {}
 var NormalWalkingSpeed = 3
 var AttackDamage = 5
 var ExplosionDamage = 10
+
+
+var Colors = {
+    fire: 16711680,
+    water: 4697343,
+    earth: 6014771,
+    air: 16771505
+
+}
+/*
+function moveBody(npc, pose){
+
+    moveBodypart(npc, pose.head)
+    moveBodypart(npc, pose.body)
+    moveBodypart(npc, pose.arm.left)
+    moveBodypart(npc, pose.arm.right)
+    moveBodypart(npc, pose.leg.left)
+    moveBodypart(npc, pose.leg.right)
+    
+}
+function moveBodypart(npc, bodyPart){
+    var puppet = npc.job
+    var origin = {
+        x:puppet.getPart(bodyPart.id).getRotationX(),
+        y:puppet.getPart(bodyPart.id).getRotationY(),
+        z:puppet.getPart(bodyPart.id).getRotationZ()
+    }
+    if(
+        bodyPart.x == origin.x &&
+        bodyPart.y == origin.y &&
+        bodyPart.z == origin.z
+    ) return
+    
+    var ease = bodyPart.ease
+    var animationDelay = bodyPart.animationDelay
+    var animationResolution = bodyPart.animationResolution
+
+
+    var MyThread = Java.extend(Thread, {
+        run: function() {
+            for (var i = 0; i <= animationResolution; i++){
+                var t
+                if(ease == "none") t = i/animationResolution
+                else  t = ease(i/animationResolution)
+                
+                var iRot = {
+                    x: lerp(origin.x, bodyPart.x, t),
+                    y: lerp(origin.y, bodyPart.y, t),
+                    z: lerp(origin.z, bodyPart.z, t)
+                };
+                puppet.getPart(bodyPart.id).setRotation(iRot.x, iRot.y, iRot.z)
+                npc.updateClient()
+                // MCEntity.f_19864_ = true
+
+                Thread.sleep(animationDelay)
+            }
+        }
+    }); var th = new MyThread(); th.start()
+}
+function animateList(npc, list){
+
+    var MyThread = Java.extend(Thread, {
+        run: function() {
+            for(var i = 0; i < list.length; i++){
+                var cur_animation = list[i]
+                //get all animation delay*resolution and get the highest value
+                var times = [
+                    cur_animation.head.animationDelay*cur_animation.head.animationResolution,
+                    cur_animation.arm.left.animationDelay*cur_animation.arm.left.animationResolution,
+                    cur_animation.arm.right.animationDelay*cur_animation.arm.right.animationResolution,
+                    cur_animation.body.animationDelay*cur_animation.body.animationResolution,
+                    cur_animation.leg.left.animationDelay*cur_animation.leg.left.animationResolution,
+                    cur_animation.leg.right.animationDelay*cur_animation.leg.right.animationResolution,
+                ]
+                
+                var duration = Math.max(times[0], times[1], times[2], times[3], times[4], times[5])
+                moveBody(npc, list[i])
+                Thread.sleep(duration+200)
+            }
+        }
+    }); var th = new MyThread(); th.start()
+}
+
+var Ease = {
+    "none": "none",
+    "easeInQuadratic": easeInQuadratic,
+    "easeOutQuadratic": easeOutQuadratic,
+    "easeInOutQuadratic": easeInOutQuadratic,
+    "easeInQuartic": easeInQuartic,
+    "easeOutQuartic": easeOutQuartic,
+    "easeInOutQuartic": easeInOutQuartic,
+    "easeInExponential": easeInExponential,
+    "easeOutExponential": easeOutExponential,
+    "easeInOutExponential": easeInOutExponential,
+    "easeInCircular": easeInCircular,
+    "easeOutCircular": easeOutCircular,
+    "easeInOutCircular": easeInOutCircular,
+    "easeInElastic": easeInElastic,
+    "easeOutElastic": easeOutElastic,
+    "easeInOutElastic": easeInOutElastic,
+    "easeInBounce": easeInBounce,
+    "easeOutBounce": easeOutBounce,
+    "easeInOutBounce": easeInOutBounce,
+    "easeInSine": easeInSine,
+    "easeOutSine": easeOutSine,
+    "easeInOutSine": easeInOutSine,
+    "easeInCubic": easeInCubic,
+    "easeOutCubic": easeOutCubic,
+    "easeInOutCubic": easeInOutCubic,
+    "easeInQuint": easeInQuintic,
+    "easeOutQuint": easeOutQuintic,
+    "easeInOutQuint": easeInOutQuintic,
+    "easeInBack": easeInBack,
+    "easeOutBack": easeOutBack,
+    "easeInOutBack": easeInOutBack
+}
+//Quadratic Easing:
+var easeInQuadratic = function(t) {
+    return t * t;
+}
+
+var easeOutQuadratic = function(t) {
+    return 1 - (1 - t) * (1 - t);
+}
+
+var easeInOutQuadratic = function(t) {
+    return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+}
+
+
+//Quartic Easing:
+var easeInQuartic = function(t) {
+    return t * t * t * t;
+}
+
+var easeOutQuartic = function(t) {
+    return 1 - Math.pow(1 - t, 4);
+}
+
+var easeInOutQuartic = function(t) {
+    return t < 0.5 ? 8 * t * t * t * t : 1 - Math.pow(-2 * t + 2, 4) / 2;
+}
+
+
+//Exponential Easing:
+var easeInExponential = function(t) {
+    return t === 0 ? 0 : Math.pow(2, 10 * (t - 1));
+}
+
+var easeOutExponential = function(t) {
+    return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
+}
+
+var easeInOutExponential = function(t) {
+    return t === 0
+        ? 0
+        : t === 1
+            ? 1
+            : t < 0.5
+                ? Math.pow(2, 20 * t - 10) / 2
+                : (2 - Math.pow(2, -20 * t + 10)) / 2;
+}
+
+
+//Elastic Easing:
+var easeInElastic = function(t) {
+    return t === 0 ? 0 : t === 1 ? 1 : -Math.pow(2, 10 * t - 10) * Math.sin((t * 10 - 10.75) * (2 * Math.PI) / 3);
+}
+
+var easeOutElastic = function(t) {
+    return t === 0 ? 0 : t === 1 ? 1 : Math.pow(2, -10 * t) * Math.sin((t * 10 - 0.75) * (2 * Math.PI) / 3) + 1;
+}
+
+var easeInOutElastic = function(t) {
+    return t === 0
+        ? 0
+        : t === 1
+            ? 1
+            : t < 0.5
+                ? -(Math.pow(2, 20 * t - 10) * Math.sin((20 * t - 11.125) * (2 * Math.PI) / 4.5)) / 2
+                : (Math.pow(2, -20 * t + 10) * Math.sin((20 * t - 11.125) * (2 * Math.PI) / 4.5)) / 2 + 1;
+}
+
+
+//Bounce Easing
+var easeInBounce = function(t) {
+    return 1 - easeOutBounce(1 - t);
+}
+var easeOutBounce = function(t) {
+    var bounce = 7.5625
+    if (t < 1 / 2.75) {
+        return bounce * t * t;
+    } else if (t < 2 / 2.75) {
+        return bounce * (t -= 1.5 / 2.75) * t + 0.75;
+    } else if (t < 2.5 / 2.75) {
+        return bounce * (t -= 2.25 / 2.75) * t + 0.9375;
+    } else {
+        return bounce * (t -= 2.625 / 2.75) * t + 0.984375;
+    }
+}
+var easeInOutBounce = function(t) {
+    return t < 0.5 ? (1 - easeOutBounce(1 - 2 * t)) / 2 : (1 + easeOutBounce(2 * t - 1)) / 2;
+}
+
+
+//Sine Easing:
+var easeInSine = function(t) {
+    return 1 - Math.cos((t * Math.PI) / 2);
+}
+
+var easeOutSine = function(t) {
+    return Math.sin((t * Math.PI) / 2);
+}
+
+var easeInOutSine = function(t) {
+    return -0.5 * (Math.cos(Math.PI * t) - 1);
+}
+
+
+//Cubic Easing:
+var easeInCubic = function(t) {
+    return t * t * t;
+}
+
+var easeOutCubic = function(t) {
+    return 1 - Math.pow(1 - t, 3);
+}
+
+var easeInOutCubic = function(t) {
+    return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+}
+
+
+//Quintic Easing:
+var easeInQuintic = function(t) {
+    return t * t * t * t * t;
+}
+
+var easeOutQuintic = function(t) {
+    return 1 - Math.pow(1 - t, 5);
+}
+
+var easeInOutQuintic = function(t) {
+    return t < 0.5 ? 16 * t * t * t * t * t : 1 - Math.pow(-2 * t + 2, 5) / 2;
+}
+
+
+//Circular Easing:
+var easeInCircular = function(t) {
+    return 1 - Math.sqrt(1 - t * t);
+}
+
+var easeOutCircular = function(t) {
+    return Math.sqrt(1 - Math.pow(t - 1, 2));
+}
+
+var easeInOutCircular = function(t) {
+    return t < 0.5 ? (1 - Math.sqrt(1 - 4 * t * t)) / 2 : (Math.sqrt(1 - Math.pow(-2 * t + 2, 2)) + 1) / 2;
+}
+
+// Back Easing:
+var easeInBack = function(t) {
+    var s = 1.70158;
+    return t * t * ((s + 1) * t - s);
+}
+var easeOutBack = function(t) {
+    var s = 1.70158;
+    return 1 - (--t) * (t) * ((s + 1) * t + s);
+}
+
+var easeInOutBack = function(t) {
+    var s = 1.70158 * 1.525;
+    return t < 0.5
+        ? 0.5 * (t * t * ((s + 1) * t - s * 1.525))
+        : 0.5 * ((t -= 2) * t * ((s + 1) * t + s * 1.525) + 2);
+}
+
+var saved_poses_array = {
+    default: {
+        "head": {
+         "id": 0,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 30,
+         "animationResolution": 15
+        },
+        "body": {
+         "id": 3,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 30,
+         "animationResolution": 15
+        },
+        "arm": {
+         "left": {
+          "id": 1,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         },
+         "right": {
+          "id": 2,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         }
+        },
+        "leg": {
+         "left": {
+          "id": 4,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         },
+         "right": {
+          "id": 5,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         }
+        }
+    },
+    wandInAir: {
+        "head": {
+         "id": 0,
+         "x": 129,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 2,
+         "animationResolution": 200
+        },
+        "body": {
+         "id": 3,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 2,
+         "animationResolution": 200
+        },
+        "arm": {
+         "left": {
+          "id": 1,
+          "x": 180,
+          "y": 180,
+          "z": 163,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         },
+         "right": {
+          "id": 2,
+          "x": 171,
+          "y": 268,
+          "z": 296,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         }
+        },
+        "leg": {
+         "left": {
+          "id": 4,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         },
+         "right": {
+          "id": 5,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         }
+        }
+    },
+    boxingPose: {
+        "head": {
+         "id": 0,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 2,
+         "animationResolution": 200
+        },
+        "body": {
+         "id": 3,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 2,
+         "animationResolution": 200
+        },
+        "arm": {
+         "left": {
+          "id": 1,
+          "x": 100,
+          "y": 220,
+          "z": 120,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         },
+         "right": {
+          "id": 2,
+          "x": 100,
+          "y": 140,
+          "z": 240,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         }
+        },
+        "leg": {
+         "left": {
+          "id": 4,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         },
+         "right": {
+          "id": 5,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         }
+        }
+    },
+    hands_down: {
+        "head": {
+         "id": 0,
+         "x": 220,
+         "y": 163,
+         "z": 178,
+         "ease": "none",
+         "animationDelay": 30,
+         "animationResolution": 15
+        },
+        "body": {
+         "id": 3,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 30,
+         "animationResolution": 15
+        },
+        "arm": {
+         "left": {
+          "id": 1,
+          "x": 207,
+          "y": 223,
+          "z": 159,
+          "ease": Ease.easeInOutExponential,
+          "animationDelay": 30,
+          "animationResolution": 15
+         },
+         "right": {
+          "id": 2,
+          "x": 168,
+          "y": 111,
+          "z": 207,
+          "ease": Ease.easeInOutExponential,
+          "animationDelay": 30,
+          "animationResolution": 15
+         }
+        },
+        "leg": {
+         "left": {
+          "id": 4,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         },
+         "right": {
+          "id": 5,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         }
+        }
+    },
+    hands_up: {
+        "head": {
+         "id": 0,
+         "x": 141,
+         "y": 204,
+         "z": 146,
+         "ease": Ease.none,
+         "animationDelay": 30,
+         "animationResolution": 15
+        },
+        "body": {
+         "id": 3,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 30,
+         "animationResolution": 15
+        },
+        "arm": {
+         "left": {
+          "id": 1,
+          "x": 42,
+          "y": 204,
+          "z": 146,
+          "ease": Ease.easeInOutExponential,
+          "animationDelay": 30,
+          "animationResolution": 15
+         },
+         "right": {
+          "id": 2,
+          "x": 171,
+          "y": 268,
+          "z": 296,
+          "ease": Ease.easeInOutExponential,
+          "animationDelay": 30,
+          "animationResolution": 15
+         }
+        },
+        "leg": {
+         "left": {
+          "id": 4,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         },
+         "right": {
+          "id": 5,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 30,
+          "animationResolution": 15
+         }
+        }
+    },
+    hands_both_up: {
+        "head": {
+         "id": 0,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 2,
+         "animationResolution": 200
+        },
+        "body": {
+         "id": 3,
+         "x": 180,
+         "y": 180,
+         "z": 180,
+         "ease": "none",
+         "animationDelay": 2,
+         "animationResolution": 200
+        },
+        "arm": {
+         "left": {
+          "id": 1,
+          "x": 164,
+          "y": 78,
+          "z": 79,
+          "ease": Ease.easeInOutExponential,
+          "animationDelay": 2,
+          "animationResolution": 250
+         },
+         "right": {
+          "id": 2,
+          "x": 180,
+          "y": 292,
+          "z": 294,
+          "ease": Ease.easeInOutExponential,
+          "animationDelay": 2,
+          "animationResolution": 300
+         }
+        },
+        "leg": {
+         "left": {
+          "id": 4,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         },
+         "right": {
+          "id": 5,
+          "x": 180,
+          "y": 180,
+          "z": 180,
+          "ease": "none",
+          "animationDelay": 2,
+          "animationResolution": 200
+         }
+        }
+    },
+    hands_both_down: {
+    "head": {
+        "id": 0,
+        "x": 210,
+        "y": 180,
+        "z": 180,
+        "ease": "none",
+        "animationDelay": 2,
+        "animationResolution": 200
+    },
+    "body": {
+        "id": 3,
+        "x": 180,
+        "y": 180,
+        "z": 180,
+        "ease": "none",
+        "animationDelay": 2,
+        "animationResolution": 200
+    },
+    "arm": {
+        "left": {
+        "id": 1,
+        "x": 145,
+        "y": 220,
+        "z": 120,
+        "ease": Ease.easeInOutExponential,
+        "animationDelay": 2,
+        "animationResolution": 250
+        },
+        "right": {
+        "id": 2,
+        "x": 128,
+        "y": 143,
+        "z": 255,
+        "ease": Ease.easeInOutExponential,
+        "animationDelay": 2,
+        "animationResolution": 250
+        }
+    },
+    "leg": {
+        "left": {
+        "id": 4,
+        "x": 180,
+        "y": 180,
+        "z": 180,
+        "ease": "none",
+        "animationDelay": 2,
+        "animationResolution": 200
+        },
+        "right": {
+        "id": 5,
+        "x": 180,
+        "y": 180,
+        "z": 180,
+        "ease": "none",
+        "animationDelay": 2,
+        "animationResolution": 200
+        }
+    }
+    }
+}
+
+*/
+
+
+var damageBlacklist = [
+    'magic',
+    'lightningBolt',
+    'trident',
+    'thrown',
+    'generic'
+]
+function damaged(event) {
+    var npc = event.npc
+    if(npc.getStoreddata().get("invulnerable") == true) event.setCanceled(true)
+    var damageSource = event.damageSource 
+    var roll = Math.floor(Math.random() * 100)
+    // if(roll > 75 && damageSource.getType() == "player") attack["fire"]["3"](event.npc)
+    for(var damage in damageBlacklist){
+        if(damageSource.getType() == damageBlacklist[damage]) event.setCanceled(true)
+    }
+
+    if (damageSource.getType() == "explosion") {
+        event.setCanceled(true)
+        var Thread = Java.type("java.lang.Thread");
+        var MyThread = Java.extend(Thread, {
+            run: function () {
+                Thread.sleep(10)
+                npc.setMotionX(0)
+                npc.setMotionY(0)
+                npc.setMotionZ(0)
+            }
+        });
+        var th = new MyThread();
+        th.start();
+    }
+}
+
+function meleeAttack(event){
+    var npc = event.npc
+}
+
+function rangedAttack(event){
+
+}
+
+function target(event){
+    var npc = event.npc
+    // attack["water"]["1"](npc)
+}
+
+function targetLost(event){
+    var npc = event.npc
+}
+
+function timer(event){
+    var npc = event.npc
+    var storedData = npc.getStoreddata()
+    // if(storedData.get("phase") == 2) return
+    var chance = 0
+    switch(event.id){
+        case 1: {
+            if(storedData.get("attacking") == "true") {
+                // npc.say("still attacking, return early")
+                return
+            } 
+            storedData.put("attacking", "true")
+            if(storedData.get("phase") == 2 && Math.floor(Math.random() * 100) < 5) {
+                var randomAttackIndex = Math.floor(Math.random() * Object.keys(specialAttacks).length + 1)
+                specialAttacks[randomAttackIndex](event, npc)
+                return
+            } else{
+                var element = getElement(npc)
+                var randomAttackIndex = Math.floor(Math.random() * Object.keys(attack[element]).length + 1)
+                // npc.say("My Element is " + element + " doing attack nr: " + randomAttackIndex)
+                attack[element][randomAttackIndex](event, npc)
+            }
+            break
+        }
+        // Element Changer
+        case 2: {
+            setElement(npc)
+            // npc.say('Next Element: ' + getElement(npc))
+
+            
+            break
+        }
+    }
+}
+
+function tick(event){
+    var npc = event.npc
+    var currentPhase = npc.getStoreddata().get("phase") 
+
+    if(npc.health > npc.maxHealth*0.6 && currentPhase == 2){    
+        npc.getStoreddata().put("phase", 1)
+        setPhase(npc, 1)
+    }
+    if(npc.health < npc.maxHealth*0.5 && currentPhase == 1) {
+        npc.getStoreddata().put("phase", 2)
+        setPhase(npc, 2)
+    }
+}
+
+
+
+function RandomElement(){
+    var randomIndex = Math.floor(Math.random() * elements.length)
+    return elements[randomIndex]
+}
+
+function setElement(npc){
+    for(var element in elements){
+        if(npc.hasTag(elements[element])) npc.removeTag(elements[element])
+    }
+    var element = RandomElement()
+    npc.addTag(element)
+    var mainItem = npc.getMainhandItem()
+    var offItem = npc.getOffhandItem()
+    mainItem.setColor(Colors[element])
+    offItem.setColor(Colors[element])
+    var boots = npc.getArmor(0)
+    var leggings = npc.getArmor(1)
+    var chestplate = npc.getArmor(2)
+    var helmet = npc.getArmor(3)
+    boots.nbt.getCompound("display").setInteger("color", Colors[element])
+    chestplate.nbt.getCompound("display").setInteger("color", Colors[element])
+    helmet.nbt.getCompound("display").setInteger("color", Colors[element])
+    return element
+}
+
+function getElement(npc){
+    for(var element in elements){
+        if(npc.hasTag(elements[element])) return elements[element]
+    }
+}
+
+
+
+function setPhase(npc, phase) {
+    switch(phase){
+        case 1: {
+            npc.say("You're no match for me!")
+            break
+        }
+        case 2: {
+            npc.say("You have really angered me!")
+            break
+            //Spawn Gateway here!
+        }
+        case 3: {
+            npc.say("You have really angered me! Phase 3")
+            break
+
+        }
+    }
+}
+
+
+
 var attack = {
     fire: {
         1: function CircleAttack(event, npc) {
@@ -16,7 +879,7 @@ var attack = {
                     var vics = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, MaxRange, 5)
                     
                     for (var k = 0; k < MaxRange * 2; ++k) {
-                        for (var i = 0; i < 72; ++i) {
+                        for (var i = 0; i < 72; i++) {
                             var d = FrontVectors(npc, i * 5, 0, k / 2 * (Intensity / Math.abs(Intensity)), 0)
                             npc.world.spawnParticle("smoke", npc.x + d[0], npc.y, npc.z + d[2], 0.2, 0, 0.2, 0, 2)
                         }
@@ -28,7 +891,7 @@ var attack = {
                             pushBack(npc, vics[j], CircleAttackOptions.Intensity, CircleAttackOptions.DistanceScalar, 0.4)
                         }}
                     for (var k = 0; k < MaxRange * 2; ++k) {
-                        for (var i = 0; i < 72; ++i) {
+                        for (var i = 0; i < 72; i++) {
                             var d = FrontVectors(npc, i * 5, 0, k / 2 * (Intensity / Math.abs(Intensity)), 0)
                             npc.world.spawnParticle(Particle, npc.x + d[0], npc.y+0.2, npc.z + d[2], 0.2, 0.1, 0.2, 0, 1)
                         }
@@ -55,7 +918,7 @@ var attack = {
                     Thread.sleep(200)
                     npc.world.playSoundAt(npc.getPos(), "minecraft:entity.blaze.shoot", 1, 1)
                     // swingArm(npc, Pos1, Pos2)
-                    for (var i = 0; i < 16; ++i) {
+                    for (var i = 0; i < 16; i++) {
                         DelayedExplosion(npc, i)
                         npc.setMotionX(d[0])
                         npc.setMotionZ(d[2])
@@ -73,15 +936,15 @@ var attack = {
             //var Thread = Java.type("java.lang.Thread");
             var MyThread = Java.extend(Thread, {
                 run: function () {
-                    var animation_list = [
-                        saved_poses_array.default, 
-                        saved_poses_array.hands_down, 
-                        saved_poses_array.hands_up,
-                        saved_poses_array.default
-                    ]
+                    // var animation_list = [
+                    //     saved_poses_array.default, 
+                    //     saved_poses_array.hands_down, 
+                    //     saved_poses_array.hands_up,
+                    //     saved_poses_array.default
+                    // ]
                 
-                    animateList(npc, animation_list)
-                    Thread.sleep(1750)
+                    // animateList(npc, animation_list)
+                    // Thread.sleep(1750)
                     var angle = 0
                     var x = npc.x
                     var y = npc.y + 1.5
@@ -93,7 +956,7 @@ var attack = {
                         npc.world.spawnParticle("flame", x + dx, y, z + dz, 0.3, 0.3, 0.3, 0, 50)
         
                         var toHit = npc.world.getNearbyEntities(x + dx, y, z + dz, 1, 1)
-                        for (var i = 0; i < toHit.length; ++i) {
+                        for (var i = 0; i < toHit.length; i++) {
                             toHit[i].damage(1)
                             pushBack(npc, toHit[i], CircleAttackOptions.Intensity, CircleAttackOptions.DistanceScalar, 0.2)
         
@@ -109,7 +972,7 @@ var attack = {
         },
         4: function FlameBreath(event, npc) {
             var FlameDamage = 1
-            var MaxDistance = 15
+            var MaxDistance = 25
 
             var Duration = 300 //Arbitrary number
             var Thread = Java.type("java.lang.Thread");
@@ -171,7 +1034,7 @@ var attack = {
                         npc.world.spawnParticle("splash", x + dx, y, z + dz, 0.3, 0.3, 0.3, 0, 50)
         
                         var toHit = npc.world.getNearbyEntities(x + dx, y, z + dz, 1, 1)
-                        for (var i = 0; i < toHit.length; ++i) {
+                        for (var i = 0; i < toHit.length; i++) {
                             toHit[i].damage(1)
                             pushBack(npc, toHit[i], CircleAttackOptions.Intensity, CircleAttackOptions.DistanceScalar, 0.2)
         
@@ -211,11 +1074,11 @@ var attack = {
                     event.API.executeCommand(entity.world, "/effect give " + targ.displayName + " cofh_core:chilled 3 0 false")
 
                     // targ.addPotionEffect(20, ChokeDuration, 1, false)
-                    for (var i = 0; i < ChokeDuration * 10; ++i) {
+                    for (var i = 0; i < ChokeDuration * 10; i++) {
                         targ.setMotionY(0.07)
                         Thread.sleep(100)
                     }
-                    for (var i = 0; i < 6; ++i) {
+                    for (var i = 0; i < 6; i++) {
                         npc.getJob().getPart(i).setRotation(180, 180, 180)
                     }
                     npc.updateClient()
@@ -227,37 +1090,37 @@ var attack = {
             var H = new MyThread();
             H.start();
         },
-        3: function SpawnDrownedRing(event, npc) {
-            var NpcAPI = Java.type("noppes.npcs.api.NpcAPI").Instance();
-            var targ = npc.getAttackTarget()
-            if (targ == null) {
-                        var storedData = npc.getStoreddata()
-                        storedData.put("attacking", "false")
-                        return};
-            var entities = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, 64, 3)
-            for(var i = 0; i < entities.length; i++){
-                if(entities[i].getName() == "溺尸") return
-            }
-            npc.world.spawnParticle("witch", npc.x, npc.y + 1, npc.z, 0.3, 0.5, 0.3, 0, 50)
-            npc.world.playSoundAt(targ.getPos(), "minecraft:entity.endermen.teleport", 1, 1)
-            for (var i = 0; i < 5; ++i) {
-                var d = FrontVectors(targ, i * 72, 0, 7, 0)
-                npc.say(targ.x+d[0])
-                npc.world.spawnParticle("cloud", targ.x + d[0], targ.y + 1, targ.z + d[2], 0.3, 0.5, 0.3, 0, 15)
-                event.API.executeCommand(npc.world, "/summon drowned " + Math.floor(targ.x + d[0])  + " " + Math.floor(targ.y + 1) + " " + Math.floor(targ.z + d[2]) + " {HandItems:[{id:trident,Count:1}],HandDropChances:[f],ArmorItems:[{},{},{},{id:acacia_button,Count:1}],ArmorDropChances:[0f,0f,0f,0f]}")
-                Thread.sleep(10)
+        // 3: function SpawnDrownedRing(event, npc) {
+        //     var NpcAPI = Java.type("noppes.npcs.api.NpcAPI").Instance();
+        //     var targ = npc.getAttackTarget()
+        //     if (targ == null) {
+        //                 var storedData = npc.getStoreddata()
+        //                 storedData.put("attacking", "false")
+        //                 return};
+        //     var entities = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, 64, 3)
+        //     for(var i = 0; i < entities.length; i++){
+        //         if(entities[i].getName() == "Drowned") return
+        //     }
+        //     npc.world.spawnParticle("witch", npc.x, npc.y + 1, npc.z, 0.3, 0.5, 0.3, 0, 50)
+        //     npc.world.playSoundAt(targ.getPos(), "minecraft:entity.endermen.teleport", 1, 1)
+        //     for (var i = 0; i < 5; i++) {
+        //         var d = FrontVectors(targ, i * 72, 0, 7, 0)
+        //         // npc.say(targ.x+d[0])
+        //         npc.world.spawnParticle("cloud", targ.x + d[0], targ.y + 1, targ.z + d[2], 0.3, 0.5, 0.3, 0, 15)
+        //         event.API.executeCommand(npc.world, "/summon drowned " + Math.floor(targ.x + d[0])  + " " + Math.floor(targ.y + 1) + " " + Math.floor(targ.z + d[2]) + " {HandItems:[{id:trident,Count:1}],HandDropChances:[f],ArmorItems:[{},{},{},{id:acacia_button,Count:1}],ArmorDropChances:[0f,0f,0f,0f]}")
+        //         Thread.sleep(10)
        
-                // var clone = NpcAPI.clones.spawn(targ.x + d[0], targ.y, targ.z + d[2], CloneTab, CloneName, targ.world)
-                // clone.setAttackTarget(targ)
-            }
-            var entities = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, 64, 3)
-            for(var i = 0; i < entities.length; i++){
-                if(entities[i].getName() == "溺尸") entities[i].setAttackTarget(targ)
-            }
-            var storedData = npc.getStoreddata()
-            storedData.put("attacking", "false")
-        },
-        4: function Kamehameha(event, npc){
+        //         // var clone = NpcAPI.clones.spawn(targ.x + d[0], targ.y, targ.z + d[2], CloneTab, CloneName, targ.world)
+        //         // clone.setAttackTarget(targ)
+        //     }
+        //     var entities = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, 64, 3)
+        //     for(var i = 0; i < entities.length; i++){
+        //         if(entities[i].getName() == "Drowned") entities[i].setAttackTarget(targ)
+        //     }
+        //     var storedData = npc.getStoreddata()
+        //     storedData.put("attacking", "false")
+        // },
+        3: function Kamehameha(event, npc){
             var distance = 20
             var damage = 5
             var x= npc.x;
@@ -317,7 +1180,7 @@ var attack = {
                             npc.world.spawnParticle("soul_fire_flame",x1+dx1,y1+dy1,z1+dz1,0,0,0,0,1)
                             npc.world.spawnParticle("end_rod",x1,y1+0.1,z1,0.2,0.2,0.2,0,1)
                             var toHit = npc.world.getNearbyEntities(x1, y1, z1, 1, 1)
-                            for (var i = 0; i < toHit.length; ++i) {
+                            for (var i = 0; i < toHit.length; i++) {
                                 toHit[i].damage(damage)
                                 pushBack(npc, toHit[i], CircleAttackOptions.Intensity, CircleAttackOptions.DistanceScalar, 0.2)
             
@@ -350,7 +1213,7 @@ var attack = {
                         return};
                     npc.ai.setWalkingSpeed(0)
                     npc.world.spawnParticle(Particle, npc.x, npc.y + 1, npc.z, 1, 1, 1, 0.5, 30)
-                    for (var i = 0; i < Distance; ++i) {
+                    for (var i = 0; i < Distance; i++) {
                         var d = FrontVectors(npc, GetPlayerRotation(npc, targ), 0, 2 + i, 0)
                         var x = npc.x + d[0]
                         var y = npc.y
@@ -379,7 +1242,7 @@ var attack = {
                         return};
                     npc.ai.setWalkingSpeed(0)
                     var DigCoords = [npc.x, npc.y + 1, npc.z]
-                    for (var i = 0; i < 4; ++i) { //Digging down
+                    for (var i = 0; i < 4; i++) { //Digging down
                         npc.world.playSoundAt(npc.getPos(), "minecraft:block.gravel.break", 1, 1)
                         event.API.executeCommand(npc.world, "/particle block minecraft:magenta_stained_glass " + npc.x + " " + (npc.y + i * 0.2) + " " + npc.z + " 0.3 0.3 0.3 0 30 force")
                         if (i == 2) npc.setPosition(npc.x, npc.y - 2, npc.z)
@@ -409,54 +1272,54 @@ var attack = {
             var H = new MyThread();
             H.start();
         },
-        3: function RazorLeaf(event, npc) {
-            var LeafDamage = 2.0
-            var Thread = Java.type("java.lang.Thread");
-            var MyThread = Java.extend(Thread, {
-                run: function () {
-                    var d = FrontVectors(npc, 0, 0, 1, 1)
-                    var f = FrontVectors(npc, -90, 0, 0.75, 1)
-                    var targ = npc.world.getClosestEntity(npc.getPos(), 20, 1)
-                    if (targ == null) {
-                        var storedData = npc.getStoreddata()
-                        storedData.put("attacking", "false")
-                        return};
-                    var Ps = []
-                    for (var i = -2; i <= 2; ++i) {
-                        for (var j = 1; j <= 5; ++j) {
-                            if ((i == 2 || i == -2) && (j == 1 || j == 5)) continue;
-                            var P = npc.world.createEntity('customnpcs:customnpcprojectile')
-                            var Item = npc.world.createItem('minecraft:green_dye', 1)
-                            Item.setCustomName("树叶")
-                            P.setItem(Item)
-                            P.setPosition(npc.x + d[0] + i * f[0], npc.y + j * 0.5, npc.z + d[2] + i * f[2])
-                            npc.world.spawnEntity(P)
-                            npc.world.spawnParticle("large_smoke", npc.x + d[0] + i * f[0], npc.y + j * 0.5, npc.z + d[2] + i * f[2], 0, 0, 0, 0, 1)
-                            var n = P.getEntityNbt()
-                            n.setFloat("damagev2", LeafDamage)
-                            P.setEntityNbt(n)
-                            Ps.push(P)
-                        }
-                    }
-                    npc.world.playSoundAt(npc.getPos(), "minecraft:block.grass.place", 5, 0.7)
-                    Thread.sleep(800)
-                    var Total = Ps.length
-                    for (var i = 0; i < Total; ++i) {
-                        var index = parseInt(Math.random() * Ps.length)
-                        // npc.world.playSoundAt(npc.getPos(), "dsurround:tool.swing", 5, 1.2)
-                        Ps[index].setHeading(targ.x + Math.random(), targ.y + 1 + Math.random() * 0.25, targ.z + Math.random())
-                        Thread.sleep(200)
-                        Ps.splice(index, 1)
+        // // 3: function RazorLeaf(event, npc) {
+        //     var LeafDamage = 2.0
+        //     var Thread = Java.type("java.lang.Thread");
+        //     var MyThread = Java.extend(Thread, {
+        //         run: function () {
+        //             var d = FrontVectors(npc, 0, 0, 1, 1)
+        //             var f = FrontVectors(npc, -90, 0, 0.75, 1)
+        //             var targ = npc.world.getClosestEntity(npc.getPos(), 20, 1)
+        //             if (targ == null) {
+        //                 var storedData = npc.getStoreddata()
+        //                 storedData.put("attacking", "false")
+        //                 return};
+        //             var Ps = []
+        //             for (var i = -2; i <= 2; i++) {
+        //                 for (var j = 1; j <= 5; ++j) {
+        //                     if ((i == 2 || i == -2) && (j == 1 || j == 5)) continue;
+        //                     var P = npc.world.createEntity('customnpcs:customnpcprojectile')
+        //                     var Item = npc.world.createItem('minecraft:green_dye', 1)
+        //                     Item.setCustomName("Leaf")
+        //                     P.setItem(Item)
+        //                     P.setPosition(npc.x + d[0] + i * f[0], npc.y + j * 0.5, npc.z + d[2] + i * f[2])
+        //                     npc.world.spawnEntity(P)
+        //                     npc.world.spawnParticle("large_smoke", npc.x + d[0] + i * f[0], npc.y + j * 0.5, npc.z + d[2] + i * f[2], 0, 0, 0, 0, 1)
+        //                     var n = P.getEntityNbt()
+        //                     n.setFloat("damagev2", LeafDamage)
+        //                     P.setEntityNbt(n)
+        //                     Ps.push(P)
+        //                 }
+        //             }
+        //             npc.world.playSoundAt(npc.getPos(), "minecraft:block.grass.place", 5, 0.7)
+        //             Thread.sleep(800)
+        //             var Total = Ps.length
+        //             for (var i = 0; i < Total; i++) {
+        //                 var index = parseInt(Math.random() * Ps.length)
+        //                 // npc.world.playSoundAt(npc.getPos(), "dsurround:tool.swing", 5, 1.2)
+        //                 Ps[index].setHeading(targ.x + Math.random(), targ.y + 1 + Math.random() * 0.25, targ.z + Math.random())
+        //                 Thread.sleep(200)
+        //                 Ps.splice(index, 1)
 
-                    }
-                    var storedData = npc.getStoreddata()
-                    storedData.put("attacking", "false")
-                }
-            });
-            var H = new MyThread();
-            H.start();
-        },
-        4: function FangSlash(event, npc) {
+        //             }
+        //             var storedData = npc.getStoreddata()
+        //             storedData.put("attacking", "false")
+        //         }
+        //     });
+        //     var H = new MyThread();
+        //     H.start();
+        // // },
+        3: function FangSlash(event, npc) {
             var linesBefore = 5
             var linesAfter = 2
             var Resolution = 10
@@ -561,7 +1424,7 @@ var attack = {
                     npc.world.spawnParticle("cloud", npc.x, npc.y + 2.5, npc.z, 0.2, 0.2, 0.2, 0.2, 105)
                     npc.world.spawnParticle("minecraft:crit", npc.x, npc.y + 2.5, npc.z, 0.2, 0.2, 0.2, 0.2, 55)
                     npc.world.playSoundAt(Spot, "minecraft:entity.blaze.shoot", 1, 1.4)
-                    for (var i = 0; i < Delay; ++i) {
+                    for (var i = 0; i < Delay; i++) {
                         if (i % 10 == 0) npc.world.spawnParticle("cloud", Spot.getX(), Spot.getY() + 0.3, Spot.getZ(), 0, 0, 0, 0.1, 10)
                         Thread.sleep(50)
                     }
@@ -569,7 +1432,7 @@ var attack = {
                     //The Lightning Strike
                     npc.world.thunderStrike(Spot.getX(), Spot.getY(), Spot.getZ())
                     var targs = npc.world.getNearbyEntities(Spot, 2, 5)
-                    for (var t = 0; t < targs.length; ++t) {
+                    for (var t = 0; t < targs.length; t++) {
                         if (targs[t] != npc) {
                             targs[t].damage(ExtraDamage)
                         }
@@ -597,7 +1460,7 @@ var attack = {
                         npc.world.spawnParticle("cofh_core:spark", x + dx, y, z + dz, 0.5, 0.5, 0.5, 0, 50)
         
                         var toHit = npc.world.getNearbyEntities(x + dx, y, z + dz, 1, 1)
-                        for (var i = 0; i < toHit.length; ++i) {
+                        for (var i = 0; i < toHit.length; i++) {
                             toHit[i].damage(30)
                             pushBack(npc, toHit[i], CircleAttackOptions.Intensity, CircleAttackOptions.DistanceScalar, 0.2)
         
@@ -656,7 +1519,7 @@ var attack = {
                             npc.world.playSoundAt(CurrentPos, "minecraft:entity.generic.explode", 1, 1)
                         }
                         var targs = npc.world.getNearbyEntities(CurrentPos, Range, 5)
-                        for (var t = 0; t < targs.length; ++t) {
+                        for (var t = 0; t < targs.length; t++) {
                             if (targs[t] != npc) {
                                 targs[t].damage(Damage)
                                 pushBack(npc, targs[t], CircleAttackOptions.Intensity, CircleAttackOptions.DistanceScalar, 0.4)
@@ -683,7 +1546,7 @@ var attack = {
                     npc.ai.setWalkingSpeed(0)
                     npc.ai.setNavigationType(1)
         
-                    for (var i = 0; i < 10; ++i) {
+                    for (var i = 0; i < 10; i++) {
                         // npc.world.playSoundAt(npc.getPos(), "botania:babylon_attack", 1, 1)
                         npc.world.spawnParticle("end_rod", npc.x, npc.y + 0.5, npc.z, 0, 0, 0, 0.5, 20)
                         npc.setPosition(npc.x, npc.y + 0.5, npc.z)
@@ -698,7 +1561,7 @@ var attack = {
                     npc.ai.setNavigationType(0)
                     var d = FrontVectors(targ, 180, 0, 3, 1)
                     npc.setPosition(targ.x + d[0], targ.y + 5, targ.z + d[2])
-                    for (var i = 0; i < 5; ++i) {
+                    for (var i = 0; i < 5; i++) {
                         // npc.world.playSoundAt(npc.getPos(), "botania:babylon_attack", 1, 1)
                         npc.world.spawnParticle("end_rod", npc.x, npc.y + 0.5, npc.z, 0, 0, 0, 0.5, 20)
                         npc.setPosition(npc.x, npc.y - 0.5, npc.z)
@@ -718,7 +1581,7 @@ var attack = {
         },
         5: function CircleAttack(event, npc) {
             var Intensity = CircleAttackOptions.Intensity
-            var MaxRange = 5
+            var MaxRange = 10
             var Speed = CircleAttackOptions.Speed
             var Particle = "cloud"
         
@@ -729,7 +1592,7 @@ var attack = {
                     var vics = npc.world.getNearbyEntities(npc.x, npc.y, npc.z, MaxRange, 5)
                     
                     for (var k = 0; k < MaxRange * 2; ++k) {
-                        for (var i = 0; i < 72; ++i) {
+                        for (var i = 0; i < 72; i++) {
                             var d = FrontVectors(npc, i * 5, 0, k / 2 * (Intensity / Math.abs(Intensity)), 0)
                             npc.world.spawnParticle("smoke", npc.x + d[0], npc.y, npc.z + d[2], 0.2, 0, 0.2, 0, 2)
                         }
@@ -741,7 +1604,7 @@ var attack = {
                             pushVertical(npc, vics[j], CircleAttackOptions.Intensity, CircleAttackOptions.DistanceScalar, 0.4)
                         }}
                     for (var k = 0; k < MaxRange * 2; ++k) {
-                        for (var i = 0; i < 72; ++i) {
+                        for (var i = 0; i < 72; i++) {
                             var d = FrontVectors(npc, i * 5, 0, k / 2 * (Intensity / Math.abs(Intensity)), 0)
                             npc.world.spawnParticle(Particle, npc.x + d[0], npc.y+0.3, npc.z + d[2], 0.2, 0.5, 0.2, 0, 1)
                         }
@@ -956,7 +1819,7 @@ function DelayedExplosion(npc, a) {
             var x = npc.x
             var y = npc.y + 1
             var z = npc.z
-            for (var i = 0; i < 10; ++i) {
+            for (var i = 0; i < 10; i++) {
                 npc.world.spawnParticle("flame", x, y, z, 0, 0, 0, 0.03, 5)
                 npc.world.spawnParticle("smoke", x, y, z, 0, 0, 0, 0.03, 5)
                 Thread.sleep(100 - 2 * a)
@@ -965,7 +1828,7 @@ function DelayedExplosion(npc, a) {
             npc.world.spawnParticle("large_smoke", x, y, z, 0.3, 0.3, 0.3, 0.2, 50)
             npc.world.spawnParticle("flame", x, y, z, 0.3, 0.3, 0.3, 0.2, 50)
             var vics = npc.world.getNearbyEntities(npc.world.getBlock(x, y, z).getPos(), 2.5, 5)
-            for (var i = 0; i < vics.length; ++i) {
+            for (var i = 0; i < vics.length; i++) {
                 if (vics[i] != npc) {
                     vics[i].damage(ExplosionDamage)
                     vics[i].setMotionY(0.3)
@@ -1013,13 +1876,13 @@ function ArcMeF(entity, dr1, dr2, dp1, dp2, dist, shiftV, shiftH, Resolution, Sp
                 zPoints.push(z)
             }
             //SpawnParticles
-            for (var i = 0; i < xPoints.length; ++i) {
+            for (var i = 0; i < xPoints.length; i++) {
                 if (Sound && i == 10) entity.world.playSoundAt(entity.world.getBlock(xPoints[i], yPoints[i], zPoints[i]).getPos(), Sound, 2, Pitch)
                 entity.world.spawnParticle(Particle, xPoints[i], yPoints[i], zPoints[i], dx, dy, dz, dv, Count)
                 if (Dmg != 0) {
                     var targs = entity.world.getNearbyEntities(xPoints[i], yPoints[i], zPoints[i], Range + 1, 5)
                     if (IgnitesBlocks && entity.world.getBlock(xPoints[i], yPoints[i], zPoints[i]).isAir() && Math.random() <= 0.08) entity.world.getBlock(xPoints[i], yPoints[i], zPoints[i]).setBlock("minecraft:fire")
-                    for (var t = 0; t < targs.length; ++t) {
+                    for (var t = 0; t < targs.length; t++) {
                         if (targs[t] != entity && TrueDistanceCoord(xPoints[i], yPoints[i], zPoints[i], targs[t].getX(), targs[t].getY() + 1, targs[t].getZ()) <= Range) {
                             //Extra Damage Effects Here
                             //DoActualDamage(entity,Dmg,targs[t],false)
@@ -1227,4 +2090,138 @@ function Sun(npc, radius, duration, particle) {
     });
     var H = new kamiThread();
     H.start();
+}
+
+
+function ParticleLine(entity, x1, y1, z1, x2, y2, z2, Resolution, Speed, Particle, Count, dx, dy, dz, dv, Dmg, Range, Sound, ID) {
+    var NpcAPI = Java.type("noppes.npcs.api.NpcAPI").Instance();
+    //var Thread = Java.type("java.lang.Thread");
+    var MyThread = Java.extend(Thread, {
+        run: function () {
+            if (!dx) { dx = 0; } if (!dy) { dy = 0; } if (!dz) { dz = 0; } if (!dv) { dv = 0; } if (!Sound) { Sound = ""; }
+            if (!ID) { ID = 0; } if (!Dmg) { Dmg = 0; } if (!Range) { Range = 0; }
+            var Blockable = false
+            if (Range < 0) { Blockable = true; Range = Range * -1 }
+            var ParticleTotal = Math.round(TrueDistanceCoord(x1, y1, z1, x2, y2, z2) * Resolution)
+            for (var i = 0; i < ParticleTotal; i++) {
+                var x = (x1 + (x2 - x1) * (i / ParticleTotal)).toFixed(4);
+                var y = (y1 + 1 + (y2 - y1) * (i / ParticleTotal)).toFixed(4);
+                var z = (z1 + (z2 - z1) * (i / ParticleTotal)).toFixed(4);
+                //NpcAPI.executeCommand(entity.world,"/particle "+Particle+" "+x+ " "+y+" "+z+" "+dx+" "+dy+" "+dz+" "+dv+" "+Count);
+                entity.world.spawnParticle(Particle, x, y, z, dx, dy, dz, dv, Count)
+                var CurrentPos = entity.world.getBlock(x, y, z).getPos()
+                if (ID <= 0 && !entity.world.getBlock(x, y, z).isAir()) return;
+                entity.world.playSoundAt(CurrentPos, Sound, 1, 1)
+                if (Dmg != 0 || ID != 0) {
+                    var targs = entity.world.getNearbyEntities(CurrentPos, Math.ceil(Range), 5)
+                    for (var t = 0; t < targs.length; t++) {
+                        if (targs[t] != entity) {
+                            if (TrueDistanceCoord(x, y, z, targs[t].getX(), targs[t].getY() + 1, targs[t].getZ()) > Range) continue;
+                            //Extra Damage Effects Here
+                            if (parseInt(Math.abs(ID)) == 1) targs[t].addPotionEffect(Math.round((Math.abs(ID.toFixed(2)) - 1) * 100), Math.abs(Math.round((ID - ID.toFixed(2)) * 10000)), Math.abs(Math.round((ID - ID.toFixed(4)) * 1000000)), false)
+                            targs[t].damage(Dmg)
+                        }
+                    }
+                }
+                Thread.sleep(Speed);
+            }
+        }
+    });
+    var th = new MyThread();
+    th.start();
+}
+
+function GetPlayerPitch(npc, player) {
+    var distance = Math.sqrt(Math.pow((npc.x - player.x), 2) + Math.pow((npc.z - player.z), 2))
+    var dy = player.y - npc.y
+    var pitch = Math.atan(dy / distance) * 180 / Math.PI
+    return pitch
+}
+
+function GetPlayerRotation(npc, player) {
+    var dx = npc.getX() - player.getX();
+    var dz = player.getZ() - npc.getZ();
+    if (dz >= 0) {
+        var angle = (Math.atan(dx / dz) * 180 / Math.PI);
+        if (angle < 0) {
+            angle = 360 + angle;
+        }
+    }
+    if (dz < 0) {
+        dz = -dz;
+        var angle = 180 - (Math.atan(dx / dz) * 180 / Math.PI);
+    }
+    return angle;
+}
+
+function FrontVectors(entity, dr, dp, distance, mode) {
+    if (!mode) mode = 0
+    if (mode == 1) { var angle = dr + entity.getRotation(); var pitch = (-entity.getPitch() + dp) * Math.PI / 180 }
+    if (mode == 0) { var angle = dr; var pitch = (dp) * Math.PI / 180 }
+    var dx = -Math.sin(angle * Math.PI / 180) * (distance * Math.cos(pitch))
+    var dy = Math.sin(pitch) * distance
+    var dz = Math.cos(angle * Math.PI / 180) * (distance * Math.cos(pitch))
+    return [dx, dy, dz]
+}
+
+function TrueDistanceCoord(x1, y1, z1, x2, y2, z2) {
+    var dx = x1 - x2
+    var dy = y1 - y2
+    var dz = z1 - z2
+    var R = Math.pow((dx * dx + dy * dy + dz * dz), 0.5)
+    return R;
+}
+
+function pushBack(npc, player, Intensity, DistanceScalar, Height){
+    var dist = npc.getPos().distanceTo(player.getPos())
+    var Str = Intensity + DistanceScalar * dist
+    var d = FrontVectors(npc, GetPlayerRotation(npc, player), 0, Intensity, 0)
+    player.setMotionX(d[0])
+    player.setMotionY(0.2)
+    player.setMotionZ(d[2])
+}
+function pushVertical(npc, player, Intensity, DistanceScalar, Height){
+    var dist = npc.getPos().distanceTo(player.getPos())
+    var Str = Intensity + DistanceScalar * dist
+    var d = FrontVectors(npc, GetPlayerRotation(npc, player), 0, Intensity, 0)
+    player.setMotionX(0)
+    player.setMotionY(1.5)
+    player.setMotionZ(0)
+}
+
+function lerp(start, end, t) {
+    return start * (1 - t) + end * t;
+}
+
+function handle360Limits(rot) {
+    if (rot < 0) {
+        return 360 + rot;
+    } else if (rot > 360) {
+        return rot - 360;
+    } else {
+        return rot;
+    }
+}
+
+
+
+
+
+function getRandomInt (min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+function init(event){
+    var npc = event.npc
+    var storedData = npc.getStoreddata()
+    storedData.put("attacking", "false")
+    storedData.put("phase", 1)
+    storedData.put("invulnerable", "false")
+    var element = setElement(npc)
+    npc.setHome(spawn.x, spawn.y, spawn.z)
+    npc.setPosition(spawn.x, spawn.y, spawn.z)
+    // npc.say("My Element is " + element)
+    npc.timers.forceStart(1, AbilityAttemptTime * 20, true)
+    npc.timers.forceStart(2, 30 * 20, true)
 }
