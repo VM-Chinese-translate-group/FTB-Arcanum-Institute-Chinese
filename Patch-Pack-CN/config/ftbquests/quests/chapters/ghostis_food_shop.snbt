@@ -3,7 +3,7 @@
 	group: "2BF58BA9C4117D6D"
 	order_index: 5
 	filename: "ghostis_food_shop"
-	title: "Ghost Kitchen"
+	title: "幽灵厨房"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [

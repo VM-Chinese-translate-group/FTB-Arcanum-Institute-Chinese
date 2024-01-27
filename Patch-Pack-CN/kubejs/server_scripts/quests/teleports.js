@@ -1,7 +1,7 @@
 const blacklistChapters = {
-    goblins: 'Beggars and Bargains',
-    food: 'Ghost Kitchen',
-    mme: 'The Magic Mischief Emporium',
+    goblins: '乞丐的便宜货',
+    food: '幽灵厨房',
+    mme: '魔法捣蛋鬼百货商店',
 } // TODO 
 
 onEvent('ftbquests.completed', (event) => {
