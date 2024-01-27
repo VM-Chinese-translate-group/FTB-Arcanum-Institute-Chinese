@@ -1,5 +1,5 @@
 const blacklistChapters = {
-    goblins: '乞丐的便宜货',
+    goblins: '讨价还价',
     food: '幽灵厨房',
     mme: '魔法捣蛋鬼百货商店',
 } // TODO 
