@@ -3,7 +3,7 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 5
 	filename: "natures_blessing"
-	title: "Nature's Blessing"
+	title: "自然祝福"
 	icon: {
 		id: "patchouli:guide_book"
 		Count: 1b
@@ -11,23 +11,23 @@
 			"patchouli:book": "naturesaura:book"
 		}
 	}
-	subtitle: ["Nature's Aura and Roots"]
+	subtitle: ["自然灵气和根源魔法"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 300
 	quests: [
 		{
-			title: "Obtaining a Golden Leaf"
+			title: "获得一个金叶"
 			x: 1.0d
 			y: -5.0d
 			description: [
-				"In our magical studies with the &eNature's Aura&r, we have a fascinating task ahead. "
+				"在&e自然灵气&r的魔法研究中，我们面临着一项有趣的任务。"
 				""
-				"You must use the &bBrilliant Fiber&r. With this material, you can perform a special conversion on leaves. The result will be a coveted &6Gold Leaf&r."
+				"你首先需要对叶子使用&b闪耀纤维&r。使用这个物品你可以看到叶子发生特殊的转变。最终转变为&6金叶&r。"
 				""
-				"Once you've successfully crafted the &6Gold Leaf&r, bring it back for further inspection."
+				"一旦你成功制造出了&6金叶&r，就要把它拿来进一步的研究。"
 				""
-				"Embrace this enchanting challenge, and let the magic of &eNature's Aura&r guide you on your quest for knowledge!"
+				"迎接这有趣的挑战，并让&e自然灵气&r的魔力满足你的求知欲吧！"
 			]
 			dependencies: ["00894E8821E62449"]
 			min_width: 300
@@ -69,15 +69,15 @@
 			x: 3.0d
 			y: -6.5d
 			description: [
-				"In our exploration of the enchanting world of &eNature's Aura&r, we have a captivating task ahead."
+				"在探索有趣的&e自然灵气&r世界中，我们面临着一项有趣的任务。"
 				""
-				"I encourage each of you to read about &6The Ritual of the Forest&r. To aid you in this endeavor, you can consult your trusty &6Book of Natural Aura&r, which I previously handed out."
+				"我建议你阅读有关&6森林仪式&r的书籍，在阅读过程中你会受到很多帮助。你也可以认真阅读&6自然灵气之书&r，就是我之前发给你的那本。"
 				""
-				"Next, we shall delve into the realm of &bAncient Trees&r. Your mission is to procure a precious Sapling from one of these &bAncient Trees.&r"
+				"接下来，我们将深入研究&b远古树&r的领域。你的任务是从&b远古树&r中获得一个树苗。"
 				""
-				"Bring the Sapling to me, and together, we shall continue our magical journey in the next class."
+				"你把树苗带给我，在下一节课我们将继续我们的魔法之旅。"
 				""
-				"Study diligently, and may the wisdom of Nature's Aura be your guide. I look forward to witnessing your growth and discoveries in our next gathering."
+				"努力学习，自然灵气的知识将会指引你。我希望在下一次集会前看到你的成果。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["439711A12F1593A7"]
@@ -100,19 +100,19 @@
 			icon: "naturesaura:nature_altar"
 			x: 4.5d
 			y: -5.0d
-			subtitle: "Make the Natural Altar"
+			subtitle: "制作自然祭坛"
 			description: [
-				"Our next enchanting task is the creation of a magnificent &bNatural Altar&r — an essential cornerstone of our magical practice."
+				"我们下一项有趣的任务是制造一个宏伟的&b自然祭坛&r————我们魔法实践所必须的一个基础。"
 				""
-				"To embark on this endeavor, I urge you to consult your &6Book of Natural Aura&r once more."
+				"让我们一起开始努力吧，首先我推荐你反复查阅&6自然灵气之书&r。"
 				""
-				"Additionally, our journey to the &bNatural Altar&r involves the crafting of &bInfused Rock&r."
+				"除此之外，我们制造&b自然祭坛&r就是为了制造&b灌注之石&r。"
 				""
-				"Once you have prepared both the &bNatural Altar&r and the &bInfused Rock,&r come back to me for the next Class."
+				"只要你准备好了&b自然祭坛&r和&b灌注之石&r，就在下节课开始前带给我。"
 				""
-				"I am eager to witness your progress in this magical pursuit. Remember, the key to success lies in patience, practice, and reverence for the natural world."
+				"我希望看到你在这项魔法探索中的进步。记住，耐心、实践和敬畏自然是成功的关键。"
 				""
-				"I would like to remind you, the Catalysts we use in &eNature's Aura&r belong on the lower &bGolden Stone Bricks&r, not under the Altar. This is not &eBotania&r you know."
+				"我还想提醒你的是，你要知道这不是&e植物魔法&r，所以我们使用&e自然灵气&r的催化器时是把它放在&b黄金石砖&r上方，而不是把它放在祭坛下方。"
 			]
 			dependencies: [
 				"3B29B9822D5248BD"
@@ -164,13 +164,13 @@
 			x: 2.75d
 			y: -5.75d
 			description: [
-				"The &bRitual of the Forest&r uses placed &bWooden Stands&r, &6Gold Powder&r, and a &6Sapling&r to craft certain items."
+				"使用&b森林仪式&r来制作物品需要放置&b木基座&r、&6金叶粉&r和一个&6树苗&r。"
 				""
-				"Place the above blocks as the &6Book of Natural Aura&r tells you to. You don't need all 8 Wooden Stands, but the ones you do have must be placed correctly."
+				"&6自然灵气之书&r会告诉你哪些方块放在哪里。虽然你不需要使用八个木基座，但是你必须摆放八个。"
 				""
-				"Insert ingredients onto the Stands. Once the Sapling in the center grows, both it and the Powder will disappear, and the item will be crafted."
+				"把材料放在木桩上。等到中间的树苗长大，周围的金叶粉就会消失，你就能制作出你想要合成的物品。"
 				""
-				"Rituals &cneed a specific Sapling&r to work. If it calls for an Oak Sapling, you can't use Birch, etc."
+				"不同仪式需要&c不同的树苗&r去驱动。如果叫你用橡树树苗，你就不能用白桦树苗之类的。"
 			]
 			dependencies: ["51F6ACC0A8B4CFA9"]
 			min_width: 250
@@ -190,7 +190,7 @@
 		{
 			x: 2.5d
 			y: -6.5d
-			description: ["While the &bEnvironmental Eye&r is in your inventory, you will be able to &6see the Aura in your surroundings&r in a gauge at the top left of your screen."]
+			description: ["只要你的&b环境之眼&r在你的快捷栏或者饰品栏，你就能够在你屏幕左上角看到一个&6周围环境的灵气&r的测量条。"]
 			hide_dependency_lines: true
 			dependencies: ["439711A12F1593A7"]
 			size: 0.5d
@@ -210,15 +210,15 @@
 			x: 2.75d
 			y: -4.0d
 			description: [
-				"&6Aura&r is a resource present in the atmosphere, depending on where you are. Some places have more Aura; some places have less."
+				"&6灵气&r是存在于环境中的资源。一些地方可能会有更多的灵气；而一些地方则更少，取决于你位于何处。"
 				""
-				"Some things will &6generate Aura&r, adding it to the local environment. Some things will &cuse it&r, draining it from the surroundings."
+				"有些东西能够在所在的环境中增加并&6产生灵气&r。有些东西则会在环境中&c消耗灵气&r。"
 				""
-				"Aura will naturally spread itself out. Places with high Aura will slowly bleed into places with low Aura, evening out between them."
+				"灵气也会在环境中自然的扩散。高灵气含量的地方就会缓慢的扩散到低灵气含量的地方，直至平均。"
 				""
-				"There are &cconsequences&r to having too much or too little Aura in an area. See the &6Aura Imbalance&r chapter of the book to see what can happen."
+				"如果一个区域中灵气过多或过少将会造成一些&c问题&r。可以去看书中的&6灵气失衡&r章节，它会告诉你会发生什么。"
 				""
-				"Aura can be bottled using a &bBottle and Cork&r, for use in recipes."
+				"可以使用&b瓶与塞&r来将灵气装瓶，用来暂存。"
 			]
 			dependencies: ["51F6ACC0A8B4CFA9"]
 			min_width: 250
@@ -265,7 +265,7 @@
 			]
 		}
 		{
-			title: "Effect Powder"
+			title: "效应粉末"
 			icon: {
 				id: "naturesaura:effect_powder"
 				Count: 1b
@@ -275,11 +275,11 @@
 			}
 			x: 3.0d
 			y: -3.25d
-			subtitle: "Make some Effect Powder"
+			subtitle: "制作一些效应粉末"
 			description: [
-				"&bEffect Powder&r is required to enable certain Aura Imbalance effects and is capable of disabling others."
+				"&b效应粉末&r能够抑制或实现灵气失衡时产生的效果。"
 				""
-				"Right-clicking will place the entire stack down. Its radius of effect is half the size of the placed stack."
+				"右击可以堆放在地上，它的作用半径是所堆放大小的一半。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["593F27D3FF233B37"]
@@ -346,12 +346,12 @@
 			}]
 		}
 		{
-			title: "Aura Generators"
+			title: "灵气生成器"
 			icon: "naturesaura:firework_generator"
 			x: 2.5d
 			y: -3.25d
-			subtitle: "Make any Aura Generator"
-			description: ["All of the blocks here &6generate Aura&r. Most have their own quest as well, but you can use this to see them all together."]
+			subtitle: "制作任意灵气生成器"
+			description: ["这里所有的方块都能&6产生灵气&r。大多数生成器也都有自己的任务，但你也可以使用这个来同时查看它们。"]
 			hide_dependency_lines: true
 			dependencies: ["593F27D3FF233B37"]
 			size: 0.5d
@@ -372,9 +372,9 @@
 			x: 4.5d
 			y: -6.0d
 			description: [
-				"The &bAura Detector&r, used with a Comparator, allows you to &6detect the level of Aura around it&r."
+				"&b灵气探测器&r配合比较器来使用，可以让你&6探测环境中灵气的等级&r。"
 				""
-				"This signal could be used to trigger something that generates Aura."
+				"这些信号可以被用来激活一些东西来产生灵气。"
 			]
 			size: 0.5d
 			id: "3D5C5360C905D441"
@@ -394,7 +394,7 @@
 			icon: "naturesaura:infused_iron"
 			x: 6.25d
 			y: -5.0d
-			description: ["&bInfused Iron&r and &bTainted Gold&r are used in several recipes."]
+			description: ["&b灌注铁锭&r和&b污染黄金&r可以被用来多种配方。"]
 			dependencies: ["282B976F2593CEC6"]
 			id: "095D23F1BCE5FE6F"
 			tasks: [
@@ -425,11 +425,11 @@
 		{
 			x: 6.0d
 			y: -6.0d
-			subtitle: "Make a Shooting Mark"
+			subtitle: "制作一个射击标靶"
 			description: [
-				"The &bShooting Mark&r generates Aura when &6hit by a projectile&r. Certain projectiles produce more Aura than others."
+				"&b射击标靶&r在被&6弹射物击中&r时会产生灵气。有些弹射物产生的灵气比别的弹射物产生的多。"
 				""
-				"You &ccan't just keep hitting the same side&r, however. Each side will have to be hit once before the first can be hit again."
+				"然而，你&c不能只射一个方向&r。每个方向被击中一次后，可以再一次射击不同方向。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -450,7 +450,7 @@
 		{
 			x: 6.0d
 			y: -6.5d
-			description: ["The &bSwamp Homi&r makes Aura by &6removing Moss from nearby blocks&r."]
+			description: ["&b沼泽之霍米&r通过&6移除附近方块上的苔藓&r来产生灵气。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -471,11 +471,11 @@
 			x: 6.0d
 			y: -7.0d
 			description: [
-				"The &bOffshoot Observer&r generates Aura &6when Slimes or Magma Cubes split&r nearby."
+				"&b分裂观测仪&r从&6史莱姆或岩浆怪分裂过程中&r产生灵气。"
 				""
-				"Larger ones produce more Aura, and Magma Cubes produce more than Slimes."
+				"大型岩浆怪/史莱姆分裂产生的灵气高于中型岩浆怪/史莱姆分裂产生的灵气，同等体型下岩浆怪分裂产生的灵气高于史莱姆分裂产生的灵气。"
 				""
-				"The Offshoot Observer &cmust discharge&r before it will produce more Aura. Any more splits during this time will be wasted."
+				"分裂观测仪在它产生更多的灵气之前&c必须消耗之前的&r。如果不这样做将会浪费很多分裂产生的灵气。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -494,7 +494,7 @@
 					Count: 1b
 					tag: {
 						EntityTag: {
-							CustomName: "[{\"text\":\"Big Boy\"}]"
+							CustomName: "[{\"text\":\"大男孩\"}]"
 							Size: 40
 							Attributes: [
 								{
@@ -510,7 +510,7 @@
 							CustomNameVisible: 1b
 						}
 						display: {
-							Name: "[{\"text\":\"Big Boy Spawn Egg\",\"italic\":false}]"
+							Name: "[{\"text\":\"大男孩刷怪蛋\",\"italic\":false}]"
 						}
 					}
 				}
@@ -520,11 +520,11 @@
 			x: 6.5d
 			y: -7.0d
 			description: [
-				"The &bDisentangler of Mortals&r will &6generate Aura when an animal dies nearby&r."
+				"&b凡俗解脱之物&r在&6附近的动物死亡时产生灵气&r。"
 				""
-				"A mob killed in this way &cwill not drop blocks&r. Additionally, the Disentangler &6takes some time to discharge&r, and killing more animals during this time will waste both the Aura and the drops."
+				"用这种方式杀死动物&c将无法获得其掉落物&r。值得注意的是，凡俗解脱之物需要&6花费一些时间去转换灵气&r，如果在这期间杀死动物将不能产生灵气和获得其掉落物。"
 				""
-				"Animals that were &6alive longer&r generate more Aura, maxing out at around an hour and a half."
+				"动物&6活的时间越长&r被转换的灵气也就越多，最佳生长时长为一个半小时。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -539,7 +539,7 @@
 		{
 			x: 6.5d
 			y: -6.5d
-			description: ["The &bCanopy Diminisher&r &6prevents Oak Saplings from growing into the larger trees&r, and &6generates Aura&r as a byproduct."]
+			description: ["&b树冠减光器&r可以&6阻止橡树树苗长成超大树&r，并且在树苗长大时&6产出灵气&r。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -554,9 +554,9 @@
 			x: 6.5d
 			y: -6.0d
 			description: [
-				"The &bHerbivorous Absorber&r &6generates Aura&r by consuming nearby Overworld flowers."
+				"&b草食性吸收器&r通过消耗附近的花朵&6产出灵气&r。"
 				""
-				"The more of a single flower it consumes, the &cless Aura is created&r. To fully cycle, it has to consume 6 different flower types."
+				"给同样的花朵将会造成&c提供的灵气越来越少&r，如果要达到满效率需要至少6朵不同种类的花。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -571,7 +571,7 @@
 		{
 			x: 6.0d
 			y: -4.0d
-			description: ["Using a &bMystical Magnifier&r on a machine will &6show its work-area&r. Use it again to hide it."]
+			description: ["对着机器使用&b奥秘放大镜&r将会&6显示机器的工作范围&r。再使用一次隐藏范围。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -586,13 +586,13 @@
 			x: 6.5d
 			y: -4.0d
 			description: [
-				"The &bImperceptible Builder&r can &6place blocks up to 5 blocks away from itself&r. It will place blocks from the inventory above itself."
+				"&b无感知建造器&r可以&6以它为中心5格以内的区域（11X11X11）放置方块&r。无感知建造器会放置其顶部容器中的方块。"
 				""
-				"To choose where they're placed, &6attach an Item Frame&r with the block you want them to be placed on."
+				"要想指定容器内方块摆放在什么方块上，需要在瞬息建造器上摆放一个&6物品展示架&r并将你想指定的方块挂在物品展示架上。"
 				""
-				"That is, to place blocks on nearby Cobblestone, place Cobblestone in an Item Frame on the Builder."
+				"例如，要在附近放置圆石就把圆石放在物品展示架上就行。"
 				""
-				"A &6Farming Stencil&r in an Item Frame will place it on nearby Farmland. The Builder can be disabled with a Redstone signal."
+				"把&6耕作模板&r放在物品展示框上，无感知建造器就可以在附近放置耕地。提供红石信号可使其停止工作。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -614,9 +614,9 @@
 			x: 6.5d
 			y: -3.5d
 			description: [
-				"When near an &bItem Grounder&r, players cannot pick up items unless they are sneaking."
+				"当附近有&b物品束缚器&r时，玩家只能靠潜行捡起物品。"
 				""
-				"Its effective range is dependent on the strength of the Redstone signal it is given."
+				"它的有效范围取决于它的红石信号强度。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -633,11 +633,11 @@
 			x: 6.0d
 			y: -3.5d
 			description: [
-				"The &bAdept Hopper&r is a bit faster than the normal one, and can be &6filtered&r by attaching Item Frames with the items you want in them."
+				"&b专家型漏斗&r比普通漏斗的传输速度更快一点。在专家型漏斗任意面放上物品展示框后，在展示框中放入想要&6过滤&r的物品，则专家型漏斗只会让被标记的物品通过。"
 				""
-				"Sneak right-clicking it will turn its filtering into a &6blacklist&r rather than a whitelist, refusing the items in its Frames."
+				"潜行右击专家型漏斗将会把过滤模式转换为&6黑名单&r，即拒绝让展示框中的物品通过。"
 				""
-				"The &bHopper Enhancement&r, if placed atop a Hopper (either a normal one or an Adept one), will allow it to pick up items from 7 blocks away. This costs a bit of Aura."
+				"如果把&b漏斗增强器&r放在漏斗顶部（普通漏斗或者专家型漏斗），就可以使漏斗收集以漏斗增强装置为中心周围7格内的掉落物。 这个过程会消耗一点点灵气。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -667,13 +667,13 @@
 			x: 6.0d
 			y: -3.0d
 			description: [
-				"&bTools&r and &bArmor&r made of &bInfused Iron&r have several special functions."
+				"由&b灌注铁锭&r制成的&b工具&r和&b盔甲&r有很多特殊功能。"
 				""
-				"For instance, the Pickaxe can make blocks Mossy, and the Axe can quickly break Leaves."
+				"例如：镐子可以让某些方块变成苔藓方块，斧头可以快速破坏树叶。"
 				""
-				"When wearing the full set of armor, anything that attacks you will receive Withering."
+				"如果穿了一整套盔甲会让攻击者受到凋零效果。"
 				""
-				"While standing still and sneaking, these items will &6repair themselves&r from Aura in any Aura Cache in your inventory."
+				"在站立和潜行时，这些物品会使用快捷栏中的灵气缓存中的灵气&6自我修复&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
@@ -683,7 +683,7 @@
 				{
 					id: "3FC58A8032F8E2E8"
 					type: "item"
-					title: "Botanist Tools"
+					title: "植物学家工具"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -731,7 +731,7 @@
 				{
 					id: "266510B80D489475"
 					type: "item"
-					title: "Botanist Armor"
+					title: "植物学家盔甲"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -786,8 +786,8 @@
 			}
 			x: 6.5d
 			y: -3.0d
-			subtitle: "Make an Aura Cache"
-			description: ["The &bAura Cache&r &6stores Aura&r so items can use it. It is charged in the Natural Altar."]
+			subtitle: "制作一个灵气缓存"
+			description: ["&b灵气缓存&r可以&6存储灵气&r并且可以供给灵气工具使用。把灵气缓存放在自然祭坛上就能充能。"]
 			hide_dependency_lines: true
 			dependencies: ["095D23F1BCE5FE6F"]
 			size: 0.5d
@@ -795,7 +795,7 @@
 			tasks: [{
 				id: "555D0AB6A8AC25C5"
 				type: "item"
-				title: "Aura Cache"
+				title: "灵气缓存"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -815,15 +815,15 @@
 			}]
 		}
 		{
-			title: "Safety &mTorch&r Lantern"
+			title: "安全的&m光源&r"
 			x: 8.25d
 			y: -3.0d
 			description: [
-				"When provided a redstone signal, the &bLamp of Sanctuary&r &6prevents monsters from spawning&r."
+				"当提供红石信号时，&b圣域之灯&r就可以&6阻止怪物生成&r。"
 				""
-				"The range depends on the strength of the signal, maxing out at &648 blocks away&r."
+				"圣域之灯的作用范围取决于红石信号强度，且最大范围不超过&648格&r。"
 				""
-				"Each time it prevents a spawn, it &6uses a bit of Aura&r."
+				"每阻止生成一次都会&6消耗一点点灵气&r。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -839,9 +839,9 @@
 			x: 8.5d
 			y: -3.5d
 			description: [
-				"The &bStaff of Shadows&r will allow you to &6see dark spots&r where monsters can spawn, even &6through walls&r."
+				"&b阴影之杖&r可以让你&6看到黑暗区域&r是否会生成怪物，即使是&6隔着墙&r。"
 				""
-				"It has a range of about 30 blocks, lasts 30 seconds, and requires Aura from a Cache."
+				"它的可视范围是30格，且能持续30秒，但是必须使用灵气缓存供能。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -856,7 +856,7 @@
 		{
 			x: 8.0d
 			y: -3.5d
-			description: ["The &bStaff of Riches&r will use a bit of Aura from your Cache to &6highlight the location of nearby Chests&r."]
+			description: ["&b财富之杖&r会使用灵气缓存中的灵气并且&6高亮显示附近的箱子&r。"]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
 			size: 0.5d
@@ -868,16 +868,16 @@
 			}]
 		}
 		{
-			title: "Celestial Manipulator"
+			title: "天体操控器"
 			icon: "naturesaura:time_changer"
 			x: 8.0d
 			y: -4.0d
 			description: [
-				"The &bShifting Sundial&r allows you to &6change the time of day&r at a rather significant cost of Aura, depending on the amount skipped."
+				"&b移时日晷&r可以让你&6改变时间&r，但这需要消耗大量灵气，灵气消耗量取决于跳过的时间。"
 				""
-				"To choose the time of day, place a &bHand of Time&r into an Item Frame on the Sundial and rotate it. The default position is midnight."
+				"将&b时间之手&r放在位于移时日晷的物品展示框上，并旋转它就可以选择时间。它默认位置是午夜。"
 				""
-				"To trigger it to start, drop a Clock nearby."
+				"要想触发它必须在旁边丢一个时钟。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -905,11 +905,11 @@
 			x: 8.5d
 			y: -4.0d
 			description: [
-				"The &bCloudshifter&r uses Aura to &6change the weather&r, depending on an item dropped nearby."
+				"&b移云器&r使用灵气来&6改变天气&r，天气取决于附近掉落物的种类。"
 				""
-				"&6Sunflowers&r make it sunny, &6Dark Prismarine&r makes it rainy, and &6Fire Charges&r make it storm."
+				"&6向日葵&r可以改为晴天，&6暗海晶石&r可以改为雨天，&6火焰弹&r可以改为雷雨天。"
 				""
-				"The more dropped, the longer the weather will last, but also increases the Aura cost."
+				"掉落物越多，天气持续的时间越长，但灵气消耗也越多。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -960,13 +960,13 @@
 			x: 8.25d
 			y: -5.0d
 			description: [
-				"The &bOffering Table&r is the focus of another multiblock, which is used to craft new items."
+				"&b祭祀台&r是另一个重要的多方块结构，它可以用来创造新的物品。"
 				""
-				"See the Book on how it is constructed."
+				"在书中查看其如何搭建。"
 				""
-				"To use the Offering Table, &6insert any amount of the main ingredient&r and then throw a &bSpirit of Calling&r on or near it."
+				"&6放入任意数量的主要材料&r并且在附近丢一个&b呼唤之魂&r就可以使用祭祀台。"
 				""
-				"It costs the same to craft 64 of an item as it does 1, so it is recommended to craft in bulk."
+				"祭祀台创造1个物品和创造64个物品的花费都是相同的，所以我建议你批量放入材料。"
 			]
 			dependencies: ["095D23F1BCE5FE6F"]
 			id: "54191E5A6BFAD3A1"
@@ -980,11 +980,11 @@
 			x: 8.5d
 			y: -6.0d
 			description: [
-				"The &bReaper of Ender Heights&r generates Aura by &6harvesting Chorus Flowers&r nearby."
+				"&b末影高花收割机&r通过&6收获附近的紫颂花&r来产生灵气。"
 				""
-				"Place the Chorus Flower about 2 blocks away and let it grow. Once it's grown, trigger the Reaper with Redstone."
+				"在2格远的地方放置紫颂花并让其成长，接收红石信号后就可以收割它。"
 				""
-				"The bigger the tree, the more Aura is generated."
+				"紫颂花长的越大产生的灵气越多。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
@@ -1005,7 +1005,7 @@
 		{
 			x: 8.0d
 			y: -6.0d
-			description: ["Most Aura generators cannot produce Aura past a certain point. With a &bCreational Catalyst&r placed below, this limit is removed."]
+			description: ["大多数灵气生成器产生的灵气都有限制。把&b制造催化剂&r放在灵气生成器下方可以解除这个限制。"]
 			hide_dependency_lines: true
 			dependencies: ["54191E5A6BFAD3A1"]
 			size: 0.5d
@@ -1020,11 +1020,11 @@
 			x: 9.75d
 			y: -6.0d
 			description: [
-				"The &bAltar of Birthing&r can be used to &6spawn certain mobs&r. It requires a multiblock structure and requires a variable amount of Aura."
+				"&b降生祭坛&r可以用来&6召唤指定生物&r。这需要一个多方块结构，需要不同数量的灵气。"
 				""
-				"To do so, &6throw all the ingredients on the ground nearby&r."
+				"准备好了之后，&6把所有的材料丢在附近&r。"
 				""
-				"We've &6added recipes&r to summon several additional mobs. See the Altar's uses in JEI for more info."
+				"我们&6增加了配方&r可以召唤更多种类的生物。祭坛的配方请查看JEI。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
@@ -1045,7 +1045,7 @@
 		{
 			x: 9.75d
 			y: -5.0d
-			description: ["&bIngots of the Skies&r are used in several of the more advanced recipes."]
+			description: ["&b苍穹锭&r用于多种高级配方。"]
 			dependencies: ["54191E5A6BFAD3A1"]
 			id: "63A00BAF318851F9"
 			tasks: [{
@@ -1076,7 +1076,7 @@
 		{
 			x: 9.5d
 			y: -4.25d
-			description: ["The &bRing of Last Chance&r is effectively a &6Totem of Undying&r that works while &6anywhere in your inventory&r."]
+			description: ["&b最后机会之指环&r实际上就是可以在&6背包里面任何位置&r触发的&6不死图腾&r。"]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
 			size: 0.5d
@@ -1088,7 +1088,7 @@
 			}]
 		}
 		{
-			title: "Skyseeker Items"
+			title: "探天者物品"
 			icon: {
 				id: "naturesaura:sky_axe"
 				Count: 1b
@@ -1098,7 +1098,7 @@
 			}
 			x: 10.0d
 			y: -3.75d
-			description: ["Like the Botanist's items, &bSkyseeker&r items have special abilities and repair themselves with Aura from your inventory."]
+			description: ["&b探天者&r物品像植物魔法的物品一样，有特殊的功能并可以通过背包中的灵气缓存自我修复。"]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
 			size: 0.5d
@@ -1107,7 +1107,7 @@
 				{
 					id: "0DA19A8403D5693B"
 					type: "item"
-					title: "Skyseeker Tools"
+					title: "探天者工具"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1155,7 +1155,7 @@
 				{
 					id: "013B01E60DBD27A6"
 					type: "item"
-					title: "Skyseeker Armor"
+					title: "探天者盔甲"
 					item: {
 						id: "itemfilters:or"
 						Count: 1b
@@ -1199,11 +1199,11 @@
 			x: 10.0d
 			y: -4.25d
 			description: [
-				"After passing over a powered &6Activator Rail&r, the &bAura Attraction Cart&r will &6pull Aura towards itself&r."
+				"当&b灵气吸引矿车&r通过被激活的&6激活铁轨&r就会&6吸收区域的灵气&r。"
 				""
-				"After passing over an &ounpowered&r Activator Rail, this Aura will be released."
+				"当灵气吸引矿车通过&o未被激活的&r激活铁轨就会释放灵气。"
 				""
-				"Effectively, this allows you to move Aura from one location to another. Some is lost in the process, however."
+				"实际上，这可以让你把一个区域的灵气运输至另一个区域。但是运输过程中会浪费一点点。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63A00BAF318851F9"]
@@ -1222,7 +1222,7 @@
 			}]
 		}
 		{
-			title: "Nature is Beautiful"
+			title: "美丽的自然"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1233,13 +1233,13 @@
 			x: -1.0d
 			y: -5.0d
 			shape: "pentagon"
-			subtitle: "Find Prof. Loneztar"
+			subtitle: "寻找隆泽塔教授"
 			dependencies: ["63368A007664E4B5"]
 			id: "00894E8821E62449"
 			tasks: [{
 				id: "2B379EBE1D1DF541"
 				type: "location"
-				title: "Meet Loneztar"
+				title: "遇见隆泽塔"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -1295,7 +1295,7 @@
 					id: "6A669D766FADD463"
 					type: "command"
 					auto: "invisible"
-					command: "/title @p title {\"text\":\"Welcome to Malum\", \"color\":\"purple\"}"
+					command: "/title @p title {\"text\":\"欢迎来到灵灾\", \"color\":\"purple\"}"
 					silent: true
 				}
 			]
@@ -1310,11 +1310,11 @@
 			}
 			x: -1.0d
 			y: -4.0d
-			subtitle: "Don't be like Ren!"
+			subtitle: "别像瑞根一样！"
 			description: [
-				"So it seems you used up all your &bBrilliant Fiber&r? Here grab some more!"
+				"看起来你已经用完了所有的&b闪耀纤维&r？在这里，你还能再搞一些！"
 				""
-				"Be sure to not use it all up tho!"
+				"这次一定不要全部用完！"
 			]
 			dependencies: ["00894E8821E62449"]
 			hide: true
@@ -1323,7 +1323,7 @@
 			tasks: [{
 				id: "3E656E17A80CABD0"
 				type: "checkmark"
-				title: "Miss! I Lost me' Fiber!"
+				title: "女士！我的纤维没了！"
 			}]
 			rewards: [{
 				id: "21BE9EB889B8D8E4"
@@ -1342,11 +1342,11 @@
 			icon: "naturesaura:gold_fiber"
 			x: -1.0d
 			y: -3.0d
-			subtitle: "Don't be like Ren!"
+			subtitle: "别像瑞根一样！"
 			description: [
-				"This is getting quite ridiculous. This will be the final &bBrilliant Fiber&r i'll be giving out!"
+				"这可能听起来无法让人相信，因为这将是我最后一次给你发放&b闪耀纤维&r！"
 				""
-				"If you still manage to lose all of them, i have heard that &6Ibsaeng&r has been selling these lately."
+				"如果你还是想千方百计的消耗它们，我听说最近&6艾普信&r那边有卖一点这个。"
 			]
 			dependencies: ["58C439D69B9417AB"]
 			hide: true
@@ -1355,7 +1355,7 @@
 			tasks: [{
 				id: "680C296AF598D2E1"
 				type: "checkmark"
-				title: "Miss! I Lost me' Fiber! *Again*"
+				title: "女士！我的纤维*又*没了！"
 			}]
 			rewards: [{
 				id: "7AD59E112785826B"
