@@ -3,9 +3,9 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 2
 	filename: "bloods_and_sacrifice"
-	title: "Bloods and Sacrifice"
+	title: "鲜血与献祭"
 	icon: "bloodmagic:altar"
-	subtitle: ["Blood Magic"]
+	subtitle: ["血魔法"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 300
@@ -14,9 +14,9 @@
 			x: 2.5d
 			y: 1.5d
 			description: [
-				"I have provided what you will need to craft your very first item. Don't get used to it. "
+				"我已经提供给你将要制作的第一个物品所需的材料。这不是常态。"
 				""
-				"Combine the &6Arcane Ashes&r with the &6Blank Slate&r to forge your very first Sigil: If you have followed directions, you now have a &bDivination Sigil&r."
+				"把6奥术粉灰&r与&6空白石板&r组合来铸造你的第一块印记：如果你按照步骤，现在你拥有了一块&b占卜印记&r。"
 			]
 			dependencies: ["0E0C6473FEBC9E99"]
 			dependency_requirement: "one_completed"
@@ -57,7 +57,7 @@
 			]
 		}
 		{
-			title: "Sacrificial Knife"
+			title: "牺牲匕首"
 			icon: {
 				id: "bloodmagic:sacrificialdagger"
 				Count: 1b
@@ -68,14 +68,14 @@
 			x: 4.0d
 			y: 0.0d
 			description: [
-				"There are two paths to harnass the power of &eBlood Magic&r:"
-				"The path of &aself-sacrifice&r and the path of &4sacrifice&r."
+				"有两种控制并利用&e血魔法&r力量的途径："
+				"&a自我牺牲&r之路和&4献祭&r之路。"
 				""
-				"The path of &aself-sacrifice&r revolves around utilizing your own life essence to fuel the arcane rituals and spells of &eBlood Magic&r."
+				"&a自我牺牲&r之路围绕着使用你自己的生命源质来给&e血魔法&r的奥术仪式和法术充能。"
 				""
-				"It requires a profound understanding of your own limits and the willingness to exchange your own vitality for magical energy."
+				"它需要对你自己的极限有着深刻认知并且愿意用你自己的生命力与魔法能量做交换。"
 				""
-				"By willingly sacrificing your health and vitality, you can tap into immense power, enabling you to achieve extraordinary feats."
+				"通过乐意牺牲你的健康和生命力，你可以挖掘无尽的力量，使你达成非凡的壮举。"
 			]
 			dependencies: ["773AC3684A65800F"]
 			invisible_until_tasks: 1
@@ -146,19 +146,19 @@
 			]
 		}
 		{
-			title: "Dagger of Sacrifice"
+			title: "献祭刀"
 			icon: "bloodmagic:daggerofsacrifice"
 			x: 4.0d
 			y: 3.0d
 			description: [
-				"There are two paths to harnass the power of &eBlood Magic&r:"
-				"the path of &4self-sacrifice&r and the path of &asacrifice&r."
+				"有两种控制并利用&e血魔法&r力量的途径："
+				"&4自我牺牲&r之路和&a献祭&r之路"
 				""
-				"the path of &asacrifice&r involves gathering life essence from external sources, typically other creatures."
+				"&a献祭&r之路包括从外界来源收集生命源质，特别是其他的生物。"
 				""
-				"It requires careful consideration of ethical implications and a responsible approach to ensure the balance and harmony of life."
+				"它需要深思熟虑关于伦理和一个合理的方式来确保生命的平衡与和谐。"
 				""
-				"By sacrificing the life essence of willing or unwilling creatures, you can channel their energy to amplify your magical abilities."
+				"通过献祭情愿抑或不情愿的生物的生命源质，你能引导它们的能量来强化你的魔法能力。"
 			]
 			dependencies: ["773AC3684A65800F"]
 			id: "2C5BE4C092BE0F2D"
@@ -225,15 +225,15 @@
 			x: 5.5d
 			y: 1.5d
 			description: [
-				"Today, you will take your first real step towards harnassing the power of &eBlood Magic&r"
+				"今天，你将迈向控制并利用&e血魔法&r真正的第一步。"
 				""
-				"Your task is to craft your very own &5Blood Altar&r and demonstrate your competence by creating a &6Reinforced Slate&r."
+				"你的任务是做出你自己的&5血之祭坛&r并通过制作一块&6强化石板&r来证明你的能力。"
 				""
-				"This will show if you possess the will and the ability to manipulate the forces of Blood Magic and mark your progress in mastering this arcane art."
+				"这将展示如果你拥有这个意愿和操作血魔法的力量，并标志着在掌握这个奥术技艺中的你的进步。"
 				""
-				"Let the creation of your &7Blood Altar&r commence, and let your skill and dedication shine through."
+				"让我们开始制作你的&7血之祭坛&r吧，并让你的技巧和奉献闪耀世界。"
 				""
-				"For assistance in obtaining basic crafting materials check out the &eProgression Chapter&r"
+				"为了协助获取基础的合成材料，查看&e进程章节&r。"
 			]
 			min_required_dependencies: 1
 			dependencies: [
@@ -252,15 +252,15 @@
 			x: 7.5d
 			y: 1.5d
 			description: [
-				"Having successfully crafted your own &5Blood Altar&r, the time has come to empower your individual &5Blood Network&r."
+				"成功制作你自己的&5血之祭坛&r之后，来到给你的独立&5鲜血网络&r授权的时候了。"
 				""
-				"Through the infusion of a diamond with an ample amount of blood, you will forge your very own &bBlood Orb&r."
+				"通过给一颗钻石注入大量的鲜血，你将会锻造出你自己的&b气血宝珠&r。"
 				""
-				"This significant achievement will solidify your connection to the mystical energies of &eBlood Magic&r, binding the orb to your essence."
+				"这项重大成就将会巩固你与&e血魔法&r的神秘能量的链接，把你的本质与宝珠绑定在一起。"
 				""
-				"As the final outcome of this endeavor, you shall possess a potent tool, attuned to your being."
+				"作为这次努力的最终结果，你需要拥有一件强大的工具，与你的本质相调谐。"
 				""
-				"Proceed with the ritual and claim your rightful place among the practitioners of &eBlood Magic&r."
+				"继续进行仪式然后在&e血魔法&r的众多实践者之中树立起你的正确地位。"
 			]
 			dependencies: ["4903CEB8C47D208D"]
 			id: "701CC58B650FE3A1"
@@ -284,15 +284,15 @@
 			}]
 		}
 		{
-			title: "Upgrading your Blood Altar"
+			title: "升级你的血之祭坛"
 			x: 9.5d
 			y: 1.5d
 			description: [
-				"It has come to my attention that it's time to advance your studies in &5Bloodmagic&r. To upgrade your &5Bloodmagic Altar&r, acquire &b8 Blank Runes&r. Positioning them strategically around your Altar shall enhance its potential, allowing the crafting of tier 2 items such as the &6Reinforced Slate&r."
+				"是时候提升你在&5血魔法&r中的研究已经引起了我的注意。想要升级你的&5血魔法祭坛&r, 获得&b八块空白符文&r。把它们有战略性地围绕着你的祭坛放置，应该会加强它的潜力，允许制作二阶的物品例如&6强化石板&r。"
 				""
-				"Do not underestimate the significance of this progression. Proper utilization of your Altar's improved capabilities will be pivotal in your further exploration of the arcane arts."
+				"不要低估这个进展的重要性。恰当使用你的祭坛提升之后的能力，会在你深入探索奥术技艺中起到关键作用。"
 				""
-				"Proceed with caution and ensure meticulous placement of the runes. They shall serve as the bedrock for your ascent in Bloodmagic."
+				"带着仔细开展行动并确保符文的精心摆放。它们充当你在提升血魔法中的基石。"
 			]
 			dependencies: ["701CC58B650FE3A1"]
 			id: "387CE36B90720D95"
@@ -407,9 +407,9 @@
 			x: 6.5d
 			y: 3.0d
 			description: [
-				"The alchemy table is a place for concentrating the life essence in your soul network into alchemical mixtures."
+				"炼金术桌是用来把你的灵魂网络中的生命源质凝聚为炼金混合物的地方。"
 				""
-				"The tier of recipes it can execute is determined by the blood orb you've slotted into it."
+				"它可以通过你放入的气血宝珠执行确定配方的等级。"
 			]
 			dependencies: ["4903CEB8C47D208D"]
 			id: "4D8EAAC6A2576BCD"
@@ -448,18 +448,18 @@
 			x: 11.5d
 			y: 0.0d
 			description: [
-				"Today's lesson shall cover the utilization of runes to enhance &6Life Essence&r yield."
+				"今天这节课应该包括了使用符文来加强&6生命源质&r的产量。"
 				""
-				"Two tiers of sacrifice runes exist. As your mastery deepens, crafting reinforced runes becomes possible."
+				"存在着两级牺牲符文。随着你的深入精通，制作强化符文（Reinforced Runes）变成可能。"
 				""
-				"In exchange for &b2 (self-)sacrifice runes&r, I offer you two reinforced runes, advancing your knowledge."
+				"作为与&b2（牺牲）献祭符文&r交换, 我提供给你两个强化符文（Reinforced Rune），用于提升你的知识。"
 			]
 			dependencies: ["65C2BC44E8065433"]
 			id: "49C7C1F481A78001"
 			tasks: [{
 				id: "12C28FABAC894C17"
 				type: "item"
-				title: "Sacrificial Runes"
+				title: "献祭符文"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -490,11 +490,11 @@
 			x: 11.5d
 			y: 1.5d
 			description: [
-				"As your Altar upgrades, you'll soon create &bImbued Slates&r, the third tier in &5Blood Magic&r. These slates open up numerous possibilities within &6Blood Magic&r, a topic we'll cover in our upcoming classes."
+				"随着你祭坛的升级，在&5血魔法&r的第三阶，你很快将会制作&b灌输石板&r。这些石板打开了在&6血魔法&r中数不清的可能性， 我们将在接下来的课程中涉及一个话题。 "
 				""
-				"Creating these &bImbued Slates&r is a crucial step in your magical journey. We'll explore their potential in detail during our next sessions."
+				"在你的魔法旅途中，制作这些&b灌输石板&r是关键的一步。在我们的下一节课期间，我们将细致探索它们的潜能。"
 				""
-				"Get ready to uncover the vast opportunities these slates offer as we delve deeper into &5Blood Magic&r."
+				"准备好去发现这些石板提供的大量机遇，因为我们要更加深入钻研&5血魔法&r了。"
 			]
 			dependencies: ["387CE36B90720D95"]
 			id: "65C2BC44E8065433"
@@ -534,9 +534,9 @@
 			x: 13.5d
 			y: 1.5d
 			description: [
-				"With our attainment of the 4th Tier of the &5Blood Altar&r, we now delve into acquiring the &bDemonic Slates&r. Remember, each higher tier necessitates more blood. Ensure a variety of &6Runes&r surrounding your &6Blood Altar&r to support its functions."
+				"在我们的&5血之祭坛&r达到四阶以后，现在我们深入研究获取&b恶魔石板&r了。请记住，每一个更高的等级需要更多的鲜血。确保各种各样的&6符文&r围绕着你的&6血之祭坛&r来维持它的功能。"
 				""
-				"Strive for a balanced arrangement of Runes to accommodate the escalating blood requirements as we explore the higher tiers."
+				"为了追求符文的协调布置，适应逐步上升的血液需求就像我们探索更高的等级。"
 			]
 			dependencies: [
 				"65C2BC44E8065433"
@@ -565,7 +565,7 @@
 		{
 			x: 15.5d
 			y: 1.5d
-			description: ["The 5th and final tier of blood altar is capable of producing the ethereal slates. They resonate with demon will on a multiplanar level and allow you to infuse raw life essence into the most powerful rituals and items."]
+			description: ["五阶也就是终阶血之祭坛能够生产悬幽石板。它们与恶魔意志在多维水平之上产生共鸣并且允许你把原始的生命源质注入到最强大的仪式和物品之中。"]
 			dependencies: [
 				"3D04A755B3FAFE95"
 				"138BD1F399AF5758"
@@ -591,15 +591,15 @@
 			}]
 		}
 		{
-			title: "Will forged in Hellfire"
+			title: "意志在狱火中锻造"
 			x: 6.5d
 			y: 0.0d
 			description: [
-				"It's easy to bleed for power, but that is merely an extension of the true essence of blood magic. "
+				"为了力量流血很容易，但那仅仅是血魔法的真正本质的一个延伸。"
 				""
-				"The truth of its power is in the will of the practicitioner. Raw will to control and bend the world to your desires is at the heart of this art. "
+				"它的力量的真相是在从事者的意志之中。控制原始的意志并把世界扭曲到你渴望的样子是这门技艺的关键。"
 				""
-				"To that end, you wil construct a hellfire forge. This will allow you to begin materializing and directly manipulating will into a physical form."
+				"最后，你将制作一个狱火锻炉。这将允许你开始具象化并直接把意志转化为物质形态。"
 			]
 			dependencies: ["4903CEB8C47D208D"]
 			id: "6495FB76535B1030"
@@ -654,9 +654,9 @@
 			x: 6.5d
 			y: -1.5d
 			description: [
-				"In order to contain some will to start the process you will need to find some hostile souls to ensnare."
-				"Throw the snare at them and hope it takes, some may resist the effects. You'll know its working if you see white particles on them."
-				"Once you've ensnared them, kill them and they should drop materialized demon essence for you to craft a tartaric gem with."
+				"为了收集一些意志来开启进程，你将会需要捕获一些敌对灵魂。"
+				"朝着它们扔投网然后保佑它收下了，有一些可能会抵抗这个效果。如果你看它们身上冒着白色粒子，你就会知道它生效了。"
+				"一旦你已诱捕了它们，杀死它们然后它们应该掉落物质化的恶魔意志，供你制作一块地狱魂石"
 			]
 			dependencies: ["6495FB76535B1030"]
 			id: "47525C1CDE2346F4"
@@ -706,7 +706,7 @@
 		{
 			x: 6.5d
 			y: -3.0d
-			description: ["You will need to continue enhancing and refining your containment methods. First start by upgrading to a lesser tartaric and then to a common. The common tartaric will enable you to create most of the mid teir blood magic components which including fully unlocking routing nodes for automation."]
+			description: ["你将需要继续强化和精炼你的控制手段。首先，把它升级到细块地狱魂石然后再是普通。 普通地狱魂石将能使你制作中阶血魔法的多数材料，包括完全解锁为自动化而生的路由节点（Routing Nodes）。"]
 			dependencies: ["47525C1CDE2346F4"]
 			id: "7B110F2E2E7002E6"
 			tasks: [{
@@ -750,7 +750,7 @@
 		{
 			x: 5.0d
 			y: -3.0d
-			description: ["You'll need to obtain demon blood shards from the demon realm and at least a tier IV blood altar to create the master will catalyst. This greater tartaric will enable the highest flow rate of will into your fabrications."]
+			description: ["你将会需要获得来自恶魔领域的恶魔气血碎片（Demon Blood Shard，并没有此物品）和至少一个四阶血之祭坛来制作大师意志催化剂（Master Will Catalyst，并没有这个东西）。这个大块地狱魂石将能够意志以最快的流速进入到你的造物之中。"]
 			dependencies: ["7B110F2E2E7002E6"]
 			id: "04D54AF2ACBAF945"
 			tasks: [{
@@ -830,7 +830,7 @@
 			x: 5.0d
 			y: -1.5d
 			description: [
-				"The sentient sword is a much more efficient way of collecting demonic will than snares. Any enemy you kill with the sentient sword will drop demonic will, which can automatically fill tartaric gems in your inventory."
+				"感知之剑是比投网更有效率的收集恶魔意志的方式。你用感知之剑杀死的任何敌人会掉落恶魔意志，可以自动填充到你物品栏里的地狱魂石之中。"
 				""
 			]
 			dependencies: ["47525C1CDE2346F4"]
@@ -850,7 +850,7 @@
 				{
 					id: "2F1F2787F95EE084"
 					type: "choice"
-					title: "Enchantment Choice"
+					title: "附魔的选择"
 					icon: {
 						id: "minecraft:enchanted_book"
 						Count: 1b
@@ -878,11 +878,11 @@
 			x: 11.5d
 			y: 3.0d
 			description: [
-				"The &bAlchemical Reactor Chamber&r is a powerful tool with multiple functions. It acts as a magical furnace and excels in &6Refining Ores&r, offering a chance for better yields."
+				"&b炼金反应炉&r是一个拥有多种功能的强大工具。它作为一个魔法熔炉和擅长&6精炼矿物&r，提供一个更好的产量的机会。"
 				""
-				"However, its primary function lies in obtaining &6Weak Blood Shards&r, a crucial element in our study of the arcane arts."
+				"然而，它摆在面前的首要功能是获取&6虚弱气血碎片&r，一个在我们学习奥术技艺中的关键要素。"
 				""
-				"Understand its versatility as it holds the key to various enchanting pursuits."
+				"了解它的多功能性因为它拥有多种魔法追求的关键。"
 			]
 			dependencies: ["65C2BC44E8065433"]
 			id: "11CE06B33AA17486"
@@ -905,14 +905,14 @@
 			}]
 		}
 		{
-			title: "Edge of the hidden Realm"
+			title: "隐域之缘"
 			icon: "bloodmagic:inversion_pillar"
 			x: 11.5d
 			y: 4.5d
 			description: [
-				"Allow me to introduce the &5Edge of the Hidden Realm&r. It's a significant test to assess your skills and strength. Crafting the &bInversion Pillar&r enables entry into this realm by interacting with it."
+				"允许我介绍&5隐域之缘仪式&r。它是一场评估你的技巧和力量的重大考验。 制作&b反转石柱（Inversion Pillar，并不能制作）&r ，与之互动你能进入这个领域。"
 				""
-				"By now, you should have acquired some &6Iron Keys&r. These keys serve as entry passes to unlock rooms within this hidden realm."
+				"到现在，你应该已经获得一些&6铁钥匙&r了。这些钥匙起到解锁隐域中房间的通行证的作用。"
 			]
 			dependencies: ["11CE06B33AA17486"]
 			id: "39A8E6F8A70D56EA"
@@ -925,7 +925,7 @@
 				{
 					id: "59D65421DF44E779"
 					type: "observation"
-					title: "Look at an Inversion Pillar"
+					title: "看着一根反转石柱"
 					icon: "bloodmagic:dungeon_emitter"
 					timer: 0L
 					observe_type: 0
@@ -943,11 +943,11 @@
 			x: 13.5d
 			y: 4.5d
 			description: [
-				"The primary goal within the &5Edge of the Hidden Realm&r is to acquire &bTau Fruit&r, which can be discovered in loot chests."
+				"在&5隐域之缘仪式&r中的首要目标是获得&b血命果&r，可以在战利品箱中发现它。"
 				""
-				"These fruits are challenging to cultivate as they require a unique process. Upon maturity, they need to leech onto a living being to satisfy their dark cravings and transform into a &bSaturated Tau&r."
+				"这些果实培育起来极具挑战性，因为它们需要一个独特的过程。在成熟之后，它们需要吸取一个活物的鲜血来满足它们对邪恶的渴望然后转化为一个&b饱满血命果&r。"
 				""
-				"To aid in this growth, utilizing the &2Ritual of Green Grove&r will significantly assist in nurturing these unique fruits."
+				"要协助这个的成长，使用&2绿丛仪式&r将会显著协助滋养这些独特的水果。"
 			]
 			dependencies: ["39A8E6F8A70D56EA"]
 			id: "62D76E4208D8F78F"
@@ -962,11 +962,11 @@
 			x: 13.5d
 			y: 3.0d
 			description: [
-				"We've gathered all the necessary elements to acquire the &bWeak Blood Shard&r and proceed towards the 4th Tier of the &5Blood Altar&r."
+				"我们已经收集了所有必需的元素来获得&b虚弱气血碎片&r然后向着第四阶&5血之祭坛&r前进。"
 				""
-				"Utilize the &6Alchemical Reaction Chamber&r alongside a &6Sanguine Reverter&r to obtain the shards. Once you acquire the &bBloodstone Bricks&r, we'll continue our exploration in the next class."
+				"使用&6炼金反应炉&r搭配&6血染恢复宝具&r来获得这些碎片。一旦你获得了&b血石砖&r，在下节课，我们将继续我们的探索。"
 				""
-				"Prepare yourselves for the next phase in our journey through the arcane arts."
+				"做好准备， 我们旅程的下一阶段贯穿着奥术技艺。"
 			]
 			dependencies: ["62D76E4208D8F78F"]
 			id: "05CDF6A1583773BF"
@@ -1007,7 +1007,7 @@
 		{
 			x: 15.5d
 			y: 0.0d
-			description: ["Hellforged blocks, while shining with raw demon will, are more than just an attractive centerpiece. They will act as the capstone for your Tier 5 blood altar. "]
+			description: ["狱铸块（Hellforged Block）， 当闪烁着原始的恶魔意志时，更像是一件诱人的中心装饰品。它们将会作为你的第五阶血之祭坛的顶点。"]
 			dependencies: ["3406F2D47C79C6E4"]
 			id: "138BD1F399AF5758"
 			tasks: [{
@@ -1046,11 +1046,11 @@
 			x: 13.5d
 			y: 0.0d
 			description: [
-				"Upgrading the &bRitual Diviner&r to its Dusk variant is a straightforward task. Begin by transmuting 2 &6Coal Blocks&r into the Inscription Tool: Dusk. Combine this tool with your old &bRitual Diviner&r and 2 Demonic Slates to complete the upgrade."
+				"把&b仪式推测杖&r升级到它的薄暮版本是一项简单的任务。刚开始把两块&6煤炭块&r嬗变为元素铭文工具：薄暮。把这个工具你的旧的&b仪式推测杖&r相组合，再加上两块恶魔石板来完成升级。"
 				""
-				"This enhancement process should yield the improved &bRitual Diviner&r Dusk without much difficulty."
+				"这次升级过程应该对于生产改良后的&b仪式推测杖&r【薄暮】没有任何难度。"
 				""
-				"Prepare yourselves for the upgraded capabilities this tool will offer in our future enchanting pursuits."
+				"为这个升级能力后的工具做好准备，日后将会提供我们在魔法上的需求。"
 			]
 			dependencies: ["3D04A755B3FAFE95"]
 			id: "49917727000AB63A"
@@ -1076,7 +1076,7 @@
 		{
 			x: 6.5d
 			y: 4.5d
-			description: ["The basic alchemy flask is the start of aclhemical elixers. You should learn quickly to stockpile the ingredients for these as they will be called to use often."]
+			description: ["药剂瓶（Flask）是炼金药剂的开始。你应该快速学习来储存材料，因为它们这些经常用的到。"]
 			dependencies: ["4D8EAAC6A2576BCD"]
 			id: "7E2B7879C3C7FA47"
 			tasks: [{
@@ -1131,7 +1131,7 @@
 		{
 			x: 6.5d
 			y: 6.0d
-			description: ["The simple catalyst the primary binding agent for all advanced elixers. It is capable of binding mundane components to the life essence infused alchemical flasks to extract unique effects from them."]
+			description: ["简单的催化剂（Simple Catalyst）是所有高级药剂的初级粘合剂。它能把平凡的材料结合起来到注入生命源质的炼金药剂瓶（Flask）中来从中提取独一无二的效果。"]
 			dependencies: ["4D8EAAC6A2576BCD"]
 			id: "500CFBA806613E18"
 			tasks: [{
@@ -1169,7 +1169,7 @@
 		{
 			x: 6.5d
 			y: 7.5d
-			description: ["Strengthening the catalysts will require more rare components but can greatly increase the effectiveness of many types of potions. Consider using filling agents on these more expensive flasks after you've upgraded them."]
+			description: ["强化这些催化剂将会需要更加稀有的材料，但是可以极大地增加很多种药水的效力。在你已经升级了它们之后，考虑使用填充试剂（Filling Agent）在这些更加昂贵的药剂瓶（Flask）上。"]
 			dependencies: ["500CFBA806613E18"]
 			id: "15FB4DF8E7671C6F"
 			tasks: [{
@@ -1207,7 +1207,7 @@
 		{
 			x: 5.0d
 			y: 6.0d
-			description: ["Small catalysts are similar to glowstone in standard potions. It will increase the effect of the topmost flask effect only."]
+			description: ["小型功效催化剂（Small Power Catalyst）和在普通药水中的萤石类似。它只会增强药剂瓶（Flask）中最前面的效果。"]
 			dependencies: ["500CFBA806613E18"]
 			id: "1BB440E428FACDA2"
 			tasks: [{
@@ -1238,7 +1238,7 @@
 		{
 			x: 8.0d
 			y: 6.0d
-			description: ["Lengthening catalyst will increase the duration of the top most effect in one of your flasks. Used in a single effect flask it will work similarly to extending standard potions. "]
+			description: ["小型延时催化剂（Lengthening Catalyst）会增加你的药剂瓶（Flask）中最前面效果的持续时间。在单一效果的药剂瓶（Flask）中使用就和延长普通药水起到的作用类似。"]
 			dependencies: ["500CFBA806613E18"]
 			id: "33C35A4B86B1DF6B"
 			tasks: [{
@@ -1250,7 +1250,7 @@
 		{
 			x: 8.0d
 			y: 7.5d
-			description: ["The standard lengthening catalyst will increase the duration of all effects in your flask. "]
+			description: ["普通的延时催化剂（Standard Lengthening Catalyst）会增加你的试剂瓶（Flask）里所有效果的持续时间。"]
 			dependencies: ["15FB4DF8E7671C6F"]
 			id: "5F68B1F88627B7FA"
 			tasks: [{
@@ -1322,11 +1322,11 @@
 			x: 9.5d
 			y: 3.0d
 			description: [
-				"Rituals stand as a fundamental aspect in the realm of &5Bloodmagic&r. To initiate a ritual, the minimum requirement consists of 1 &bMaster Ritual Stone&r complemented by several &bRitual Stones&r. Their proper arrangement is paramount for the successful execution of these rituals."
+				"仪式作为&5血魔法&r领域中的一个基本方面。想要激活一个仪式，最低要求由一个&b主仪式石&r，辅以不同的&b仪式石&r组成。它们的合理搭配对成功实施这些仪式来说至关重要。"
 				""
-				"Upon completing this task, each of you will be rewarded with a &6Ritual Diviner&r. This rod enables you to choose the ritual you wish to cast, a pivotal tool for your upcoming Bloodmagic endeavors."
+				"这个任务完成后，都会奖励你们每个人一个&6仪式推测杖&r。这根棒子能帮你选择你想要施展的仪式，一件为你即将到来的血魔法探索关键的工具。"
 				""
-				"Understand the importance of these components and their arrangement. They form the cornerstone of your mastery in arcane rituals."
+				"理解这些材料和它们的布置的重要性。它们成为了你在精通奥术仪式的基石。"
 			]
 			dependencies: ["387CE36B90720D95"]
 			id: "602284B29D99D2F4"
@@ -1379,16 +1379,16 @@
 			x: 13.5d
 			y: -1.5d
 			description: [
-				"To access the Endless realm you must construct the ritual Pathway to the Endless Realm. Once activated you'll find yourself facing an inversion pillar and an endless series of dungeons and doorways with ever increasing challenges."
+				"想要进入无尽领域，你必须要构建通往无尽领域的仪式。一旦激活，你会发现你自己面朝着一根反转石柱和一个无尽版本的地牢，并且门口伴随着不断增加的挑战。"
 				""
-				"Make sure you keep an eye out for rare challenges such as spatial distortions and rare keys like the foreman's key that will grant you access to deeper sections of the dungeon."
+				"确保你留意稀有挑战例如空间扭曲和稀有钥匙例如工头的钥匙（Foreman's Key），会保证你通往地牢更深的部分。"
 			]
 			dependencies: ["49917727000AB63A"]
 			id: "38466472D199F498"
 			tasks: [{
 				id: "3E259E5DC903503C"
 				type: "dimension"
-				title: "Enter the Endless Realm"
+				title: "进入无尽领域"
 				dimension: "bloodmagic:dungeon"
 			}]
 			rewards: [
@@ -1414,11 +1414,11 @@
 			]
 		}
 		{
-			title: "Find some Demonite"
+			title: "找到一些恶魔合金矿"
 			icon: "bloodmagic:dungeon_ore"
 			x: 15.5d
 			y: -1.5d
-			description: ["Demonite ore can only be found within the endless dungeons, specifically in the mines. The mines require a foreman's key to acess spatial distortions that are within the mazelike structures. "]
+			description: ["恶魔合金矿只能在无尽地牢（Endless Dungeons）中找到，尤其是在矿井之中。矿井需要一把通往空间扭曲的，里面有着类似迷宫的结构的工头的钥匙（Foreman's Key）打开。"]
 			dependencies: ["38466472D199F498"]
 			id: "3406F2D47C79C6E4"
 			tasks: [{
@@ -1488,7 +1488,7 @@
 			]
 		}
 		{
-			title: "Blood and Sacrifice"
+			title: "鲜血与献祭"
 			icon: {
 				id: "bloodmagic:experiencebook"
 				Count: 1b
@@ -1499,13 +1499,13 @@
 			x: 1.0d
 			y: 1.5d
 			shape: "pentagon"
-			subtitle: "Find Saereth"
+			subtitle: "找到萨拉斯"
 			description: [
-				"Hello Students. "
+				"你好，同学们。 "
 				""
-				"Blood and Sacrifice are the very heart of existance. I doubt many of you will have the stomach for what this class will require of you, but for those that do, power and knowledge unlike any you've experienced before."
+				"鲜血与献祭是生活的核心。我对你们中的多数有勇气去做这门课要求你们去做的表示怀疑，但是凡是去照做的，不像任何你以前已经体验过的力量和知识。"
 				""
-				"Everything has a cost, my students. This class will teach you how much you're willing to pay to get what you want. "
+				"凡事都有代价，我的同学们。这门课将教会你你乐意付出多少来获得你想要得到的。"
 			]
 			dependencies: ["63368A007664E4B5"]
 			hide_text_until_complete: true
@@ -1513,7 +1513,7 @@
 			tasks: [{
 				id: "5C68F181A1888D74"
 				type: "location"
-				title: "Find Saereth"
+				title: "找到萨拉斯"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -1571,7 +1571,7 @@
 					id: "217269F5B333DFF6"
 					type: "command"
 					auto: "invisible"
-					command: "/title @p title {\"text\":\"Welcome to BloodMagic, \"color\":\"red\"}"
+					command: "/title @p title {\"text\":\"欢迎来到血魔法, \"color\":\"red\"}"
 					silent: true
 				}
 				{
@@ -1593,7 +1593,7 @@
 		{
 			x: 8.0d
 			y: 4.5d
-			description: ["Now to something slightly more advanced, if you think yourself capable. Combine the rabbits foot and the simple catalyst to create your first advanced elixer."]
+			description: ["如果你觉得你能行，现在来点稍微更高级的东西。把兔子脚和简单的催化剂（Simple Catalyst）组合来制作你的第一瓶高级药剂。"]
 			dependencies: [
 				"7E2B7879C3C7FA47"
 				"500CFBA806613E18"
@@ -1668,7 +1668,7 @@
 			x: 9.5d
 			y: 4.5d
 			description: [
-				"Well done, so far. Try to keep up though, we're moving onto more advanced topics. From the lower tier alchemical potions we can enhance them further with the lingering catalytic energies. Combine the jump boost potion you crafted with a cobweb to manufacture a grounded potion."
+				"目前为止做得好。但尝试坚持下去，我们正在深入更高级的话题。由低阶的炼金药水起，我们可以通过使用滞留型催化能量来进一步加强它们。把你制作的跳跃提升药水与一张蜘蛛网组合来制作一瓶沉重药水（Grounded Potion）。"
 				""
 			]
 			dependencies: ["533B2E1315E2DC56"]
@@ -1736,13 +1736,13 @@
 			]
 		}
 		{
-			title: "Combination Elixers"
+			title: "组合药剂"
 			x: 9.5d
 			y: 6.0d
 			description: [
-				"The next phase, and this is getting more dangerous, is to combine elixers. You can create combination elixers by using an elixer you've already brewed to create a new potion instead of using a standard flask. "
+				"下一阶段，这会变得更加危险，就是组合药剂。你可以通过使用一瓶你已经酿造好的药剂来制作组合药剂，从而制作一瓶新的药水而不是使用一个普通的药剂瓶（Flask）。"
 				""
-				"Take the previous potion you brewed and combine it with a phantom membrane and another simple catalyst to create a hybrid potion."
+				"使用你先前酿造的药水，把它与一个幻翼膜组合，然后再加上一个简单的催化剂（Simple Catalyst）来制作混合药水。"
 			]
 			dependencies: ["04F607E6633A19E7"]
 			id: "477E63EFA40523B7"
@@ -1825,13 +1825,13 @@
 			]
 		}
 		{
-			title: "The gravity of experimentation"
+			title: "重力的体验"
 			x: 9.5d
 			y: 7.5d
 			description: [
-				"Next you can take some hybrid potions and insert a combinational catalyst to cause a synergetic reaction within. This often results in an entirely new potion with entirely different effects."
+				"下一步，你可以拿一些混合药水然后插入一个组合型催化剂来产生内部的一个协同反应。这通常会产生一个有着完全不同效果的全新试剂。"
 				""
-				"Use the potion you've already brewed and combine it with the catalyst to create a gravity potion."
+				"使用你已经酿造好的药水，然后把它与这个催化剂（Combinational Catalyst）组合来制作一瓶重力药水（Gravity Potion）。"
 				""
 			]
 			dependencies: ["477E63EFA40523B7"]
@@ -1932,13 +1932,13 @@
 			]
 		}
 		{
-			title: "Wingardium Lev... err Leviation Potions"
+			title: "羽加迪姆勒维……额，飘浮药水"
 			x: 11.5d
 			y: 6.0d
 			description: [
-				"By brewing a fermented spider eye into a slow fall potion you can create a levitation potion. These are mostly useful as splash variants or in hybrid potions."
+				"通过在一瓶缓降药水加入一个发酵蛛眼酿造你可以制作一瓶飘浮药水（Levitation Potion）。大多数情况下，作为喷溅型或者混合药水中是非常有用的。"
 				""
-				"As we are aiming to make a combination potion you should use the suspended potion you just made along with a membrane and catalyst to create a hybrid slowfall and suspend potion. Finally you should use the resulting potion with another fermented spider eye (without a catalyst this time) to create a combination levitation and suspention potion."
+				"就像我们正准备制作一瓶组合药水， 应该和你做的悬浮药水（Suspended Potion）搭配一个幻翼膜和一个催化剂（Simple Catalyst）搭配使用来制作一瓶混合缓降和缓降药水。最后，你应该用产生的药水与另一个发酵蛛眼组合（这一次不用催化剂）来制作一瓶飘浮与悬浮（Suspended）的组合药水。"
 			]
 			dependencies: ["3630A055036FE55D"]
 			id: "799EF66469EB3233"
@@ -2034,10 +2034,10 @@
 			]
 		}
 		{
-			title: "Suspensions"
+			title: "悬浮"
 			x: 11.5d
 			y: 7.5d
-			description: ["Now combine a fermented spider eye with the gravity potion to create a suspended potion."]
+			description: ["现在把一个发酵蛛眼与重力药水（Gravity Potion）组合会做出悬浮药水。"]
 			dependencies: ["7DFDB0FA8BB3ED57"]
 			id: "3630A055036FE55D"
 			tasks: [{
@@ -2095,13 +2095,13 @@
 			]
 		}
 		{
-			title: "Mastery takes Flight"
+			title: "熟练掌握飞行"
 			x: 13.5d
 			y: 6.0d
 			description: [
-				"By once again combining the hybrid potion with a combinational catalyst the resulant potion can grant perfected flight for a limited duration."
+				"通过再一次把混合药水与一个组合型催化剂（Combinational Catalyst）相结合，产生的药水可以给予一段有限的持续飞行的效果。"
 				""
-				"You can further strengthen these potions using lengthening catalysts."
+				"你可以使用延时催化剂（Lengthening Catalyst）来进一步强化这些药水。"
 				""
 			]
 			dependencies: ["799EF66469EB3233"]
@@ -2178,13 +2178,13 @@
 			]
 		}
 		{
-			title: "Refilling simplified"
+			title: "简化重填"
 			x: 5.0d
 			y: 4.5d
 			description: [
-				"Some of the potions you will learn to craft in this class can be highly complex and require many refinement steps to make."
+				"在这节课你学会制作的有些药水可能相当复杂，并且需要很多步骤来提纯。"
 				""
-				"To that end, replenishing them is luckily much simpler. Create filling agents to combine with flasks that you've crafted and they will refill them at the cost of much more mundane elements."
+				"为了达到那个目的，幸运的是重新装填它们简单多了。制作填充试剂（Filling Agent）来与你制作的药剂瓶（Flask）相组合，代价是以更平凡的元素来重新装填它们。"
 			]
 			dependencies: ["7E2B7879C3C7FA47"]
 			id: "52F59996FF884FE8"
@@ -2227,15 +2227,15 @@
 			]
 		}
 		{
-			title: "Routing your Nodes"
+			title: "规划你的节点"
 			x: 8.5d
 			y: -1.5d
 			description: [
-				"With access to &6Demonic Will&r, it's time to delve into the functionality of moving items using Routing Nodes."
+				"通过接入&6恶魔意志&r，是时候钻研使用路由节点（Routing Node）搬运物品的功能了。"
 				""
-				"Setting up a Routing Node system necessitates at least one &bMaster Routing Node&r, serving as the \"Brain\" of our system."
+				"设置一个路由节点（Routing Node）系统需要至少一个&b主控路由节点（Master Routing Node）&r，起到我们系统中的“大脑”的作用。"
 				""
-				"Using your &6Node Router&r to connect two &bRouting Nodes&r together is how you expand your Network."
+				"使用你的&6节点连接工具（Node Router）&r来链接两个&b路由节点（Routing Node）&r到一起，这就是拓展你网络的方式了。"
 			]
 			dependencies: ["47525C1CDE2346F4"]
 			id: "2C708A0A20040DF4"
@@ -2277,15 +2277,15 @@
 			]
 		}
 		{
-			title: "IO Nodes"
+			title: "IO节点"
 			x: 10.0d
 			y: -1.5d
 			description: [
-				"In addition of the &6Master Routing Node&r, having a minimum of one &bInput Routing Node&r and one &bOutput Routing Node&r becomes imperative, handling the input and output of items within the system. "
+				"除了&6主控路由节点（Master Routing Node）&r，拥有至少一个&b输入路由节点（Input Routing Node）&r和一个&b输出路由节点（Out Routing Node）&r是极其重要的，在这个系统里掌控着输入和输出物品。"
 				""
-				"Moreover, an &6Item Filter&r is essential, allowing or denying specific items for movement. Several types of &6Item Filters&r are available, offering versatility in item management. These Routing nodes feature various channels, each capable of accepting a separate filter."
+				"此外，一个&6物品筛选器（Item Filter）&r是必不可少的，允许或者拒绝移动特定的物品。有好几种&6物品筛选器（Item Filter）&r可供使用，提供在物品管理上的多功能性。这些路由节点（Routing Node）以多个频道为特色, 每一个频道都能接受一个单独的筛选器。"
 				""
-				"Understanding this versatile tool will significantly simplify your endeavors as a Blood Magician."
+				"了解这个多功能工具将会显著简化你想成为血魔法师之路。"
 			]
 			dependencies: ["2C708A0A20040DF4"]
 			id: "230FC217A5BC41C1"
@@ -2339,9 +2339,9 @@
 			y: -3.0d
 			shape: "diamond"
 			description: [
-				"So you are having trouble with the Mobs inside the Dungeon?"
+				"所以你在地牢里面与那些怪物遇到困难了？"
 				""
-				"I'll make them easier for you, if you aren't capable of dealing with them. "
+				"如果你没有能力解决它们，我会使得它们更简单。"
 			]
 			dependencies: ["38466472D199F498"]
 			hide: true
@@ -2350,12 +2350,12 @@
 			tasks: [{
 				id: "0B46A30EA2A2A963"
 				type: "checkmark"
-				title: "Dungeon Nerf"
+				title: "地牢削弱"
 			}]
 			rewards: [{
 				id: "6D36AABFF74E02C3"
 				type: "custom"
-				title: "Toggle Mob Nerf"
+				title: "切换至削弱怪物"
 				icon: {
 					id: "ftbquests:custom_icon"
 					Count: 1b
