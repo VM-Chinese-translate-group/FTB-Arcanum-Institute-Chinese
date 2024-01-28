@@ -37,64 +37,64 @@ const mobDropShop = [
 onEvent('jei.information', (event) => {
     event.add(
         ['ftbai:soil', 'botania:pebble'],
-        'Sneak right-click Dirt or Grass with an empty hand'
+        '空手潜行右击泥土或草方块。'
     )
 
     event.add('botania:twig_wand', [
-        'This Wand can be used to till:',
-        '- Grass',
-        '- Dirt',
-        '- Coarse Dirt',
-        '- Rooted Dirt',
+        '此魔杖可用于耕作：',
+        '- 草方块',
+        '- 泥土',
+        '- 砂土',
+        '- 缠根泥土',
     ])
 
     event.add('botania:dreamwood_wand', [
-        'This Wand can be used to till a 3x3 of',
-        '- Grass',
-        '- Dirt',
-        '- Coarse Dirt',
-        '- Rooted Dirt',
+        '此魔杖可用于耕作3x3范围的：',
+        '- 草方块',
+        '- 泥土',
+        '- 砂土',
+        '- 缠根泥土',
     ])
 
     event.add(shopInfo, [
-        'This item can be obtained in one of the Goblin Shops!',
+        '在其中一个哥布林商店可获得此物品！',
         ' ',
-        'Be sure to find them all!',
+        '一定要全部找到！',
     ])
 
-    event.add(questRewards, 'Given as a quest reward')
+    event.add(questRewards, '作为任务奖励获得')
 
     event.add(mobDropShop, [
-        'Goblin Shops sell Gate Pearls, which spawn waves of mobs.',
+        '哥布林商店售卖传送门珍珠，可召唤多波次生物。',
         ' ',
-        'These mobs drop the items listed!',
+        '这些生物会掉落所列物品！',
     ])
-
+//courtyard TODO
     event.add(
         ['minecraft:shulker_shell'],
         [
-            'The Magic Mischief Emporium (located in the courtyard) sells Shulker Gate Pearls!',
+            '魔法捣蛋鬼百货商店（位于庭院内）出售潜影贝传送门珍珠！',
             ' ',
-            'On use, these spawn waves of Shulkers, which drop Shulker Shells!',
+            '使用后，会生成许多波潜影贝，会掉落潜影壳！',
         ]
     )
 
     event.add(
         'minecraft:iron_ore',
-        'Raw Iron can be purchased from one of the Goblin Shops!'
+        '哥布林商店可以买到粗铁！'
     )
     event.add(
         'minecraft:copper_ore',
-        'Raw Copper can be purchased from one of the Goblin Shops!'
+        '哥布林商店可以买到粗铜！'
     )
     event.add(
         'occultism:silver_ore',
-        'Raw Silver can be purchased from one of the Goblin Shops!'
+        '哥布林商店可以买到粗银！'
     )
 
     event.add(
         'rootsclassic:dragons_eye',
-        'Has a 10% chance of dropping from Chorus Flowers'
+        '紫颂花有10%概率掉落此物品'
     )
 
     event.add(
@@ -103,38 +103,38 @@ onEvent('jei.information', (event) => {
             'hexcasting:amethyst_dust',
             'hexcasting:charged_amethyst',
         ],
-        'Drops from Amethyst Clusters, which grow on Budding Amethyst'
+        '掉落于在紫水晶母岩上生长的紫水晶簇'
     )
 
     event.add(
         'minecraft:glowstone_dust',
-        'Glowstone blocks can be acquired using the Orechid or Dimensional Mineshaft'
+        '荧石块可通过凝矿兰或维度矿井获得'
     )
 
-    event.add('minecraft:water_bucket', 'The Hex Casting chapter has a quest explaining how to get water')
+    event.add('minecraft:water_bucket', '咒法学章节包含获取水的方法')
     Object.entries(spirits).forEach(([spirit, mobs]) => {
-        event.add(`malum:${spirit}_spirit`, `Can be obtained by killing\n\n${mobs.join('\n')}\n\nand many more!`)
+        event.add(`malum:${spirit}_spirit`, `击杀\n\n${mobs.join('\n')}\n\n等获得`)
     })
 })
 
 onEvent('item.tooltip', (tooltip) => {
     tooltip.add(
         shopInfo,
-        'This item can be obtained in one of the Goblin Shops'
+        '哥布林商店中可获得此物品'
     )
     tooltip.add(
         'ftbai:wooden_bucket',
-        'Crafting Component for Edelwood Water Bucket'
+        '埃德木水桶的合成部件'
     )
 })
 
 const spirits = {
-    wicked: ['Zombie', 'Creeper', 'Skeleton', 'Drowned', 'Stray'],
-    earthen: ['Zombie', 'Cow'],
-    infernal: ['Creeper', 'Blaze' ],
-    arcane: ['Creeper', 'Skeleton', 'Blaze', 'Enderman' ],
-    sacred: ['Cow', 'Bat', 'All Passive Animals'],
-    aqueous: ['Drowned'],
-    aerial: ['Bat', 'Stray', 'Chicken'],
-    eldritch: ['Enderman']
+    wicked: ['僵尸', '苦力怕', '骷髅', '溺尸', '流浪者'],
+    earthen: ['僵尸', '牛'],
+    infernal: ['苦力怕', '烈焰人' ],
+    arcane: ['苦力怕', '骷髅', '烈焰人', '末影人' ],
+    sacred: ['牛', '蝙蝠', '所有被动动物'],
+    aqueous: ['溺尸'],
+    aerial: ['蝙蝠', '流浪者', '鸡'],
+    eldritch: ['末影人']
 }
