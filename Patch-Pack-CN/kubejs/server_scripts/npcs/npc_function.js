@@ -12,7 +12,7 @@ onEvent('item.entity_interact', (event) => {
         if (name == key && player.stages.has(codex_stages[key])) {
             let index = player.inventory.find(`ftbai:${codex_stages[key]}`)
             if(index != -1) return
-            player.tell(`You lost your Codex? Here take a new one!`)
+            player.tell(`你的典籍丢了？给你本新的`)
             player.give(`ftbai:${codex_stages[key]}`)
             return
         }
@@ -39,10 +39,10 @@ onEvent('item.entity_interact', (event) => {
     }
 })
 const goblinNames = {
-    Haaznek: '619CD05EC09EC8B4',
-    Ibseang: '512C6E629FD19B23',
-    Brobzagz: '1CBE9AA80BBD1066',
-    Zruzz: '79BE594F4EAE956B'
+    哈兹涅克: '619CD05EC09EC8B4',
+    艾普信: '512C6E629FD19B23',
+    布罗布扎格兹: '1CBE9AA80BBD1066',
+    泽鲁兹: '79BE594F4EAE956B'
 }
 const npc = {
     dialog: function (event, npc, isRandom) {

@@ -50,7 +50,7 @@ function fishermanDialog(event) {
     }
 
     player.tell(
-        `<Fisherman> Yo! ${player.name.text}! You seem to be in a heap of trouble, but this is all I can give you.`
+        `<渔夫> 呦，${player.name.text}！你似乎遇到了很大的麻烦，但这是我力所能及的。`
     )
 
     player.stages.add('fairy_obtained')
