@@ -1,0 +1,45 @@
+{
+  "name": "恶魔合金",
+  "icon": "bloodmagic:dungeon_ore",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:dungeon_ore": 0,
+    "bloodmagic:rawdemonite": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)恶魔合金矿$()只存在$(thing)地城$()中，特别是在$(thing)矿坑$()中，透过找到一把$(item)领班钥匙$()并在迷宫般结构的某处解锁$(thing)空间的扭曲$()。能够用来制作$(item)狱火锻造锭$()或是$(item)狱火锻造沙$()。 $(br2)当使用丝绸之触开采时，可以直接得到矿石，否则会掉落$(item)恶魔合金原矿$()。"
+    },
+    {
+      "type": "patchouli:smelting",
+      "heading": "狱火锻造锭",
+      "recipe": "bloodmagic:smelting/ingot_from_demonite",
+      "recipe2": "bloodmagic:smelting/ingot_from_raw_hellforged",
+      "recipe3": "bloodmagic:smelting/ingot_hellforged"
+    },
+    {
+      "type": "patchouli:smelting",
+      "heading": "狱火锻造锭",
+      "recipe": "bloodmagic:smelting/ingot_hellforged"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_arc",
+      "a.heading": "狱火锻造沙",
+      "a.recipe": "bloodmagic:arc/dustsfrom_gravel_hellforged",
+      "b.recipe": "bloodmagic:arc/dustsfrom_ore_hellforged",
+      "c.recipe": "bloodmagic:arc/dustsfrom_raw_hellforged"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_arc",
+      "a.heading": "恶魔合金加工",
+      "a.recipe": "bloodmagic:arc/fragmentshellforged",
+      "b.recipe": "bloodmagic:arc/gravelshellforged"
+    },
+    {
+      "type": "patchouli:crafting",
+      "heading": "狱火锻造块",
+      "recipe": "bloodmagic:hellforged_block"
+    }
+  ]
+}

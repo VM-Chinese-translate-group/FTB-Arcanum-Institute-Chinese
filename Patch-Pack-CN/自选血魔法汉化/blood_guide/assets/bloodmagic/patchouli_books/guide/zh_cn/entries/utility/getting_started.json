@@ -1,0 +1,84 @@
+{
+  "name": "阶级&入门",
+  "icon": "bloodmagic:sacrificialdagger",
+  "category": "bloodmagic:utility",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(blood)Blood Magic 3$()仍然在重新设计中，前期过程与$(blood)Blood Magic 2$()有很大的不同。 $(br2)我们仍然在重新调整我们的教学，但我们正在等待，直到开发进展停止。同时，这里是关于在$(blood)Blood Magic3$()取得进展的概述。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:altar",
+      "title": "血祭坛(阶级-1)",
+      "text": "$(blood)Blood Magic$()的第一步是制作$(l:bloodmagic:altar/blood_altar)血祭坛$()以及$(l:bloodmagic:altar/blood_altar#knife)牺牲匕首$()。透过自我牺牲取得$(blood)LP$()。$(br2)使用$(blood)LP$()来制作$(l:bloodmagic:altar/soul_network)微弱血宝珠$()，一些$(l:bloodmagic:altar/slates)空白石板$()，以及一点$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂掠夺者$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemytable",
+      "title": "炼金桌 (阶级-1)",
+      "text": "$(l:bloodmagic:alchemy_table/alchemy_table)炼金桌$()使用来自玩家$(thing)灵魂网路$()中的$(blood)LP$()(来自于$(l:bloodmagic:altar/soul_network)绑定的血宝珠$())以制作各种不同的物品:$(li)$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术灰烬$()$(li)$(item)印记的试剂$()$(li)$(l:bloodmagic:alchemy_table/anointments)药剂$()$(li)$(thing)2倍的矿物处理$()$(li)以及其他零碎的物品。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:arcaneashes",
+      "title": "炼金阵(阶级-1)",
+      "text": "$(thing)炼金阵$()是透过将一些$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术灰烬$()放置在地上时形成的。炼金阵可以使用[$(k:use)]将2种$(item)物品$()放入其中，并制作为另一个$(item)物品$()(例如$(l:bloodmagic:alchemy_array/sigil/divination)占卜印记$())或执行$(thing)某种功能$()(例如$(l:bloodmagic:alchemy_array/functional_arrays/time_arrays)日/夜转换阵$())。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:soulforge",
+      "title": "狱火锻造炉(阶级-1)",
+      "text": "$(l:bloodmagic:demon_will/will_manipulation/soul_forge)狱火锻造炉$()使用$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()进行制作。当你使用$(l:bloodmagic:demon_will/will_manipulation/soul_snare)灵魂掠夺者$()得到第一个$(raw)意志$()之后，推荐将其升级为$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之剑$()。$(item)狱火锻造炉$()是用于与$(raw)恶魔意志$()直接相关的物(像是$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱魂石$()以及$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$())，和消耗品(像是$(l:bloodmagic:demon_will/demonic_items/explosive_charges)炸药$()以及$(l:bloodmagic:demon_will/demonic_items/throwing_daggers)飞刀$())。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:daggerofsacrifice",
+      "title": "阶级2",
+      "text": "在这点上，你将能够制作$(l:bloodmagic:altar/blood_altar#dagger_of_sacrifice)献祭刀$()以便屠杀生物获取更多的$(blood)LP$()。各式各样的$(item)升级符文$()可以用于$(item)血祭坛$()，还有更多$(item)印记$()可用。跟之前一样，你应该专注升级你的$(l:bloodmagic:altar/blood_altar)祭坛$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:alchemy_flask",
+      "title": "魔药制作(阶级-2)",
+      "text": "如果建造你的$(l:bloodmagic:altar/blood_altar)祭坛$()变得令人烦躁，你觉得需要转换心情，为何不试试新的$(l:bloodmagic:alchemy_table/potions)魔药制作$()系统?你将能够制作$(thing)炼金瓶$()并且赋予它们数种效果。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ritualdiviner",
+      "title": "阶级3",
+      "text": "到目前，你将有能力开始一些基本的$(l:bloodmagic:rituals/ritual_basics)仪式$()以及制作$(l:bloodmagic:alchemy_array/living_equipment/living_basics)束灵铠甲$()。这种铠甲的用途非常广泛，尽管你必须努力使其升级才能发挥全部潜力。在这一点上，你应该考虑升级你的$(l:bloodmagic:altar/blood_altar)祭坛$()以及$(l:bloodmagic:rituals/ritual_diviner)仪式占卜杖$()以便解锁更强大的$(thing)仪式$()。你说如何?"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:simplekey",
+      "title": "勇闯地牢(阶级-3)",
+      "text": "透过执行$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隐域仪式$()，就是这样!你能够进入$(thing)魔域$()，并希望得到$(l:bloodmagic:dungeons/tau_fruit)血命果$()，它能够进一步培育成$(thing)饱满血命果$()并且在$(l:bloodmagic:utility/alchemical_reaction_chamber炼金术反应室$()转化为$(item)微弱血碎片$()。这能够用来建造阶级IV祭坛，更强大的$(l:bloodmagic:alchemy_table/anointments)药剂$()，以及$(l:bloodmagic:alchemy_table/potions#average_potions)催化剂$()。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:vengefulcrystal",
+      "title": "阶级4",
+      "text": "你可能会想研究一下$(l:bloodmagic:rituals/ritual_tinkerer)仪式调整杖$()使各种类型的$(l:bloodmagic:demon_will/will_manipulation/aspected_will)意志$()对你有帮助，并考虑如何利用它们来完善你现有的仪式并改变$(l:bloodmagic:demon_will/demonic_items/sentient_tools)感知工具$()以及$(l:bloodmagic:demon_will/demonic_items/sentient_sword)武器$()的运作方式。但想超越这一点，你必须更深入研究$(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)魔域$()..."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:mineentrancekey",
+      "title": "魔域(阶级-4)",
+      "text": "透过执行$(thing)无尽之路仪式$()，你可以更深入$(thing)魔域$()，以及它所有的宝藏和恐怖的东西。来吧，为战斗做好准备!深入研究之后，你可能会发现丰富的$(l:bloodmagic:dungeons/demonite)恶魔合金矿$()，能够组合成方块并和$(item)大法师血宝珠$()用于祭坛上的顶端。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:ingot_hellforged",
+      "title": "阶级5",
+      "text": "这是最顶级的阶级，在此你可以获得关于$(blood)Blood Magic$()提供的一切。继续深入魔域获取珍稀宝藏，你可能能够幸运得到$(item)精密狱火锻造组件$()，以及一些$(item)远古遗骸$()使你的祭坛符文力量翻倍。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "minecraft:barrier",
+      "title": "阶级6?",
+      "text": "什么?不。看，就算是在1.12，这也只是数据包作者的一种创作，除此之外没有任何事。你已经走太远了。翻回前一页。"
+    }
+  ]
+}

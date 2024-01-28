@@ -1,0 +1,27 @@
+{
+  "name": "你的第一个意志",
+  "icon": "bloodmagic:soulsnare",
+  "category": "bloodmagic:demon_will/will_manipulation",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_altar",
+      "heading": "灵魂掠夺者",
+      "recipe": "bloodmagic:altar/soul_snare",
+      "text": "$(item)灵魂掠夺者$()是让你进入$(blood)Blood Magic$()$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()的道路。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "使用$(item)掠夺者$()很简单 - 制作大量的东西，并将其扔向$(thing)敌对生物$()。它们周围将会散发出白色粒子效果，然后就是屠杀的时间了。在死亡后，它们将掉落$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()。在你提问之前，没错，掠夺附魔能够增加掉落的$(raw)意志$()。一但你搜集了一些，你就能够开始为自己制作$(l:bloodmagic:demon_will/demonic_items/sentient_sword)感知之剑$()以及$(l:bloodmagic:demon_will/will_manipulation/soul_gem)地狱魂石$() - 这些将使搜集$(l:bloodmagic:demon_will/will_manipulation/demon_will)恶魔意志$()更加轻松。"
+    },
+    {
+      "type": "patchouli:image",
+      "images": [
+        "bloodmagic:images/entries/demon_will/snare_particles.png"
+      ],
+      "title": "效果中的骷髅",
+      "border": true,
+      "text": "被掠夺者击中后散发白色粒子的骷髅。"
+    }
+  ]
+}

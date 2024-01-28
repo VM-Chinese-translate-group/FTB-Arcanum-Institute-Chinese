@@ -1,0 +1,25 @@
+{
+  "name": "缓燃之油",
+  "icon": "bloodmagic:smelting_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "缓燃之油",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment",
+      "text": "使用热力冶炼方块。 $(br2)有效物品:工具，剑，炸药。 $(br2)套用:加热工具I (256 方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "缓燃之油 L",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_l",
+      "text": "这种升级版的药剂可延长4倍效果次数。 $(br2)套用:加热工具I (1024 方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "缓燃之油 XL",
+      "recipe": "bloodmagic:alchemytable/smelting_anointment_xl",
+      "text": "这种升级版的药剂可延长16倍效果次数。 $(br2)套用:加热工具I (4096 方块)"
+    }
+  ]
+}

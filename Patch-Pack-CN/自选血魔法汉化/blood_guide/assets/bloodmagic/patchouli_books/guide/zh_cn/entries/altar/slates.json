@@ -1,0 +1,33 @@
+{
+  "name": "石板的阶级",
+  "icon": "bloodmagic:blankslate",
+  "category": "bloodmagic:altar",
+  "extra_recipe_mappings": {
+    "bloodmagic:blankslate": 1,
+    "bloodmagic:reinforcedslate": 1,
+    "bloodmagic:infusedslate": 2,
+    "bloodmagic:demonslate": 2
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(l:bloodmagic:altar/blood_altar)血祭坛$(/l)的主要用途是制作$(item)石板$()。每一阶级的石板都需要上一阶级的石板，以及比上一阶级更强大的祭坛。 $(br2)请注意$(item)Etherial Slates$()在预设情况下还没有实现，如果你在玩模组包可能会实现，详细资讯请查看JEI。" 
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "空白石板",
+      "a.recipe": "bloodmagic:altar/slate",
+      "b.heading": "强化石板",
+      "b.recipe": "bloodmagic:altar/reinforcedslate"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_altar",
+      "a.heading": "灌输石板",
+      "a.recipe": "bloodmagic:altar/imbuedslate",
+      "b.heading": "恶魔合金石板",
+      "b.recipe": "bloodmagic:altar/demonicslate"
+    }
+  ]
+}
+
+

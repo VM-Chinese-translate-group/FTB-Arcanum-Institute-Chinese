@@ -1,0 +1,32 @@
+{
+  "name": "仪式 - 开始",
+  "icon": "bloodmagic:activationcrystalcreative",
+  "category": "bloodmagic:rituals",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "一但你让$(l:bloodmagic:altar/blood_altar)血祭坛$(/l)到达了阶级III，你就可以深入了解奇妙的仪式世界。$(br2)对于与仪式有关的内容，你需要: $(li)$(l:bloodmagic:rituals/activation_crystals)活化水晶$()。在阶级3只有$(item)微弱水晶$()可用。 $(li)$(item)主仪式石$()。所有仪式的中心都需要一个。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "$(li)足够的仪式时来建造仪式。$(li)(建议)$(l:bloodmagic:rituals/ritual_diviner)仪式占卜杖$()。虽然不是必须的，但它能使仪式的建造难度大大减少。$(br2)建造仪式是相对简单的。只需要手持仪式占卜杖并按下[$(k:sneak)] + [$(k:use)]直到它显示所需仪式的名称。在背包中使用滑鼠指向它并按下[$(k:sneak)]，查看所需符文数量。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "放置主仪式石，并按下[$(k:use)]直到放置所有仪式石并填充元素。最后，在主仪式石上拿著活化水晶并按下[$(k:use)]。如果你做的一切都没错，你应该会获得一条讯息，说＂仪式中流淌著能量!＂。仪式现在已经活化。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "如果没有出现这种情况，可能有几件事发生问题。如果你得到的讯息是＂你感觉到了力量，但你太虚弱了无法完成仪式。＂，那么代表你的$(thing)灵魂网路$()中没有足够的$(blood)LP$()可以活化这个仪式。$(br2)如果你得到的讯息是＂你感觉仪式的配置不太对劲...＂，则是仪式的放置出了问题，检查区域中是否有任何障碍物，并再次尝试。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "请注意，有些仪式会在主仪式石的上方或下方延伸几格方块。如果你没有得到任何错误，请确保活化水晶与你的灵魂网路连接再一起 - 这能够透过在手持水晶时按下[$(k:use)]完成。$(br2)值得一提的是水晶不一定要绑定在你自身的网路上 - 如果你可以得到其他玩家的水晶，你可以使用他们的$(blood)LP$()来活化仪式。好好保护你自己的!"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "最后一点;所有仪式都会对$(fire)红石$()讯号做出反应，所以在主仪式石旁放一个拉杆是个随时停用它的好方法。你可以将这些知识与$(l:bloodmagic:altar/redstone_automation)红石与自动化$()结合起来，以确保你的仪式在你的$(thing)灵魂网路$()耗尽之前就自动关闭了。"
+    }
+  ]
+}

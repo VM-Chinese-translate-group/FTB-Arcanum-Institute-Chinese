@@ -1,0 +1,20 @@
+{
+  "name": "经验之书",
+  "icon": "bloodmagic:experiencebook",
+  "category": "bloodmagic:utility",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)经验之书$()能让你安全地储存$(thing)经验值$()。$(br2)按下[$(k:sneak)]以及 [$(k:use)]会将$(thing)1等的经验值$()储存在拿在手中的经验之书中。按下[$(k:use)]$(thing)返还经验值$()。按住[$(k:use)]来持续的$(thing)储存/返还多数的经验值$()。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:experience_tome"
+    },
+    {
+      "type": "patchouli:text",
+      "flag": "mod:curios",
+      "text": "由于你安装了$(thing)Curios API$()，你可以让$(item)经验之书$()装备为一种饰品。如果你想同时配戴更多饰品，考虑使用 $(l:bloodmagic:alchemy_array/sigil/holding)维持印记$()，或者为你的$(l:bloodmagic:alchemy_array/living_equipment/living_basics)束灵铠甲$()提供$(l:bloodmagic:alchemy_array/living_equipment/armor_upgrades/curios_sockets)插槽$()。"
+    }
+  ]
+}

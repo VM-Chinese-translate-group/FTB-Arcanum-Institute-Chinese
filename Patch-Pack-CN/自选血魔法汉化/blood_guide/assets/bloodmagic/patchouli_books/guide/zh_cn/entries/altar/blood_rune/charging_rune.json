@@ -1,0 +1,29 @@
+{
+  "name": "充能符文",
+  "icon": "bloodmagic:chargingrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(item)充能符文$()是一种独特的升级。当$(l:bloodmagic:altar/blood_altar)血祭坛$()不是在制作或为$(l:bloodmagic:altar/soul_network)血宝珠$()充能时，将会吸取$(blood)LP$()为内部缓冲充能。而当物品放上祭坛时，将会瞬间消耗储存的能量并以1:1的比例制作。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "血祭坛每20Tick会充能一次，每一个$(l:bloodmagic:altar/blood_rune/acceleration_rune)加速符文将会减少1。$(/l) $(br2)血祭坛每Tick充能的速度为: [$(blood)10LP$() x $(l:bloodmagic:altar/blood_rune/charging_rune)充能符文$() x (1 + $(l:bloodmagic:altar/blood_rune/speed_rune)速度符文$()/10)] $(br2)血祭坛能够容纳的最大容量为每颗$(item)充能符文$()$(blood)1000 LP$()，然后乘上: [(血祭坛内部容量)/20000]如果该值大于1。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_charging_2",
+      "text":"有了一些$(item)远古遗骸$()和一点从$(l:bloodmagic:dungeons/endless_realm)魔域$()掠夺来的$(item)精密狱火锻造组件$()，将能够让$(item)充能符文$()的能力加倍，在容量和速度方面都是这样。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/charging",
+      "text":"如果你改变主意，你可以在炼金术反应室改变配方。"
+    }
+  ]
+}

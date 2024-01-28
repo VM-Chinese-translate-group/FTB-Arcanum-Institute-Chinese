@@ -1,0 +1,37 @@
+{
+  "name": "圣水",
+  "icon": "bloodmagic:holy_water_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment",
+      "text": "暂时提高5点对不死生物的近战伤害。 $(br2)有效物品:工具，剑。$(br2)套用: 圣光I (256 击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水L",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_l",
+      "text": "这种升级版的药剂可延长4倍效果次数。 $(br2)套用: 圣光I (1024 击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水II",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_2",
+      "text": "这种升级版药剂可以使追加伤害增加为+10。 $(br2)套用: 圣光II (256 击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水XL",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_xl",
+      "text": "这种升级版的药剂可延长16倍效果次数。 $(br2)套用: 圣光I (4096 击中)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "圣水III",
+      "recipe": "bloodmagic:alchemytable/holy_water_anointment_3",
+      "text": "这种升级版药剂可以使追加伤害增加为+15。 $(br2)套用: 圣光III (256 击中)"
+    }
+  ]
+}

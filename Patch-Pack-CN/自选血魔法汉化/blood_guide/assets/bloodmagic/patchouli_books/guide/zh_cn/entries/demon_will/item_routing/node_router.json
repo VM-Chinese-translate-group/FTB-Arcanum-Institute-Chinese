@@ -1,0 +1,17 @@
+{
+  "name": "节点路由",
+  "icon": "bloodmagic:noderouter",
+  "category": "bloodmagic:demon_will/item_routing",
+  "priority": "true",
+  "pages":[{
+    "type": "patchouli:text",
+    "text": "$(item)节点路由$()是利用节点来连接成一个网路。其功能简单明了 - 只需按住 [$(k:sneak)] 以及 [$(k:use)] 同时看著一个节点，然后对16格范围内的另一个节点做同样的事情。这两个节点就会被连接，如果你想要取消一对节点的连接，只需要在其他方块上按下[$(k:use)]。详情请看$(l:bloodmagic:demon_will/item_routing/routing_nodes)路由节点$()。"
+  },
+    {
+      "type": "bloodmagic:crafting_soulforge",
+      "heading": "节点路由",
+      "recipe": "bloodmagic:soulforge/node_router",
+      "text": "$(italic)一根带有些微魔力的棍子。$()"
+    }
+  ]
+}

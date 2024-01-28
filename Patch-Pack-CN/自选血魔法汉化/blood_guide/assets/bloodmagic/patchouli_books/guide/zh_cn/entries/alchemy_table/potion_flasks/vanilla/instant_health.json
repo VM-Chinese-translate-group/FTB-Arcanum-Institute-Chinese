@@ -1,0 +1,21 @@
+{
+  "name": "立即治疗",
+  "icon": "minecraft:glistering_melon_slice",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)立即治疗$()恢复目标每级4点生命。如果目标为$(thing)不死生物$()，则每级受到4点伤害。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "立即治疗",
+      "a.recipe": "bloodmagic:flask/health",
+      "b.heading": "立即治疗 II",
+      "b.recipe": "bloodmagic:flask/potency_health",
+      "c.heading": "立即治疗 III",
+      "c.recipe": "bloodmagic:flask/potency_average_health"
+
+    }
+  ]
+}

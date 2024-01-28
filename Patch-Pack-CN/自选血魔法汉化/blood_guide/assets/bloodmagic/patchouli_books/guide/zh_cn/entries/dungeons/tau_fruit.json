@@ -1,0 +1,30 @@
+{
+  "name": "血命果",
+  "icon": "bloodmagic:weak_tau",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:weak_tau": 0
+  },
+    "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "血命果能在以下区域找到$(l:bloodmagic:dungeons/lobby)简单地城$()，之后便能进行耕种。身为$(thing)魔域$()土生土长的居民，不幸的是，它的生命周期比$(item)马铃薯$()复杂一些。 $(br2)血命果成熟后将有两种选择，取决于耕种条件。预设情况下，它将成熟为$(item)血命果$()，可以转化为$(item)血命油$()。"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "血命油",
+      "recipe": "bloodmagic:alchemytable/tau_oil",
+      "text": "$(italic)味道就像血橙，但又不太一样。$()"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "血命油有两种主要用途，它可以延长四倍任何$(l:bloodmagic:alchemy_table/anointments)药剂$()的持续时间，或者能够用来制作$(item)中级切削液$()，其功能类似于$(l:bloodmagic:utility/alchemical_reaction_chamber#basic_cutting_fluid)基础切削液$()，但持续时间延长8倍，并提供25%速度。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:strong_tau",
+      "link_recipe": "true",
+      "text": "然而， $(item)血命果$()还有另一条更具挑战的路线可供选择。当植物成熟时，有$(thing)生物$()(一头牛，举个例子)待在上方时，它将会从生物吸取生命，以满足它黑暗的饥渴。透过这种方式可使$(item)饱满血命果$()成熟。"
+    }
+  ]
+}

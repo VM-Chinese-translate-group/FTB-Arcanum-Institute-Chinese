@@ -1,0 +1,37 @@
+{
+  "name": "吉运精华",
+  "icon": "bloodmagic:fortune_anointment",
+  "category": "bloodmagic:alchemy_table/anointments",
+  "pages": [
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉运精华",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment",
+      "text": "增加某些方块的产量。也可以与幸运附魔叠加。$(br2)有效物品:工具，剑，炸药。 $(br2)套用: 吉运I (256 方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉运精华L",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_l",
+      "text": "这种升级版的药剂可延长4倍效果次数。 $(br2)套用: 吉运I (1024 方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉运精华II",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_2",
+      "text": "这种升级版药剂可以更加增加某些方块的产量。 $(br2)套用: 吉运II (256 方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉运精华XL",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_xl",
+      "text": "这种升级版的药剂可延长16倍效果次数。 $(br2)套用: 吉运I (4096 方块)"
+    },
+    {
+      "type": "bloodmagic:crafting_alchemy_table",
+      "heading": "吉运精华III",
+      "recipe": "bloodmagic:alchemytable/fortune_anointment_3",
+      "text": "这种升级版药剂可以更加增加某些方块的产量。 $(br2)套用: 吉运III (256 方块)"
+    }
+  ]
+}

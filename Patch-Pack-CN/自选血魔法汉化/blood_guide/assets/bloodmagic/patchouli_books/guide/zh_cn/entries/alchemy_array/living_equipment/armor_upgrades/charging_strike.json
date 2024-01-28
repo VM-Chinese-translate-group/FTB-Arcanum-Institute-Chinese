@@ -1,0 +1,15 @@
+{
+  "name": "强冲刺攻击",
+  "icon": "minecraft:golden_axe",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果: 增加冲刺攻击的伤害和击退，最高+50%。 $(br2)训练:在冲刺时造成伤害。 $(br2)最高等级: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:sprint_attack"
+    }
+  ]
+}

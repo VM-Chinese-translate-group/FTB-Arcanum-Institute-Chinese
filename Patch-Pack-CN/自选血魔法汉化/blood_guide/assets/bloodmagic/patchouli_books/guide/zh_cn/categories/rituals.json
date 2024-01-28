@@ -1,0 +1,6 @@
+{
+  "name": "仪式",
+  "description": "仪式将从你的$(l:bloodmagic:altar/soul_network)灵魂网路$(/l)消耗$(blood)LP$()以完成各种任务。$(br2)有关任何仪式的讯息请点击下面的主仪式石。$(br2)$(br2)>>>      <<<",
+  "icon": "bloodmagic:ritualdiviner",
+  "sortnum": 4
+}

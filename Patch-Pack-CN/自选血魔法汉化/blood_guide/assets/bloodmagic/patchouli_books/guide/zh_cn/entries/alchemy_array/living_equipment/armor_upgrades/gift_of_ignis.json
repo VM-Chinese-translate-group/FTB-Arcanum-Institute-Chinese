@@ -1,0 +1,15 @@
+{
+  "name": "伊格尼斯赠礼",
+  "icon": "minecraft:blaze_powder",
+  "category": "bloodmagic:alchemy_array/living_equipment/armor_upgrades",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "效果:给于抗火能力。等级越高，持续越久，冷却越短。$(br2)训练:待在火里。 ($(item)抗火药水$()大概是你在这里最好的朋友。) $(br2)最高等级: 5"
+    },
+    {
+      "type": "bloodmagic:living_armour_upgrade_table",
+      "upgrade": "bloodmagic:fire_resist"
+    }
+  ]
+}

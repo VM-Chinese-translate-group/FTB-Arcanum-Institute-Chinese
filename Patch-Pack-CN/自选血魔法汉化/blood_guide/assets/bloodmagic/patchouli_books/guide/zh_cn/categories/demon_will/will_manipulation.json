@@ -1,0 +1,6 @@
+{
+  "name": "意志操控",
+  "description": "恶魔意志是很奇怪的东西，在未被挖掘的情况下似乎会在生物周围凝聚，但它可以被挖掘、驾驭和控制。本章阐述了操控恶魔意志的基本概念和高阶技巧。",
+  "icon": "bloodmagic:basemonstersoul",
+  "parent": "bloodmagic:demon_will"
+}

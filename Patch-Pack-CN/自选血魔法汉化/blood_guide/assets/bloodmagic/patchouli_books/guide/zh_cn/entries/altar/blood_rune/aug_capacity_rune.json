@@ -1,0 +1,26 @@
+{
+  "name": "超容符文",
+  "icon": "bloodmagic:bettercapacityrune",
+  "category": "bloodmagic:altar/blood_rune",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "每颗$(item)超容符文$()能够使$(l:bloodmagic:altar/blood_altar)血祭坛$(/l)的容量上限乘+7.5%。超容符文会在$(o)其他$()$(l:bloodmagic:altar/blood_rune/capacity_rune)增容符文$()后计算。"
+    },
+    {
+      "type": "patchouli:crafting",
+      "title": "超容符文",
+      "recipe": "bloodmagic:blood_rune_aug_capacity"
+    },
+    {
+      "type": "patchouli:crafting",
+      "recipe": "bloodmagic:blood_rune_aug_capacity_2",
+      "text":"有了一些$(item)远古遗骸$()和一点从$(l:bloodmagic:dungeons/endless_realm)魔域$()掠夺来的$(item)精密狱火锻造组件$()，将能够让$(item)超容符文$()的能力加倍，使$(l:bloodmagic:altar/blood_altar)血祭坛$(/l)的容量上限增加为每颗乘+15%。"
+    },
+    {
+      "type": "bloodmagic:crafting_arc",
+      "recipe": "bloodmagic:arc/reversion/aug_capacity",
+      "text":"如果你改变主意，你可以在炼金术反应室改变配方。"
+    }
+  ]
+}

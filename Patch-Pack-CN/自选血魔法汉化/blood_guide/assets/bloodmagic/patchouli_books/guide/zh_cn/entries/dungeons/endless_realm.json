@@ -1,0 +1,29 @@
+{
+  "name": "无尽之路",
+  "icon": "bloodmagic:special_dungeon_seal",
+  "category": "bloodmagic:dungeons",
+  "extra_recipe_mappings": {
+    "bloodmagic:special_dungeon_seal": 0,
+    "bloodmagic:hellforgedparts": 3
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "就跟他的兄弟$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隐域仪式一样，你也能透过$(l:bloodmagic:rituals/ritual_list/ritual_standard_dungeon)无尽之路仪式$()前往$(thing)魔域$()。你会再次看到$(thing)反转之柱$()。跟之前在$(thing)前厅$()时一样，你会找到一个简单的宝箱，由一个粗心的恶魔(或不太走运的炼金术士)留下，四周有一些门，还有另外一根反转之柱让你回家。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这些地城的房间将充满你在前厅时发现更加可怕的敌人，并有相应的战利品。一定要留意观察任何的$(thing)空间扭曲$()，以及罕见的$(l:bloodmagic:dungeons/keys)钥匙$()，例如$(item)领班钥匙$()。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "领班钥匙将能够让你进入$(thing)矿坑$()，这提升了难度及奖励。这里有$(l:bloodmagic:dungeons/demonite)恶魔合金矿$()，对要前往更高阶级$(l:bloodmagic:alchemy_table/potions)炼金药制作$()以及$(l:bloodmagic:altar/blood_altar)阶级5血祭坛$()和附带的$(l:bloodmagic:altar/soul_network)宝珠$()的人必不可少，你也会找到更多平凡的战利品，附魔的武器和工具，药剂，药水，以及更多。"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "bloodmagic:hellforgedparts",
+      "title": "精密狱火锻造组件",
+      "text": "经过足够多的探索，你可能幸运地发现$(item)精密狱火锻造组件$()，能够用它加倍$(item)符文$()的力量。就像有两个$(blood)血祭坛$()合而为一!"
+    }
+  ]
+}

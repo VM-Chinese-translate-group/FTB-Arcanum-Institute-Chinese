@@ -1,0 +1,31 @@
+{
+  "name": "毒药",
+  "icon": "minecraft:spider_eye",
+  "category": "bloodmagic:alchemy_table/potion_flasks/vanilla",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)毒药$()在一段时间内对目标持续造成伤害，但无法击杀目标。更高的等级将会更快造成伤害。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "中毒 (3:00)",
+      "a.recipe": "bloodmagic:flask/poison",
+      "b.heading": "中毒 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_poison",
+      "c.heading": "中毒 II (1:30)",
+      "c.recipe": "bloodmagic:flask/potency_poison"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "添加$(l:bloodmagic:alchemy_table/potions#average_potions)标准催化剂$()可以更进一步提升效果。"
+    },
+    {
+      "type": "bloodmagic:2x_crafting_flask",
+      "a.heading": "中毒 III (0:45)",
+      "a.recipe": "bloodmagic:flask/potency_average_poison",
+      "b.heading": "中毒 (21:20)",
+      "b.recipe": "bloodmagic:flask/length_average_poison"
+    }
+  ]
+}

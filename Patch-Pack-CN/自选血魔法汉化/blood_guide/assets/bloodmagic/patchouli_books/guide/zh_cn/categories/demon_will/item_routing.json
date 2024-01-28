@@ -1,0 +1,6 @@
+{
+  "name": "物品路由",
+  "description": "谁需要漏斗？Blood Magic 3拥有一个多功能和灵活的物品路由网路，有各种过滤器，可以针对各种需求进行分类。",
+  "icon": "bloodmagic:noderouter",
+  "parent": "bloodmagic:demon_will"
+}

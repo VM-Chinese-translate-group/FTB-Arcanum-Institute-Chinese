@@ -1,0 +1,32 @@
+{
+  "name": "水晶共鸣仪式",
+  "icon": "bloodmagic:vengefulcrystal",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "水晶共鸣仪式",
+      "multiblock_id": "bloodmagic:crystal_split",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "crystal_split",
+      "text_overrides": [
+        ["Raw crystal cluster", "l:bloodmagic:demon_will/will_manipulation/crystallized_will"],
+        ["aspected crystal clusters", "l:bloodmagic:demon_will/will_manipulation/aspected_will"]
+      ]
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这个仪式将位于$(item)主仪式石$()上方两格生长良好(至少5个水晶)的$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)原始晶簇$(/l)，分裂为位于四种元素仪式石正上方的各类型$(l:bloodmagic:demon_will/will_manipulation/aspected_will)类型意志$(/l)的新晶簇。这个间隔是为了配合在$(item)主仪式石$()上方的$(item)恶魔结晶祭坛$()。$(br2)有关恶魔意志水晶，请查阅$(l:bloodmagic:demon_will/will_manipulation/crystallized_will)意志水晶$(/l)。"
+    },
+    {
+      "type": "patchouli:image",
+      "title": "仪式配置",
+      "images": ["bloodmagic:images/entries/demon_will/will_splitting.png"],
+      "border": true,
+      "text": "推荐的水晶共鸣配置。"
+    }
+  ]
+}

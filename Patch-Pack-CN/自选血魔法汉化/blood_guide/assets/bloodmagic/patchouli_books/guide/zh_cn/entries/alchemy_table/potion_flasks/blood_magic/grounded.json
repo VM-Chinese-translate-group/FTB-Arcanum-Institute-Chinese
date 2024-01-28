@@ -1,0 +1,20 @@
+{
+  "name": "接地",
+  "icon": "minecraft:string",
+  "category": "bloodmagic:alchemy_table/potion_flasks/blood_magic",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "$(thing)接地$()阻止目标的跳跃。然而游泳并不受影响。$(br2)由$(l:bloodmagic:alchemy_table/potion_flasks/vanilla/jump_boost)跳跃增加$()药水所制作。"
+    },
+    {
+      "type": "bloodmagic:3x_crafting_flask",
+      "a.heading": "接地 (3:00)",
+      "a.recipe": "bloodmagic:flask/jump_to_grounded",
+      "b.heading": "接地 (8:00)",
+      "b.recipe": "bloodmagic:flask/length_grounded",
+      "c.heading": "接地 (21:20)",
+      "c.recipe": "bloodmagic:flask/length_average_grounded"
+    }
+  ]
+}

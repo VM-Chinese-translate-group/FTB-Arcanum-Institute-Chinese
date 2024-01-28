@@ -1,0 +1,6 @@
+{
+  "name": "仪式清单",
+  "description": "一些简单的$(thing)仪式$()只需要拥有阶级III的$(l:bloodmagic:altar/blood_altar)血祭坛$()便能举行，但想要更进一步则需要$(dusk)薄暮符文$()，来建造IV阶祭坛。$(br2)使用$(item)仪式占卜杖$()来建造仪式，一颗$(item)活化水晶$()活化仪式，以及$(item)仪式调整器$()进行微调。不要忘记维持$(thing)灵魂网路$()的能量!",
+  "icon": "bloodmagic:masterritualstone",
+  "parent": "bloodmagic:rituals"
+}

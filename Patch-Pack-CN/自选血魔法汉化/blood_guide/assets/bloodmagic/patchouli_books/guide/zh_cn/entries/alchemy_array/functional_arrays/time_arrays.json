@@ -1,0 +1,20 @@
+{
+  "name": "日/夜 转换阵",
+  "icon": "minecraft:clock",
+  "category": "bloodmagic:alchemy_array/functional_array",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "基于时间的炼金阵是很直观的炼金阵，控制一天的时间。一但炼金阵开始改变时间，这些物品就会被消耗掉，目前配方是临时的未来会进行修改。$(br2)日转换阵将会使时间流逝到下一个日出，夜转换阵则是日落。"
+    },
+    {
+      "type": "bloodmagic:2x_functional_array",
+      "a.heading": "新的黎明",
+      "a.recipe": "bloodmagic:array/day",
+      "a.image": "sunarray.png",
+      "b.heading": "夜暮降临",
+      "b.recipe": "bloodmagic:array/night",
+      "b.image": "moonarray.png"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "束灵之书",
+  "icon": "bloodmagic:upgradetome",
+  "priority": true,
+  "category": "bloodmagic:alchemy_array/living_equipment",
+  "extra_recipe_mappings": {
+    "bloodmagic:upgradetome": 0
+  },
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "在活化了$(l:bloodmagic:rituals/ritual_list/ritual_upgrade_remove)净灵仪式$()之后，一系列神奇的$(item)束灵之书$()将在你周围显现。 $(br2)透过按下[$(k:use)]可以使用这些束灵之书并教给你的铠甲一级的技能(假如有足够的升级点数)，持续按住 [$(k:sneak)]及[$(k:use)]可以持续消耗束灵之书中的经验。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这么做会消耗$(item)束灵之书$()并将其中的经验转移到你的铠甲上-除非没有足够的$(thing)升级点数$()可用。 $(br2)在这种情况下，束灵之书将尽可能地消耗经验值,并储存剩余的量-除非剩余的经验值低于1级，在这种情况下束灵之书将会销毁。"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "这是一个很好的方法，可以训练你想要的技能，同时帮助你忘记不需要的技能。$(br2)另外你可以教给不同的铠甲不同的技能，所以你可以有一套铠甲用来采矿，一套用于战斗，一套用于探索。"
+    }
+  ]
+}

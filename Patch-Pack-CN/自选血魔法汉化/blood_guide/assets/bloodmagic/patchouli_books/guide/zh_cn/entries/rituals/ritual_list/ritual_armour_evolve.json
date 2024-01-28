@@ -1,0 +1,21 @@
+{
+  "name": "束灵进化仪式",
+  "icon": "bloodmagic:livingplate",
+  "category": "bloodmagic:rituals/ritual_list",
+  "pages": [
+    {
+      "type": "multiblock",
+      "name": "束灵进化仪式",
+      "multiblock_id": "bloodmagic:armour_evolve",
+      "text": "使用$(l:bloodmagic:rituals/ritual_diviner#dusk)仪式占卜杖 [薄暮]$(/l)以方便建造。"
+    },
+    {
+      "type": "bloodmagic:ritual_info",
+      "ritual": "armour_evolve",
+      "text_overrides": [
+        ["Living Armor", "l:bloodmagic:alchemy_array/living_equipment/living_basics"]
+      ],
+      "text": "站在$(l:bloodmagic:rituals/ritual_stones)主仪式石$()上同时穿著$(l:bloodmagic:alchemy_array/living_equipment/living_basics)束灵铠甲$()以使用这个$(thing)仪式$()。"
+    }
+  ]
+}
