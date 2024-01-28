@@ -19,7 +19,7 @@
 				""
 				"紫水晶在&6紫水晶母岩&r上生成。但是因为&c伟大的魔法庇护着我们校园，任何人都不得破坏&r。因此你必须用一种更文明的方式来获取它们。"
 				""
-				"• 紫水晶母岩可以&6从哥布林商店购买&r，具体来说是图书馆旁边的那家店，或者你也可以去庭院里的&6魔法捣蛋鬼百货商店&r购买。"
+				"•紫水晶母岩可以&6从哥布林商店购买&r，具体来说是图书馆旁边的那家店，或者你也可以去庭院里的&6魔法捣蛋鬼百货商店&r购买。"
 				""
 				"[\"\",\"• 紫水晶母岩是\",\"完成这节课\",{\"text\":\"[抄写台]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F8A51FEB237D9EA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"的\",{\"text\":\"奖励\",\"color\":\"gold\"},\".\"]"
 			]
@@ -71,7 +71,7 @@
 			}]
 		}
 		{
-			title: "&nI&rnvocation &nD&resign &nE&rssentials"
+			title: "调用设计之基"
 			icon: "hexcasting:wand_oak"
 			x: 7.5d
 			y: -12.5d
@@ -79,7 +79,7 @@
 			description: [
 				"你的&b法杖&r是可以&6把咒术图案编译成法术&r的地方。每种法杖都是完全相同的，选择一个你喜欢的就可以。"
 				""
-				"通过咒术进行法术构建是一个&c极其复杂的过程&r，需要用很多专业术语来描述。在&6咒术笔记&r解锁到这里的时候我们也会在任务里讲解。"
+				"通过咒术进行法术构建是一个&c极其复杂的过程&r, 需要用很多专业术语来描述。在&6咒术笔记&r解锁到这里的时候我们也会在任务里讲解。"
 				""
 				"&6图案&r可以在用法杖打开的网格上进行绘制。图案可以执行一些操作，在某种程度上能控制&6栈&r。"
 				""
@@ -718,9 +718,9 @@
 				""
 				"欢迎来到&d咒法学&r，&6最复杂又影响深远的艺术&r，你马上就会在这里学到。"
 				""
-				"你在这里学到的知识和别的知识不一样。不像其他魔法分支，需要应付各种不同来源的能量 which deal in energies from varying sources, the magic here &6stems from information in its purest form&r."
+				"你在这里学到的知识和别的知识不一样。不像其他魔法分支，需要学习各种不同来源的能量，研究这个魔法&6只需要仔细看一些纯粹的文字信息&r."
 				""
-				"Should you play in &6Large GUI Scale&r, you may find it necessary to &cscroll to see the entirety of each lesson&r, as they are long by nature."
+				"如果你在用&6很大的界面尺寸&r，那么你须要&c滚动滚轮查看每个课程任务&r，因为它们本来就很长。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63368A007664E4B5"]
@@ -788,13 +788,13 @@
 					id: "12936FEE299E257F"
 					type: "command"
 					auto: "invisible"
-					command: "/title @p title {\"text\":\"Welcome to Hexcasting\", \"color\":\"yellow\"}"
+					command: "/title @p title {\"text\":\"欢迎来到咒法学\", \"color\":\"yellow\"}"
 					silent: true
 				}
 			]
 		}
 		{
-			title: "Waste Not Want Not"
+			title: "杜绝浪费"
 			icon: {
 				id: "hexcasting:battery"
 				Count: 1b
@@ -808,15 +808,15 @@
 			}
 			x: 10.5d
 			y: -15.0d
-			subtitle: "Make a Phial of Mana"
+			subtitle: "合成一个媒质之瓶"
 			description: [
-				"Media in its purest form (that is, Amethyst items) is rather &cwasteful&r. If you cast a spell that requires a single Amethyst Dust, &6it'll eat up an entire Charged Amethyst if that's all you have&r."
+				"原始形态的媒质（即紫水晶相关物品）使用起来是相当&c浪费的&r。如果你构建一个只消耗一个紫水晶粉，&6那么如果你身上只有一个充能紫水晶，这块充能紫水晶会被全部消耗&r。"
 				""
-				"Allow me to introduce the &bPhial of Media&r, a precious repository for thought-energies. These phials possess a grace that normal items lack, preserving your media with utmost precision. When you expend 5 media, it shall &6always spend exactly that quantity&r."
+				"请允许我来介绍这个&b媒质之瓶&r，一种精确保存思维能量的容器。这些小瓶子能增强施法者对媒质的把控能力，从而最大程度上精准存储。当你只消耗5点媒质时，&6瓶内不会减少比5点更多的媒质&r。"
 				""
-				"[\"\",\"Crafting Phials of Mana is no simple task, however. You'll have to show mastery over the \",{\"text\":\"[ Craft Phial ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/great_spells/make_battery 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the book\"]}},\" Great Spell. However, do note that this \",{\"text\":\"is\",\"italic\":true},\" a \",{\"text\":\"[ Great Spell ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6DDA03D8EFDB18CA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Great Spells quest\"]}},\", which has its own special requirements.\"]"
+				"[\"\",\"合成媒质之瓶并不轻松，你必须要精通\",{\"text\":\"[制作试剂瓶]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/great_spells/make_battery 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"这个卓越法术。记住，这\",{\"text\":\"是\",\"italic\":true},\"一个\",{\"text\":\"[卓越法术]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6DDA03D8EFDB18CA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"卓越法术任务\"]}},\"，使用它有独特的要求。\"]"
 				""
-				"Furthermore, these phials boast the ability to cradle media in &6fractional&r harmony. In the face of hexes demanding &6decimal portions&r of power, fear not, for a &bPhial of Media&r shall measure with finesse, accepting 10.25 when others would squander 11. Such precision, my students, is the hallmark of a true hexcaster's skill."
+				"另外，这些小瓶子据说可以处理&6小数级别&r的媒质。面对咒术消耗媒质的&6小数部分&r时不要担心，因为&b媒质之瓶&r会精妙测量，在其他媒质载体消耗11点时，媒质之瓶可以只消耗10.25。学生们，只有达到这么精准你们才可以说是真正的咒法学学者。"
 			]
 			dependencies: ["47F00FCAEE879ED3"]
 			min_width: 350
@@ -824,7 +824,7 @@
 			tasks: [{
 				id: "5FD9F42DBCC26C68"
 				type: "item"
-				title: "Phials of Media"
+				title: "媒质之瓶"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -878,23 +878,23 @@
 			}]
 		}
 		{
-			title: "Saving Variables"
+			title: "保存变量"
 			icon: "hexcasting:focus"
 			x: 10.5d
 			y: -12.5d
-			subtitle: "Make a Focus or Spellbook"
+			subtitle: "合成核心或法术书"
 			description: [
-				"Dear seekers of arcane wisdom,"
+				"亲爱的神秘知识探寻者："
 				""
-				"Enter the realm of the &bFocus&r, as it emerges from the craftsman's hands, it cradles &6Null&r, the essence of nothingness. "
+				"当&b核心&r在制作者手中出现时，它的内部存有&6Null&r的虚指，代表了“无”。"
 				""
-				"However, with the guidance of the &6Scribe's Gambit&r pattern, while the Focus rests in your offhand, you shall see its form shift, capturing a single iota from the Stack."
+				"在副手持有核心时，如果使用&6书吏之策略&r，那么核心的形态会发生变化，并且从栈顶获取一个iota。"
 				"{image:ftbai:textures/quests/hex/scribe_gambit.png width:50 height:50 align:1}"
 				""
-				"To unlock the latent potential of this iota, invoke &6Scribe's Reflection&r while clenching the Focus in your grasp. With this act, you shall release its captive iota back into the realm of magic, ready for your conjurations."
+				"为了读取存储在核心的iota，握紧副手中的核心并调用&6书吏之精思&r。这样你就能释放其中的iota进入栈，随时准备释放法术。"
 				"{image:ftbai:textures/quests/hex/scribe_reflect.png width:50 height:50 align:1}"
 				""
-				"And now, behold the &bSpellbook&r, akin to the Focus yet capable of harboring &6up to 100 iotas&r. Hold it in your hand and, with a sly touch of sneak, navigate its pages with a scroll."
+				"现在看看&b法术书&r，跟核心类似，但能容纳&6最多64个iota&r。把它拿在手里，潜行用鼠标滚轮换页。"
 			]
 			dependencies: ["3B8048B920E2C67E"]
 			min_width: 300
@@ -902,7 +902,7 @@
 			tasks: [{
 				id: "1AEEF3EB3170E7AF"
 				type: "item"
-				title: "Iota storage items"
+				title: "存储iota的物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -931,24 +931,24 @@
 			}]
 		}
 		{
-			title: "Casting Items Pt.1"
+			title: "制作施法物品 第一部分"
 			icon: "hexcasting:trinket"
 			x: 12.0d
 			y: -12.5d
 			description: [
-				"Ah, the pursuit of magic is indeed a noble endeavor, but the intricate dance of Hexcasting can be demanding. Fear not, for there is a solution to alleviate the burden of drawing Hexes each time."
+				"对魔法知识的追求是一种崇高的行为，但是绘制复杂的图案施咒非常繁琐。不用担心，有种方法可以减少每次绘制图形的负担。"
 				""
-				"Behold, the art of saving Hexes onto a &6Casting Item&r. These items come in three distinct varieties:"
+				"看，把咒术保存到&6施法物品&r。施法物品有三种不同的形式："
 				""
-				"&b&lCyphers&r, the most economical of choices, though they bear the caveat of shattering once their media is depleted, leaving them unrechargeable."
+				"&b&l杂件&r，最经济实惠的选择，但是一旦能量耗尽就会损坏，无法重新充能。"
 				""
-				"&b&lTrinkets&r, resilient in nature, capable of enduring multiple uses, and conveniently rechargeable to extend their magical lifespan."
+				"&b&l缀品&r，材料可复原，能够长久使用，并且可以重新充能来延长寿命。"
 				""
-				"&b&lArtifacts&r, the pinnacle of Hexcasting tools, not only resilient but able to tap into your very own Media should it run dry, ensuring uninterrupted enchantments."
+				"&b&l造物&r，最强大的咒术学工具，不止能复原还可以在内部媒质耗尽后消耗物品栏内的紫水晶，确保能够一直施放魔法。"
 				""
-				"Furthermore, take heed, for all three types are adaptable, capable of handling Hexes with fractional Media costs. In the realm of Hexcasting, precision is paramount, and these versatile items shall accommodate your needs with grace."
+				"此外，请注意，三种类型物品都可以消耗很微少的媒质。在咒法学领域，精确是最重要的，这些多功能的物品可以优雅的满足你的需求。"
 				""
-				"Choose wisely, dear students, for in your choice of Casting Item lies the essence of your magical journey."
+				"亲爱的学生们，做出明智选择吧。魔法之旅的本质就体现在施法物品的选择中。"
 			]
 			dependencies: ["3CE0DDDD24DD734F"]
 			min_width: 450
@@ -962,13 +962,13 @@
 			x: 10.5d
 			y: -11.0d
 			description: [
-				"Dear students of the arcane,"
+				"亲爱的神秘知识学习者："
 				""
-				"Let me elucidate the enigmatic &bSlate&r, a vessel akin to the humble &6Scrolls&r, but with a unique purpose—housing a single Pattern. Like the Scroll, it obeys the art of Consideration and Scribe's Gambit to capture the essence of a Pattern."
+				"让我来解释一下神秘的&b石板&r，一种类似于&6卷轴&r的简陋图案载体，有容纳一个图案的特殊能力。和卷轴一样，可以通过考察和书吏之策略来刻录咒术图案。"
 				"{image:ftbai:textures/quests/hex/scout_distillation.png width:500 height:220 align:1 fit:true}"
-				"These Slates, however, bear an additional facet of their nature. They serve as more than mere functional tools; they can also adorn your surroundings when placed upon blocks, adding an aesthetic flourish to your magical sanctuaries."
+				"这些石板 还有一些其他作用。它们不仅是功能性工具，也可以放在方块上当装饰，为你的魔法研究所增加美感。"
 				"{image:ftbai:textures/quests/hex/smelt_cypher.png width:187 height:100 align:1 fit:true}"
-				"Yet, the true significance of the Slate remains veiled until the moment of &6Enlightenment&r, when its role in the intricate art of &6Spell Circles&r is unveiled. It is then that you shall come to appreciate the profound purpose hidden within these seemingly ordinary Slates."
+				"然而，石板的真正作用一直没有显露，直到&6启迪&r的那一刻到来，它在复杂的&6法术环&r中的作用才被揭露。到那时你就能体会到者看似寻常的石板如何发挥出深远的影响。"
 			]
 			dependencies: [
 				"3CE0DDDD24DD734F"
@@ -993,11 +993,11 @@
 			icon: "minecraft:ender_eye"
 			x: 9.0d
 			y: -11.0d
-			subtitle: "Get the progression Advancements"
+			subtitle: "完成一系列成就"
 			description: [
-				"The &6Hex Notebook&r, a tome of arcane knowledge and power, &6unfolds its secrets in tandem with your journey&r. As you &oadvance&r, more of the book's pages appear."
+				"&6咒术笔记&r，神秘知识和能力的巨著，&6随着你的旅程逐渐展现它的秘密&r。随着你完成&o成就&r，越来越多的书页将会出现。"
 				""
-				"&bBlind Diversion&r is unlocked by attempting to &6cast from an Ancient Scroll&r using Scribe's Reflection and Hermes' Gambit."
+				"&b盲目绘制&r的解锁条件是试图使用书吏之精思和赫尔墨斯之策略&6根据远古卷轴施放法术&r。"
 				""
 				"Doing so will unlock the entry \"A Frustration\" in the \"Getting Started\" category."
 				""
@@ -1038,7 +1038,7 @@
 			x: 9.0d
 			y: -9.5d
 			description: [
-				"Dear Students!"
+				"亲爱的学生们，"
 				""
 				"Alongside your enlightenment, you've unlocked the ability to cast &6Great Spells&r. That is, assuming you've found their Scrolls."
 				""
