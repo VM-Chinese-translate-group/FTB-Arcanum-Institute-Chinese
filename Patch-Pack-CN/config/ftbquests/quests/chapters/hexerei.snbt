@@ -1002,14 +1002,14 @@
 			x: 1.0d
 			y: -5.0d
 			shape: "pentagon"
-			subtitle: "与亚伦•豪瑟教授见面"
+			subtitle: "与亚伦·豪瑟教授见面"
 			description: [""]
 			dependencies: ["63368A007664E4B5"]
 			id: "458348F2C81B8D6B"
 			tasks: [{
 				id: "35C6647AF215CE37"
 				type: "location"
-				title: "找到亚伦•豪瑟教授"
+				title: "找到亚伦·豪瑟教授"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
