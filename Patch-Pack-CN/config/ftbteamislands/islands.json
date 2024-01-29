@@ -1,30 +1,30 @@
 [
     {
-      "name": "主要岛屿",
-      "author": "FTB团队",
-      "desc": "所有整合包背后的团队？",
+      "name": "\u4E3B\u8981\u5C9B\u5C7F",
+      "author": "FTB\u56E2\u961F",
+      "desc": "\u6240\u6709\u6574\u5408\u5305\u80CC\u540E\u7684\u56E2\u961F\uFF1F",
       "islands": [
         {
-          "name": "西风高地",
-          "desc": "气元素流派",
+          "name": "\u897F\u98CE\u9AD8\u5730",
+          "desc": "\u6C14\u5143\u7D20\u6D41\u6D3E",
           "structure": "air_dorm.nbt",
           "image": "ftbai:textures/ftbteamislands/air.png"
         },
         {
-            "name": "银湖天堂",
-            "desc": "水元素流派",
+            "name": "\u94F6\u6E56\u5929\u5802",
+            "desc": "\u6C34\u5143\u7D20\u6D41\u6D3E",
             "structure": "water_dorm.nbt",
             "image": "ftbai:textures/ftbteamislands/water.png"
         },
         {
-            "name": "炎火峦尖",
-            "desc": "火元素流派",
+            "name": "\u708E\u706B\u5CE6\u5C16",
+            "desc": "\u706B\u5143\u7D20\u6D41\u6D3E",
             "structure": "fire_dorm.nbt",
             "image": "ftbai:textures/ftbteamislands/fire.png"
         },
         {
-          "name": "大地之巅",
-          "desc": "地元素流派",
+          "name": "\u5927\u5730\u4E4B\u5DC5",
+          "desc": "\u5730\u5143\u7D20\u6D41\u6D3E",
           "structure": "earth_dorm.nbt",
           "image": "ftbai:textures/ftbteamislands/earth.png"
         }
