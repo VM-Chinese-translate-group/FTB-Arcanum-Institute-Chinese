@@ -1,14 +1,14 @@
 const specialDialogues = {
     Fisherman: null,
     TheonlyTazz: '5A666790188D5ACA',
-    LadyMaehem: '4339E4F7236D2091',
-    Loneztar: '00894E8821E62449',
-    R3GEN: '0CF0DB4C6B3419C2',
-    Everlipse: `5195093F6886F0F3`,
-    aaronhowser1: '458348F2C81B8D6B',
-    Sunekaer: '6347557FC6E5D7D1',
+    梅希姆夫人: '4339E4F7236D2091',
+    隆泽塔: '00894E8821E62449',
+    瑞根: '0CF0DB4C6B3419C2',
+    埃弗利普斯: `5195093F6886F0F3`,
+    亚伦·豪瑟: '458348F2C81B8D6B',
+    苏卡尔: '6347557FC6E5D7D1',
     Jake_Evans: '60CB78F73F0B9016',
-    Saereth: '0E0C6473FEBC9E99',
+    萨拉斯: '0E0C6473FEBC9E99',
 }
 
 function isSpecialDialogue(name) {
