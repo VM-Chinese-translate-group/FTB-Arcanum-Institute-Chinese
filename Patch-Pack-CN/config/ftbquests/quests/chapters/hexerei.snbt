@@ -117,7 +117,7 @@
 			icon: "evilcraft:promise_tier_1"
 			x: 7.75d
 			y: -3.5d
-			subtitle: "Make a Promise"
+			subtitle: "许下诺言"
 			description: [
 				"&b诺言&r实质上是对机器的&6升级&r，共有三种类型。"
 				""
@@ -134,7 +134,7 @@
 			tasks: [{
 				id: "5C1AAC3A5A9A4909"
 				type: "item"
-				title: "Promises"
+				title: "诺言"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -488,7 +488,7 @@
 				{
 					id: "1A06E525C84CE43F"
 					type: "custom"
-					title: "Broom Brushes"
+					title: "扫帚尾"
 					icon: {
 						id: "evilcraft:broom_part"
 						Count: 1b
@@ -503,7 +503,7 @@
 				{
 					id: "44529455C112A9A9"
 					type: "custom"
-					title: "Broom Rods"
+					title: "扫帚杆"
 					icon: {
 						id: "evilcraft:broom_part"
 						Count: 1b
@@ -518,7 +518,7 @@
 				{
 					id: "4A86A1768A1E7BA9"
 					type: "custom"
-					title: "Broom Caps"
+					title: "扫帚头"
 					icon: {
 						id: "evilcraft:broom_part"
 						Count: 1b

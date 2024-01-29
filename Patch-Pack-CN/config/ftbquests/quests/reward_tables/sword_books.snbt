@@ -18,7 +18,7 @@
 	loot_size: 1
 	rewards: [
 		{
-			title: "Sharpness Book"
+			title: "锋利书"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -34,7 +34,7 @@
 			}
 		}
 		{
-			title: "Scavenger Book"
+			title: "清道夫书"
 			item: {
 				id: "minecraft:enchanted_book"
 				Count: 1b

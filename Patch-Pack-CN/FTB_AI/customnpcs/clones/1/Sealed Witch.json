@@ -668,7 +668,7 @@ function ParticleLine(entity, x1, y1, z1, x2, y2, z2, Resolution, Speed, Particl
     "pStick": 0b,
     "NpcDeathSound": "minecraft:entity.player.hurt",
     "FactionID": 2,
-    "Title": "Evil Witch",
+    "Title": "邪恶女巫",
     "KubeJSPersistentData": {
     },
     "PuppetRLeg": {

@@ -381,7 +381,7 @@
 			}]
 		}
 		{
-			title: "Foreman's Key"
+			title: "福尔曼之钥"
 			icon: {
 				id: "bloodmagic:mineentrancekey"
 				Count: 1b

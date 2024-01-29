@@ -594,7 +594,7 @@
 			title: "掘地三尺"
 			x: 3.5d
 			y: -4.0d
-			subtitle: "Get Magebloom Flower"
+			subtitle: "获得法师之花"
 			description: [
 				"一些人可能已经注意到了，寻找&b法师之花&r时会遇到一些问题。也就是，&c掘地三尺都找不到&r！这是设计使然。"
 				""
@@ -1199,7 +1199,7 @@
 					id: "2BFF7181B540B92B"
 					type: "command"
 					auto: "invisible"
-					command: "/title @p title {\"text\":\"Welcome to Ars Nouveau\", \"color\":\"yellow\"}"
+					command: "/title @p title {\"text\":\"欢迎来到新生魔艺\", \"color\":\"yellow\"}"
 					silent: true
 				}
 				{
