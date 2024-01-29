@@ -1,6 +1,0 @@
-{
-  "name": "潜入地城",
-  "description": "进行$(l:bloodmagic:rituals/ritual_list/ritual_simple_dungeon)隐域仪式$()来获得在$(thing)魔域$()的起点。这个危险的地方充满了威胁﹑陷阱和宝藏!",
-  "icon": "bloodmagic:simplekey",
-  "sortnum": 7
-}

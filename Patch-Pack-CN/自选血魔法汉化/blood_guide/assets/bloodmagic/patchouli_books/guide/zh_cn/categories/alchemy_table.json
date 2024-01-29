@@ -1,6 +1,0 @@
-{
-  "name": "炼金桌",
-  "description": "$(l:bloodmagic:alchemy_table/alchemy_table)炼金桌$()是一个非常常用的设备，作为一名法师，它能够使矿石翻倍。从其他不太有用的物品萃取有用成分，甚至可以制作$(l:bloodmagic:alchemy_table/anointments)药剂$()!",
-  "icon": "bloodmagic:alchemytable",
-  "sortnum": 1
-}

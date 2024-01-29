@@ -1,6 +1,0 @@
-{
-  "name": "束灵铠甲升级",
-  "description": "可用的束灵铠甲升级清单。",
-  "icon": "bloodmagic:upgradetome",
-  "parent": "bloodmagic:alchemy_array/living_equipment"
-}

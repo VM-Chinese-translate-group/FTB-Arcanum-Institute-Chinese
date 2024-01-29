@@ -1,7 +1,0 @@
-{
-  "name": "束灵装备",
-  "description": "使用一些$(item)奥术灰烬$()以及少量新的$(item)束缚试剂$()，整个防御及实用的世界将会显现在你眼前。 $(br)点击下面的图示查看所有配件的列表。",
-  "icon": "bloodmagic:livinghelmet",
-  "parent": "bloodmagic:alchemy_array",
-  "sortnum": 2
-}

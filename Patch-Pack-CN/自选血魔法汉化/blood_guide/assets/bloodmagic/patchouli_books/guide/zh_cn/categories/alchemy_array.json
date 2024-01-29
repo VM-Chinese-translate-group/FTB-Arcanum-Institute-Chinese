@@ -1,6 +1,0 @@
-{
-  "name": "炼金阵",
-  "description": "炼金阵是一个简易练成阵，来自在地面上使用$(l:bloodmagic:alchemy_array/functional_arrays/arcane_ash)奥术灰烬$(/l)绘制的圆圈。建构很简单，并且在游戏初期及后期都能发挥作用。",
-  "icon": "bloodmagic:arcaneashes",
-  "sortnum": 2
-}
