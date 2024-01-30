@@ -3,9 +3,9 @@
 	group: "0960D5B8A7FB00EA"
 	order_index: 6
 	filename: "magic_spells_and_more"
-	title: "Spellcaster's Dream"
+	title: "施法者之梦"
 	icon: "hexcasting:artifact"
-	subtitle: ["Hex Casting"]
+	subtitle: ["咒法学"]
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	default_min_width: 350
@@ -13,15 +13,15 @@
 		{
 			x: 6.0d
 			y: -12.5d
-			subtitle: "Get Charged Amethyst"
+			subtitle: "获得充能紫水晶"
 			description: [
-				"&dHex Casting&r's source of magic is the energy created by active thought, known as &6Media&r. Strangely, &bAmethyst&r is absolutely pungent with the stuff."
+				"&d咒法学&r的魔力源自一种思维活跃时产生的能量，这种能量被称为“&6媒质&r”。奇怪的是，&b紫水晶&r可以完全吸收并积累这种能量。"
 				""
-				"Amethyst grows on &6Budding Amethyst&r. However, as you are &cnot legally allowed to dig up our glorious campus&r for any, you'll have to acquire it in a more civilized way."
+				"紫水晶在&6紫水晶母岩&r上生成。但是因为&c伟大的魔法庇护着我们校园，任何人都不得破坏&r。因此你必须用一种更文明的方式来获取它们。"
 				""
-				"• Budding Amethyst can be &6purchased from a Goblin Shop&r, specifically the one just beyond the Library, as well as the &6Magic Mischief Emporium&r in the courtyard."
+				"•紫水晶母岩可以&6从哥布林商店购买&r，具体来说是图书馆旁边的那家店，或者你也可以去庭院里的&6魔法捣蛋鬼百货商店&r购买。"
 				""
-				"[\"\",\"• A Budding Amethyst is \",{\"text\":\"given as a reward\",\"color\":\"gold\"},\" for completing the lesson on the \",{\"text\":\"[ Scribe's Table ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F8A51FEB237D9EA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Go to quest\"]}},\".\"]"
+				"[\"\",\"• 紫水晶母岩是\",\"完成这节课\",{\"text\":\"[抄写台]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2F8A51FEB237D9EA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"的\",{\"text\":\"奖励\",\"color\":\"gold\"},\".\"]"
 			]
 			dependencies: ["6347557FC6E5D7D1"]
 			id: "59D642C8883F74BA"
@@ -71,21 +71,21 @@
 			}]
 		}
 		{
-			title: "&nI&rnvocation &nD&resign &nE&rssentials"
+			title: "调用设计之基"
 			icon: "hexcasting:wand_oak"
 			x: 7.5d
 			y: -12.5d
-			subtitle: "Make a Staff"
+			subtitle: "制作一根法杖"
 			description: [
-				"Your &bStaff&r is where you &6compile hex patterns into spells&r. Each Staff is identical, your choice is up to personal preference."
+				"你的&b法杖&r是可以&6把咒术图案编译成法术&r的地方。每种法杖都是完全相同的，选择一个你喜欢的就可以。"
 				""
-				"Spell-crafting via hexes is an &cincredibly complex process&r, that requires quite a lot of terminology. While the &6Hex Notebook&r goes over it, we'll summarize here as well."
+				"通过咒术进行法术构建是一个&c极其复杂的过程&r, 需要用很多专业术语来描述。在&6咒术笔记&r解锁到这里的时候我们也会在任务里讲解。"
 				""
-				"A &6Pattern&r can be drawn onto the grid opened by using a Staff. Patterns perform some action, which manipulates &6the Stack&r in some way."
+				"&6图案&r可以在用法杖打开的网格上进行绘制。图案可以执行一些操作，在某种程度上能控制&6栈&r。"
 				""
-				"We'll go over the Stack later. In short, it's basically a list of information, contained in &6iotas&r. An iota is just a unit of information (like a number, or an entity)."
+				"我们在后面会讲到关于栈的知识。简单来说，这是一种特殊的列表，可以容纳&6iota&r。一个iota是一种信息单元（比如一个数字或一个实体）。（译者注：类似变量）"
 				""
-				"A &6hex&r is basically the final completed product that does something."
+				"&6咒术&r基本上是可以进行某些操作的最终产物。"
 			]
 			dependencies: ["59D642C8883F74BA"]
 			id: "7AD5DDD79020835A"
@@ -135,11 +135,11 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pops a location Vector, and\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"either places a water source or\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"fills a tank with up to 1000mb of water\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶位置向量，并\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"放置一格水源或\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"向流体容器装入最多1桶的水\",\"italic\":false,\"color\":\"gray\"}]"
 											]
-											Name: "{\"text\":\"Cast Water Spell\"}"
+											Name: "{\"text\":\"法术：制造水源\"}"
 										}
 									}
 								}
@@ -170,11 +170,11 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pops either a dropped item Entity, or\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"the location Vector of a block,\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"then smelts it\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶掉落物实体或\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"一个方块的位置向量，\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"并烧炼它们\",\"italic\":false,\"color\":\"gray\"}]"
 											]
-											Name: "{\"text\":\"Cast Smelt Spell\"}"
+											Name: "{\"text\":\"法术：烧炼\"}"
 										}
 									}
 								}
@@ -200,11 +200,11 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pops a location Vector and,\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"if there's a sapling there,\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"grows an Edified Tree\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶位置向量，并且\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"如果那里有个树苗，\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"那么树苗将长成启迪树\",\"italic\":false,\"color\":\"gray\"}]"
 											]
-											Name: "{\"text\":\"Cast Edify Sapling Spell\"}"
+											Name: "{\"text\":\"法术：启迪树苗\"}"
 										}
 									}
 								}
@@ -231,11 +231,11 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pushes a Vector of [0,1,0].\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"For example, when used as a\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"look-direction Vector, this points up\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"入栈一个[0,1,0]的向量。\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"例如，把它当作一个\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"视线方向向量时，视角向上\",\"italic\":false,\"color\":\"gray\"}]"
 											]
-											Name: "{\"text\":\"[0,1,0] Vector\"}"
+											Name: "{\"text\":\"向量之精思，+Y型\"}"
 										}
 									}
 								}
@@ -260,11 +260,11 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pops a location Vector and\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"a look-direction Vector, and\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"pushes the Entity being looked at\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶的位置向量和\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"视线方向向量，并\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"入栈被看着的实体\",\"italic\":false,\"color\":\"gray\"}]"
 											]
-											Name: "{\"text\":\"Scout's Distillation\"}"
+											Name: "{\"text\":\"侦察员之馏化\"}"
 										}
 									}
 								}
@@ -286,11 +286,11 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pops an entity and pushes\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"the direction it's looking\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"as a Vector\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶的实体并入栈\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"视线方向上的单位向量\",\"italic\":false,\"color\":\"gray\"}]"
+												
 											]
-											Name: "{\"text\":\"Alidade's Purification\"}"
+											Name: "{\"text\":\"照准仪之纯化\"}"
 										}
 									}
 								}
@@ -317,12 +317,12 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pops a location Vector and\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"a look-direction Vector, and\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"pushes the side of the block\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"that's being aimed at\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶的位置向量和\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"一个视线方向向量，并\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"入栈被瞄准的方块的面\",\"italic\":false,\"color\":\"gray\"}]"
+												
 											]
-											Name: "{\"text\":\"Architect's Distillation\"}"
+											Name: "{\"text\":\"建筑师之馏化\"}"
 										}
 									}
 								}
@@ -344,10 +344,10 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pops an Entity and pushes\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"a Vector of its coordinates\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶的实体并入栈一个\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"该实体的坐标向量\",\"italic\":false,\"color\":\"gray\"}]"
 											]
-											Name: "{\"text\":\"Compass' Purification\"}"
+											Name: "{\"text\":\"指南针之纯化\"}"
 										}
 									}
 								}
@@ -370,10 +370,10 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pushes the caster as\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"an Entity to the Stack\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"作为一个实体入栈施法者\",\"italic\":false,\"color\":\"gray\"}]"
+												
 											]
-											Name: "{\"text\":\"Mind's Reflection\"}"
+											Name: "{\"text\":\"意识之精思\"}"
 										}
 									}
 								}
@@ -395,17 +395,17 @@
 										display: {
 											Lore: [
 												"[{\"text\":\"\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"Pushes the caster as\",\"italic\":false,\"color\":\"gray\"}]"
-												"[{\"text\":\"an Entity to the Stack\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"移除栈顶的实体并入栈一个\",\"italic\":false,\"color\":\"gray\"}]"
+												"[{\"text\":\"该实体的坐标向量\",\"italic\":false,\"color\":\"gray\"}]"
 											]
-											Name: "{\"text\":\"Compass' Purification\"}"
+											Name: "{\"text\":\"指南针之纯化\"}"
 										}
 									}
 								}
 							]
 							RepairCost: 0
 							display: {
-								Name: "{\"text\":\"Hex Casting Notes\"}"
+								Name: "{\"text\":\"咒术构建笔记\"}"
 							}
 						}
 						ForgeCaps: {
@@ -423,19 +423,19 @@
 		{
 			x: 7.5d
 			y: -15.0d
-			subtitle: "Edify a Sapling"
+			subtitle: "启迪一个树苗"
 			description: [
-				"Gather 'round, my nature-loving scholars, as I impart the wisdom of &bedifying a humble Sapling&r into a magically robust tree."
+				"热爱自然的学者们，聚集在一起，我传授智慧，&b启迪卑微树苗&r，化为魔力充沛之木。"
 				""
 				"{image:ftbai:textures/quests/hex/edify_sapling.png width:330 height:95 align:1}"
 				""
-				"Start by &6placing any arbitrary solid block&r of your choice. Let it stand as a beacon for your intention, a canvas upon which your magic shall take root."
+				"首先，选择&6任一实体方块&r。使其成为你意念的聚集点，成为等待被魔力渲染的空白画布。（译者注：意识之精思，指南针之纯化）"
 				""
-				"Next, extend your senses through a gentle &6raytrace&r, saving the block's location. With this done, &6replace the block with a planted Sapling&r of any type."
+				"接下来，通过温柔的&6视线定位&r延伸你的感官，保存这个方块的位置。（注：意识之精思，照准仪之纯化，弓箭手之馏化）做完上一步之后，&6用任意一种树苗替换掉那个方块&r。"
 				""
-				"[\"\",\"And now, as the final flourish, weave your intentions together and cast the \",{\"text\":\"[ Edify Sapling ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/spells/blockworks 7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" Spell.\"]"
+				"[\"\",\"最后，集中意念构建\",{\"text\":\"[启迪树苗]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/spells/blockworks 7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中查看\"]}},\"法术。\"]"
 				""
-				"Witness as the sapling embraces your gift, growing with newfound vigor and vitality."
+				"见证魔力赐福树苗，焕发出勃勃生机。"
 			]
 			dependencies: ["47F00FCAEE879ED3"]
 			id: "0F2FCDAF1F85854D"
@@ -451,33 +451,33 @@
 			}]
 		}
 		{
-			title: "Learning to Smelt"
+			title: "学会烧炼"
 			icon: "minecraft:furnace"
 			x: 7.5d
 			y: -14.0d
-			subtitle: "Smelt some Stone without a Furnace, then submit it"
+			subtitle: "用熔炉烧一些石头，然后提交。"
 			description: [
-				"Gather around, my eager students, as I share a useful spell."
+				"勤奋的学生们，聚过来，我要给你们展示一条实用的法术。"
 				""
-				"The &bSmelt&r Spell is one of the few ways you are able to smelt things, given that &cFurnaces are banned&r due to being insufficiently wizardy."
+				"&b烧炼&r法术是为数不多的烧制东西的方法之一，因为不符合魔法的世界观&c熔炉被禁用了&r。"
 				""
-				"It pops either a block's location Vector or a dropped item Entity, and then &6smelts it&r, at a cost of ¾ of an Amethyst Dust per item smelted. The example below uses a dropped item."
+				"它能移除栈顶的位置向量或掉落物实体，然后&6将其熔炼&r，每熔炼一个物品消耗四分之三的紫水晶粉。下面的示例中展示的是烧炼掉落物。"
 				""
 				"{image:ftbai:textures/quests/hex/smelt_entity.png width:320 height:50 align:1}"
 				""
-				"In order, from right to left:"
+				"按从左到右的顺序："
 				""
-				"[\"\",\"1. \",{\"text\":\"[ Mind's Reflection ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pushes you\"]"
+				"[\"\",\"1. \",{\"text\":\"[意识之精思]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\" 返回你\"]"
 				""
-				"[\"\",\"2. \",{\"text\":\"[ Compass' Purification ] \",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\"pops it and pushes a vector of your coordinates\"]"
+				"[\"\",\"2. \",{\"text\":\"[指南针之纯化]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"移除栈顶元素并返回你的位置坐标\"]"
 				""
-				"[\"\",\"3. \",{\"text\":\"[ Mind's Reflection ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pushes you again\"]"
+				"[\"\",\"3. \",{\"text\":\"[意识之精思]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"再次返回你\"]"
 				""
-				"[\"\",\"4. \",{\"text\":\"[ Alidade's Purification ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pops it and pushes a vector of the direction you're facing\"]"
+				"[\"\",\"4. \",{\"text\":\"[照准仪之纯化]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"移除栈顶元素并返回你视线方向的方向向量\"]"
 				""
-				"[\"\",\"5. \",{\"text\":\"[ Scout's Distillation ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 10\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pops the two vectors and pushes the entity being looked at. Write this only while looking at an entity (use F3+B to see an entity's bounding box).\"]"
+				"[\"\",\"5. \",{\"text\":\"[侦察员之馏化]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 10\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"移除栈顶的两个向量并返回你正在看着的实体。在你看着实体的时候再画这个图案（使用 F3+B 来查看实体的碰撞箱）。\"]"
 				""
-				"[\"\",\"6. \",{\"text\":\"[ Smelt ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexalbook:patterns/spells/hexal_spells 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show in the book\"]}},\" pops the item drop Entity and smelts it, ending the Hex.\"]"
+				"[\"\",\"6. \",{\"text\":\"[烧炼]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexalbook:patterns/spells/hexal_spells 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"移除栈顶实体并将其烧炼，咒术结束。\"]"
 			]
 			dependencies: ["47F00FCAEE879ED3"]
 			min_width: 450
@@ -578,7 +578,7 @@
 							}
 							sealed: 1b
 							display: {
-								Name: "{\"text\":\"Focus of Eternal Smelt\"}"
+								Name: "{\"text\":\"永恒的烧炼核心\"}"
 							}
 						}
 					}
@@ -593,7 +593,7 @@
 			]
 		}
 		{
-			title: "This is a Bucket. Of Water."
+			title: "这是一个桶。装着水的。"
 			icon: {
 				id: "ftbquests:custom_icon"
 				Count: 1b
@@ -603,21 +603,21 @@
 			}
 			x: 10.5d
 			y: -14.0d
-			subtitle: "Get a Water Bucket"
+			subtitle: "获得水桶"
 			description: [
-				"Listen closely, my dedicated apprentices, as I unveil the steps to &bconjure Water&r through Hex Casting."
+				"靠近点儿听，我专心致志的学生们。我要开始讲解怎么用咒法&b造水&r了。"
 				""
 				"{image:ftbai:textures/quests/hex/create_water.png width:366 height:77 align:1 fit:true}"
 				""
-				"The first four symbols should be familiar: they &6get the block you are looking at&r."
+				"前面四步是类似的，都是&6返回你正在看的方块&r。"
 				""
-				"[\"\",\"After that is the \",{\"text\":\"[ Vector Reflection ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/consts 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" for the Vector \",{\"text\":\"[0,1,0]\",\"color\":\"gold\"},\". That is, a Vector that \",{\"text\":\"aims directly up\",\"color\":\"gold\"},\".\"]"
+				"[\"\",\"在那四步之后是\",{\"text\":\"[向量之精思]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/consts 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"返回向量\",{\"text\":\"[0,1,0]\",\"color\":\"gold\"},\"。这是\",{\"text\":\"向上的\",\"color\":\"gold\"},\"向量。\"]"
 				""
-				"[\"\",\"At this point, the Stack contains a \",{\"text\":\"block's location Vector\",\"color\":\"gold\"},\" at the bottom, with \",{\"text\":\"the Vector [0,1,0]\",\"color\":\"gold\"},\" directly above.\",\" The next Pattern, \",{\"text\":\"[ Additive Distillation ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/math 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the book\"]}},\", adds the two Vectors together, popping them and pushing a new Vector that represents \",{\"text\":\"the block location directly above the block aimed at\",\"color\":\"gold\"},\".\"]"
+				"[\"\",\"在这个时候，栈内包含一个\",{\"text\":\"方块的位置向量\",\"color\":\"gold\"},\"在底部，和一个\",{\"text\":\"向量[0,1,0]\",\"color\":\"gold\"},\"在顶部\",\"继续画下一个图案，\",{\"text\":\"[加法之馏化]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/math 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"，把两个向量加起来，返回一个向量。这个向量代表\",{\"text\":\"目标方块正上方一格的位置\",\"color\":\"gold\"},\"。\"]"
 				""
-				"[\"\",\"Finally, with concentration unwavering, cast forth the \",{\"text\":\"[ Create Water ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/spells/blockworks 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" Spell, channeling your accumulated energies into the incantation.\"]"
+				"[\"\",\"最后，集中你的注意力，构建\",{\"text\":\"[制造水源]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/spells/blockworks 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"法术，将你积累的能量导入咒语中。\"]"
 				""
-				"Witness as the elements respond to your mastery, as water materializes before you, a testament to the harmony between your spirit and the universe."
+				"感受元素对你请求的回应，观察在你面前具化出的水，此乃天人合一之境。"
 			]
 			dependencies: ["47F00FCAEE879ED3"]
 			id: "4B25CEC1C09A669F"
@@ -628,19 +628,19 @@
 			}]
 		}
 		{
-			title: "School Notes"
+			title: "校园笔记"
 			icon: "hexcasting:scroll"
 			x: 7.5d
 			y: -9.5d
-			subtitle: "Patterns for reference"
+			subtitle: "供参考的图案"
 			description: [
-				"The previous lesson has given you a bag of &bScrolls&r!"
+				"之前的课程给过你一包&b卷轴&r！"
 				""
-				"Scrolls &6hold a single Pattern&r, stored as an iota. When &6placed like a Painting&r, you can see the Pattern's shape!"
+				"每个卷轴&6都含有一个单独的图案&r，图案作为一个 iota 被存储。当你把卷轴&6像画一样挂到墙上&r时，你就能看到图案的具体形状了！"
 				""
-				"When some Amethyst Dust is applied, it'll even &6show the direction of movement required&r!"
+				"对着墙上的卷轴使用紫水晶粉，它甚至可以&6显示绘制图案的笔顺&r！"
 				""
-				"As a special treat for you, we've &6explained what each Pattern does&r in the respective Scroll's tooltip."
+				"为了奖励你，我们已经在对应卷轴的提示框里&6描述了每种图案的作用&r。"
 				""
 				"{image:ftbai:textures/quests/hex/scroll_tooltips.png width:113 height:100 align:1}"
 			]
@@ -665,35 +665,35 @@
 			}]
 		}
 		{
-			title: "What Am I Looking At"
+			title: "我正在看什么"
 			icon: "minecraft:arrow"
 			x: 9.0d
 			y: -14.5d
-			subtitle: "Introducing raycasting"
+			subtitle: "介绍照准仪"
 			description: [
-				"Most spells &6do something to something&r. But nothing can be done without something to do it to."
+				"大部分法术都是&6对目标做某事&r。但是如果没有目标，那就什么事也做不了。"
 				""
-				"The most common way to choose a target is just by &6picking whatever's in front of you&r. This is done by a process called &braycasting&r."
+				"选择目标的最普通的方法是&6选择你正在看的目标&r。这套流程叫做&b视线定位&r。"
 				""
 				"{image:ftbai:textures/quests/hex/raycast_block.png width:300 height:137 align:1}"
 				""
-				"From left to right:"
+				"从左到右："
 				""
-				"[\"\",\"1. \",{\"text\":\"[ Mind's Reflection ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pushes you\"]"
+				"[\"\",\"1. \",{\"text\":\"[意识之精思]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"返回你\"]"
 				""
-				"[\"\",\"2. \",{\"text\":\"[ Compass' Purification ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pops it and pushes a vector of your coordinates\"]"
+				"[\"\",\"2. \",{\"text\":\"[指南针之纯化]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"移除栈顶元素并返回你的位置坐标向量\"]"
 				""
-				"[\"\",\"3. \",{\"text\":\"[ Mind's Reflection ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" again\"]"
+				"[\"\",\"3. \",{\"text\":\"[意识之精思]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"再返回你\"]"
 				""
-				"[\"\",\"4. \",{\"text\":\"[ Alidade's Purification ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pops it and pushes a vector of the diretion you're facing\"]"
+				"[\"\",\"4. \",{\"text\":\"[照准仪之纯化]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"移除栈顶元素并返回你的视线方向向量\"]"
 				""
-				"[\"\",\"5. \",{\"text\":\"[ Archer's Distillation ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the Book\"]}},\" pops the two vectors and pushes a vector location at the first block in the direction you're looking\"]"
+				"[\"\",\"5. \",{\"text\":\"[弓箭手之馏化]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/basics 7\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"移除栈顶两个向量并返回一个位置向量，这个位置向量代表你视线方向上对准的方块\"]"
 				""
-				"So, basically, writing these Patterns in order pushes a vector of &6the location of whatever block you're looking at&r. This is used in many, many spells."
+				"基本上，按顺序画出这些图案会返回一个代表&6你正在看的方块位置&r的向量。很多法术都需要用到这个。"
 				""
-				"Do note that this &conly stops when it hits a &lsolid block&r. It will pass straight through blocks like Saplings, as well as fluids."
+				"请注意&c视线只能停留在&l实体方块上&r。如果是非实体方块，比如树苗或各种流体，视线会直接穿过去。"
 				""
-				"As a side note: you can &conly interact with blocks at a reasonable distance&r. If a block is beyond &632 meters&r away, the Hex fails."
+				"附注：你&c只能在合理的距离内选择方块&r。如果和一个方块的距离超过了&632米&r，咒法就会失效。"
 			]
 			dependencies: ["3B8048B920E2C67E"]
 			id: "47F00FCAEE879ED3"
@@ -712,15 +712,15 @@
 			}
 			x: 4.5d
 			y: -12.5d
-			subtitle: "Master of Hexcasting"
+			subtitle: "咒法学大师"
 			description: [
-				"Greetings, aspiring hexcasters,"
+				"向你们致意，胸怀抱负的咒法学者们。"
 				""
-				"Welcome to &dHex Casting&r, one of the &6most complex and deeply reaching arts&r you will learn here."
+				"欢迎来到&d咒法学&r，&6最复杂又影响深远的艺术&r，你马上就会在这里学到。"
 				""
-				"The knowledge provided to you here is unlike any other. Unlike other branches of magic, which deal in energies from varying sources, the magic here &6stems from information in its purest form&r."
+				"你在这里学到的知识和别的知识不一样。不像其他魔法分支，需要学习各种不同来源的能量，研究这个魔法&6只需要仔细看一些纯粹的文字信息&r."
 				""
-				"Should you play in &6Large GUI Scale&r, you may find it necessary to &cscroll to see the entirety of each lesson&r, as they are long by nature."
+				"如果你在用&6很大的界面尺寸&r，那么你须要&c滚动滚轮查看每个课程任务&r，因为它们本来就很长。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["63368A007664E4B5"]
@@ -729,7 +729,7 @@
 			tasks: [{
 				id: "015CFB4217E8A07B"
 				type: "location"
-				title: "Meet Professor Sunekaer"
+				title: "和苏卡尔教授见面"
 				icon: {
 					id: "minecraft:player_head"
 					Count: 1b
@@ -788,13 +788,13 @@
 					id: "12936FEE299E257F"
 					type: "command"
 					auto: "invisible"
-					command: "/title @p title {\"text\":\"Welcome to Hexcasting\", \"color\":\"yellow\"}"
+					command: "/title @p title {\"text\":\"欢迎来到咒法学\", \"color\":\"yellow\"}"
 					silent: true
 				}
 			]
 		}
 		{
-			title: "Waste Not Want Not"
+			title: "杜绝浪费"
 			icon: {
 				id: "hexcasting:battery"
 				Count: 1b
@@ -808,15 +808,15 @@
 			}
 			x: 10.5d
 			y: -15.0d
-			subtitle: "Make a Phial of Mana"
+			subtitle: "合成一个媒质之瓶"
 			description: [
-				"Media in its purest form (that is, Amethyst items) is rather &cwasteful&r. If you cast a spell that requires a single Amethyst Dust, &6it'll eat up an entire Charged Amethyst if that's all you have&r."
+				"原始形态的媒质（即紫水晶相关物品）使用起来是相当&c浪费的&r。如果你构建一个只消耗一个紫水晶粉，&6那么如果你身上只有一个充能紫水晶，这块充能紫水晶会被全部消耗&r。"
 				""
-				"Allow me to introduce the &bPhial of Media&r, a precious repository for thought-energies. These phials possess a grace that normal items lack, preserving your media with utmost precision. When you expend 5 media, it shall &6always spend exactly that quantity&r."
+				"请允许我来介绍这个&b媒质之瓶&r，一种精确保存思维能量的容器。这些小瓶子能增强施法者对媒质的把控能力，从而最大程度上精准存储。当你只消耗5点媒质时，&6瓶内不会减少比5点更多的媒质&r。"
 				""
-				"[\"\",\"Crafting Phials of Mana is no simple task, however. You'll have to show mastery over the \",{\"text\":\"[ Craft Phial ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/great_spells/make_battery 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Show me in the book\"]}},\" Great Spell. However, do note that this \",{\"text\":\"is\",\"italic\":true},\" a \",{\"text\":\"[ Great Spell ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6DDA03D8EFDB18CA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Great Spells quest\"]}},\", which has its own special requirements.\"]"
+				"[\"\",\"合成媒质之瓶并不轻松，你必须要精通\",{\"text\":\"[制作试剂瓶]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/open-book hexcasting:thehexbook hexcasting:patterns/great_spells/make_battery 1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"在书中展示\"]}},\"这个卓越法术。记住，这\",{\"text\":\"是\",\"italic\":true},\"一个\",{\"text\":\"[卓越法术]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6DDA03D8EFDB18CA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"卓越法术任务\"]}},\"，使用它有独特的要求。\"]"
 				""
-				"Furthermore, these phials boast the ability to cradle media in &6fractional&r harmony. In the face of hexes demanding &6decimal portions&r of power, fear not, for a &bPhial of Media&r shall measure with finesse, accepting 10.25 when others would squander 11. Such precision, my students, is the hallmark of a true hexcaster's skill."
+				"另外，这些小瓶子据说可以处理&6小数级别&r的媒质。面对咒术消耗媒质的&6小数部分&r时不要担心，因为&b媒质之瓶&r会精妙测量，在其他媒质载体消耗11点时，媒质之瓶可以只消耗10.25。学生们，只有达到这么精准你们才可以说是真正的咒法学学者。"
 			]
 			dependencies: ["47F00FCAEE879ED3"]
 			min_width: 350
@@ -824,7 +824,7 @@
 			tasks: [{
 				id: "5FD9F42DBCC26C68"
 				type: "item"
-				title: "Phials of Media"
+				title: "媒质之瓶"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -878,23 +878,23 @@
 			}]
 		}
 		{
-			title: "Saving Variables"
+			title: "保存变量"
 			icon: "hexcasting:focus"
 			x: 10.5d
 			y: -12.5d
-			subtitle: "Make a Focus or Spellbook"
+			subtitle: "合成核心或法术书"
 			description: [
-				"Dear seekers of arcane wisdom,"
+				"亲爱的神秘知识探寻者："
 				""
-				"Enter the realm of the &bFocus&r, as it emerges from the craftsman's hands, it cradles &6Null&r, the essence of nothingness. "
+				"当&b核心&r在制作者手中出现时，它的内部存有&6Null&r的虚指，代表了“无”。"
 				""
-				"However, with the guidance of the &6Scribe's Gambit&r pattern, while the Focus rests in your offhand, you shall see its form shift, capturing a single iota from the Stack."
+				"在副手持有核心时，如果使用&6书吏之策略&r，那么核心的形态会发生变化，并且从栈顶获取一个iota。"
 				"{image:ftbai:textures/quests/hex/scribe_gambit.png width:50 height:50 align:1}"
 				""
-				"To unlock the latent potential of this iota, invoke &6Scribe's Reflection&r while clenching the Focus in your grasp. With this act, you shall release its captive iota back into the realm of magic, ready for your conjurations."
+				"为了读取存储在核心的iota，握紧副手中的核心并调用&6书吏之精思&r。这样你就能释放其中的iota进入栈，随时准备释放法术。"
 				"{image:ftbai:textures/quests/hex/scribe_reflect.png width:50 height:50 align:1}"
 				""
-				"And now, behold the &bSpellbook&r, akin to the Focus yet capable of harboring &6up to 100 iotas&r. Hold it in your hand and, with a sly touch of sneak, navigate its pages with a scroll."
+				"现在看看&b法术书&r，跟核心类似，但能容纳&6最多64个iota&r。把它拿在手里，潜行用鼠标滚轮换页。"
 			]
 			dependencies: ["3B8048B920E2C67E"]
 			min_width: 300
@@ -902,7 +902,7 @@
 			tasks: [{
 				id: "1AEEF3EB3170E7AF"
 				type: "item"
-				title: "Iota storage items"
+				title: "存储iota的物品"
 				item: {
 					id: "itemfilters:or"
 					Count: 1b
@@ -931,24 +931,24 @@
 			}]
 		}
 		{
-			title: "Casting Items Pt.1"
+			title: "制作施法物品 第一部分"
 			icon: "hexcasting:trinket"
 			x: 12.0d
 			y: -12.5d
 			description: [
-				"Ah, the pursuit of magic is indeed a noble endeavor, but the intricate dance of Hexcasting can be demanding. Fear not, for there is a solution to alleviate the burden of drawing Hexes each time."
+				"对魔法知识的追求是一种崇高的行为，但是绘制复杂的图案施咒非常繁琐。不用担心，有种方法可以减少每次绘制图形的负担。"
 				""
-				"Behold, the art of saving Hexes onto a &6Casting Item&r. These items come in three distinct varieties:"
+				"看，把咒术保存到&6施法物品&r。施法物品有三种不同的形式："
 				""
-				"&b&lCyphers&r, the most economical of choices, though they bear the caveat of shattering once their media is depleted, leaving them unrechargeable."
+				"&b&l杂件&r，最经济实惠的选择，但是一旦能量耗尽就会损坏，无法重新充能。"
 				""
-				"&b&lTrinkets&r, resilient in nature, capable of enduring multiple uses, and conveniently rechargeable to extend their magical lifespan."
+				"&b&l缀品&r，材料可复原，能够长久使用，并且可以重新充能来延长寿命。"
 				""
-				"&b&lArtifacts&r, the pinnacle of Hexcasting tools, not only resilient but able to tap into your very own Media should it run dry, ensuring uninterrupted enchantments."
+				"&b&l造物&r，最强大的咒术学工具，不止能复原还可以在内部媒质耗尽后消耗物品栏内的紫水晶，确保能够一直施放魔法。"
 				""
-				"Furthermore, take heed, for all three types are adaptable, capable of handling Hexes with fractional Media costs. In the realm of Hexcasting, precision is paramount, and these versatile items shall accommodate your needs with grace."
+				"此外，请注意，三种类型物品都可以消耗很微少的媒质。在咒法学领域，精确是最重要的，这些多功能的物品可以优雅的满足你的需求。"
 				""
-				"Choose wisely, dear students, for in your choice of Casting Item lies the essence of your magical journey."
+				"亲爱的学生们，做出明智选择吧。魔法之旅的本质就体现在施法物品的选择中。"
 			]
 			dependencies: ["3CE0DDDD24DD734F"]
 			min_width: 450
@@ -962,13 +962,13 @@
 			x: 10.5d
 			y: -11.0d
 			description: [
-				"Dear students of the arcane,"
+				"亲爱的神秘知识学习者："
 				""
-				"Let me elucidate the enigmatic &bSlate&r, a vessel akin to the humble &6Scrolls&r, but with a unique purpose—housing a single Pattern. Like the Scroll, it obeys the art of Consideration and Scribe's Gambit to capture the essence of a Pattern."
+				"让我来解释一下神秘的&b石板&r，一种类似于&6卷轴&r的简陋图案载体，有容纳一个图案的特殊能力。和卷轴一样，可以通过考察和书吏之策略来刻录咒术图案。"
 				"{image:ftbai:textures/quests/hex/scout_distillation.png width:500 height:220 align:1 fit:true}"
-				"These Slates, however, bear an additional facet of their nature. They serve as more than mere functional tools; they can also adorn your surroundings when placed upon blocks, adding an aesthetic flourish to your magical sanctuaries."
+				"这些石板 还有一些其他作用。它们不仅是功能性工具，也可以放在方块上当装饰，为你的魔法研究所增加美感。"
 				"{image:ftbai:textures/quests/hex/smelt_cypher.png width:187 height:100 align:1 fit:true}"
-				"Yet, the true significance of the Slate remains veiled until the moment of &6Enlightenment&r, when its role in the intricate art of &6Spell Circles&r is unveiled. It is then that you shall come to appreciate the profound purpose hidden within these seemingly ordinary Slates."
+				"然而，石板的真正作用一直没有显露，直到&6启迪&r的那一刻到来，它在复杂的&6法术环&r中的作用才被揭露。到那时你就能体会到者看似寻常的石板如何发挥出深远的影响。"
 			]
 			dependencies: [
 				"3CE0DDDD24DD734F"
@@ -993,11 +993,11 @@
 			icon: "minecraft:ender_eye"
 			x: 9.0d
 			y: -11.0d
-			subtitle: "Get the progression Advancements"
+			subtitle: "完成一系列成就"
 			description: [
-				"The &6Hex Notebook&r, a tome of arcane knowledge and power, &6unfolds its secrets in tandem with your journey&r. As you &oadvance&r, more of the book's pages appear."
+				"&6咒术笔记&r，神秘知识和能力的巨著，&6随着你的旅程逐渐展现它的秘密&r。随着你完成&o成就&r，越来越多的书页将会出现。"
 				""
-				"&bBlind Diversion&r is unlocked by attempting to &6cast from an Ancient Scroll&r using Scribe's Reflection and Hermes' Gambit."
+				"&b盲目绘制&r的解锁条件是试图使用书吏之精思和赫尔墨斯之策略&6根据远古卷轴施放法术&r。"
 				""
 				"Doing so will unlock the entry \"A Frustration\" in the \"Getting Started\" category."
 				""
@@ -1038,7 +1038,7 @@
 			x: 9.0d
 			y: -9.5d
 			description: [
-				"Dear Students!"
+				"亲爱的学生们，"
 				""
 				"Alongside your enlightenment, you've unlocked the ability to cast &6Great Spells&r. That is, assuming you've found their Scrolls."
 				""
