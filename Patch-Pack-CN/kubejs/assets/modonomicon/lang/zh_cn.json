@@ -96,7 +96,7 @@
   "modonomicon.gui.button.read_all.tooltip.none": "目前§l没有未阅读的§r已解锁条目。",
   "modonomicon.gui.button.read_all.tooltip.read_all": "将§c所有§r（包括锁定）条目标为已读。",
   "modonomicon.gui.button.read_all.tooltip.read_unlocked": "将所有§a已解锁§r条目标为已读。",
-  "modonomicon.gui.button.read_all.tooltip.shift": "Shift右键将§c所有§r（包括锁定）条目标为已读。",
+  "modonomicon.gui.button.read_all.tooltip.shift": "Shift右击将§c所有§r（包括锁定）条目标为已读。",
   "modonomicon.gui.button.read_all.tooltip.shift_warning": "§l§c警告：§r这可能使基于进度的书籍难以阅读。",
   "modonomicon.gui.button.visualize": "展示多方块结构预览",
   "modonomicon.gui.button.visualize.tooltip": "展示多方块结构预览",
