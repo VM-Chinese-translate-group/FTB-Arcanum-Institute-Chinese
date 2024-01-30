@@ -188,7 +188,7 @@
 				{
 					id: "0EDDA1E50BB13A8C"
 					type: "custom"
-					title: "穿上火术师的装备吧"
+					title: "穿上火法师的装备吧"
 					icon: {
 						id: "arsarsenal:fire_robes"
 						Count: 1b
@@ -245,7 +245,7 @@
 				{
 					id: "7A569087B047AA14"
 					type: "custom"
-					title: "穿上水术师的装备吧"
+					title: "穿上水法师的装备吧"
 					icon: {
 						id: "arsarsenal:aqua_robes"
 						Count: 1b
@@ -288,7 +288,7 @@
 				{
 					id: "1661298547E7C4DF"
 					type: "custom"
-					title: "穿上以太术师的装备吧"
+					title: "穿上气法师的装备吧"
 					icon: {
 						id: "arsarsenal:air_robes"
 						Count: 1b
@@ -331,7 +331,7 @@
 				{
 					id: "37A6A28572DA2153"
 					type: "custom"
-					title: "穿上地术师的装备吧"
+					title: "穿上地法师的装备吧"
 					icon: {
 						id: "arsarsenal:earth_robes"
 						Count: 1b
