@@ -1300,7 +1300,7 @@
 				""
 				"左侧是&6咒术笔记&r中使用的表示方法（尤其是按住&6Ctrl键&r的时候）。红点是起点，路径会随着笔迹越来越浅。"
 				""
-   			"[\"\",\"右侧是\",{\"text\":\"[在线中文教程]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://hexcasting.hexxy.media/v/latest/1.18/zh_cn/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"https://hexcasting.hexxy.media/v/latest/1.18/zh_cn/\",\"underlined\":true,\"color\":\"aqua\"}]}},\"这上面的内容应该很有用！并且上面的图片还有动画\",{\"text\":\"还有动画\",\"color\":\"gold\"},\"！\"]"
+   			"[\"\",\"右侧是\",{\"text\":\"[在线中文教程]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://hexcasting.hexxy.media/v/latest/1.18/zh_cn/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\"https://hexcasting.hexxy.media/v/latest/1.18/zh_cn/\",\"underlined\":true,\"color\":\"aqua\"}]}},\"这上面的内容应该很有用！并且上面的图片\",{\"text\":\"还有动画\",\"color\":\"gold\"},\"！\"]"
 			]
 			dependencies: ["7AD5DDD79020835A"]
 			id: "323CBBCFCF3D1402"
