@@ -361,9 +361,9 @@
 				""
 				"&c课程必须要以特定的顺序完成。&r你不能只一头扎进最难的课程！做事要循序渐进！"
 				""
-				"[\"\",\"你可以在你的任务书中查看\",{\"text\":\"[ 进度 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30B1C2E28BD6FFAD\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"进度任务章节\"]}},\"章节来查看\",{\"text\":\"需要按照什么顺序去做什么事情。\",\"color\":\"gold\"}]"
+				"[\"\",\"你可以在你的任务书中查看\",{\"text\":\"[进程]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30B1C2E28BD6FFAD\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"进程任务章节\"]}},\"章节来查看\",{\"text\":\"需要按照什么顺序去做什么事情。\",\"color\":\"gold\"}]"
 				""
-				"[\"\",\"如果你不能找到这节课，查看一下\",{\"text\":\"[ 交互地图 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"显示地图\"]}},\"！它将会直接指引到每节课！一旦你曾来过这里，你也可以花费一些经验来直接传送到那里！\"]"
+				"[\"\",\"如果你不能找到这节课，查看一下\",{\"text\":\"[交互地图]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"显示地图\"]}},\"！它将会直接指引到每节课！一旦你曾来过这里，你也可以花费一些经验来直接传送到那里！\"]"
 				""
 				"你的老师们不仅仅是讲师还是导师，所以积极地参与课程并且寻求指导。"
 				""
@@ -427,7 +427,7 @@
 				""
 				"在收到我们的学生和教职员工的抱怨起迷路并且从此销声匿迹的新生数量之后，为你方便起见，我们已经制作了一张可交互的地图。可以在你的&6任务书&r里找到它。"
 				""
-				"[\"\",\"点击此\",{\"text\":\"[ 交互地图 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"显示地图\"]}},\"以直接带你到达。\"]"
+				"[\"\",\"点击此\",{\"text\":\"[交互地图]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5F717A9CBD0A686A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"显示地图\"]}},\"以直接带你到达。\"]"
 			]
 			dependencies: ["68F3DB988DCED32C"]
 			id: "5901CF4BDE06D801"
@@ -498,7 +498,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[ 自然的祝福 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2D203BFFF0EB7337\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开章节\"]}},\"任务章节！\"]"
+				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[自然的祝福]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2D203BFFF0EB7337\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开章节\"]}},\"任务章节！\"]"
 			}]
 		}
 		{
@@ -558,7 +558,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[ 法术构造学 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 5DD2F65DABF3914C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开任务\"]}},\" 任务章节！\"]"
+				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[法术构造学]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 5DD2F65DABF3914C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开任务\"]}},\" 任务章节！\"]"
 			}]
 		}
 		{
@@ -857,7 +857,7 @@
 				type: "command"
 				title: "宣布"
 				auto: "invisible"
-				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[ 古代符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2E0B8A32B6D87ADA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开任务\"]}},\" 任务章节！\"]"
+				command: "/tellraw @p [\"\",\"[整合包] 已解锁\",{\"text\":\"[古代符文]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/ftbquests open_book 2E0B8A32B6D87ADA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"打开任务\"]}},\" 任务章节！\"]"
 			}]
 		}
 		{

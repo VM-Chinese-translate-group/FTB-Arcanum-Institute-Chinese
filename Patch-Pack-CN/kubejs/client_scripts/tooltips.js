@@ -50,7 +50,7 @@ onEvent('item.tooltip', (event) => {
 
 function eccentricTome(item, text) {
     if (item.nbt['eccentrictome:mods'].toString() == '{}') {
-        text.add(Component.string('用模组的书合成！').gray())
+        text.add(Component.string('将它与模组的书合成！').gray())
     } else {
         text.add(Component.string('左击以重置书').gray())
         text.add(Component.string('潜行移除书时会掉落。').gray())

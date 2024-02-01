@@ -60,7 +60,7 @@ function gamemodeSwitcher(event) {
 			server.runCommandSilent(`gamemode survival ${player.name.text}`)
 			player.tell('你进入了地牢。')
 			player.tell('要提前离开，请输入：\n')
-			Utils.server.runCommand(`tellraw ${player.name.text} ["",{"text":"[ ","color":"gold"},{"text":"/ftbdungeons bail","color":"green","clickEvent":{"action":"run_command","value":"/ftbdungeons bail"},"hoverEvent":{"action":"show_text","contents":["点击以提前离开"]}},{"text":" ]","color":"gold"}]`)
+			Utils.server.runCommand(`tellraw ${player.name.text} ["",{"text":"[","color":"gold"},{"text":"/ftbdungeons bail","color":"green","clickEvent":{"action":"run_command","value":"/ftbdungeons bail"},"hoverEvent":{"action":"show_text","contents":["点击以提前离开"]}},{"text":"]","color":"gold"}]`)
 			break
 		}
 		case 'minecraft:the_end':{

@@ -2,7 +2,7 @@
 	"itemGroup.gag.gag": "GAG — Gadgets Against Grind",
 	"info.gag.repelling_item": "应用时给予玩家一个效果，阻止附近的敌对生物生成。",
 	"info.gag.supports_unbreaking": "可被附魔耐久和经验修补",
-	"info.gag.time_sand_tooltip_mult": "该区块已被加速到%sx倍！",
+	"info.gag.time_sand_tooltip_mult": "该方块已被加速到%sx倍！",
 	"info.gag.time_sand_tooltip_time": "剩余时间：%s秒",
 	"item.gag.time_sand": "时间之沙",
 	"item.gag.time_sand_pouch": "时间之袋",

@@ -20,7 +20,7 @@
 				""
 				"你也许已经注意到了你&c不能使用或者放置工作台&r。由于这个限制，你的第一堂课应该是在你的&e法术构造学&r课中的入门任务。"
 				""
-				"[\"\",\"反而，你控制并利用这份创造性潜能的第一步是通过\",{\"text\":\"[ 你的第一本法术书 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"54D7F5310E879150\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\" 将会\",{\"text\":\"让你使用合成栏\",\"color\":\"gold\"},\"！\"]"
+				"[\"\",\"反而，你控制并利用这份创造性潜能的第一步是通过\",{\"text\":\"[你的第一本法术书]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"54D7F5310E879150\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\" 将会\",{\"text\":\"让你使用合成栏\",\"color\":\"gold\"},\"！\"]"
 				""
 				"拥抱这个魔法工具，并让它成为在我们魔法领域中给予你支持的基石。使用它，你将编织奇迹并解锁我们世界中的奥秘。愿你的冒险合成之旅充满探索和创新。"
 			]
@@ -100,16 +100,16 @@
 				"完成某些课程之后，你的&6老师会给你一些树苗&r。这些可以&6在你的校舍里种植并收获&r。"
 				""
 				"&l植物魔法&r"
-				"[\"\",{\"text\":\"[ 水盆 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"005DDE56C5926F5D\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
+				"[\"\",{\"text\":\"[水盆]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"005DDE56C5926F5D\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 				""
 				"&l新生魔艺&r"
-				"[\"\",{\"text\":\"[ 法术初学者 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0CF0DB4C6B3419C2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
+				"[\"\",{\"text\":\"[法术初学者]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"0CF0DB4C6B3419C2\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 				""
 				"&l神秘学&r"
-				"[\"\",{\"text\":\"[ 观察灵火 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2CA20C350E71D2C3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
+				"[\"\",{\"text\":\"[观察灵火]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2CA20C350E71D2C3\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 				""
 				"&l自然灵气&r"
-				"[\"\",{\"text\":\"[ 获得一片黄金叶 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"51F6ACC0A8B4CFA9\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
+				"[\"\",{\"text\":\"[获得一片黄金叶]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"51F6ACC0A8B4CFA9\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"\"]"
 			]
 			dependency_requirement: "one_started"
 			min_width: 300
@@ -223,13 +223,13 @@
 				"以后，你能使用以下其中一种方式来生产所有种类的矿石："
 				""
 				"&l植物魔法的凝矿兰&r："
-				"[\"  \",\"\",{\"text\":\"[ 制作符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"  \",\"\",{\"text\":\"[制作符文]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
 				"&l神秘学的维度矿井&r："
-				"[\"  \",\"\",{\"text\":\"[ 在其他维度挖矿 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"  \",\"\",{\"text\":\"[在其他维度挖矿]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
 				"&l血魔法的坠星位标仪式&r："
-				"[\"\",\"  \",{\"text\":\"[ 巨大陨石 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"\",\"  \",{\"text\":\"[巨大陨石]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 			]
 			dependencies: ["4CCB6C082F5C0622"]
 			min_width: 300
@@ -267,13 +267,13 @@
 				"此后，你能使用以下其中一种方式来生产所有种类的矿石："
 				""
 				"&l植物魔法的凝矿兰&r："
-				"[\"  \",\"\",{\"text\":\"[ 制作符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"  \",\"\",{\"text\":\"[制作符文]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
 				"&l神秘学的维度矿井&r："
-				"[\"  \",\"\",{\"text\":\"[ 在其他维度挖矿 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"  \",\"\",{\"text\":\"[在其他维度挖矿]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
 				"&l血魔法的坠星位标仪&r："
-				"[\"\",\"  \",{\"text\":\"[ 巨大陨石 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"\",\"  \",{\"text\":\"[巨大陨石]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 			]
 			min_width: 375
 			id: "3693F0A7021419E6"
@@ -310,13 +310,13 @@
 				"此后，你能使用以下其中一种方式来生产所有种类的矿石："
 				""
 				"&l植物魔法的凝矿兰&r："
-				"[\"  \",\"\",{\"text\":\"[ 制作符文 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"  \",\"\",{\"text\":\"[制作符文]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"467B9515336B7593\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
 				"&l神秘学的维度矿井&r："
-				"[\"  \",\"\",{\"text\":\"[ 在其他维度挖矿 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"  \",\"\",{\"text\":\"[在其他维度挖矿]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"6925F8ED680D4A6B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				""
 				"&l血魔法的坠星位标仪&r："
-				"[\"\",\"  \",{\"text\":\"[ 巨大陨石 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"\",\"  \",{\"text\":\"[巨大陨石]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30BF579CD3C865A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 			]
 			dependencies: ["4CCB6C082F5C0622"]
 			min_width: 300
@@ -450,7 +450,7 @@
 				""
 				"• 能制作&6特殊生物传送门&r，例如烈焰人的和末影人的。"
 				""
-				"[\"\",\"• 制作\",{\"text\":\"[ 次等节魔之戒 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"612BC02EEA4C9BBA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"的能力，需要在你的新生魔艺课上解锁\",{\"text\":\"二阶法术书\",\"color\":\"gold\"},\"。\"]"
+				"[\"\",\"• 制作\",{\"text\":\"[次等节魔之戒]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"612BC02EEA4C9BBA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}},\"的能力，需要在你的新生魔艺课上解锁\",{\"text\":\"二阶法术书\",\"color\":\"gold\"},\"。\"]"
 			]
 			dependencies: ["322870F322A43E51"]
 			min_width: 300
@@ -506,10 +506,10 @@
 				""
 				"获取梦寐以求的紫颂花的途径确实是一件漫长的事，但可以保证的是，你积极致力于魔法技艺，一定会有丰厚的回报。"
 				""
-				"[\"\",\"\",{\"text\":\"[ 白雏菊 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E19F49E1CA299A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"\",\"\",{\"text\":\"[白雏菊]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3E19F49E1CA299A6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				"刚开始的时候，使用一朵&6白雏菊&r来进行一次神秘的转化。&6把你的紫珀块转化为紫颂杂草&r，在进程中一个至关重要的中间阶段。"
 				""
-				"[\"\",\"\",{\"text\":\"[ 精魂灌注 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"50B9F03C73F0A696\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
+				"[\"\",\"\",{\"text\":\"[精魂灌注]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"50B9F03C73F0A696\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}]"
 				"下一步，控制并利用灵灾的&6精魂灌注&r之力，使用所需要的精魂灌注进紫颂杂草内。"
 			]
 			dependencies: ["52CE1B114CB8605F"]
@@ -601,13 +601,13 @@
 				"就像工作台，&c使用非魔法的熔炉是禁止的&r。然而，我们主办的许多关于&o正确&r熔炼的课程，就像&o巫师&r一样。"
 				""
 				"&l植物魔法&r"
-				"{\"text\":\"[ 植物学熔炉 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30F12709B6842237\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
+				"{\"text\":\"[植物学熔炉]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"30F12709B6842237\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 				""
 				"&l新生魔艺&r"
-				"{\"text\":\"[ 魔符：熔炼 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3C60F002ACBF1B8F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
+				"{\"text\":\"[魔符：熔炼]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3C60F002ACBF1B8F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 				""
 				"&l咒法学&r"
-				"{\"text\":\"[ 学会熔炼 ]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"38A3B49A5D413BBF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
+				"{\"text\":\"[学会熔炼]\",\"color\":\"yellow\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"38A3B49A5D413BBF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"前往该任务\"]}}"
 			]
 			dependencies: [
 				"18B32901E5D2C5BA"
