@@ -28,7 +28,7 @@ function checkTeacher(event, teacherPos, range, stage, questId) {
 			y >= teacherY + range
 		) {
 			const kuPlayer = new Ku.Player(player);
-			kuPlayer.showActionBar(`离开${stage}班级`, Color.YELLOW, false)
+			kuPlayer.showActionBar(`离开${stage}课程`, Color.YELLOW, false)
 			player.stages.remove(stage)
 		}
 	}

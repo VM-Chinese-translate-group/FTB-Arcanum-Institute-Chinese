@@ -112,20 +112,20 @@ onEvent('player.tick', (event) => {
         'mme',
         FTB_AI_CONSTS.shops.questId.mme
     )
-    checkTeacher(event, [-321, -22, -186], 18, 'BloodMagic', '786E87AD25C9C9D6')
-    checkTeacher(event, [-133, -49, -108], 7, 'Ars Nouveau', '59EF764CCD1CAADD')
-    checkTeacher(event, [-478, -30, -23], 11, 'Botania', '016AE3BFE56E4C03')
-    checkTeacher(event, [-328, -53, -319], 13, `Malum`, '418871AEEAAB853A')
-    checkTeacher(event, [-322, -50, -49], 16, 'Hexerei', '2C443D0A7F527025')
-    checkTeacher(event, [-321, -48, -186], 16, 'Occultism', '2CBECFD7042E416F')
+    checkTeacher(event, [-321, -22, -186], 18, '血魔法', '786E87AD25C9C9D6')
+    checkTeacher(event, [-133, -49, -108], 7, '新生魔艺', '59EF764CCD1CAADD')
+    checkTeacher(event, [-478, -30, -23], 11, '植物魔法', '016AE3BFE56E4C03')
+    checkTeacher(event, [-328, -53, -319], 13, `灵灾`, '418871AEEAAB853A')
+    checkTeacher(event, [-322, -50, -49], 16, '魔法巫师', '2C443D0A7F527025')
+    checkTeacher(event, [-321, -48, -186], 16, '神秘学', '2CBECFD7042E416F')
     checkTeacher(
         event,
         [-233, -23, -138],
         16,
-        'Spellcasting',
+        '施法',
         '7A8009D1B25A5A01'
     )
-    checkTeacher(event, [-123, -25, 15], 16, 'Beastmaster', '5817BE8CA48724DD')
+    checkTeacher(event, [-123, -25, 15], 16, '野兽大师', '5817BE8CA48724DD')
 
     const portalBlocks = [
         'ftbai:team_island_portal',
