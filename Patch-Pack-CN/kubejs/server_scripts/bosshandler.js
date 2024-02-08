@@ -10,9 +10,10 @@ onEvent('entity.death', event =>{
     const {entity, target, level, server} = event
     if(level.dimension != "minecraft:the_end") return
     if(!entity.type.toString().includes('customnpcs')) return
+
     switch(entity.name.key){
         // Spawn Witch when Puppet dies
-        case "被囚女巫":{
+        case "Sealed Witch":{
             let command = `execute in minecraft:the_end run noppes clone spawn "Evil Witch Bossfight" 1 ${Math.floor(entity.x)} ${Math.floor(entity.y)} ${Math.floor(entity.z)}`
             server.runCommand(command)
             let core = getRandomCore()
@@ -32,7 +33,7 @@ onEvent('entity.death', event =>{
             server.scheduleInTicks(range(200, 400), event =>{
                 let aabb = AABB.of(entity.x-100, entity.y-2, entity.z-100, entity.x+100, entity.y+150, entity.z+100)
                 let entities = level.getEntitiesWithin(aabb)
-                if(entities.toString().includes('女巫莱克西')) {
+                if(entities.toString().includes('Witch Lexxie')) {
                     let core = getRandomCore()
                     spawnCores(event, core, [entity.x, entity.y, entity.z])
                 }
@@ -54,7 +55,7 @@ onEvent('entity.hurt', event =>{
     if(!entity.type.toString().includes('customnpcs')) return
     if(source.type == 'outOfWorld') return
     switch(entity.name.key){
-        case "被囚女巫":{
+        case "Sealed Witch":{
             event.cancel()
             break
         }
@@ -120,7 +121,7 @@ onEvent("block.right_click", event =>{
         let aabb = AABB.of(castingBlock.x-25, castingBlock.y-2, castingBlock.z-25, castingBlock.x+25, castingBlock.y+25, castingBlock.z+25)
         let entities = level.getEntitiesWithin(aabb)
         entities.forEach(checkedEntity =>{
-            if(checkedEntity.name.key == "被囚女巫"){
+            if(checkedEntity.name.key == "Sealed Witch"){
                 witch = checkedEntity
             }
             if(checkedEntity.type.toString().includes('whisperwoods')){
@@ -347,7 +348,7 @@ function deadWitch(event){
         if (single_player.isPlayer()) {
             title(single_player, "暗黑女巫已被击败！")
             single_player.tell("她再次被封印在星月斗兽场")
-            single_player.tell("奥术学院回归了平静！至少是现在……")
+            single_player.tell("奥术学院回归了平静！至少现在是这样……")
             single_player.playSound('ftbai:witch_scream')
             Utils.server.runCommandSilent(`execute in minecraft:the_end run tp ${single_player.name.text} -34 58 -2 90 -13.5`)
             Utils.server.runCommandSilent(`ftbquests change_progress ${single_player.name.text} complete 7A184C44A0EA44E2`)
