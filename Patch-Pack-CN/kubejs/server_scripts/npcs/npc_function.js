@@ -92,11 +92,11 @@ const npc = {
 }
 
 const codex_stages = {
-    "R3GEN": "codex_arsnouveau",
-    "Prof. Saereth": "codex_bloodmagic",
-    "LadyMaehem": "codex_botania",
-    "Aaronhowser1": "codex_evilcraft",
-    "Lonezstar": "codex_malum",
-    "Everlipse": "codex_occultism",
+    "瑞根": "codex_arsnouveau",
+    "萨拉斯教授": "codex_bloodmagic",
+    "梅希姆女士": "codex_botania",
+    "亚伦·豪瑟": "codex_evilcraft",
+    "隆泽塔": "codex_malum",
+    "埃弗利普斯": "codex_occultism",
     "TheonlyTazz": "codex_final"
 }
