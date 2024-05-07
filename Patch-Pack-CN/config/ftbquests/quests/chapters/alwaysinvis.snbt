@@ -835,6 +835,32 @@
 			}]
 		}
 		{
+						x: -13.5d
+			y: -8.0d
+			id: "09B52F8366B6C3C3"
+			tasks: [{
+				id: "2CB3D3EBECE9AA78"
+				type: "advancement"
+				advancement: "minecraft:story/root"
+				criterion: ""
+			}]
+		}
+		{
+			x: -15.0d
+			y: -6.5d
+			id: "377202445691DBF0"
+			tasks: [{
+				id: "22CCBF21F3214F87"
+				type: "dimension"
+				dimension: "minecraft:overworld"
+			}]
+			rewards: [{
+				id: "7F4DB35F93489C16"
+				type: "command"
+				command: "gamerule doInsomnia true"
+			}]
+		}
+		{
 			x: -6.0d
 			y: -1.0d
 			hide: false
