@@ -156,6 +156,11 @@ onEvent('player.tick', (event) => {
     pData.dimension = level.dimension.toString()
     if (pData.dimension != level.dimension) {
         gamemodeSwitcher(event)
+        if(pData.dimension == "arsomega:demon_realm" && level.dimension == "minecraft:overworld") {
+            player.runCommandSilent('ftbteamislands home')
+            player.tell("塔兹教授：哦，我的好学生！我们在校外找到了你！让我们带你回校舍吧！")
+
+        }
         pData.dimension = level.dimension
     }
 
@@ -264,3 +269,8 @@ function portalBlockHandler(player) {
         }
     }
 }
+
+
+onEvent("player.data_from_client.teleport_home", (event) => {
+    event.player.runCommand("ftbteamislands home");
+  });

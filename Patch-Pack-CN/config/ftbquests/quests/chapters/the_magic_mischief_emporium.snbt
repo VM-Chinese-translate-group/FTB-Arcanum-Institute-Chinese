@@ -295,10 +295,7 @@
 			icon: "forbidden_arcanus:xpetrified_orb"
 			x: -7.0d
 			y: 3.5d
-			dependencies: [
-				"38466472D199F498"
-				"62CC7E5BCD6EDC67"
-			]
+			dependencies: ["62CC7E5BCD6EDC67"]
 			hide: true
 			can_repeat: true
 			id: "62AB5F5E0430FD64"
@@ -410,6 +407,44 @@
 				type: "item"
 				item: {
 					id: "bloodmagic:mineentrancekey"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+				{
+			title: "龙首"
+			icon: {
+				id: "minecraft:dragon_head"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["62CC7E5BCD6EDC67"]
+			hide: true
+			can_repeat: true
+			id: "70C9873D4E5C11FD"
+			tasks: [{
+				id: "553A252D659330B9"
+				type: "item"
+				item: {
+					id: "ftbai:gold_coin"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "39CDDA9CA3A8C5B6"
+				type: "item"
+				item: {
+					id: "minecraft:dragon_head"
 					Count: 1b
 					ForgeCaps: {
 						"customnpcs:itemscripteddata": { }

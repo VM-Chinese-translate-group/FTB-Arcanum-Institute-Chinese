@@ -153,6 +153,31 @@ onEvent('block.place', (event) => {
     if (entity.creativeMode) return
     if (level.dimension != 'ftbdungeons:dungeon_dim') return
     if (placeWhitelist.includes(event.block.id)) return
+    if(event.block.id == "occultism:storage_controller"){
+        let range = 2
+
+        event.server.scheduleInTicks(1, (callback) => {
+            let aabb = AABB.of(
+                event.block.x - range,
+                event.block.y - range,
+                event.block.z - range, 
+                event.block.x + range, 
+                event.block.y + range, 
+                event.block.z + range
+            );
+
+            let entities = event.level.getEntitiesWithin(aabb)
+            entities.forEach((entity) => {
+                if (entity.type == "minecraft:item"){
+                    if(entity.item.id == "occultism:storage_controller"){
+                        entity.kill()
+                    }
+                    
+                }
+            })
+        })
+
+    }
     event.cancel()
 })
 
@@ -192,6 +217,7 @@ const dirtToFarmland = [
     'minecraft:coarse_dirt',
     'minecraft:rooted_dirt',
     'minecraft:moss_block',
+    'minecraft:bedrock'
 ]
 const coarseToDirt = [
     'minecraft:coarse_dirt',

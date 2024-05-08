@@ -59,17 +59,17 @@ onEvent('recipes', (event) => {
 
     // Orechid
     const orechidStoneOres = [
-        ['minecraft:cobblestone', 31],
+        ['minecraft:cobblestone', 32],
         ['minecraft:coal_ore', 24],
-        ['minecraft:iron_ore', 8],
-        ['minecraft:redstone_ore', 4],
-        ['minecraft:copper_ore', 2],
-        ['minecraft:gold_ore', 2],
+        ['minecraft:iron_ore', 10],
         ['minecraft:lapis_ore', 5],
-        ['evilcraft:dark_ore', 1],
+        ['minecraft:redstone_ore', 5],
         ['occultism:silver_ore', 5],
         ['malum:natural_quartz_ore', 5],
         ['malum:soulstone_ore', 5],
+        ['minecraft:copper_ore', 3],
+        ['minecraft:gold_ore', 3],
+        ['evilcraft:dark_ore', 1],
         ['malum:block_of_cthonic_gold', 1],
     ]
     orechidStoneOres.forEach((oreArr) => {
@@ -87,6 +87,7 @@ onEvent('recipes', (event) => {
             ['minecraft:iron_ore', 8],
             ['minecraft:copper_ore', 7],
             ['minecraft:redstone_ore', 4],
+
         ]
         orechidLivingOres.forEach((oreArr) => {
             let ore = oreArr[0]
@@ -95,6 +96,26 @@ onEvent('recipes', (event) => {
                 `botania:orechid/livingrock_${ore.split(':')[1]}`
             )
         })
+        const orechidDeepslateOres = [
+            ["minecraft:deepslate", 10],
+            ["minecraft:deepslate_gold_ore", 10],
+            ["minecraft:deepslate_redstone_ore", 10],
+            ["minecraft:deepslate_lapis_ore", 10],
+            ["evilcraft:dark_ore_deepslate", 10],
+            ["forbidden_arcanus:deepslate_arcane_crystal_ore", 10],
+            ["forbidden_arcanus:runic_deepslate", 10],
+            ["malum:deepslate_quartz_ore", 10],
+            ["malum:brilliant_deepslate", 10],
+            ["malum:deepslate_soulstone_ore", 10]
+        ]
+        orechidDeepslateOres.forEach((oreArr) => {
+            let ore = oreArr[0]
+            let weight = oreArr[1]
+            orechid(ore, 'minecraft:deepslate', weight).id(
+                `botania:orechid/deepslate_${ore.split(':')[1]}`
+            )
+        })
+        
 
     // Pure Daisy
     pure_daisy('botania:livingrock', 'minecraft:cobblestone').id(
