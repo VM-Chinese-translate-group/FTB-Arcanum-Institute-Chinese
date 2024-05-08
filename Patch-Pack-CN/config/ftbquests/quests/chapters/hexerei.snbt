@@ -422,7 +422,7 @@
 		}
 		{
 			x: 7.75d
-			y: -5.25d
+			y: -5.0d
 			description: ["&b复仇之镐&r默认带有&6时运V&r的附魔效果，但会在使用时&c招来复仇之魂&r。它的耐久也相当低。"]
 			hide_dependency_lines: true
 			dependencies: ["0C3B90072606F36D"]
@@ -446,99 +446,6 @@
 								lvl: 3s
 							}
 						]
-					}
-				}
-			}]
-		}
-		{
-			icon: {
-				id: "evilcraft:broom"
-				Count: 1b
-				tag: {
-					Fluid: {
-						FluidName: "evilcraft:blood"
-						Amount: 10000
-					}
-					capacity: 10000
-				}
-				ForgeCaps: {
-					Parent: {
-						FluidName: "evilcraft:blood"
-						Amount: 10000
-						capacity: 10000
-					}
-					"customnpcs:itemscripteddata": { }
-				}
-			}
-			x: 7.75d
-			y: -4.75d
-			description: [
-				"&b扫帚&r是用血液驱动的&6模块化的飞行工具&r。骑乘或拿着扫帚时，你可以在屏幕的右下角看到它的充能等级。"
-				""
-				"扫帚由三种扫帚部件合成而来：&b刷&r，&b杆&r还有&b端&r。它们的材料会影响扫帚的属性。"
-				""
-				"扫帚可以通过&6与某种部件合成&r进一步升级。查看教程书中的扫帚强化章节以获取完整的列表。"
-			]
-			hide_dependency_lines: true
-			dependencies: ["0C3B90072606F36D"]
-			size: 0.5d
-			min_width: 250
-			id: "2BED2D3EA0B5FD5D"
-			tasks: [
-				{
-					id: "1A06E525C84CE43F"
-					type: "custom"
-					title: "扫帚尾"
-					icon: {
-						id: "evilcraft:broom_part"
-						Count: 1b
-						tag: {
-							broom_parts_tag: ["evilcraft:brush_wheat"]
-						}
-						ForgeCaps: {
-							"customnpcs:itemscripteddata": { }
-						}
-					}
-				}
-				{
-					id: "44529455C112A9A9"
-					type: "custom"
-					title: "扫帚杆"
-					icon: {
-						id: "evilcraft:broom_part"
-						Count: 1b
-						tag: {
-							broom_parts_tag: ["evilcraft:rod_wood"]
-						}
-						ForgeCaps: {
-							"customnpcs:itemscripteddata": { }
-						}
-					}
-				}
-				{
-					id: "4A86A1768A1E7BA9"
-					type: "custom"
-					title: "扫帚头"
-					icon: {
-						id: "evilcraft:broom_part"
-						Count: 1b
-						tag: {
-							broom_parts_tag: ["evilcraft:cap_head_player"]
-						}
-						ForgeCaps: {
-							"customnpcs:itemscripteddata": { }
-						}
-					}
-				}
-			]
-			rewards: [{
-				id: "2CB5FF097E144CFF"
-				type: "item"
-				item: {
-					id: "evilcraft:broom_part"
-					Count: 1b
-					tag: {
-						broom_parts_tag: ["evilcraft:cap_head_creeper"]
 					}
 				}
 			}]
@@ -1121,6 +1028,760 @@
 					}
 				}
 				count: 16
+			}]
+		}
+				{
+			title: "Entry into Forbidden and Arcanus"
+			x: 12.0d
+			y: -5.0d
+			description: [
+				"Good Morning Students!"
+				""
+				"Students have requested to be taught about &6Forbidden and Arcanus&r, but sadly we did not have a specialized Teacher for this."
+				""
+				"So i took it upon me to teach you a thing or two. "
+				""
+				"First, lets get started by making some &bMysterywood Saplings&r. From there on we will continue in this exciting adventure"
+			]
+			id: "3C4175ABCE6823CE"
+			tasks: [{
+				id: "41AB5B8746B39A77"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mysterywood_sapling"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 2L
+			}]
+			rewards: [{
+				id: "0B5316870BD3C0CB"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:cherrywood_sapling"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 2
+			}]
+		}
+		{
+			title: "Haunted Woods"
+			icon: {
+				id: "forbidden_arcanus:growing_edelwood"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 12.0d
+			y: -3.5d
+			description: [
+				"&bEdelwood&r consist of 2 diffrent logs. a regular Log and a hollow variant."
+				""
+				"Smelting the &bEdelwood Log&r will yield you &6Dark Matter&r, a very important crafting material."
+				""
+				"Regular &bEdelwood Logs&r can get Oily. Collect this oil using an empty Glass Bottle and you have an easy way to create Black Dye."
+			]
+			dependencies: ["3C4175ABCE6823CE"]
+			id: "3CA99B2CD18490AA"
+			tasks: [
+				{
+					id: "472D6D1FA09DB190"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:edelwood_log"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "6A2268A355F4BBC9"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:carved_edelwood_log"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "5C552D4D59927316"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:growing_edelwood"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -3.5d
+			dependencies: ["3CA99B2CD18490AA"]
+			id: "3B0100259F0D076D"
+			tasks: [{
+				id: "75324187ED5FE247"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:edelwood_oil"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D890B7DD8F0819C"
+				type: "item"
+				item: {
+					id: "minecraft:glass_bottle"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 3
+			}]
+		}
+		{
+			x: 16.5d
+			y: -2.0d
+			description: [
+				"Here at school, we don't have a mine where you can work to get these special ores."
+				""
+				"However! I've head that LadyMayhem has found a way to transmute &5Deepslate&r into ores."
+				""
+				"Get some &bDeepslate Arcane Crystal Ore&r and &bRunic Deepslate&r so we can delve further into this Subject"
+			]
+			id: "6F13BFBF0D209FCD"
+			tasks: [
+				{
+					id: "5DAEDF0F06EB2DB1"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:deepslate_arcane_crystal_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "2432C289B5880B7B"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:runic_deepslate"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "5A4F406C575106DF"
+				type: "item"
+				item: {
+					id: "minecraft:deepslate"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 64
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.5d
+			description: [
+				"Sadly, this is something, I, as a teacher, never got my hands on."
+				""
+				"But i heard &aD_Collector&r and &aKnedlik_cz&r gotten their hands on some."
+				""
+				"[\"\",\"I think, i saw them last in the \",{\"text\":\"[ Middle Courtyard ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4025207EA9DE4E4E\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here\"]}}]"
+			]
+			dependencies: ["6F13BFBF0D209FCD"]
+			id: "042BC37B76F4BB85"
+			tasks: [{
+				id: "27E221B6297C2CA5"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:xpetrified_orb"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -1.5d
+			description: [
+				"Sadly, this is something, I, as a teacher, never got my hands on."
+				""
+				"But i heard &aD_Collector&r and &aKnedlik_cz&r gotten their hands on some."
+				""
+				"[\"\",\"I think, i saw them last in the \",{\"text\":\"[ Middle Courtyard ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4025207EA9DE4E4E\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here\"]}}]"
+			]
+			dependencies: ["6F13BFBF0D209FCD"]
+			id: "552F3C5D1850149A"
+			tasks: [{
+				id: "198777B081B7349F"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:stellarite_piece"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -0.5d
+			dependencies: ["6F13BFBF0D209FCD"]
+			id: "114106555CDD0424"
+			tasks: [{
+				id: "2E13BECD88E2ACAA"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mundabitur_dust"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 2.0d
+			shape: "octagon"
+			description: [
+				"Now that we have collected all the materials needed, we can start assembling this mythical &bHephaestus Forge&r."
+				""
+				"Underneath i have shown you how to place the platform for the Forge to sit ontop."
+				""
+				"After constructing it, place the &bSmithing Table&r in the center, sneak near it and use the &bMundabitur Dust&r on it to transform it!"
+				""
+				"{image:ftbai:textures/quests/faa/forge.png width:156 height:156 align:1}"
+			]
+			min_required_dependencies: 2
+			dependencies: [
+				"21FC07EC1A67E167"
+				"6F13BFBF0D209FCD"
+			]
+			size: 1.5d
+			id: "6AD18099B291F089"
+			tasks: [{
+				id: "130588EE9BB78C3A"
+				type: "observation"
+				title: "Create a Hephaestus Forge"
+				icon: {
+					id: "forbidden_arcanus:hephaestus_forge"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "forbidden_arcanus:hephaestus_forge"
+			}]
+			rewards: [
+				{
+					id: "6056ADFEEA484684"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:darkstone_pedestal"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 6
+				}
+				{
+					id: "27ADD51F971290EA"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:iron_blacksmith_gavel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:smithing_table"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 17.5d
+			y: 1.0d
+			shape: "hexagon"
+			description: [
+				"Hey there!"
+				""
+				"I wrote you a small Shopping list of Resources needed to craf the Hephaestus Forge."
+				"We going to need all if we want to progress."
+			]
+			hide_dependency_lines: true
+			dependencies: ["114106555CDD0424"]
+			hide: true
+			size: 0.75d
+			id: "21FC07EC1A67E167"
+			tasks: [
+				{
+					id: "5D25E7804CDB04EB"
+					type: "item"
+					item: {
+						id: "minecraft:smithing_table"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "6BF5E69905A38FD3"
+					type: "item"
+					item: {
+						id: "minecraft:polished_deepslate"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 49L
+				}
+				{
+					id: "1065E2078CB132D8"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:arcane_chiseled_polished_darkstone"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 9L
+				}
+				{
+					id: "5EEC32A3C8040D21"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:chiseled_arcane_polished_darkstone"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "489E7B1BBE44EEF4"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:mundabitur_dust"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Hephaestus Forge Essences"
+			x: 15.0d
+			y: 1.5d
+			description: [
+				"The &6Hephaestus Forge&r has an interesting Interface, lets focus on the four slots on the outside."
+				""
+				"&6[ Aureal ]&r"
+				"[\"\",\"To obtain Aureal, follow me in a future lesson to automate an \",{\"text\":\"[ Arcane Crystal Obelisk ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here \"]}}]"
+				""
+				"&6[ Souls ]&r"
+				"To obtain some Souls, you need to use a &bSoul Extractor&r. with this device, you can extract the &bSouls&r out of Soul sand and turn it into Soulless Sand. Luckily, Profesor R3GEN found a way to conjure those Souls back into it."
+				""
+				"&6[ Blood ]&r"
+				"Blood is obtained by directly hurting entites near the Forge, or by crafting a Mystical Dagger and having a Test Tube in ur inventory. This will fill up the Test Tube and can then be placed inside the Forge"
+				""
+				"&6[ Experience ]&r"
+				"Experience is added by either Bottle 'o Enchanting, or Xpetrified Orbs. I have heard rumors, there are Students near the middle Courtyard that are selling them. Alternatively you could attempt and make a Black hole and let that suck up Experience Points. This will also result into Xpetrified Orbs"
+			]
+			min_required_dependencies: 1
+			dependencies: [
+				"6AD18099B291F089"
+				"40EB80275E3C0E62"
+			]
+			id: "38A2B1DEB1FBB92F"
+			tasks: [
+				{
+					id: "64FA6C8E8437661F"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:aureal_bottle"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "63703EC1FA4B293D"
+					type: "item"
+					title: "Souls"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									ForgeCaps: {
+										"customnpcs:itemscripteddata": { }
+									}
+									id: "forbidden_arcanus:soul"
+									Count: 1b
+								}
+								{
+									ForgeCaps: {
+										"customnpcs:itemscripteddata": { }
+									}
+									id: "forbidden_arcanus:dark_soul"
+									Count: 1b
+								}
+							]
+						}
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "0ADA06C48D056BB2"
+					type: "item"
+					item: {
+						id: "minecraft:experience_bottle"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Automating Arcane Crystal Obelisk"
+			x: 15.0d
+			y: 2.5d
+			description: [
+				"Gathering Aureal can be tedious. Luckily we figured out a way to automate this."
+				""
+				"To create an &bArcane Crystal Obelisk&r, place an &6Arcane Polished Darkstone Block&r on one of the spots where normally a Pedestal would go."
+				""
+				"After that, place 2 Blocks of &6Arcane Crystal Blocks&r ontop and use some &6Mundabitur Dust&r to start the transformation."
+			]
+			dependencies: ["6AD18099B291F089"]
+			id: "5AF264543A02D7E2"
+			tasks: [{
+				id: "73DA3E76FFF44A6E"
+				type: "observation"
+				title: "Arcane Crystal Obelisk"
+				icon: {
+					id: "forbidden_arcanus:arcane_crystal_obelisk"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				timer: 0L
+				observe_type: 0
+				to_observe: "forbidden_arcanus:arcane_crystal_obelisk"
+			}]
+			rewards: [{
+				id: "63CB2AF46C8337E7"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:arcane_crystal_obelisk"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			title: "Obtaining Arcane Gold"
+			x: 15.0d
+			y: -0.5d
+			description: [
+				"Getting &bArcane Gold&r is pricey."
+				""
+				"By combining a regular Gold Ingot with some &6Mundabitur Dust&r, &6Arcane Crystal Dust&r and a bit of &6Coal&r will yield you some of this precious Material"
+			]
+			dependencies: ["114106555CDD0424"]
+			id: "26778DD672B4BE1C"
+			tasks: [{
+				id: "6EECF84E1545D899"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:arcane_gold_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "forbidden_arcanus:golden_orchid_seeds"
+				Count: 1b
+				ForgeCaps: {
+					"customnpcs:itemscripteddata": { }
+				}
+			}
+			x: 15.0d
+			y: 0.375d
+			shape: "hexagon"
+			description: [
+				"If there was only an easier way to obtain &6Arcane Gold&r."
+				""
+				"Once you got your first pieces, try combining some seeds with a Nugget."
+				""
+				"This should result into a &bGolden Orchid Seed&r, which, when grown on Magical Farmland, will yield more Nuggets in return."
+			]
+			dependencies: ["26778DD672B4BE1C"]
+			size: 0.75d
+			id: "5399EB3C0B355359"
+			tasks: [
+				{
+					id: "08B3AAE7598E6724"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:golden_orchid_seeds"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "1209281E915CF26C"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:magical_farmland"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "32BB4EEDFC79C029"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:arcane_gold_nugget"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 9
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			description: [
+				"Ever had a Tool or a piece of Equipment, which you wanted to keep from breaking?"
+				""
+				"Luckily with the Magic of an &bEternal Stella&r we can!"
+				""
+				"Apply it to any Tool or Equipment to make it unbreakable and never lose Durability again (some Items are Excluded)"
+			]
+			dependencies: ["6AD18099B291F089"]
+			id: "38DA3D477100FE58"
+			tasks: [{
+				id: "31C5C53EDD939E02"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:eternal_stella"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "1E8AD5500F68337B"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:orb_of_temporary_flight"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 4.0d
+			description: [
+				"Tired of smelting your Ores, Stone, Glass after you mined them up?"
+				""
+				"By combining the Smeltern Prism to your Tool, you will auto-smelt everything your Tool breaks."
+			]
+			dependencies: ["6AD18099B291F089"]
+			id: "012505F660777D81"
+			tasks: [{
+				id: "4F830B683ED59D76"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:smelter_prism"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["3CA99B2CD18490AA"]
+			id: "1E847FDEB521EE80"
+			tasks: [{
+				id: "2AB90A08E386BF89"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:dark_matter"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			dependencies: [
+				"1E847FDEB521EE80"
+				"47A2E1199968E39D"
+				"26778DD672B4BE1C"
+			]
+			id: "40EB80275E3C0E62"
+			tasks: [{
+				id: "02337734C0364906"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:mystical_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -5.0d
+			id: "4AB6AA0ECAA2184B"
+			tasks: [{
+				id: "4670F1F845351F2B"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:obsidian_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.5d
+			dependencies: ["4AB6AA0ECAA2184B"]
+			id: "2C99EA724F13E06B"
+			tasks: [{
+				id: "23EAD1B389C653D8"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:corrupti_dust"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -2.0d
+			dependencies: [
+				"2C99EA724F13E06B"
+				"6F13BFBF0D209FCD"
+			]
+			id: "47A2E1199968E39D"
+			tasks: [{
+				id: "5CC2F299C3F9AB93"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:dark_rune"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+			}]
+		}
+		{
+			x: 18.5d
+			y: 2.0d
+			dependencies: ["6AD18099B291F089"]
+			id: "2FE4A67831641026"
+			tasks: [{
+				id: "6B0A7981A5D648DA"
+				type: "item"
+				item: {
+					id: "forbidden_arcanus:quantum_catcher"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
 			}]
 		}
 	]

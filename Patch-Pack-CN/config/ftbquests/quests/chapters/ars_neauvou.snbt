@@ -508,6 +508,18 @@
 		{
 			x: 16.5d
 			y: -4.0d
+			description: [
+				"Dear Student!"
+				""
+				"Chopping down a Tree one block at a time can be tedious."
+				"With your T2 Spellbook, you can finally learn and use the &bGlyph of Fell&r."
+				""
+				"This powerfull Spell will allow you to chop down any log in 1 fell swoop!"
+				""
+				""
+				"Oh! And before i forget... Professor Everlipse told me, Otherworld Trees are unaffected by this and will drop regular Oak Logs."
+				"Magic is weird isn't it?"
+			]
 			dependencies: ["38A919DBFA0FAB21"]
 			id: "56AB14FB5D9FC303"
 			tasks: [{

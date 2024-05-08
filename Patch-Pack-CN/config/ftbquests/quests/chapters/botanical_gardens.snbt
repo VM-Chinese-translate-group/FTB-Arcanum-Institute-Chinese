@@ -1671,13 +1671,7 @@
 			]
 		}
 		{
-			icon: {
-				id: "botania:orechid"
-				Count: 1b
-				ForgeCaps: {
-					"customnpcs:itemscripteddata": { }
-				}
-			}
+			icon: "botania:orechid"
 			x: 4.0d
 			y: -5.5d
 			description: [
@@ -1685,7 +1679,14 @@
 				""
 				"要获得&b凝矿兰&r，首先你需要&e魔力符文&r。别怕！幸运的是，在你第一次制作&e符文祭坛&r，你会获得一个&b凝矿兰&r作为奖励。"
 				""
-				"凝矿兰能够将&6石头和活石&r转化为矿石，这将极大地帮助我们获取魔法材料。它是我们魔法仓库的重要补充！"
+				"凝矿兰能够将&6石头，活石和深板岩&r转化为矿石，这将极大地帮助我们获取魔法材料。它是我们魔法仓库的重要补充！"
+								""
+				"[\"\",{\"text\":\"[ Stone to Ores ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go to the Conversion Table\"]}},\"\"]"
+				""
+				"[\"\",{\"text\":\"[ Livingrock to Ores ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"443D7BF1ED05A45F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go to the Conversion Table\"]}},\"\"]"
+				""
+				"[\"\",{\"text\":\"[ Deepslate to Ores ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2DDC204D1E5C176F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go to the Conversion Table\"]}},\"\"]"
+
 			]
 			dependencies: ["405BE5DC5EE184AA"]
 			hide: true
@@ -2052,6 +2053,388 @@
 				id: "495B0EE8BB162CD6"
 				type: "xp_levels"
 				xp_levels: 2
+			}]
+			{
+			title: "Stone to Ore Tranformation Table"
+			x: 5.0d
+			y: -8.0d
+			description: [
+				"&6 Stone to Ores Transformation&r:"
+				""
+				"32% - Cobblestone"
+				"24% - Coal Ore"
+				"10% - Iron Ore"
+				"6%  - Lapis Lazuli Ore"
+				"5%  - Redstone Ore"
+				"5%  - Silver Ore"
+				"5%  - Natural Quartz Ore"
+				"5%  - Soulstone Ore"
+				"3%  - Copper Ore"
+				"3%  - Gold Ore"
+				"1%  - Cthonic Gold"
+				""
+				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go back to the Orechid Quest\"]}},\"\"]"
+			]
+			invisible: true
+			id: "068186C411334E74"
+			tasks: [
+				{
+					id: "1FBB8109C0B3C6C3"
+					type: "item"
+					title: "32% Coal Ore"
+					item: {
+						id: "minecraft:coal_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "75B1B698AE4AFC87"
+					type: "item"
+					title: "10% - Iron Ore"
+					item: {
+						id: "minecraft:iron_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "6EE6CEDC8FFFBE85"
+					type: "item"
+					title: "6% - Lapis Lazuli Ore"
+					item: {
+						id: "minecraft:lapis_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "32443E3F9ADA28F9"
+					type: "item"
+					title: "5% - Redstone Ore"
+					item: {
+						id: "minecraft:redstone_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "6C133DB96D55869B"
+					type: "item"
+					title: "5% - Silver Ore"
+					item: {
+						id: "occultism:silver_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "5F2475F07B0B6F05"
+					type: "item"
+					title: "5% - Natural Quartz Ore"
+					item: {
+						id: "malum:natural_quartz_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "1CEF55D5458200D5"
+					type: "item"
+					title: "5% - Soulstone Ore"
+					item: {
+						id: "malum:soulstone_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "590660781CE4F60E"
+					type: "item"
+					title: "3% - Copper Ore"
+					item: {
+						id: "minecraft:copper_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "00C1080159BB7E61"
+					type: "item"
+					title: "1% - Gold Ore"
+					item: {
+						id: "minecraft:gold_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "4DC2220991C7BD67"
+					type: "item"
+					title: "1% - Block of Cthonic Gold"
+					item: {
+						id: "malum:block_of_cthonic_gold"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1EDFC99E610783E5"
+				type: "item"
+				item: {
+					id: "minecraft:stone"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 100
+			}]
+		}
+		{
+			title: "Livingrock to Ores Transformation Table"
+			x: 6.0d
+			y: -8.0d
+			description: [
+				"&6 Livingrock to Ores Transformation&r:"
+				""
+				"26% - Coal Ore"
+				"15% - Glowstone"
+				"8% - Iron Ore"
+				"7% - Copper Ore"
+				"4% - Redstone Ore"
+				""
+				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go back to the Orechid Quest\"]}},\"\"]"
+			]
+			invisible: true
+			id: "443D7BF1ED05A45F"
+			tasks: [
+				{
+					id: "7D95EF8FD4694A87"
+					type: "item"
+					title: "26% - Coal Ore"
+					item: {
+						id: "minecraft:coal_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "7B7A32DB84DD0312"
+					type: "item"
+					title: "15% - Glowstone"
+					item: {
+						id: "minecraft:glowstone"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "49E00971DF9266B5"
+					type: "item"
+					title: "8% - Iron Ore"
+					item: {
+						id: "minecraft:iron_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "213E266E8FC53F33"
+					type: "item"
+					title: "7% - Copper Ore"
+					item: {
+						id: "minecraft:copper_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "0C198995EA91F2FF"
+					type: "item"
+					title: "4% - Redstone Ore"
+					item: {
+						id: "minecraft:redstone_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3BDE8E9A432831AA"
+				type: "item"
+				item: {
+					id: "botania:livingrock"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 100
+			}]
+		}
+		{
+			title: "Deepslate to Ores Transformation Table"
+			x: 7.0d
+			y: -8.0d
+			description: [
+				"&6 Deepslate to Ores Transformation&r:"
+				""
+				"10% - Deepslate Gold Ore"
+				"10% - Deepslate Redstone Ore"
+				"10% - Deepslate Lapis Lazuli Ore"
+				"10% - Deepslate Dark Ore"
+				"10% - Runic Deepslate"
+				"10% - Deepslate Quartz Ore"
+				"10% - Deepslate Soulstone Ore"
+				""
+				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go back to the Orechid Quest\"]}},\"\"]"
+			]
+			invisible: true
+			id: "2DDC204D1E5C176F"
+			tasks: [
+				{
+					id: "2121F45EDAB5ADB0"
+					type: "item"
+					item: {
+						id: "minecraft:deepslate_gold_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "7799D0316F5DBAB9"
+					type: "item"
+					item: {
+						id: "minecraft:deepslate_redstone_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "5895A10D09B7FBA1"
+					type: "item"
+					item: {
+						id: "minecraft:deepslate_lapis_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "18D56924647D96C8"
+					type: "item"
+					item: {
+						id: "evilcraft:dark_ore_deepslate"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "5917B9DC39EE0EF2"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:deepslate_arcane_crystal_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "77B28DB2E5C3DB90"
+					type: "item"
+					item: {
+						id: "forbidden_arcanus:runic_deepslate"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "1E711C715178C219"
+					type: "item"
+					item: {
+						id: "malum:deepslate_quartz_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "78834A391ACB1012"
+					type: "item"
+					item: {
+						id: "malum:brilliant_deepslate"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+				{
+					id: "48B9CC23ABEE3875"
+					type: "item"
+					item: {
+						id: "malum:deepslate_soulstone_ore"
+						Count: 1b
+						ForgeCaps: {
+							"customnpcs:itemscripteddata": { }
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "775C97F67C73D667"
+				type: "item"
+				item: {
+					id: "minecraft:deepslate"
+					Count: 1b
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+				count: 100
 			}]
 		}
 	]

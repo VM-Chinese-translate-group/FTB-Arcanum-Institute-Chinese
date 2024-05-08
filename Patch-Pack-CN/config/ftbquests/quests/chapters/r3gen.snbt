@@ -294,6 +294,8 @@
 				"我渴望探索斧头的魔法特性，揭开它的秘密。你对这项研究的贡献将对我们了解魔法遗物产生重大影响。"
 				""
 				"准备好之后将它交给我。"
+				""
+				"As a reward, i have a Relic i gained years ago. It comes from the dreaded Demon Realm. I never figured out what to do with it however."
 			]
 			dependencies: [
 				"58B0813AD5CCC65E"
@@ -313,6 +315,21 @@
 					}
 				}
 				consume_items: true
+			}]
+			rewards: [{
+				id: "7D1D48302AD19631"
+				type: "item"
+				item: {
+					id: "arsomega:demon_staff"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"customnpcs:itemscripteddata": { }
+					}
+				}
+
 			}]
 		}
 		{
