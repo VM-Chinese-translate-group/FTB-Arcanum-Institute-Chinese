@@ -1681,11 +1681,11 @@
 				""
 				"凝矿兰能够将&6石头，活石和深板岩&r转化为矿石，这将极大地帮助我们获取魔法材料。它是我们魔法仓库的重要补充！"
 								""
-				"[\"\",{\"text\":\"[ Stone to Ores ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go to the Conversion Table\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 石头转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换表\"]}},\"\"]"
 				""
-				"[\"\",{\"text\":\"[ Livingrock to Ores ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"443D7BF1ED05A45F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go to the Conversion Table\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 活石转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"443D7BF1ED05A45F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换表\"]}},\"\"]"
 				""
-				"[\"\",{\"text\":\"[ Deepslate to Ores ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2DDC204D1E5C176F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go to the Conversion Table\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 深板岩转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2DDC204D1E5C176F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换表\"]}},\"\"]"
 
 			]
 			dependencies: ["405BE5DC5EE184AA"]
@@ -2055,25 +2055,25 @@
 				xp_levels: 2
 			}]
 			{
-			title: "Stone to Ore Tranformation Table"
+			title: "矿物转换台（石头）"
 			x: 5.0d
 			y: -8.0d
 			description: [
-				"&6 Stone to Ores Transformation&r:"
+				"&6 石头转变到矿石&r:"
 				""
-				"32% - Cobblestone"
-				"24% - Coal Ore"
-				"10% - Iron Ore"
-				"6%  - Lapis Lazuli Ore"
-				"5%  - Redstone Ore"
-				"5%  - Silver Ore"
-				"5%  - Natural Quartz Ore"
-				"5%  - Soulstone Ore"
-				"3%  - Copper Ore"
-				"3%  - Gold Ore"
-				"1%  - Cthonic Gold"
+				"32% - 圆石"
+				"24% - 煤矿"
+				"10% - 铁矿"
+				"6%  - 青金石矿石"
+				"5%  - 红石矿"
+				"5%  - 银矿"
+				"5%  - 自然石英矿"
+				"5%  - 灵魂石矿"
+				"3%  - 铜矿"
+				"3%  - 金矿"
+				"1%  - 深岩珍金"
 				""
-				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go back to the Orechid Quest\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务Click here to go back to the Orechid Quest\"]}},\"\"]"
 			]
 			invisible: true
 			id: "068186C411334E74"
@@ -2081,7 +2081,7 @@
 				{
 					id: "1FBB8109C0B3C6C3"
 					type: "item"
-					title: "32% Coal Ore"
+					title: "32% - 煤矿"
 					item: {
 						id: "minecraft:coal_ore"
 						Count: 1b
@@ -2093,7 +2093,7 @@
 				{
 					id: "75B1B698AE4AFC87"
 					type: "item"
-					title: "10% - Iron Ore"
+					title: "10% - 铁矿"
 					item: {
 						id: "minecraft:iron_ore"
 						Count: 1b
@@ -2105,7 +2105,7 @@
 				{
 					id: "6EE6CEDC8FFFBE85"
 					type: "item"
-					title: "6% - Lapis Lazuli Ore"
+					title: "6% - 青金石矿石"
 					item: {
 						id: "minecraft:lapis_ore"
 						Count: 1b
@@ -2117,7 +2117,7 @@
 				{
 					id: "32443E3F9ADA28F9"
 					type: "item"
-					title: "5% - Redstone Ore"
+					title: "5% - 红石矿"
 					item: {
 						id: "minecraft:redstone_ore"
 						Count: 1b
@@ -2129,7 +2129,7 @@
 				{
 					id: "6C133DB96D55869B"
 					type: "item"
-					title: "5% - Silver Ore"
+					title: "5% - 银矿"
 					item: {
 						id: "occultism:silver_ore"
 						Count: 1b
@@ -2141,7 +2141,7 @@
 				{
 					id: "5F2475F07B0B6F05"
 					type: "item"
-					title: "5% - Natural Quartz Ore"
+					title: "5% - 自然石英矿"
 					item: {
 						id: "malum:natural_quartz_ore"
 						Count: 1b
@@ -2153,7 +2153,7 @@
 				{
 					id: "1CEF55D5458200D5"
 					type: "item"
-					title: "5% - Soulstone Ore"
+					title: "5% - 灵魂石矿"
 					item: {
 						id: "malum:soulstone_ore"
 						Count: 1b
@@ -2165,7 +2165,7 @@
 				{
 					id: "590660781CE4F60E"
 					type: "item"
-					title: "3% - Copper Ore"
+					title: "3% - 铜矿"
 					item: {
 						id: "minecraft:copper_ore"
 						Count: 1b
@@ -2177,7 +2177,7 @@
 				{
 					id: "00C1080159BB7E61"
 					type: "item"
-					title: "1% - Gold Ore"
+					title: "1% - 金矿"
 					item: {
 						id: "minecraft:gold_ore"
 						Count: 1b
@@ -2189,7 +2189,7 @@
 				{
 					id: "4DC2220991C7BD67"
 					type: "item"
-					title: "1% - Block of Cthonic Gold"
+					title: "1% - 深岩珍金"
 					item: {
 						id: "malum:block_of_cthonic_gold"
 						Count: 1b
@@ -2213,19 +2213,19 @@
 			}]
 		}
 		{
-			title: "Livingrock to Ores Transformation Table"
+			title: "矿石转换台（活石）"
 			x: 6.0d
 			y: -8.0d
 			description: [
-				"&6 Livingrock to Ores Transformation&r:"
+				"&6 活石转变到矿石&r:"
 				""
-				"26% - Coal Ore"
-				"15% - Glowstone"
-				"8% - Iron Ore"
-				"7% - Copper Ore"
-				"4% - Redstone Ore"
+				"26% - 煤矿"
+				"15% - 萤石"
+				"8%  - 铁矿"
+				"7%  - 铜矿"
+				"4%  - 红石矿"
 				""
-				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go back to the Orechid Quest\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
 			]
 			invisible: true
 			id: "443D7BF1ED05A45F"
@@ -2233,7 +2233,7 @@
 				{
 					id: "7D95EF8FD4694A87"
 					type: "item"
-					title: "26% - Coal Ore"
+					title: "26% - 煤矿"
 					item: {
 						id: "minecraft:coal_ore"
 						Count: 1b
@@ -2245,7 +2245,7 @@
 				{
 					id: "7B7A32DB84DD0312"
 					type: "item"
-					title: "15% - Glowstone"
+					title: "15% - 萤石"
 					item: {
 						id: "minecraft:glowstone"
 						Count: 1b
@@ -2257,7 +2257,7 @@
 				{
 					id: "49E00971DF9266B5"
 					type: "item"
-					title: "8% - Iron Ore"
+					title: "8% - 铁矿"
 					item: {
 						id: "minecraft:iron_ore"
 						Count: 1b
@@ -2269,7 +2269,7 @@
 				{
 					id: "213E266E8FC53F33"
 					type: "item"
-					title: "7% - Copper Ore"
+					title: "7% - 铜矿"
 					item: {
 						id: "minecraft:copper_ore"
 						Count: 1b
@@ -2281,7 +2281,7 @@
 				{
 					id: "0C198995EA91F2FF"
 					type: "item"
-					title: "4% - Redstone Ore"
+					title: "4% - 红石矿"
 					item: {
 						id: "minecraft:redstone_ore"
 						Count: 1b
@@ -2305,21 +2305,21 @@
 			}]
 		}
 		{
-			title: "Deepslate to Ores Transformation Table"
+			title: "矿物转换台（深板岩）"
 			x: 7.0d
 			y: -8.0d
 			description: [
-				"&6 Deepslate to Ores Transformation&r:"
+				"&6 深板岩转换到矿石&r:"
 				""
-				"10% - Deepslate Gold Ore"
-				"10% - Deepslate Redstone Ore"
-				"10% - Deepslate Lapis Lazuli Ore"
-				"10% - Deepslate Dark Ore"
-				"10% - Runic Deepslate"
-				"10% - Deepslate Quartz Ore"
-				"10% - Deepslate Soulstone Ore"
+				"10% - 深层金矿"
+				"10% - 深层红石矿"
+				"10% - 深层青金石矿石"
+				"10% - 深层黑暗矿"
+				"10% - 深层符文"
+				"10% - 深层石英矿"
+				"10% - 深层灵魂石矿"
 				""
-				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here to go back to the Orechid Quest\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
 			]
 			invisible: true
 			id: "2DDC204D1E5C176F"
