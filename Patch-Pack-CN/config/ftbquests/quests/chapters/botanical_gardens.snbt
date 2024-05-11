@@ -2073,7 +2073,7 @@
 				"3%  - 金矿石"
 				"1%  - 深岩珍金"
 				""
-				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 返回 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
 			]
 			invisible: true
 			id: "068186C411334E74"
@@ -2225,7 +2225,7 @@
 				"7%  - 铜矿石"
 				"4%  - 红石矿石"
 				""
-				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 返回 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
 			]
 			invisible: true
 			id: "443D7BF1ED05A45F"
@@ -2319,7 +2319,7 @@
 				"10% - 深层石英矿石"
 				"10% - 深层灵魂石矿"
 				""
-				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 返回 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
 			]
 			invisible: true
 			id: "2DDC204D1E5C176F"
