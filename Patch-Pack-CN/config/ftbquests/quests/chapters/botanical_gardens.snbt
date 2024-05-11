@@ -2059,21 +2059,21 @@
 			x: 5.0d
 			y: -8.0d
 			description: [
-				"&6 石头转变到矿石&r:"
+				"&6 石头转变到矿石&r："
 				""
 				"32% - 圆石"
-				"24% - 煤矿"
-				"10% - 铁矿"
+				"24% - 煤矿石"
+				"10% - 铁矿石"
 				"6%  - 青金石矿石"
-				"5%  - 红石矿"
-				"5%  - 银矿"
-				"5%  - 自然石英矿"
-				"5%  - 灵魂石矿"
-				"3%  - 铜矿"
-				"3%  - 金矿"
+				"5%  - 红石矿石"
+				"5%  - 银矿石"
+				"5%  - 天然石英矿石"
+				"5%  - 灵魂石矿石"
+				"3%  - 铜矿石"
+				"3%  - 金矿石"
 				"1%  - 深岩珍金"
 				""
-				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务Click here to go back to the Orechid Quest\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
 			]
 			invisible: true
 			id: "068186C411334E74"
@@ -2081,7 +2081,7 @@
 				{
 					id: "1FBB8109C0B3C6C3"
 					type: "item"
-					title: "32% - 煤矿"
+					title: "32% - 煤矿石"
 					item: {
 						id: "minecraft:coal_ore"
 						Count: 1b
@@ -2093,7 +2093,7 @@
 				{
 					id: "75B1B698AE4AFC87"
 					type: "item"
-					title: "10% - 铁矿"
+					title: "10% - 铁矿石"
 					item: {
 						id: "minecraft:iron_ore"
 						Count: 1b
@@ -2117,7 +2117,7 @@
 				{
 					id: "32443E3F9ADA28F9"
 					type: "item"
-					title: "5% - 红石矿"
+					title: "5% - 红石矿石"
 					item: {
 						id: "minecraft:redstone_ore"
 						Count: 1b
@@ -2129,7 +2129,7 @@
 				{
 					id: "6C133DB96D55869B"
 					type: "item"
-					title: "5% - 银矿"
+					title: "5% - 银矿石"
 					item: {
 						id: "occultism:silver_ore"
 						Count: 1b
@@ -2141,7 +2141,7 @@
 				{
 					id: "5F2475F07B0B6F05"
 					type: "item"
-					title: "5% - 自然石英矿"
+					title: "5% - 天然石英矿石"
 					item: {
 						id: "malum:natural_quartz_ore"
 						Count: 1b
@@ -2165,7 +2165,7 @@
 				{
 					id: "590660781CE4F60E"
 					type: "item"
-					title: "3% - 铜矿"
+					title: "3% - 铜矿石"
 					item: {
 						id: "minecraft:copper_ore"
 						Count: 1b
@@ -2177,7 +2177,7 @@
 				{
 					id: "00C1080159BB7E61"
 					type: "item"
-					title: "1% - 金矿"
+					title: "1% - 金矿石"
 					item: {
 						id: "minecraft:gold_ore"
 						Count: 1b
@@ -2219,11 +2219,11 @@
 			description: [
 				"&6 活石转变到矿石&r:"
 				""
-				"26% - 煤矿"
-				"15% - 萤石"
-				"8%  - 铁矿"
-				"7%  - 铜矿"
-				"4%  - 红石矿"
+				"26% - 煤矿石"
+				"15% - 荧石"
+				"8%  - 铁矿石"
+				"7%  - 铜矿石"
+				"4%  - 红石矿石"
 				""
 				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
 			]
@@ -2233,7 +2233,7 @@
 				{
 					id: "7D95EF8FD4694A87"
 					type: "item"
-					title: "26% - 煤矿"
+					title: "26% - 煤矿石"
 					item: {
 						id: "minecraft:coal_ore"
 						Count: 1b
@@ -2257,7 +2257,7 @@
 				{
 					id: "49E00971DF9266B5"
 					type: "item"
-					title: "8% - 铁矿"
+					title: "8% - 铁矿石"
 					item: {
 						id: "minecraft:iron_ore"
 						Count: 1b
@@ -2269,7 +2269,7 @@
 				{
 					id: "213E266E8FC53F33"
 					type: "item"
-					title: "7% - 铜矿"
+					title: "7% - 铜矿石"
 					item: {
 						id: "minecraft:copper_ore"
 						Count: 1b
@@ -2281,7 +2281,7 @@
 				{
 					id: "0C198995EA91F2FF"
 					type: "item"
-					title: "4% - 红石矿"
+					title: "4% - 红石矿石"
 					item: {
 						id: "minecraft:redstone_ore"
 						Count: 1b
@@ -2311,12 +2311,12 @@
 			description: [
 				"&6 深板岩转换到矿石&r:"
 				""
-				"10% - 深层金矿"
-				"10% - 深层红石矿"
+				"10% - 深层金矿石"
+				"10% - 深层红石矿石"
 				"10% - 深层青金石矿石"
-				"10% - 深层黑暗矿"
-				"10% - 深层符文"
-				"10% - 深层石英矿"
+				"10% - 暗黑宝石矿石"
+				"10% - 符文深板岩"
+				"10% - 深层石英矿石"
 				"10% - 深层灵魂石矿"
 				""
 				"[\"\",{\"text\":\"[ Back ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7C1D0AA6AB9EAF95\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击返回凝矿兰任务\"]}},\"\"]"
