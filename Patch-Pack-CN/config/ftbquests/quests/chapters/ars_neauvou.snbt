@@ -509,16 +509,16 @@
 			x: 16.5d
 			y: -4.0d
 			description: [
-				"Dear Student!"
+				"亲爱的学生！"
 				""
-				"Chopping down a Tree one block at a time can be tedious."
-				"With your T2 Spellbook, you can finally learn and use the &bGlyph of Fell&r."
+				"一块块地砍伐树木是一件很枯燥乏味的事。"
+				"使用2级法术书，你可以学习并使用&b魔符：砍伐&r。"
 				""
-				"This powerfull Spell will allow you to chop down any log in 1 fell swoop!"
+				"这个强大的法术可以让你一举砍倒任何树木！"
 				""
 				""
-				"Oh! And before i forget... Professor Everlipse told me, Otherworld Trees are unaffected by this and will drop regular Oak Logs."
-				"Magic is weird isn't it?"
+				"Oh! 还有一件事……埃弗里普斯教授告诉我，异界树木不受此影响，会掉落普通的橡木原木。"
+				"魔法很奇怪，不是吗？"
 			]
 			dependencies: ["38A919DBFA0FAB21"]
 			id: "56AB14FB5D9FC303"

@@ -1031,17 +1031,17 @@
 			}]
 		}
 				{
-			title: "Entry into Forbidden and Arcanus"
+			title: "进入禁忌与奥秘领域"
 			x: 12.0d
 			y: -5.0d
 			description: [
-				"Good Morning Students!"
+				"同学们早上好！"
 				""
-				"Students have requested to be taught about &6Forbidden and Arcanus&r, but sadly we did not have a specialized Teacher for this."
+				"同学们已经被要求去了解&6禁忌与奥秘&r。遗憾的是，我们没有这方面的专业老师。"
 				""
-				"So i took it upon me to teach you a thing or two. "
+				"因此，将由我来指点一二。"
 				""
-				"First, lets get started by making some &bMysterywood Saplings&r. From there on we will continue in this exciting adventure"
+				"首先，让我们开始制作一些&b神秘木树苗&r吧。自此，我们将进行一场激动人心的冒险之旅！"
 			]
 			id: "3C4175ABCE6823CE"
 			tasks: [{
@@ -1070,7 +1070,7 @@
 			}]
 		}
 		{
-			title: "Haunted Woods"
+			title: "缚灵木"
 			icon: {
 				id: "forbidden_arcanus:growing_edelwood"
 				Count: 1b
@@ -1081,11 +1081,11 @@
 			x: 12.0d
 			y: -3.5d
 			description: [
-				"&bEdelwood&r consist of 2 diffrent logs. a regular Log and a hollow variant."
+				"&b埃德木&r由两种不同的原木组成。一种是普通原木，另一种则是空心木。"
 				""
-				"Smelting the &bEdelwood Log&r will yield you &6Dark Matter&r, a very important crafting material."
+				"熔炼&b埃德尔木原木&r可以产出一种非常重要的原材料——&6暗物质&r。"
 				""
-				"Regular &bEdelwood Logs&r can get Oily. Collect this oil using an empty Glass Bottle and you have an easy way to create Black Dye."
+				"普通的&b埃德尔木原木&r会出油。使用空玻璃瓶收集这些油，这样就能轻松地制作黑色染料。"
 			]
 			dependencies: ["3C4175ABCE6823CE"]
 			id: "3CA99B2CD18490AA"
@@ -1158,11 +1158,11 @@
 			x: 16.5d
 			y: -2.0d
 			description: [
-				"Here at school, we don't have a mine where you can work to get these special ores."
+				"在学校里，我们没有矿场，你无法通过挖矿获取这些特殊矿石。"
 				""
-				"However! I've head that LadyMayhem has found a way to transmute &5Deepslate&r into ores."
+				"但是！我听说玛哈姆女士发现了一种可以将&b深板岩&r转化为矿石的方法。"
 				""
-				"Get some &bDeepslate Arcane Crystal Ore&r and &bRunic Deepslate&r so we can delve further into this Subject"
+				"获取一些&b深层神秘水晶矿石&r和&b符文深板岩&r以便我们进一步研究这个课题。"
 			]
 			id: "6F13BFBF0D209FCD"
 			tasks: [
@@ -1206,11 +1206,11 @@
 			x: 18.0d
 			y: -2.5d
 			description: [
-				"Sadly, this is something, I, as a teacher, never got my hands on."
+				"遗憾的是，作为一位老师，我从未接触过这种东西。"
 				""
-				"But i heard &aD_Collector&r and &aKnedlik_cz&r gotten their hands on some."
+				"但我听说&aD_Collector&r和&aKnedlik_cz&r弄到了一些。"
 				""
-				"[\"\",\"I think, i saw them last in the \",{\"text\":\"[ Middle Courtyard ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4025207EA9DE4E4E\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here\"]}}]"
+				"[\"\",\"我想，我上次看到他们是在\",{\"text\":\"[中心庭院]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4025207EA9DE4E4E\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击此处\"]}}]"
 			]
 			dependencies: ["6F13BFBF0D209FCD"]
 			id: "042BC37B76F4BB85"
@@ -1230,12 +1230,13 @@
 			x: 18.0d
 			y: -1.5d
 			description: [
-				"Sadly, this is something, I, as a teacher, never got my hands on."
+				"遗憾的是，作为一位老师，我从未接触过这种东西。"
 				""
-				"But i heard &aD_Collector&r and &aKnedlik_cz&r gotten their hands on some."
+				"但我听说&aD_Collector&r和&aKnedlik_cz&r弄到了一些。"
 				""
-				"[\"\",\"I think, i saw them last in the \",{\"text\":\"[ Middle Courtyard ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4025207EA9DE4E4E\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here\"]}}]"
+				"[\"\",\"我想，我上次看到他们是在\",{\"text\":\"[中心庭院]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"4025207EA9DE4E4E\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击此处\"]}}]"
 			]
+
 			dependencies: ["6F13BFBF0D209FCD"]
 			id: "552F3C5D1850149A"
 			tasks: [{
@@ -1272,11 +1273,11 @@
 			y: 2.0d
 			shape: "octagon"
 			description: [
-				"Now that we have collected all the materials needed, we can start assembling this mythical &bHephaestus Forge&r."
+				"现在，我们已经收集了所有需要的材料，可以开始组装这个神话般的&b赫菲斯托斯锻台&r。"
 				""
-				"Underneath i have shown you how to place the platform for the Forge to sit ontop."
+				"在下面，展示了如何放置锻造台。"
 				""
-				"After constructing it, place the &bSmithing Table&r in the center, sneak near it and use the &bMundabitur Dust&r on it to transform it!"
+				"建好后，将锻造台放在中央，面对锻造台，潜行对其使用洁净粉末进行改造！"
 				""
 				"{image:ftbai:textures/quests/faa/forge.png width:156 height:156 align:1}"
 			]
@@ -1290,7 +1291,7 @@
 			tasks: [{
 				id: "130588EE9BB78C3A"
 				type: "observation"
-				title: "Create a Hephaestus Forge"
+				title: "制作赫菲斯托斯锻台"
 				icon: {
 					id: "forbidden_arcanus:hephaestus_forge"
 					Count: 1b
@@ -1343,10 +1344,10 @@
 			y: 1.0d
 			shape: "hexagon"
 			description: [
-				"Hey there!"
+				"你好啊！"
 				""
-				"I wrote you a small Shopping list of Resources needed to craf the Hephaestus Forge."
-				"We going to need all if we want to progress."
+				"我给你写了一份小的购物清单，上面有制作赫菲斯托斯锻造台所需的资源。"
+				"如果想进一步发展，这些将是必须的。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["114106555CDD0424"]
@@ -1415,23 +1416,23 @@
 			]
 		}
 		{
-			title: "Hephaestus Forge Essences"
+			title: "赫菲斯托斯锻造精华"
 			x: 15.0d
 			y: 1.5d
 			description: [
-				"The &6Hephaestus Forge&r has an interesting Interface, lets focus on the four slots on the outside."
+				"&6赫菲斯托斯锻造台&r拥有一个有趣的界面，我们重点关注外侧的四个插槽。"
 				""
-				"&6[ Aureal ]&r"
-				"[\"\",\"To obtain Aureal, follow me in a future lesson to automate an \",{\"text\":\"[ Arcane Crystal Obelisk ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"Click here \"]}}]"
+				"&6[耀金]&r"
+				"[\"\",\"要获得耀金，请在未来的课程中跟我一起学习如何自动化\",{\"text\":\"[神秘水晶方尖碑]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击此处\"]}}]"
 				""
-				"&6[ Souls ]&r"
-				"To obtain some Souls, you need to use a &bSoul Extractor&r. with this device, you can extract the &bSouls&r out of Soul sand and turn it into Soulless Sand. Luckily, Profesor R3GEN found a way to conjure those Souls back into it."
+				"&6[灵魂]&r"
+				"要想获得一些灵魂，你需要使用&b灵魂提取器&r。有了这个装置，你就可以将灵魂沙中的灵魂提取出来，变成无魂沙。幸运的是，R3GEN教授找到了一种方法，可以将这些灵魂放回其中。"
 				""
-				"&6[ Blood ]&r"
-				"Blood is obtained by directly hurting entites near the Forge, or by crafting a Mystical Dagger and having a Test Tube in ur inventory. This will fill up the Test Tube and can then be placed inside the Forge"
+				"&6[血]&r"
+				"直接伤害锻造场附近的生物，或者制作一把神秘匕首并在自己的物品栏中放入试管，都可以获得血液。这将填满试管，然后放入锻造炉中。"
 				""
-				"&6[ Experience ]&r"
-				"Experience is added by either Bottle 'o Enchanting, or Xpetrified Orbs. I have heard rumors, there are Students near the middle Courtyard that are selling them. Alternatively you could attempt and make a Black hole and let that suck up Experience Points. This will also result into Xpetrified Orbs"
+				"&6[经验]&r"
+				"经验可以通过经验瓶或石化经验球增加。我听说，在中心庭院附近，有学生正在卖这些东西。另外，你也可以尝试制造一个黑洞，让它吸走经验值。这也会产出石化经验球。"
 			]
 			min_required_dependencies: 1
 			dependencies: [
@@ -1495,22 +1496,22 @@
 			]
 		}
 		{
-			title: "Automating Arcane Crystal Obelisk"
+			title: "自动化神秘水晶方尖碑"
 			x: 15.0d
 			y: 2.5d
 			description: [
-				"Gathering Aureal can be tedious. Luckily we figured out a way to automate this."
+				"收集耀金可能很乏味。幸运的是，我们找到了一种可以自动收集的方法。"
 				""
-				"To create an &bArcane Crystal Obelisk&r, place an &6Arcane Polished Darkstone Block&r on one of the spots where normally a Pedestal would go."
+				"要制作&b神秘水晶方尖碑&r，在放置基座的位置放置一块&6神秘磨制暗黑石块&r。"
 				""
-				"After that, place 2 Blocks of &6Arcane Crystal Blocks&r ontop and use some &6Mundabitur Dust&r to start the transformation."
+				"然后，在上面放置两块&6神秘水晶块&r然后使用&洁净粉末&r开始转换。"
 			]
 			dependencies: ["6AD18099B291F089"]
 			id: "5AF264543A02D7E2"
 			tasks: [{
 				id: "73DA3E76FFF44A6E"
 				type: "observation"
-				title: "Arcane Crystal Obelisk"
+				title: "神秘水晶方尖碑"
 				icon: {
 					id: "forbidden_arcanus:arcane_crystal_obelisk"
 					Count: 1b
@@ -1535,13 +1536,13 @@
 			}]
 		}
 		{
-			title: "Obtaining Arcane Gold"
+			title: "获取秘金"
 			x: 15.0d
 			y: -0.5d
 			description: [
-				"Getting &bArcane Gold&r is pricey."
+				"获取&b秘金&r的成本相当高昂。"
 				""
-				"By combining a regular Gold Ingot with some &6Mundabitur Dust&r, &6Arcane Crystal Dust&r and a bit of &6Coal&r will yield you some of this precious Material"
+				"将普通金锭、&6洁净粉末&r、&6神秘水晶粉末&r还有一点&6煤炭&r结合，你就能获得这种珍贵材料。"
 			]
 			dependencies: ["114106555CDD0424"]
 			id: "26778DD672B4BE1C"
@@ -1569,11 +1570,11 @@
 			y: 0.375d
 			shape: "hexagon"
 			description: [
-				"If there was only an easier way to obtain &6Arcane Gold&r."
+				"要是有更容易获得&6秘金&r的方法就好了！"
 				""
-				"Once you got your first pieces, try combining some seeds with a Nugget."
+				"获得第一个锭之后，尝试将其与一些种子结合。"
 				""
-				"This should result into a &bGolden Orchid Seed&r, which, when grown on Magical Farmland, will yield more Nuggets in return."
+				"这样就能得到&b金兰花种子&r。将其种植在魔法耕地上，将可以收获更多的秘金。"
 			]
 			dependencies: ["26778DD672B4BE1C"]
 			size: 0.75d
@@ -1619,11 +1620,11 @@
 			x: 16.0d
 			y: 4.0d
 			description: [
-				"Ever had a Tool or a piece of Equipment, which you wanted to keep from breaking?"
+				"你是否有过一件不想被破坏工具或装备？"
 				""
-				"Luckily with the Magic of an &bEternal Stella&r we can!"
+				"好在有了&6永恒之石&r，就能搞定！"
 				""
-				"Apply it to any Tool or Equipment to make it unbreakable and never lose Durability again (some Items are Excluded)"
+				"将它应用在任何工具或装备上，使其无法破坏，再也不会失去耐久（部分物品除外）"
 			]
 			dependencies: ["6AD18099B291F089"]
 			id: "38DA3D477100FE58"
@@ -1655,9 +1656,9 @@
 			x: 17.0d
 			y: 4.0d
 			description: [
-				"Tired of smelting your Ores, Stone, Glass after you mined them up?"
+				"你是否对冶炼获得矿物，石头和玻璃感到厌烦了？"
 				""
-				"By combining the Smeltern Prism to your Tool, you will auto-smelt everything your Tool breaks."
+				"将冶炼棱镜装到你的工具上，你的工具就能自动冶炼它破坏的所有东西。"
 			]
 			dependencies: ["6AD18099B291F089"]
 			id: "012505F660777D81"
