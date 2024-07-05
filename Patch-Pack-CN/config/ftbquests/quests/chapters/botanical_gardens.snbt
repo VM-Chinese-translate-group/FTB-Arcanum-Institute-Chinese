@@ -1681,11 +1681,11 @@
 				""
 				"凝矿兰能够将&6石头，活石和深板岩&r转化为矿石，这将极大地帮助我们获取魔法材料。它是我们魔法仓库的重要补充！"
 								""
-				"[\"\",{\"text\":\"[ 石头转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换表\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 石头转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"068186C411334E74\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换台\"]}},\"\"]"
 				""
-				"[\"\",{\"text\":\"[ 活石转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"443D7BF1ED05A45F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换表\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 活石转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"443D7BF1ED05A45F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换台\"]}},\"\"]"
 				""
-				"[\"\",{\"text\":\"[ 深板岩转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2DDC204D1E5C176F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换表\"]}},\"\"]"
+				"[\"\",{\"text\":\"[ 深板岩转化矿石 ]\",\"color\":\"gold\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"2DDC204D1E5C176F\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\"点击前往转换台\"]}},\"\"]"
 
 			]
 			dependencies: ["405BE5DC5EE184AA"]
