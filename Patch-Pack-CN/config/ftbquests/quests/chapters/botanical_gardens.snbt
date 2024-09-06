@@ -2054,7 +2054,8 @@
 				type: "xp_levels"
 				xp_levels: 2
 			}]
-			{
+		}
+		{
 			title: "矿物转换台（石头）"
 			x: 5.0d
 			y: -8.0d
